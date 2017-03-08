@@ -1,0 +1,31 @@
+{
+	"Title": "Make and Do examples",
+	"HeightTable": 1400,
+	"HasHeaderRow":true,
+	"HeaderRow": 
+	[
+		"<color=#FDFF87><size=25>Make Examples</size></color>",
+		"<color=#FDFF87><size=25>Do Examples</size></color>"
+	],
+	"Rows":
+	[ 
+		
+		"<color=#FDFF87><size=23>Make a difference</size></color>\nHacer una diferencia|<color=#FDFF87><size=23>Do somebody a favor</size></color>\nHacer un favor",
+		"<color=#FDFF87><size=23>Make a promise</size></color>\nHacer una promesa|<color=#FDFF87><size=23>Do something wrong</size></color>\nHacer algo mal",
+		"<color=#FDFF87><size=23>Make a mess</size></color>\nHacer un desastre|<color=#FDFF87><size=23>Do your homework</size></color>\nHacer los deberes",		
+		"<color=#FDFF87><size=23>Make a noise</size></color>\nHacer ruido|<color=#FDFF87><size=23>Do something right</size></color>\nHacer algo bien",
+		"<color=#FDFF87><size=23>Make sense</size></color>\nTener sentido|<color=#FDFF87><size=23>Do the dishes</size></color>\nLavar los platos",
+		"<color=#FDFF87><size=23>Make money</size></color>\nGanar dinero|<color=#FDFF87><size=23>Do damage</size></color>\nHacer daño",
+		"<color=#FDFF87><size=23>Make a progress</size></color>\nHacer un progreso|<color=#FDFF87><size=23>Do laundry</size></color>\nHacer la colada",
+		"<color=#FDFF87><size=23>Make friends</size></color>\nHacer amigos|<color=#FDFF87><size=23>Do harm</size></color>\nHacer daño",
+		"<color=#FDFF87><size=23>Make  a profit</size></color>\nSacar un beneficio|<color=#FDFF87><size=23>Do good</size></color>\nHacer bien",		
+		"<color=#FDFF87><size=23>Make a toast</size></color>\nHacer un brindis|<color=#FDFF87><size=23>Do a favor</size></color>\nHacer un favor",
+		"<color=#FDFF87><size=23>Make a point</size></color>\nDecir algo importante|<color=#FDFF87><size=23>Do one’s best</size></color>\nHacer lo mejor posible",
+		"<color=#FDFF87><size=23>Make fun of</size></color>\nReirse de|<color=#FDFF87><size=23>Do research</size></color>\nHacer una investigación",
+		"<color=#FDFF87><size=23>Make the bed</size></color>\nHacer la cama|<color=#FDFF87><size=23>Do business</size></color>\nHacer negocios",
+		"<color=#FDFF87><size=23>Make a mistake</size></color>\nCometer un error|<color=#FDFF87><size=23>Do one’s hair</size></color>\nArreglarse el pelo",
+		"<color=#FDFF87><size=23>Make a phone call</size></color>\nLlamar por teléfono|<color=#FDFF87><size=23>Do one’s teeth</size></color>\nArreglarse los dientes",
+		"<color=#FDFF87><size=23>Make a suggestion</size></color>\nHacer una sugerencia|<color=#FDFF87><size=23>Do one’s nails</size></color>\nHacerse las uñas",
+		"<color=#FDFF87><size=23>Make an appointment</size></color>\nPedir una cita|<color=#FDFF87><size=23>Do one’s legs</size></color>\nHacerse las piernas o Depilarse"
+	]		
+}

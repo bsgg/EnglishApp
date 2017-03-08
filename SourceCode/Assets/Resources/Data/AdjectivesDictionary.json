@@ -1,0 +1,2822 @@
+{
+	"Adjectives":	
+	[
+		{ 
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Asshole",
+			"Pronunciation": "/asshol/",
+			"Meanings": 
+			[
+				"Estúpido, Mamón"
+			],
+			"EnglishExamples":
+			[ 
+				"Erin's former boyfriend is an asshole"
+			],
+			"SpanishExamples":
+			[ 
+				"El ex novio de Erin es un estúpido, mamón."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Astonished",
+			"Pronunciation": "/asstonist/",
+			"Meanings": 
+			[
+				"Asombrado, Pasmado"
+			],
+			"EnglishExamples":
+			[ 
+				"The astonished crowd gasped as the trapeze artist did a triple spin.."
+			],
+			"SpanishExamples":
+			[ 
+				"La multitud asombroso jadeó(gritó ahogádamente) cuando el trapecista hizo un triple giro."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Awkward",
+			"Pronunciation": "/okuer/",
+			"Meanings": 
+			[
+				"Incómodo"
+			],
+			"EnglishExamples":
+			[ 
+				"I had an awkward conversation with my ex-girlfriend."
+			],
+			"SpanishExamples":
+			[ 
+				"Tuve una conversación incómoda con mi ex novia."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Awful",
+			"Pronunciation": "/oOufuul/",
+			"Meanings": 
+			[
+				"Terrible",
+				"Horrible"
+			],
+			"EnglishExamples":
+			[ 
+				"What awful weather!",
+				"We met and I thought he was awful."
+			],
+			"SpanishExamples":
+			[ 
+				"¡Que tiempo más horrible!",				
+				"Le conocí y me cayó fatal."
+			]			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Bald",
+			"Pronunciation": "/boold/",
+			"Meanings": 
+			[
+				"Calvo"
+			],
+			"EnglishExamples":
+			[ 
+				"He quickly put on a hat to keep the hailstones from bouncing on his bald head."
+			],
+			"SpanishExamples":
+			[ 
+				"Rápidamente se puso un sombrero para que los granizos no le rebotaran en la calva."
+			]
+ 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Bland",
+			"Pronunciation": "/bleend/",
+			"Meanings": 
+			[
+				"Soso (Food)",
+				"Soso (Personality)"
+			],
+			"EnglishExamples":
+			[ 
+				"Rebecca said the food at the restaurant is bland.",
+				"It was a bland speech and the most of the audience fell asleep."
+			],
+			"SpanishExamples":
+			[ 
+				"Rebecca dijo que la comida del restaurante es sosa.",
+				"Fue un discurso soso y la mayoría de la audiencia se durmió"
+			]
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Bitter",
+			"Pronunciation": "/bItta/",
+			"Meanings": 
+			[
+				"Amargo"
+			],
+			"EnglishExamples":
+			[ 
+				"Lemons has a bitter taste."			
+			],
+			"SpanishExamples":
+			[ 
+				"Los limones tiene un gusto amargo."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Badass",
+			"Pronunciation": "/baadas/",
+			"Meanings": 
+			[
+				"Fantástico, Tremendo"
+			],
+			"EnglishExamples":
+			[ 
+				"That badass fighter over there's looking at you, Sasha."
+			],
+			"SpanishExamples":
+			[ 				
+				"Ese fantástico peleador te está mirando, Sasha."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Bare",
+			"Pronunciation": "/beeer/",
+			"Meanings": 
+			[
+				"Desnundo, sin nada"
+			],
+			"EnglishExamples":
+			[ 
+				"Please don't touch the ice with bare hands."
+			],
+			"SpanishExamples":
+			[ 				
+				"Por favor, no toques el hielo con las manos desnudas."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Bossy",
+			"Pronunciation": "/boosi/",
+			"Meanings": 
+			[
+				"Mandón"
+			],
+			"EnglishExamples":
+			[ 
+				"My father is demanding and bossy."				
+			],
+			"SpanishExamples":
+			[ 				
+				"Mi padre es exigente y mandón."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Bumpy",
+			"Pronunciation": "/baampii/",
+			"Meanings": 
+			[
+				"Lleno de bultos"
+			],
+			"EnglishExamples":
+			[ 
+				"These brownies are a little too bumpy.."				
+			],
+			"SpanishExamples":
+			[ 				
+				"Estos brownies tienes unos pocos de bultos."
+			]	 			
+		},			
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Carefree",
+			"Pronunciation": "/keerfrii/",
+			"Meanings": 
+			[
+				"Despreocupado"
+			],
+			"EnglishExamples":
+			[ 
+				"Even in stressful times, Mary is a carefree person."
+			],
+			"SpanishExamples":
+			[ 
+				"Incluso son momentos estresantes, Mary es una persona despreocupada. "
+			]
+		},
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Cheesy",
+      "Pronunciation": "/chiiiisi/",
+      "Meanings": [
+        "Cursi, Noño"
+      ],
+      "EnglishExamples": [
+        "Dude, no offence, but this is rubbish. It's the cheesiest song I've ever heard!"
+      ],
+      "SpanishExamples": [
+        "Tio, sin ofender, pero esto es basura. ¡Es la canción más cursi que he oido nunca!"
+      ]
+    },
+    {
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Checky",
+			"Pronunciation": "/chiki/",
+			"Meanings": 
+			[
+				"Fresco, Descarado"
+			],
+			"EnglishExamples":
+			[ 
+				"You look very nice. I told her with a cheeky smile and a wink."
+			],
+			"SpanishExamples":
+			[ 
+				"Te ves muy bien. Le dije con una descarada sonrisa y un guiño."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Chilly",
+			"Pronunciation": "/shiili/",
+			"Meanings": 
+			[
+				"Frio"
+			],
+			"EnglishExamples":
+			[ 
+				"It's a bit chilly today"
+			],
+			"SpanishExamples":
+			[ 
+				"Hace un poco de frío hoy."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Chubby",
+			"Pronunciation": "/chabii/",
+			"Meanings": 
+			[
+				"Regordete, Rechoncho"
+			],
+			"EnglishExamples":
+			[ 
+				"She went from a chubby little girl to a slim woman."
+			],
+			"SpanishExamples":
+			[ 
+				"De una niña rechoncha se conviritó en una mujer esbelta."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Cloudy",
+			"Pronunciation": "/claaudi/",
+			"Meanings": 
+			[
+				"Nublado"
+			],
+			"EnglishExamples":
+			[ 
+				"The weatherman says that tomorrow it's going to be cloudy."
+			],
+			"SpanishExamples":
+			[ 
+				"El meteorólogo dice que mañana el cielo estará nublado."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Clumsy",
+			"Pronunciation": "/claamsi/",
+			"Meanings": 
+			[
+				"Torpe",
+				"Patoso"
+			],
+			"EnglishExamples":
+			[ 
+				"You're are really clumsy, aren't you! You always stumble into those stairs.",
+				"Why are you so clumsy?."
+			],
+			"SpanishExamples":
+			[ 
+				"Eres muy torpe, ¿no? Siempre te tropiezas con esas escaleras",
+				"¿Por que estás tan patoso?"
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Convenient",
+			"Pronunciation": "/convinient/",
+			"Meanings": 
+			[
+				"Práctico"
+			],
+			"EnglishExamples":
+			[ 
+				"There's a grocery store near to my flat, it's so convenient for us."
+			],
+			"SpanishExamples":
+			[ 
+				"Hay un supermercado cerca de mi piso, es muy práctico para nosotros ."
+			]
+		},		
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Cocky",
+			"Pronunciation": "/cooki/",
+			"Meanings": 
+			[
+				"Engreido, Arrogante"
+			],
+			"EnglishExamples":
+			[ 
+				"A cocky person is someone who is very arrogant and assumes they know all the answers."
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"Una persona arrogante o engreido es alguienq eu es muy arrogante y asume que sabe todas las respuestas."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Cosy",
+			"Pronunciation": "/coousi/",
+			"Meanings": 
+			[
+				"Acogedor"
+			],
+			"EnglishExamples":
+			[ 
+				"I loved the last flat we saw. It was such a cosy place!"
+			],
+			"SpanishExamples":
+			[ 
+				"Me encantó el último piso que vimos. Era tan acogedor."
+			]
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Cranky",
+			"Pronunciation": "/craanky/",
+			"Meanings": 
+			[
+				"De mal humor, cascarrabias"
+			],
+			"EnglishExamples":
+			[ 
+				"The baby's always cranky when she first wakes up."
+			],
+			"SpanishExamples":
+			[ 
+				"El bebé siempre esta de mal humor cuando se levanta al principio"
+			]
+		},		
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Crazy",
+			"Pronunciation": "/creisi/",
+			"Meanings": 
+			[
+				"Loco"
+			],
+			"EnglishExamples":
+			[ 
+				"Did you see the football match yesterday? The manager was going crazy!"
+			],
+			"SpanishExamples":
+			[ 
+				"¿Viste el partido de fútbol anoche?¡El entrenador se estaba volviendo loco!"
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Crap",
+			"Pronunciation": "/craap/",
+			"Meanings": 
+			[
+				"Mierda"
+			],
+			"EnglishExamples":
+			[ 
+				"The bathroom was filthy, with crap on the floor by the toilet."
+			],
+			"SpanishExamples":
+			[ 
+				"El baño estaba asqueroso, con mierda en el piso al lado del vater"
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Creepy",
+			"Pronunciation": "/criipi/",
+			"Meanings": 
+			[
+				"Siniestro",
+				"Extraño",
+				"Asqueroso"
+			],
+			"EnglishExamples":
+			[ 
+				"I read in the newspaper about the disappearance of corpses at a morgue in Washington, it's really creepy.",
+				"That creepy man is following us.",
+				"I always thought Lana's uncle was a bit creepy."
+			],
+			"SpanishExamples":
+			[ 
+				"Leí en el periodico sobre la desaparición de cadáveres de la morgue de Washington, es muy siniestro.",
+				"Ese hombre asqueroso nos está siguiendo.",
+				"Siempré pense que el tío de Lana era un poco asqueroso."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Crisp",
+			"Pronunciation": "/cruuisp/",
+			"Meanings": 
+			[
+				"Crujiente"
+			],
+			"EnglishExamples":
+			[ 
+				"I prefer apple crisp to apple pie because I really don't care for pastry crusts."
+			],
+			"SpanishExamples":
+			[ 				
+				"Prefiero el crujiente de manzaa a la tarta demanzan porque no me gusta mucho la masa."
+			]	 			
+		},
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Crunchy",
+      "Pronunciation": "/craaanchy/",
+      "Meanings": [
+        "Crujiente"
+      ],
+      "EnglishExamples": [
+        "I always put lots of nuts in my cookies to make them nice and crunchy."
+      ],
+      "SpanishExamples": [
+        "Siempre pongo muchas nueces en mis galletas para hacerlas buenas y crujientes."
+      ]
+    },
+    {
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Cunning",
+			"Pronunciation": "/caaning/",
+			"Meanings": 
+			[
+				"Astuto, Ingenioso"
+			],
+			"EnglishExamples":
+			[ 
+				"Many cunning hints helped us solve the puzzle."
+			],
+			"SpanishExamples":
+			[ 				
+				"Muchas ingeniosas pistas nos ayudaron a resolver el puzle."
+			]	 			
+		},		
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Curly",
+			"Pronunciation": "/keeerli/",
+			"Meanings": 
+			[
+				"Rizado"
+			],
+			"EnglishExamples":
+			[ 
+				"Aaron has curly brown hair."
+			],
+			"SpanishExamples":
+			[ 				
+				"Aaron tien el pelo castaño rizado."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Daft",
+			"Pronunciation": "/daaft/",
+			"Meanings": 
+			[
+				"Tonto, Estúpido"
+			],
+			"EnglishExamples":
+			[ 
+				"My daughter's boyfriend is daft, but at least, he's not a punk."
+			],
+			"SpanishExamples":
+			[ 
+				"El novio de mi hija es tonto, pero al menos, no es un macarra."
+			]
+		},		
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Determined",
+			"Pronunciation": "/diitermind/",
+			"Meanings": 
+			[
+				"Decidido"
+			],
+			"EnglishExamples":
+			[ 
+				"My mother was determined to teach me English during summer holiday."
+			],
+			"SpanishExamples":
+			[ 
+				"Mi madree staba muy decidida a enseñarme Inglés durante las vacaciones de verano."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Demanded",
+			"Pronunciation": "/dimand/",
+			"Meanings": 
+			[
+				"Exigir",
+				"Exigente"
+			],
+			"EnglishExamples":
+			[ 
+				"He demands loyalty from his workers.",
+				"Jonny, What are you doing here? She demanded, pulling away from the man behind her."
+			],
+			"SpanishExamples":
+			[ 
+				"El exige lealtad de sus empleados.",
+				"Jonny, ¿Que estás haciendo aqui? Ella exigió, alejándose del hombre detrás de ella."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Deaf",
+			"Pronunciation": "/deef/",
+			"Meanings": 
+			[
+				"Sordo"
+			],
+			"EnglishExamples":
+			[ 
+				"Jonny's parents are deaf, so he is fluent in sign language."
+			],
+			"SpanishExamples":
+			[ 
+				"Los padres de Juan son sordos, asi que tiene fluidez en el lenguage de señas."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Dear",
+			"Pronunciation": "/diiar/",
+			"Meanings": 
+			[
+				"Caro"
+			],
+			"EnglishExamples":
+			[ 
+				"Apartments in London are very dear."
+			],
+			"SpanishExamples":
+			[ 
+				"Los aparmamentos en Londres son muy caros."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Dizzy",
+			"Pronunciation": "/dIssi/",
+			"Meanings": 
+			[
+				"Mareado, Atontado"
+			],
+			"EnglishExamples":
+			[ 
+				"I had a dizzy spell when I stood up too quickly."			
+			],
+			"SpanishExamples":
+			[ 
+				"Tuve un mareo al levantarme demasiado rápido."
+			]
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Disturbing",
+			"Pronunciation": "/dissteebing/",
+			"Meanings": 
+			[
+				"Perturbador, Inquietante"
+			],
+			"EnglishExamples":
+			[ 
+				"Did you heard about the murdere's remark? It was disturbing."			
+			],
+			"SpanishExamples":
+			[ 
+				"¿Has oido lo de la delcaración del asesino? Fue perturbador (inquietante)."
+			]
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Dodgy",
+			"Pronunciation": "/doodyi/",
+			"Meanings": 
+			[
+				"Chungo, Sórdido",
+				"Sospechoso"
+			],
+			"EnglishExamples":
+			[ 
+				"If I were you I wouldn't move there, It's a very dodgy neighbourhood."	,
+				"I don't think it's a good idea to accept this job, it seems a bit dodgy."
+			],
+			"SpanishExamples":
+			[ 
+				"Si yo fuera tu, no me mudaría allí. Es un barrio muy chungo.",
+				"No creo que sea una buena idea aceptar este trabajo, parece un poco sospechoso."
+			]
+		},
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Dumb",
+      "Pronunciation": "/daam/",
+      "Meanings": [
+        "Tonto, Estúpido"
+      ],
+      "EnglishExamples": [
+        "I'm wasting my time in this dumb class."
+      ],
+      "SpanishExamples": [
+        "Estoy perdiendo el tiempo en esta estúpida clase."
+      ]
+    },	
+    {
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Dull",
+			"Pronunciation": "/daaaol/",
+			"Meanings": 
+			[
+				"Aburrido, Soso"
+			],
+			"EnglishExamples":
+			[ 
+				"The thesis was so dull that I fell asleep reading it."	
+			],
+			"SpanishExamples":
+			[ 
+				"La thesis era tan aburrida que me quedé dormida leyéndola."
+			]
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Dump",
+			"Pronunciation": "/daamp/",
+			"Meanings": 
+			[
+				"Antro"
+			],
+			"EnglishExamples":
+			[ 
+				"I will never go back to that restaurant again , it is such a dump. The food was awful and the bathroom was dirty."	
+			],
+			"SpanishExamples":
+			[ 
+				"No volveré a ese restaurante otra vez, es un gran antro. La comida estaba asquerosa y el baño estaba sucio."
+			]
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Eerie",
+			"Pronunciation": "/iirii/",
+			"Meanings": 
+			[
+				"Inquietante, Fantasmagórico"
+			],
+			"EnglishExamples":
+			[ 
+				"I suddenly saw an eerie blue glow in the window of the abandoned house."			
+			],
+			"SpanishExamples":
+			[ 
+				"De repente vi un fantasmagórico brillo azul en la ventana de la casa abandonada"
+			]
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Fizzy",
+			"Pronunciation": "/fissi/",
+			"Meanings": 
+			[
+				"Gaseoso"
+			],
+			"EnglishExamples":
+			[ 
+				"All the fizzy drinks on the flight are free."				
+			],
+			"SpanishExamples":
+			[ 				
+				"Durante el vuelo, todas las bebidas gaseosas son gratis."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Filthy",
+			"Pronunciation": "/fiilzy/",
+			"Meanings": 
+			[
+				"Muy sucio"
+			],
+			"EnglishExamples":
+			[ 
+				"Can we change rooms? The bathroom is filthy"				
+			],
+			"SpanishExamples":
+			[ 				
+				"¿Podemos cambiar de habitación? El baño está muy sucio."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Flimsy",
+			"Pronunciation": "/flimsi/",
+			"Meanings": 
+			[
+				"Delgado, Endeble"
+			],
+			"EnglishExamples":
+			[ 
+				"This new support for my laptop seems a bit flimsy but actually it's pretty strong."				
+			],
+			"SpanishExamples":
+			[ 				
+				"Este nuevo soporte para mi portátil parece un poco endeble, pero en realidad es muy fuerte."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Fool",
+			"Pronunciation": "/fuuul/",
+			"Meanings": 
+			[
+				"Tonto",
+				"Bromear, Tomar el pelo"
+			],
+			"EnglishExamples":
+			[ 
+				"He's such a fool, trying to cheat in an exam like that.",
+				"Aw, I was just fooling, I didn't mean it seriously."
+			],
+			"SpanishExamples":
+			[ 
+				"El es tan tonto, intentando hacer trampa en un exámen así.",
+				"¡Oooh! Solo estaba bromeando, no lo decía en serio"
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Former",
+			"Pronunciation": "/forma/",
+			"Meanings": 
+			[
+				"Ex, Anterior"
+			],
+			"EnglishExamples":
+			[ 
+				"He saw his former wife with another man."				
+			],
+			"SpanishExamples":
+			[ 				
+				"Vio a su ex (anterior) mujer con otro hombre."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Frisky",
+			"Pronunciation": "/friiski/",
+			"Meanings": 
+			[
+				"Juguetón, Retozón"
+			],
+			"EnglishExamples":
+			[ 
+				"The frisky kitten pounced on the ball of yarn."				
+			],
+			"SpanishExamples":
+			[ 				
+				"El gatito jugetón se lanzó sobre la pelota de lana."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Full of himself",
+			"Pronunciation": "/fuuul of imself/",
+			"Meanings": 
+			[
+				"Creído, Engreido"
+			],
+			"EnglishExamples":
+			[ 
+				"Mary is very unpopular because she's so full of herself. She doesn't care about other people's feelings"
+			],
+			"SpanishExamples":
+			[ 
+				"Mari es muy inpopular porque es muy creaida. No le importan los sentimientos de otros."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Fun",
+			"Pronunciation": "/faan/",
+			"Meanings": 
+			[
+				"Divertido",
+				"Entretenido"
+			],
+			"EnglishExamples":
+			[ 
+				"We watched a really fun film.",
+				"Yesterday, we played a fun game."
+			],
+			"SpanishExamples":
+			[ 
+				"Vimos una película muy divertida.",
+				"Ayer, jugamos a un juego entretenido."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Funny",
+			"Pronunciation": "/fAani/",
+			"Meanings": 
+			[
+				"Gracioso",
+				"Divertido",
+				"Raro"
+			],
+			"EnglishExamples":
+			[ 
+				"He is so funny. We were laughing the whole time.",
+				"Let me tell you a funny story.",
+				"This milk is smell funny."
+			],
+			"SpanishExamples":
+			[ 
+				"El es muy gracioso. Nos estuvimos riendo todo el tiempo.",
+				"Déjame contarte un cuento divertida.",
+				"Esta leche huele rara."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Fuzzy",
+			"Pronunciation": "/faasi/",
+			"Meanings": 
+			[
+				"Borroso, Nublado",
+				"Rizado, Crespo"
+			],
+			"EnglishExamples":
+			[ 
+				"Every time I thought of her, a gloomy feeling would come over me.",
+				"Everything before last Saturday is kind of fuzzy." 
+			],
+			"SpanishExamples":
+			[ 
+				"Cada vez que pensaba en ella, un sentimiento meláncolico me invadía.",
+				"Todo lo de antes del sábado está borroso." 
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Girly",
+			"Pronunciation": "/girly/",
+			"Meanings": 
+			[
+				"Femenino, Afeminado"
+			],
+			"EnglishExamples":
+			[ 
+				"Brian looks girlie in those pink pants." 
+			],
+			"SpanishExamples":
+			[ 
+				"Brian parece femenino(afeminado) en esos pantalones rosas."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Goofy",
+			"Pronunciation": "/guuufy/",
+			"Meanings": 
+			[
+				"Bobo, Tonto"
+			],
+			"EnglishExamples":
+			[ 
+				"My brother is a goofy character and always makes people smile." 
+			],
+			"SpanishExamples":
+			[ 
+				"Mi hermano es un personaje bobo que siempre hace sonreir a la gente."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Gloomy",
+			"Pronunciation": "/gluumi/",
+			"Meanings": 
+			[
+				"Melancólico",
+				"Pesimista"
+			],
+			"EnglishExamples":
+			[ 
+				"Every time I thought of her, a gloomy feeling would come over me.",
+				"He takes a gloomy view of everything." 
+			],
+			"SpanishExamples":
+			[ 
+				"Cada vez que pensaba en ella, un sentimiento meláncolico me invadía.",
+				"Tiene una visión muy pesimista de todo." 
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Gooey",
+			"Pronunciation": "/guui/",
+			"Meanings": 
+			[
+				"Viscoso"
+			],
+			"EnglishExamples":
+			[ 
+				"Freshly-baked cinnamon rolls are gooey and delicious."
+			],
+			"SpanishExamples":
+			[ 
+				"Los rollos de canela recién horneados son viscosos y deliciosos."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Greedy",
+			"Pronunciation": "/griidi/",
+			"Meanings": 
+			[
+				"Avaro, Codicioso"
+			],
+			"EnglishExamples":
+			[ 
+				"The greedy salesman wouldn't allow people to return goods."
+			],
+			"SpanishExamples":
+			[ 
+				"El vendedor avaro no permitía que las personas devolvieran mercancía."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Groovy",
+			"Pronunciation": "/gruuuvi/",
+			"Meanings": 
+			[
+				"Estupendo", 
+				"Guay, Genial"
+			],
+			"EnglishExamples":
+			[ 
+				"We had a groovy time at the concert.",
+				"Dude, I just bought The Beatles' White Album on CD! Groovy!"
+			],
+			"SpanishExamples":
+			[ 
+				"Lo pasamos guay en el concierto.",
+				"¡Tió, acabo de comprar el Album Blanco de los Beatles en CD! ¡Genail!"
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Grumpy",
+			"Pronunciation": "/gruampii/",
+			"Meanings": 
+			[
+				"Gruñon"
+			],
+			"EnglishExamples":
+			[ 
+				"Jane has been quiet and grumpy for the past few days."
+			],
+			"SpanishExamples":
+			[ 
+				"Jane ha estado callada y gruñona los dos últimos días."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Handy",
+			"Pronunciation": "/heendi/",
+			"Meanings": 
+			[
+				"Práctico, útil.",
+				"Venir bien"
+			],
+			"EnglishExamples":
+			[ 
+				"Rope is always handy when you're backpaking.",
+				"I always keep paper clips in my wallet, you never know when they'll come in handy"
+			],
+			"SpanishExamples":
+			[ 
+				"Una cuerda es siempre práctica cuando estás viajando con mochila.",
+				"Simpre llevo clips en mi cartera, no sabes cuadno te vendrán bien"
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Hilarious",
+			"Pronunciation": "/jalarioos/",
+			"Meanings": 
+			[
+				"Divertidísimo"
+			],
+			"EnglishExamples":
+			[ 
+				"Dani Rovira, who is a monologuist, is hilarious."
+			],
+			"SpanishExamples":
+			[ 
+				"Dani Rovira, que es monologuista, es divertidísimo."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Honest",
+			"Pronunciation": "/onest/",
+			"Meanings": 
+			[
+				"Honesto",
+				"Sincero"
+			],
+			"EnglishExamples":
+			[ 
+				"He gave his honest opinion about the business.",
+				"She was being honest when she said that she had no money."
+			],
+			"SpanishExamples":
+			[ 
+				"Dio su opinión honest sobre el negocio.",
+				"Estaba siendo sincera cuando decía que no tenía dinero."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Humble",
+			"Pronunciation": "/hoombol/",
+			"Meanings": 
+			[
+				"Humilde"
+			],
+			"EnglishExamples":
+			[ 
+				"Mary and Bob are shitting money buty they're very humble."
+			],
+			"SpanishExamples":
+			[ 
+				"Mary y Bob están podridos de dinero, pero son muy humildes."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Jolly",
+			"Pronunciation": "/joooli/",
+			"Meanings": 
+			[
+        "Alegre, Feliz",
+        "Alegre, Feliz"
+			],
+			"EnglishExamples":
+			[
+        "Gerald is a jolly old man, and always has time for others.",
+        "The mood at the celebration party was very jolly and fun; everyone was in a good mood."
+			],
+			"SpanishExamples":
+			[
+        "Gerald es un viejo feliz, y siempre tiene tiempo para otros.",
+        "El humor en la fiesta fue muy alegre y divertido, todo el mundo estaba de buen humor."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Jerk",
+			"Pronunciation": "/jeeerk/",
+			"Meanings": 
+			[
+				"Capullo, Gilipollas"
+			],
+			"EnglishExamples":
+			[ 
+				"Dan decided not to be friends with Ben, because Ben was a jerk.."
+			],
+			"SpanishExamples":
+			[ 
+				"Dan decidió no ser amigo de Ben, ya que Ben fue un capullo."
+			]
+		},
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Junk",
+      "Pronunciation": "/jaaank/",
+      "Meanings": [
+        "Basura"
+      ],
+      "EnglishExamples": [
+        "Junk food is food that tastes good but is high in calories having little nutritional value."
+      ],
+      "SpanishExamples": [
+        "La comida basura es comida que sabe bien pero es alta en calorías teniendo muy poco valor nutricional."
+      ]
+    },
+    {
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Knob",
+			"Pronunciation": "/nooob/",
+			"Meanings": 
+			[
+				"Imbécil, Irritante"
+			],
+			"EnglishExamples":
+			[ 
+				"That famous guy is a knob, and the paparazzi are knobs. And maybe even the fan is a bit of a knob too!."
+			],
+			"SpanishExamples":
+			[ 
+				"Ese tio famoso es un imbécil, y los pararazzi son idiotas. ¡Y puede que incluso los fans sean un poco idiotas también!"
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Lame",
+			"Pronunciation": "/leeim/",
+			"Meanings": 
+			[
+				"Aburrido",
+				"Soso"
+			],
+			"EnglishExamples":
+			[ 
+				"He left the party early because it was lame.",
+				"She got a butterfly tattoo on her lower back, That's so lame."
+			],
+			"SpanishExamples":
+			[ 
+				"El dejó la fiesta pronto porque era aburrida.",				
+				"Ella se hizo una tatuaje mariposa en la parte baja de su espalda, Eso es muy soso."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Lazy",
+			"Pronunciation": "/leisi/",
+			"Meanings": 
+			[
+				"Perezoso, vago"
+			],
+			"EnglishExamples":
+			[ 
+				"He is smart, but lazy."
+			],
+			"SpanishExamples":
+			[ 
+				"Es inteligente, pero vago"				
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Lean",
+			"Pronunciation": "/liiin/",
+			"Meanings": 
+			[
+				"Desgrasado",
+				"Esbelto"
+				
+			],
+			"EnglishExamples":
+			[ 
+				"Lean meat doesn't have a lot fat so I prefer lean meat",
+				"She is smart and beautiful,also she has a lean figure."
+			],
+			"SpanishExamples":
+			[ 
+				"La carne magra no tiene mucha grasa a si que prefiero la carne desgrasada.",
+				"Ella es inteligente y preciosa, además ella tiene una figura esbelta."
+			]
+		},
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Lenient",
+      "Pronunciation": "/liinian/",
+      "Meanings": [
+        "Indulgente, Poco severo."
+      ],
+      "EnglishExamples": [
+        "He tended to be lenient toward the children."
+
+      ],
+      "SpanishExamples": [
+        "El tendía a ser indulgente o poco severo hacia los niños."
+      ]
+    },
+    {
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Loose",
+			"Pronunciation": "/luus/",
+			"Meanings": 
+			[
+				"Flojo, suelto"
+			],
+			"EnglishExamples":
+			[ 
+				"I prefer to wear loose-fitting jeans these days. I'm fatter than I used to be."
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"Prefiero llevar vaqueros sueltos estos días. Estoy más gorda de lo que solía estar."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Mess",
+			"Pronunciation": "/mees/",
+			"Meanings": 
+			[
+				"Desorden",
+				"Desastre"
+			],
+			"EnglishExamples":
+			[ 
+				"His desk was a mess of papers and books.",
+				"He was such a mess after his wife died."
+			],
+			"SpanishExamples":
+			[ 				
+				"Su mesa era un desorden (lío) de papeles y libros.",
+				"El era un desastre despues de que su mujer muriera."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Mean",
+			"Pronunciation": "/miin/",
+			"Meanings": 
+			[
+				"Mezquino, Miserable",
+				"Malo, Infame"
+				
+			],
+			"EnglishExamples":
+			[ 
+				"He is a mean man, unlike his generous brother.",
+				"That was a mean thing you did.."
+			],
+			"SpanishExamples":
+			[ 
+				"Es muy mezquino, no se parece a su generoso hermano.",
+				"Lo que hiciste fue algo malo, infame."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Mild",
+			"Pronunciation": "/maiild/",
+			"Meanings": 
+			[
+				"Tierno",
+				"Blando"
+				
+			],
+			"EnglishExamples":
+			[ 
+				"Tim was a very mild person and easy to get along with.",
+				"I can easily cut this mild meat with any kind of knife."
+			],
+			"SpanishExamples":
+			[ 
+				"Time fue una persona muy tierna y facil de llevarse bien.",
+				"Puedo fácilmente cortar esta carne blanda con cualquier cuchillo"
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Moist",
+			"Pronunciation": "/moist/",
+			"Meanings": 
+			[
+				"Húmedo"
+				
+			],
+			"EnglishExamples":
+			[ 
+				"Josh used a moist towel to wipe the dust off of the table."
+			],
+			"SpanishExamples":
+			[ 
+				"Josh usó una toalla húmeda para limpiar todo el polvo de la mesa."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Moldy",
+			"Pronunciation": "/moouldi/",
+			"Meanings": 
+			[
+				"Mohoso"
+				
+			],
+			"EnglishExamples":
+			[ 
+				"Puag, the cheese has gon moldy!"
+			],
+			"SpanishExamples":
+			[ 
+				"¡Puag, el queso se ha puesto mohoso!"
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Mucky",
+			"Pronunciation": "/meerki/",
+			"Meanings": 
+			[
+				"Mugriento, Cochino"
+				
+			],
+			"EnglishExamples":
+			[ 
+				"As I step into the kitchen, I realize the floor is still wet and I've left three big mucky footprints on the tiles."
+				
+			],
+			"SpanishExamples":
+			[ 
+				"Cuando entré en la cocina, me doy cuenta de que el suelo está todavía mojado y he dejado 3 mugrientas huellas en los azulejos"
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Murky",
+			"Pronunciation": "/meerki/",
+			"Meanings": 
+			[
+				"Turbio",
+				"Nebuloso",
+				"Oscuro"
+				
+			],
+			"EnglishExamples":
+			[ 
+				"In the London Dungeon attraction you can swim through the murky waters of London's history.",
+				"The crocodile waited in the murky water.",
+				"The law student had a hard time getting through all the murky details of the case."
+				
+			],
+			"SpanishExamples":
+			[ 
+				"En la atracción London Dungeon puedes nadar a través de las aguas turbuas de la historia de Londres.",
+				"El cocodrilo esperó en las nebulosas aguas.",
+				"El estudiante de dereche tuvo dificultades para conseguir todos los oscuros detalles del caso"
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Naive",
+			"Pronunciation": "/naiiv/",
+			"Meanings": 
+			[
+				"Ingenuo, Inocente"
+			],
+			"EnglishExamples":
+			[ 
+				"It was a joke! You 're so naive..."
+			],
+			"SpanishExamples":
+			[ 
+				"¡Era una broma! Eres tan ingenuo..."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Nasty",
+			"Pronunciation": "/nasti/",
+			"Meanings": 
+			[
+				"Molesto",
+				"Asqueroso",
+				"Desagradable",
+				"Despreciable"
+			],
+			"EnglishExamples":
+			[ 
+				"Now, we can remove this nasty pointer from the method.",
+				"This smell is really nasty.",
+				"The garbage had a nasty odor coming from it."	,
+				"Mary was a nasty person who started rumors about all kinds of people."				
+			],
+			"SpanishExamples":
+			[ 
+				"Ahora, podemos quitar este puntero molesto del método.",
+				"Este olor es muy asqueroso.",
+				"La basura tenía un desagradable odor proveniente de ahi.",
+				"Mary fue una persona despreciable que empezaba rumores sobre todo tipo de personas"				
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Narrow",
+			"Pronunciation": "/narrou/",
+			"Meanings": 
+			[
+				"Estrecho",
+				"Reducido"
+			],
+			"EnglishExamples":
+			[ 
+				"The narrow road made passing other cars difficult.",
+				"Her interests are narrow, limited to science and logic."
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"La estrecha carretera hacía difícil rebasar otros vehículos.",
+				"Sus intereses son reducidos, se limitan a la ciencia y la lógica."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Naugthy",
+			"Pronunciation": "/noooti/",
+			"Meanings": 
+			[
+				"Malcriado",
+				"Travieso"
+			],
+			"EnglishExamples":
+			[ 
+				"Colin is being naughty and will not mind his parents.",
+				"Anthony is a naughty boy and always plays tricks on his sister."
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"Colin está siendo malcriado y no les hace caso a sus padres.",
+				"Anthony es un niño travieso y siempre está haciendo bromas a su hermana."
+			]	 			
+		},			
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Neat",
+			"Pronunciation": "/niiit/",
+			"Meanings": 
+			[
+				"Limpio",
+				"Genial"
+			],
+			"EnglishExamples":
+			[ 
+				"Dan was a very neat person and didn't like children.",
+				"Larry told a neat story at the party."
+			],
+			"SpanishExamples":
+			[ 
+				"Dan fue una persona muy limpia y no le gustaban los niños.",
+				"Larry contó una genial historia en la fiesta."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Needy",
+			"Pronunciation": "/niiidi/",
+			"Meanings": 
+			[
+				"Necesitado, Pobre",
+				"Necesitado, (Atención)"
+			],
+			"EnglishExamples":
+			[ 
+				"You contribution can help support needy children in India.",
+				"He dropped his last girlfriend because she was too needy."
+			],
+			"SpanishExamples":
+			[ 
+				"Tu contribución puede ayudar a los niños necesitados de la India.",
+				"Dejó a su última novia por que era muy necesitada (atención)."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Nippy",
+			"Pronunciation": "/nipi/",
+			"Meanings": 
+			[
+				"Fresquito",
+				"Fresco"
+			],
+			"EnglishExamples":
+			[ 
+				"How's the weather like? It's a bit nippy!",
+				"What's the weather like in Dublin today? It's nippy as usual!"
+			],
+			"SpanishExamples":
+			[ 
+				"¿Que tiempo hace? Hace un poco de fresquito",
+				"¿Que tiempo hace hoy en Dublín? Hace fresco, ¡como siempre!"
+			]
+		},
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Nosy",
+      "Pronunciation": "/nooousi/",
+      "Meanings": [
+        "Entrometido",
+        "Cotilla"
+      ],
+      "EnglishExamples": [
+        "My neighbours are very nosy, they're always giving their opinion about everything.",
+        "Don't be so nosy, I'm not going to tell you anything about my last night date."
+      ],
+      "SpanishExamples": [
+        "Mis vecinos son muy entrometidos, siempre están dando su opinión acerca de todo.",
+        "No seas tan cotilla, no voy a contarte nada sobre mi cita de anoche."
+      ]
+    },
+    {
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Numb",
+			"Pronunciation": "/naam/",
+			"Meanings": 
+			[
+				"Atontado",
+				"Adormecido, Insensible"
+			],
+			"EnglishExamples":
+			[ 
+				"When Kate woke up, her arm was completely numb because she had slept on it wrong.",
+				"The dentist numbed my mouth before he began working on my teeth."
+			],
+			"SpanishExamples":
+			[ 
+				"Cuando Kate despertó, su brazo estaba completamente atontado porque se había dormido sobre él.",
+				"El dentista adormeció mi boca antes de empezar a trabajar en mis dientes."
+			]
+		},
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Packed",
+      "Pronunciation": "/paact/",
+      "Meanings": [
+        "Abarrotado, Lleno de gente."
+      ],
+      "EnglishExamples": [
+        "The train is packed with people in the evenings because everyone is going home fromwork, there is hardly any space to move."
+
+      ],
+      "SpanishExamples": [
+        "El tren está abarrotado de gente por la noche porque todo el mundo va a casa del trabajo, apenas hay espacio para moverte."
+      ]
+    },
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "PartyPooper",
+      "Pronunciation": "/party pupa/",
+      "Meanings": [
+        "Aguafiestas"
+      ],
+      "EnglishExamples": [
+        "The party was great until the party pooper neighbor arrived and called the police"
+
+      ],
+      "SpanishExamples": [
+        "La fiesta fue genial hasta que el aguafiestas del vecino llegó y llamó a la policía"
+      ]
+    },
+    {
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Plain",
+			"Pronunciation": "/pleein/",
+			"Meanings": 
+			[
+				"Liso"
+			],
+			"EnglishExamples":
+			[ 
+				"I don't like printed shirts, I prefer the plain ones"
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"No me gustan las camisas estampadas, prefiero las lisas."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Peckish",
+			"Pronunciation": "/pekish/",
+			"Meanings": 
+			[
+				"Tener un poco de hambre"
+			],
+			"EnglishExamples":
+			[ 
+				"I could do with eating something I am a bit peckish."
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"Me vendría bien comer algo tengo un poco de hambre."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Picky",
+			"Pronunciation": "/piki/",
+			"Meanings": 
+			[
+				"Meticuloso, Quisquilloso."
+			],
+			"EnglishExamples":
+			[ 
+				"I don't want to be picky but could you put that comment line that one?"
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"No quiero ser quisquillos pero ¿Podrías poner esa linea de comentario sobre esa otra?"
+			]	 			
+		},		
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Pig Headed",
+			"Pronunciation": "/piig heeedeg/",
+			"Meanings": 
+			[
+				"Cabezota"
+			],
+			"EnglishExamples":
+			[ 
+				"My husband can be incredibly pig headed at times."
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"Mi marido a veces puede ser terriblemente cabezota."
+			]	 			
+		},		
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Pigsty",
+			"Pronunciation": "/pigstai/",
+			"Meanings": 
+			[
+				"Pocilga"
+			],
+			"EnglishExamples":
+			[ 
+				"This room looks like a pigsty, clean it up!"				
+			],
+			"SpanishExamples":
+			[ 				
+				"Esta habitación parece una pocilga, limpialá!"
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Pickpocket",
+			"Pronunciation": "/piiikpoket/",
+			"Meanings": 
+			[
+				"Carterista"
+			],
+			"EnglishExamples":
+			[ 
+				"I've been robbed and my wallet's been stolen by a pickpoket! Fuck!"
+			],
+			"SpanishExamples":
+			[ 				
+				"¡He sido robado y mi cartera ha sido robada por un carterista! ¡Joder!"
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Posh",
+			"Pronunciation": "/ppposh/",
+			"Meanings": 
+			[
+				"Pijo, Elegante"
+			],
+			"EnglishExamples":
+			[ 
+				"She talks posh now, but you should have heard her when she was young."
+			],
+			"SpanishExamples":
+			[ 				
+				"Habla pijo ahora, pero deberías haberla escuchado cuando era joven."
+			]	 			
+		},
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Pussy",
+      "Pronunciation": "/pussy/",
+      "Meanings": [
+        "Gatito",
+        "Coño",
+        "Cobarde"
+      ],
+      "EnglishExamples": [
+        "Here pussy, pussy, pussy. Come here.",
+        "That girl I slept with has a shaved pussy.",
+        "Can't you drink any more tequila?"
+      ],
+      "SpanishExamples": [
+        "Aqui, gatito, gatito, gatito. Ven.",
+        "Esa chica con la que dormir tenía el coño rasurado.",
+        "Tu coberde, no puedoes beber más tequila?"
+      ]
+    },
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Puzzle",
+      "Pronunciation": "/paaazol/",
+      "Meanings": [
+        "Desconcierto, confuso"
+      ],
+      "EnglishExamples": [
+        "You look puzzled, Tim – don't you understand the question?"
+      ],
+      "SpanishExamples": [
+        "Pareces desconcertado, Tim. ¿No entiendes la pregunta?"
+      ]
+    },
+    {
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Raider",
+			"Pronunciation": "/reida/",
+			"Meanings": 
+			[
+				"Saqueador, Ladron"
+			],
+			"EnglishExamples":
+			[ 
+				"The raider destroyed the house looking for anything valuable."
+			],
+			"SpanishExamples":
+			[ 				
+				"El saqueador destruyó la casa buscando algo de valor."
+			]	 			
+		},		
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Rotten",
+			"Pronunciation": "/rooten/",
+			"Meanings": 
+			[
+				"Podrido",
+				"Deteriorado"
+			],
+			"EnglishExamples":
+			[ 
+				"Don't eat that apple, It's rotten!",
+				"Carol was easily able to break through the rotten front door to get into the abandoned house."
+			],
+			"SpanishExamples":
+			[ 				
+				"¡No te comas esa manzana, esta podrida!.",
+				"Carlo fácilmente fue capaz de entrar a través de la deteriorada puerta delantera y entrar en la casa abandonada."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Rude",
+			"Pronunciation": "/ruuud/",
+			"Meanings": 
+			[
+				"Brusco, Grosero."
+			],
+			"EnglishExamples":
+			[ 
+				"Tom didn't mean to be rude with her."
+			],
+			"SpanishExamples":
+			[ 				
+				"Tom no quiso ser brusco o grosero con ella."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Rush",
+			"Pronunciation": "/raaash/",
+			"Meanings": 
+			[
+				"Deprisa"
+			],
+			"EnglishExamples":
+			[ 
+				"I left in a rush, and I forgot my keys."
+			],
+			"SpanishExamples":
+			[ 
+				"Salí deprisa y olvidé las llaves."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Rough",
+			"Pronunciation": "/rafff/",
+			"Meanings": 
+			[
+				"Áspero, Rugoso"
+			],
+			"EnglishExamples":
+			[ 
+				"This sandpaper is extra rough, so you can work faster with wood."
+			],
+			"SpanishExamples":
+			[ 				
+				"Esta lija es super rogoso, así se puede trabajar más rápido con madera."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Sassy",
+			"Pronunciation": "/saaasi/",
+			"Meanings": 
+			[
+				"Descarado, Atrevido"
+			],
+			"EnglishExamples":
+			[ 
+				"Everytime I find myself slacking off or daydream, I just imagine him saying something sassy to me."
+			],
+			"SpanishExamples":
+			[ 
+				"Cada vez que me encuentro holgazaneando, le imagino diciéndome algo atrevido."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Savvy",
+			"Pronunciation": "/saaasi/",
+			"Meanings": 
+			[
+				"Espabilado"
+			],
+			"EnglishExamples":
+			[ 
+				"Rick is computer-savvy; he'll be able to fix the problem.."
+			],
+			"SpanishExamples":
+			[ 
+				"Rick es un espabilado de los ordenadores, será capaz de arreglar el problema."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Scruffy",
+			"Pronunciation": "/ssscrafy/",
+			"Meanings": 
+			[
+				"Desaliñado, Hecho un facha"
+			],
+			"EnglishExamples":
+			[ 
+				"Man, What happened to you? You look so scruffy!"
+			],
+			"SpanishExamples":
+			[ 
+				"Tio, ¿que pasó contigo? Estás todo desaliñado."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Selfish",
+			"Pronunciation": "/seeelfish/",
+			"Meanings": 
+			[
+				"Egoísta"
+			],
+			"EnglishExamples":
+			[ 
+				"She won't do that for you because she is very selfish."
+			],
+			"SpanishExamples":
+			[ 
+				"Ella no hará eso por ti porque es muy egoista."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Sinister",
+			"Pronunciation": "/sinista/",
+			"Meanings": 
+			[
+				"Sinisetro"
+			],
+			"EnglishExamples":
+			[ 
+				"She loves to read mystery stories full of sinister characters and complex murder cases."
+			],
+			"SpanishExamples":
+			[ 
+				"Ella adora leer historias de misterio lleno de personajes siniestros y complicados casos de asesinato."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Sly",
+			"Pronunciation": "/ssslai/",
+			"Meanings": 
+			[
+				"Astuto"
+			],
+			"EnglishExamples":
+			[ 
+				"That was a sly move; you got just what you wanted."
+			],
+			"SpanishExamples":
+			[ 
+				"Fue un astuto movimento, obtuviste justo lo que quisiste."
+			]
+		},
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Slippery",
+      "Pronunciation": "/ssslipperi/",
+      "Meanings": [
+        "Resbaladizo"
+      ],
+      "EnglishExamples": [
+        "Be careful; the floor has just been washed and it's still slippery."
+      ],
+      "SpanishExamples": [
+        "Ten cuidado, el suelo acaba de ser fregado y todavía está resbaladizo."
+      ]
+    },
+    {
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Smug",
+			"Pronunciation": "/sssmug/",
+			"Meanings": 
+			[
+				"Engreido, Petulante"
+			],
+			"EnglishExamples":
+			[ 
+				"Adam has just run his first marathon and he's very smug about it"
+			],
+			"SpanishExamples":
+			[ 
+				"Adam acaba de correr su primera maratón y es muy engreido sobre eso."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Sneaky",
+			"Pronunciation": "/sssniki/",
+			"Meanings": 
+			[
+				"Astuto, Engañoso",
+				"Escondidas",
+				"Escurridizo"
+			],
+			"EnglishExamples":
+			[ 
+				"You've eaten the last piece of pizza when I was in the bathroom. You're such a sneaky person!",
+				"Tom's cat was sneaking around the house trying to hide from his owner.",
+				"Tom was supposed to be revising for his exams, but he popped out to the pub for a sneaky drink with his friends."
+			],
+			"SpanishExamples":
+			[ 
+				"Te has comido el último trozo de pizza mientras estaba en el baño. ¡Eres una persona muy astuta!",
+				"El gato de Tom estaba caminando a escondidas por la casa intentado esconderse de su dueño.",
+				"Tom se suponía que estaría repasando para su exámen, pero apareció en el pub para una escurridiza bebida con sus amigos."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Steep",
+			"Pronunciation": "/stip/",
+			"Meanings": 
+			[
+				"Caro",
+				"Empinado"
+			],
+			"EnglishExamples":
+			[ 
+				"That seems still a bit Steep, how about 15 pounds and we have a deal?",
+				"The steep streets left us out of breath."
+			],
+			"SpanishExamples":
+			[ 
+				"Eso parece todavía un poco caro, que tal 15 libras y ¿tenemos un trato?",
+				"Las calles empinadas nos dejaron sin resuello."
+			]
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Stink",
+			"Pronunciation": "/stinnk/",
+			"Meanings": 
+			[
+				"Apestar"
+			],
+			"EnglishExamples":
+			[ 
+				"The bathroom smells like shit, It stinks!"
+			],
+			"SpanishExamples":
+			[ 
+				"El baño huele a mierda, ¡apesta!"
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Sticky",
+			"Pronunciation": "/stiiki/",
+			"Meanings": 
+			[
+				"Pegajoso",
+				"Sudoroso"
+			],
+			"EnglishExamples":
+			[ 
+				"I use sticky tape to remove fluff from my clothes.",
+				"My hands are so sticky, I have to wash them!"
+			],
+			"SpanishExamples":
+			[ 
+				"Uso cinta adhesiva (pegajosa) para sacar las pelusas de mi ropa.",
+				"Mis manos están tan sudorosas, tengo que lavarlas."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Still",
+			"Pronunciation": "/stiilll/",
+			"Meanings": 
+			[
+				"Sin gas",
+				"Quieto",
+				"Tranquilo"
+			],
+			"EnglishExamples":
+			[ 
+				"Please bring me some still water.",
+				"The still water of the lake was beautiful",
+				"It was a very still night and not a sound could be heard."
+			],
+			"SpanishExamples":
+			[ 
+				"Por favor, tráeme un poco de agua sin gas.",
+				"Las aguas quiets del lago eran hermosas",
+				"Era una noche muy tranquila y no se oía ni un sonido."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Stingy",
+			"Pronunciation": "/stiingy/",
+			"Meanings": 
+			[
+				"Tacaño"
+			],
+			"EnglishExamples":
+			[ 
+				"He gives the best parties in town, however he is so stingy with the drinks."
+			],
+			"SpanishExamples":
+			[ 
+				"El da las mejores fiestas de la ciudad sin embargo el es tan tacaño con las bebidas."
+			]
+		},
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Stuck Up",
+      "Pronunciation": "/ssstackap/",
+      "Meanings": [
+        "Creído"
+      ],
+      "EnglishExamples": [
+        "She was really stuck up, She thought she was better than everyone else."
+      ],
+      "SpanishExamples": [
+        "Era muy creida, Se pensaba que era mejor que todo el mundo."
+      ]
+    },
+    {
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Shallow",
+			"Pronunciation": "/xxxalou/",
+			"Meanings": 
+			[
+        "Poco profundo",
+        "Superficial"
+			],
+			"EnglishExamples":
+			[
+        "The water is shallow here.",
+        "She's a shallow person who cares only about how much money she earns"
+			],
+			"SpanishExamples":
+			[
+        "El agua es poco profunda aquí.",
+        "Ella es una persona superficial que solo se preocpua de cuanto dinero gana."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Sweetheart",
+			"Pronunciation": "/suiiithart/",
+			"Meanings": 
+			[
+				"Encanto"
+			],
+			"EnglishExamples":
+			[ 
+				"What a sweetheart you are! Thanks for bringing me some flowers."
+			],
+			"SpanishExamples":
+			[ 
+				"¡Que encanto eres! Gracias por traerme flores."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Sweaty",
+			"Pronunciation": "/suerii/",
+			"Meanings": 
+			[
+				"Sudoroso"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm all sweaty from my bike ride."
+			],
+			"SpanishExamples":
+			[ 
+				"Estoy sudoroso por montar en bicicleta."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Sweet",
+			"Pronunciation": "/suuit/",
+			"Meanings": 
+			[
+				"Dulce",
+				"Adorable"
+			],
+			"EnglishExamples":
+			[ 
+				"This dessert is very sweet.",
+				"You hava a sweet kitty." 
+			],
+			"SpanishExamples":
+			[ 
+				"Este postre es muy dulce.",
+				"Tienes un gatito muy adorable." 
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Slim",
+			"Pronunciation": "/sliim/",
+			"Meanings": 
+			[
+				"Esbelto"
+			],
+			"EnglishExamples":
+			[ 
+				"At this time of the year, women's magazine are full of articles on how to be slim for the summer."
+			],
+			"SpanishExamples":
+			[ 
+				"En este momento del año las revistas están llenas de artículos sobre como estar delgado para el verano."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Stodgy",
+			"Pronunciation": "/stAayi/",
+			"Meanings": 
+			[
+				"Pesado de digerir",
+				"Denso"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm feeling sick, the food was really stodgy",
+				"That was such a stodgy class! I was so bored even I almost fell asleep.."
+				
+			],
+			"SpanishExamples":
+			[ 
+				"Me siento mal, la comida fue muy pesada",
+				"¡Fue una clase tan densa! Estaba tan aburrida que incluso casi me duermo."
+				
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Sticky",
+			"Pronunciation": "/stiiki/",
+			"Meanings": 
+			[
+				"Pegajoso",
+				"Sudoroso"
+			],
+			"EnglishExamples":
+			[ 
+				"After eating the sticky bun, my fingers got sticky.",
+				"I got really sticky after going hiking."				
+			],
+			"SpanishExamples":
+			[ 
+				"Después de comerme el bollo, se me pusieron los dedos pegajosos.",
+				"Estaba muy sudoroso despues de ir a hacer senderismo."
+				
+			]			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Stingy",
+			"Pronunciation": "/sstingiii/",
+			"Meanings": 
+			[
+				"Tacaño, Egoista",
+				"Tacaño"
+			],
+			"EnglishExamples":
+			[ 
+				"Carl is so stingy; he never puts any money into the kitty.",
+				"Wendy was incredibly hungry, so she was disappointed when she saw the stingy portion of cake the cafe served her."				
+			],
+			"SpanishExamples":
+			[ 
+				"Carl es muy tacaño, el nunca pone nada de dinero en el gatito.",
+				"Wendy estaba increiblemente hambrienta, a si que ella se decepcionó cuando vio la tacaña porción de tarta que la sirvieron"
+				
+			]			
+		},				
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Sharp",
+			"Pronunciation": "/xaaap/",
+			"Meanings": 
+			[
+				"Afilado",
+				"Puntiagudo",
+				"Ingenioso, Agudo"
+			],
+			"EnglishExamples":
+			[ 
+				"The new knife was sharp.",
+				"I felt a sharp knife in my neck...",
+				"He was really sharp, always making funny comments."				
+			],
+			"SpanishExamples":
+			[ 
+				"El nuevo cuchillo era muy afilado.",
+				"Sentí un cuchillo puntiagudo en mi cuello...",
+				"Era muy ingenioso, siempre haciendo comentarios ingeniosos."				
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Shit",
+			"Pronunciation": "/xiiit/",
+			"Meanings": 
+			[
+				"Mierda",
+				"Caca"
+			],
+			"EnglishExamples":
+			[ 
+				"The concert was shit!",
+				"I stepped in shit."			
+			],
+			"SpanishExamples":
+			[ 
+				"El concierto fue una mierda.",
+				"Pisé una caca."				
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Slick",
+			"Pronunciation": "/ssslick/",
+			"Meanings": 
+			[
+				"Resbaladizo"
+			],
+			"EnglishExamples":
+			[ 
+				"Tara slipped on the slick ice."
+			],
+			"SpanishExamples":
+			[ 
+				"Tara se resbaló en el hielo resbaladizo."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Sour",
+			"Pronunciation": "/saua/",
+			"Meanings": 
+			[
+        "Acido",
+        "Amargo",
+				"Agrio, Rancio"
+			],
+			"EnglishExamples":
+			[
+        "Jane grimaced as she tasted the sour lemon.",
+        "I never put vinegar on salads. It tastes too sour for me.",
+        "Rick wanted a cup of tea, but the milk was sour."        
+			],
+			"SpanishExamples":
+			[
+        "Jane hizo una muerca mientras probó el limón ácido ",
+        "Nunca pongo vinage en la ensalada. Sabe demasiado amargo para mi.",
+				"Rick quería una taza de te, pero la leche estaba rancia."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Soggy",
+			"Pronunciation": "/soogi/",
+			"Meanings": 
+			[
+				"Empapado"
+			],
+			"EnglishExamples":
+			[ 
+				"Take off your soggy clothes before you come in."
+			],
+			"SpanishExamples":
+			[ 				
+				"Quitate la ropa empapada antes de entrar."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Spooky",
+			"Pronunciation": "/ssspuki/",
+			"Meanings": 
+			[
+				"Espeluznante"
+			],
+			"EnglishExamples":
+			[ 
+				"The old, abandoned house was spooky, John was sure it must be haunted."
+			],
+			"SpanishExamples":
+			[ 				
+				"La vieja casa abandonada era espeluznante, Jony estaba seguro de que está embrujada. "
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Stale",
+			"Pronunciation": "/ssteil/",
+			"Meanings": 
+			[
+				"Duro",
+				"Rancio"
+			],
+			"EnglishExamples":
+			[ 
+				"The bread has gon stale.",
+				"The beer was old and stale."
+			],
+			"SpanishExamples":
+			[ 				
+				"El pan se ha puesto duro.",
+				"La cerveza estaba vieja y rancia."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Stiff",
+			"Pronunciation": "/ssstif/",
+			"Meanings": 
+			[
+				"Rigido, Que da agujetas"
+			],
+			"EnglishExamples":
+			[ 
+				"Rachel went for a long run yesterday and she's feeling stiff today."
+			],
+			"SpanishExamples":
+			[ 				
+				"Rachel fue a correr mucho ayer y se sentía rígida, con agujetas, hoy."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Stubborn",
+			"Pronunciation": "/staabon/",
+			"Meanings": 
+			[
+				"Terco"
+			],
+			"EnglishExamples":
+			[ 
+				"He was stubborn and refused to admit he was wrong."
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"Fue terco y negaba a reconocer que estaba equivocado."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Struggle",
+			"Pronunciation": "/sstragool/",
+			"Meanings": 
+			[
+				"Prueba",
+				"Esfuerzo"
+			],
+			"EnglishExamples":
+			[ 
+				"The marathon was a struggle for me, but I finished.",
+				"I still struggle with driving in the right side of the car."
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"El maratón fue una auténtica prueba para mí pero pude llegar hasta el final.",
+				"Todavía me cuesta trabajo conducir en el lado derecho del coche."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Subtle",
+			"Pronunciation": "/saatol/",
+			"Meanings": 
+			[
+				"Sutil"
+			],
+			"EnglishExamples":
+			[ 
+				"Ben sniffed the air; there was a subtle scent of woodsmoke, as though someone had had a fire hours before."
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"Ben olfateó el aire, hubo un sutíl aroma a madera quemada, como si alguien hubiera tenido un fuego horas antes."
+			]	 			
+		},		
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Talkative",
+			"Pronunciation": "/tookativv/",
+			"Meanings": 
+			[
+				"Hablador, Parlanchin"
+			],
+			"EnglishExamples":
+			[ 
+				"I like my firend Steve, he is verty talkative, sometimes he talks too much."
+			],
+			"SpanishExamples":
+			[ 				
+				"Me gusta mi amgio Steve, es muy hablador, a veces habla demasiado."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Tanned",
+			"Pronunciation": "/teeend/",
+			"Meanings": 
+			[
+				"Bronceado, Moreno"
+			],
+			"EnglishExamples":
+			[ 
+				"Emily wore shorts to show off her tanned legs."
+			],
+			"SpanishExamples":
+			[ 				
+				"Emily llevó shorts para mostrar sus morenas piernas."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Threat",
+			"Pronunciation": "/zzreet/",
+			"Meanings": 
+			[
+				"Amenaza"
+			],
+			"EnglishExamples":
+			[ 
+				"The threat of bad weather kept him home that night."
+			],
+			"SpanishExamples":
+			[ 				
+				"La amenaza de mal tiempo lo retuvo en casa esa noche."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Tidy",
+			"Pronunciation": "/taiidi/",
+			"Meanings": 
+			[
+				"Organizado, Pulcro"
+			],
+			"EnglishExamples":
+			[ 
+				"It is important to keep your workshop tidy in order to avoid accidents."				
+			],
+			"SpanishExamples":
+			[ 				
+				"Es importante mantener limpio tu taller con el fin de (para) evitar accidentes."
+			]	 			
+		},
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Tight",
+      "Pronunciation": "/taait/",
+      "Meanings": [
+        "Ajustado",
+        "Bien"
+      ],
+      "EnglishExamples": [
+        "She looked good in her tight jeans.",
+        "The trunk was packed tight for the trip."
+      ],
+      "SpanishExamples": [
+        "Le veía bien en sus vaqueros ajustados.",
+        "El baúl estaba bien empaquetado para el viaje."
+      ]
+    },	
+    {
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Tipsy",
+			"Pronunciation": "/tipsi/",
+			"Meanings": 
+			[
+				"Entonado, contentillo"
+			],
+			"EnglishExamples":
+			[ 
+				"I was a little tipsy and didn't want to say something I'd regret."
+			],
+			"SpanishExamples":
+			[ 
+				"Estaba un poco contentillo y no quise decir nada que me arrepintiera."
+			]
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Thick",
+			"Pronunciation": "/ziik/",
+			"Meanings": 
+			[
+				"Grueso",
+				"Denso"
+			],
+			"EnglishExamples":
+			[ 
+				"Matthew had thick black hair, but Natalie's was blonde.",
+				"The milkshake was too thick to use a straw."
+			],
+			"SpanishExamples":
+			[ 				
+				"Matthew tenía un grueso pelo negro, pero el de Natalie era rubio.",
+				"El batido era demasiado consistente como para usar una pajita."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Thin",
+			"Pronunciation": "/ziiin/",
+			"Meanings": 
+			[
+				"Delgado",
+				"Fino"
+			],
+			"EnglishExamples":
+			[ 
+				"The thin girl had no trouble getting through the crowd.",
+				"He cut a thin slice of ham."
+			],
+			"SpanishExamples":
+			[ 				
+				"La chica delgada no tuvo problema alguno abriéndose paso entre la multitud.",
+				"El cortó una fina loncha de jamón."
+			]	 			
+		},			
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Twat",
+			"Pronunciation": "/tuaatt/",
+			"Meanings": 
+			[
+				"Pringado",
+				"Despistado",
+				"Capullo"
+			],
+			"EnglishExamples":
+			[ 
+				"I forgot the keys. I'm such a twat!",
+				"He forgot the dog. He's such a twat!",
+				"I hate that guy, he's so arrogant. What a twat!"
+			],
+			"SpanishExamples":
+			[ 
+				"Olvidé las llaves ¡Estoy idiota, que pringado!",
+				"Se olvidó del perro. ¡Qué despistado, que tonto!",
+				"Odio a ese tio, el es tan arrogante. ¡Que capullo o que idiota!"
+				
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Twit",
+			"Pronunciation": "/tuit/",
+			"Meanings": 
+			[
+				"Bobo, Imbécil"
+			],
+			"EnglishExamples":
+			[ 
+				"There are a lot of twits on twitter"
+			],
+			"SpanishExamples":
+			[ 
+				"Hay muchos bobos en twitter."				
+			]			
+		},		
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Uncharted",
+			"Pronunciation": "/aanchared/",
+			"Meanings": 
+			[
+				"Inexplorado, Desconocido"
+			],
+			"EnglishExamples":
+			[ 
+				"About 90% of the seafloor is still uncharted territory."
+			],
+			"SpanishExamples":
+			[ 
+				"Sobre el 90% del suelo del mar es todavía territorio inexplorado."				
+			]			
+		},		
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Wet Blanket",
+			"Pronunciation": "/ueet blanket/",
+			"Meanings": 
+			[
+				"Aguafiestas"
+			],
+			"EnglishExamples":
+			[ 
+				"Auntie Edna's always a wet blanket at family parties."
+			],
+			"SpanishExamples":
+			[ 
+				"La tía Edna siempre es una aguafiestas en las reuniones familiares."
+			]
+		},
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Wanker",
+      "Pronunciation": "/uanka/",
+      "Meanings": [
+        "Gilipollas"
+      ],
+      "EnglishExamples": [
+        "My boss is a total fucking wanker. He won't give us any holidays."
+      ],
+      "SpanishExamples": [
+        "Mi jefe es un completo gilipollas. No nos dará vacaciones."
+      ]
+    },
+    {
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Wacky",
+			"Pronunciation": "/uuuaky/",
+			"Meanings": 
+			[
+        "Loco",
+        "Extravagante, Absurdo"
+			],
+      "EnglishExamples": [
+        
+        "Robert is wacky, you never know what he's going to do next.",
+        "Something wacky happened to me on the way to work this morning."
+      ],
+      "SpanishExamples": [
+        
+        "Robert está loco, nunca sabes que va hacer después.",
+        "Algo absurdo me paso esta mñana de camino al trabajo."
+      ]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Weird",
+			"Pronunciation": "/güiir/",
+			"Meanings": 
+			[
+				"Raro",
+				"Extraño"
+			],
+			"EnglishExamples":
+			[ 
+				"He stayed home on a Friday night? That's weird.",
+				"We heard some weird sounds outside!"
+			],
+			"SpanishExamples":
+			[ 
+				"¿Se quedó en casa el viernes por la noche? Que raro.",
+				"¡Escychamos ruidos extraños fuera!"
+			]			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Wicked",
+			"Pronunciation": "/uiiiked/",
+			"Meanings": 
+			[
+				"Malvado, Retorcido",
+				"Travieso, Picara",
+				"Geníal, Fantástico"
+			],
+			"EnglishExamples":
+			[ 
+				"The wicked person enjoyed comitting crimes and hurting people. It was a good thing when he was put in prison.",
+				"David gave Nina a wicked grin.",
+				"Last ninght was wicked, but today I have a horrible hangover."
+			],
+			"SpanishExamples":
+			[ 
+				"La persona malvada disfrutaba cometiendo crímenes e hiriendo gente. Fue algo bueno que le mandaran a prisión.",
+				"Daved le dio a Nina una pícara sonrisa",
+				"Ayer por la noche fue fantástico, pero hoy tengo una resaca horrible."
+			]	 			
+		},
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Wise",
+      "Pronunciation": "/waais/",
+      "Meanings": [
+        "Sabio, Inteligente",
+        "Sensato"
+      ],
+      "EnglishExamples": [
+        "Everybody went to the wise old man for advice.",
+        "Driving at night with no lights was not a wise thing to do."
+      ],
+      "SpanishExamples": [
+        "Todos iban con el sabio anciano a pedir consejo.",
+        "Conducir de noche con las luces apagadas no es algo inteligente."
+      ]
+    },
+    {
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Wobbly",
+			"Pronunciation": "/uuuobly/",
+			"Meanings": 
+			[
+        "Mareado",
+        "Tambaleante"
+			],
+      "EnglishExamples": [
+        
+        "She said she was feeling wobbly and needed to sit down.",
+        "Don't put anything heavy on that wobbly table."
+      ],
+      "SpanishExamples": [
+        
+        "Dijo que se sentía mareada y necesitaba sentarse.",
+        "No pongas nada pesado en esa mesa tambaleante."
+      ]
+		}		
+	] 	
+}

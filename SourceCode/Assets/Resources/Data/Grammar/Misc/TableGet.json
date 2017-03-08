@@ -1,0 +1,24 @@
+{
+	"Title": "Extra Have Got Examples",
+	"HeightTable": 800,
+	"HasHeaderRow":false,
+	"HeaderRow": 
+	[
+		"<color=#FDFF87><size=25>Extra Get Examples</size></color>"
+	],
+	"Rows":
+	[ 		
+		"<color=#FDFF87><size=23>It's getting late and I'm getting tired.</size></color>\nSe está haciendo tarde y me estoy cansando.",
+		"<color=#FDFF87><size=23>When I don't sleep, I get tired.</size></color>\nCuando no duermo bien, me canso.",		
+		"<color=#FDFF87><size=23>I'm getting bored. This film is really boring.</size></color>\nMe estoy aburriendo,e sta película es muy aburrida.",		
+		"<color=#FDFF87><size=23>I'm bored, and she's getting bored too.</size></color>\nEstoy aburrido y ella está aburrida también.",
+		"<color=#FDFF87><size=23>My wife's fed up and I'm getting fed up too.</size></color>\nMi mujer está harta y yo me estoy hartando también.",
+		"<color=#FDFF87><size=23>Sally's husband and Ollie's wife are getting fed up with their neighbours.</size></color>\nEl marido de Sally y la mujer de Ollie se están hartando de sus vecinos.",
+		"<color=#FDFF87><size=23>I'm getting really angry.</size></color>\nMe estoy enfadando mucho.",
+		"<color=#FDFF87><size=23>Do you always get angry when that happens?</size></color>\n¿Siempre te enfadas cuando pasa eso?",
+		"<color=#FDFF87><size=23>When are tehy getting married?</size>\n¿Cuándo se van a casar?</color>",
+		"<color=#FDFF87><size=23>Not everybody who gets engaged gets married.</size>\nNo todo el mundo que se compromete se casa.</color>",
+		"<color=#FDFF87><size=23>Do many people get divorced in Spain?</size>\n¿Hay mucha en españa que se divorcia?</color>",
+		"<color=#FDFF87><size=23>Don't get fired!</size>\n¡Que no te despidan!</color>"
+	]		
+}

@@ -1,0 +1,154 @@
+{
+	"CommonMistakesQuiz":
+	[			
+		{
+			"Question": "Siempre llevas esa camiseta.",
+			"Answers":
+			[ 
+				"You always wear that shirt",	
+				"You always put that shirt",
+				"You always use that shirt"
+			]
+		},
+		{
+			"Question": "Trabajo de comercial.",
+			"Answers":
+			[ 
+				"I work as a sales person",
+				"I work as a commercial",	
+				"I work like a sales person"
+			]
+		},
+		{
+			"Question": "Ella me recuerda al compañero de habitación de mi hermana.",
+			"Answers":
+			[ 
+				"She remains me of the roommate of my sister",
+				"She remains me to my sister's roommate",	
+				"She remember me to my sister's roommate"
+			]
+		},
+		{
+			"Question": "Lleva pijama cuando trabaja desde casa.",
+			"Answers":
+			[ 
+				"He wears pyjamas when he works from home",
+				"He uses pyjama when he works from home",	
+				"He wears a pyjama when he works from home"
+			]
+		},
+
+		{
+			"Question": "Cada una de esas mujeres tiene 3 hijos.",
+			"Answers":
+			[ 
+				"Each of these woman has three children",
+				"Each of these woman have three children",	
+				"Each of these woman has three childs"
+			]
+		},
+
+		{
+			"Question": "¿De quién fue la idea?",
+			"Answers":
+			[ 
+				"Whose idea was it?",
+				"Whose the idea was?",	
+				"Who's idea was?"
+			]
+		},
+
+		{
+			"Question": "Está casada con un dentista.",
+			"Answers":
+			[ 
+				"She's married to a dentist",
+				"She's married with a dentist",	
+				"She married with a dentist"
+			]
+		},
+
+		{
+			"Question": "No conocía a nadie",
+			"Answers":
+			[ 
+				"I didn't meet anybody",
+				"I didn't meet nobody",	
+				"I didn’t met anybody"
+			]
+		},
+		
+		{
+			"Question": "Le dije que no montara la moto en Telegraph Hill por la noche",
+			"Answers":
+			[ 
+				"I told him not to ride his bike on Telegraph Hill at night.",
+				"I said him not to ride his bike on Telegraph Hill at night.",				
+				"I told to him not to ride his bike on Telegraph Hill at night."
+			]
+		},		
+		{
+			"Question": "Hay cientos de personas en la calle.",
+			"Answers":
+			[ 
+				"There are hundreds of people on the street.",
+				"There is hundreds of people on the street.",				
+				"There are hundreds of people in the street."
+			]
+		},
+		{
+			"Question": "Estoy deacuerdo con ella.",
+			"Answers":
+			[ 
+				"I agree with her",	
+				"I'm agree with her",
+				"I agree her"
+			]
+		},
+		{
+			"Question": "Me preguntó una pregunta con trampa.",
+			"Answers":
+			[ 
+				"She asked me a tricky question",	
+				"She made me a tricky question",	
+				"She asked to me a tricky question"
+			]
+		},
+		{
+			"Question": "Dime cual es el nombre.",
+			"Answers":
+			[ 
+				"Tell me what your name is.",	
+				"Tell to me what your name is.",
+				"Tell me what is your name."
+			]
+		},
+		{
+			"Question": "Lleva trabajando aqui dos años.",
+			"Answers":
+			[ 
+				"He's been working here for two years.",	
+				"He's been working here during two years.",
+				"He works here for two years."
+			]
+		},
+		{
+			"Question": "Dime cual es tu nombre.",
+			"Answers":
+			[ 
+				"Tell me what your name is.",	
+				"Tell to me what your name is.",
+				"Tell me what is your name."
+			]
+		},
+		{
+			"Question": "La gente vivía antes en esas cuevas.",
+			"Answers":
+			[
+				"The People used to live in those caves.",	
+				"People used t olive in these caves.",
+				"People used to live in those caves."				
+			]
+		}
+	] 	
+}

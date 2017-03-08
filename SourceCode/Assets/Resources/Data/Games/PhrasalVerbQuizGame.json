@@ -1,0 +1,1120 @@
+{
+	"PhrasalVerbQuiz":
+	[			
+		{
+			"Question": "I'm going to <color=#5bd3de>______________</color> drinking beer. I'm so fat that I can't see my feet anymore!",
+			"Answer": "I'm going to  <i><color=#5bd3de>give up</color></i>  drinking beer. I'm so fat that I can't see my feet anymore!",
+			"Translation":"-   Voy a dejar de beber cerveza. ¡Estoy tan gordo que no puedo ver mis pies ya!",
+			"Options":
+			[ 
+				"Give up",	
+				"Take up",
+				"Hurry up",
+				"Put up with"
+			]
+		},
+		{
+			"Question": "Rafa's    <color=#5bd3de>______________</color>   photography. He’s just bought one of the latest and most expensive digital cameras.",
+			"Answer": "Rafa's    <i><color=#5bd3de>taken up</color></i>    photography. He’s just bought one of the latest and most expensive digital cameras.",
+			"Translation":"-   Rafa ha empezado fotografía. Se acaba de comprar la cámara digital más actual cara y cara.",
+			"Options":
+			[ 
+				"Take up",	
+				"Give up",
+				"Hurry up",
+				"Put up with"
+			]
+		},
+		{
+			"Question": "I don’t know how my wife    <color=#5bd3de>______________</color>    me. I drink too much, I’m a bad husband and a I'm terrible person to live with.",
+			"Answer": "I don’t know how my wife   <i><color=#5bd3de>puts up with</color></i>   me. I drink too much, I’m a bad husband and a I'm terrible person to live with.",
+			"Translation":"-   No se como mi mujer me aguanta. Bebo mucho, soy un mal marido y una persona horrible con la que vivir.",
+			"Options":
+			[ 
+				"Put up with",	
+				"Give up",
+				"Hurry up",
+				"Take up"
+			]
+		},
+		{
+			"Question": "If you don’t <color=#5bd3de>______________</color> , we’ll miss the train!",
+			"Answer": "If you don’t   <i><color=#5bd3de>hurry up</color></i>   , we’ll miss the train!",
+			"Translation":"-   Si no te das prisa, ¡perderemos el tren!",
+			"Options":
+			[ 
+				"Hurry up",	
+				"Give up",
+				"Take up",
+				"Put up with"
+			]
+		},
+		{
+			"Question": "I’ve live in Madrid now, but I <color=#5bd3de>______________</color> in a small village in Argentina.",
+			"Answer": "I’ve live in Madrid now, but I   <i><color=#5bd3de>grew up</color></i>   in a small village in Argentina.",
+			"Translation":"-   Ahora vivo en Madrid, pero crecí en un pueblo pequeño de Argentina",
+			"Options":
+			[ 
+				"Grow up",	
+				"Wash up",
+				"Keep up with",
+				"Wake up"
+			]
+		},
+		{
+			"Question": "Leave the dirty dishes until tomorrow. I’ll    <color=#5bd3de>______________</color>    in the morning.",
+			"Answer": "Leave the dirty dishes until tomorrow. I’ll   <i><color=#5bd3de>wash them up</color></i>   in the morning.",
+			"Translation":"-   Deja los platos sucios hasta mañna. Los labaré por la mañana.",
+			"Options":
+			[ 
+				"Wash up",
+				"Grow up",				
+				"Keep up with",
+				"Wake up"
+			]
+		},
+		{
+			"Question": "My parents find it very difficult to <color=#5bd3de>______________</color> technology. The world is changing too fast for them.",
+			"Answer": "My parents find it very difficult to   <i><color=#5bd3de>keep up with</color></i>   technology. The world is changing too fast for them.",
+			"Translation":"-   A mis padres les cuesta estar al día con la tecnología. El mundo está cambiando demasiado rápido para ellos.",
+			"Options":
+			[ 
+				"Keep up with",
+				"Grow up",				
+				"Wash up",
+				"Wake up"
+			]
+		},
+		{
+			"Question": "I’m going to bed early tonight. Tomorrow I have to <color=#5bd3de>______________</color> at 6.30.",
+			"Answer": "I’m going to bed early tonight. Tomorrow I have to   <i><color=#5bd3de>wake up</color></i>   at 6.30.",
+			"Translation":"-   Me voy a ir a la cama pronto esta noche. Mañana tengo qeu levantarme a las 6:30",
+			"Options":
+			[ 
+				"Wake up",
+				"Grow up",				
+				"Wash up",
+				"Keep up with"
+			]
+		},
+		{
+			"Question":  "Please can you <color=#5bd3de>______________</color> the TV? I'm trying to study and it's really annoying me.",
+			"Answer": "Please can you   <i><color=#5bd3de>turn off / switch off</color></i>    the TV? I'm trying to study and it's really annoying me.",
+			"Translation":"-   ¿Puedes apagar la tele? Estoy intentado estudiar y me está molestando de verdad.",
+			"Options":
+			[ 
+				"Turn off / Switch off",
+				"Look forward to",				
+				"Take off",
+				"Try on"
+			]
+		},
+		{
+			"Question":  "I’m    <color=#5bd3de>______________</color> going on holiday next month. I really need a rest.",
+			"Answer": "I’m   <i><color=#5bd3de>looking forward to</color></i>    going on holiday next month. I really need a rest.",
+			"Translation":"-   Estoy deseando ir de vacaciones el próximo verano. De verdad necesito un descanso.",
+			"Options":
+			[ 
+				"Look forward to",
+				"Turn off / Switch off",				
+				"Take off",
+				"Try on"
+			]
+		},
+		{
+			"Question":  "Can I <color=#5bd3de>______________</color> this dress, please? I'm a size 10.",
+			"Answer": "Can I   <i><color=#5bd3de>try on</color></i>    this dress, please? I'm a size 10.",
+			"Translation":"-   ¿Puedo probarme este vestido, por favor? Tengo una talla 10.",
+			"Options":
+			[ 
+				"Try on",
+				"Turn off / Switch off",				
+				"Take off",
+				"Look forward to"
+			]
+		},
+		{
+			"Question":  "Excuse me. What time does the plane to Madrid <color=#5bd3de>______________</color>",
+			"Answer": "Excuse me. What time does the plane to Madrid   <i><color=#5bd3de>take off</color></i>",
+			"Translation":"-  Perdón. ¿A que hora despega el avión a Madrid?",
+			"Options":
+			[ 
+				"Take off",
+				"Turn off / Switch off",				
+				"Try on",
+				"Look forward to"
+			]
+		},
+		{
+			"Question":  "Have you got a pen? I'd like to <color=#5bd3de>______________</color>   your email address and phone number.",
+			"Answer": "Have you got a pen? I'd like to   <i><color=#5bd3de>write down</color></i>   your email address and phone number.",
+			"Translation":"-  ¿Tienes un boli? Me gustaría apuntar tu email y teléfono.",
+			"Options":
+			[ 
+				"Write down",
+				"Hold on",				
+				"Get on with",
+				"Pay your back"
+			]
+		},
+		{
+			"Question":  "Has your brother-in-law <color=#5bd3de>______________</color>   the money you lent him last month?",
+			"Answer": "Has your brother-in-law   <i><color=#5bd3de>paid you back</color></i>   the money you lent him last month?",
+			"Translation":"-   ¿Te ha devuelto tu cuñao el dierno que le prestaste el mes pasado?",
+			"Options":
+			[ 
+				"Pay back",
+				"Hold on",				
+				"Get on with",
+				"Write down"
+			]
+		},		
+		{
+			"Question":  "Do you <color=#5bd3de>______________</color>   your boss?",
+			"Answer": "Do you   <i><color=#5bd3de>get on with</color></i>   your boss?",
+			"Translation":"-   ¿Te llevas bien con tu jefe?",
+			"Options":
+			[ 
+				"Get on with",
+				"Hold on",				
+				"Pay back",
+				"Write down"
+			]
+		},
+		{
+			"Question":  "Tell the taxi driver to <color=#5bd3de>______________</color>    for a few minutes. I won't be long.",
+			"Answer": " Tell the taxi driver to   <i><color=#5bd3de>hold on</color></i>    for a few minutes. I won't be long.",
+			"Translation":"-   Dile al taxista qeu espere unos minutos. No será mucho.",
+			"Options":
+			[ 
+				"Hold on",
+				"Get on with",				
+				"Pay back",
+				"Write down"
+			]
+		},
+		{
+			"Question":  "We’ve    <color=#5bd3de>______________</color>    milk. Is black coffee ok?",
+			"Answer": "We’ve   <i><color=#5bd3de>run out of</color></i>    milk. Is black coffee ok?",
+			"Translation":"-   Nos hemos quedado sin leche. ¿Es café negor vale?",
+			"Options":
+			[ 
+				"Run out of",
+				"Break down",				
+				"Carry on",
+				"Throw away"
+			]
+		},
+		{
+			"Question":  "The doctor told me to <color=#5bd3de>______________</color>    taking the pills.",
+			"Answer": "The doctor told me to   <i><color=#5bd3de>carry on</color></i>    taking the pills.",
+			"Translation":"-  El doctor me dijo que siguiera tomando las pastillas.",
+			"Options":
+			[ 
+				"Carry on",
+				"Break down",				
+				"Run out of",
+				"Throw away"
+			]
+		},
+		{
+			"Question":  "I'm sorry I'm late. My car <color=#5bd3de>______________</color>    on the motorway",
+			"Answer": "I'm sorry I'm late. My car   <i><color=#5bd3de>broke down</color></i>    on the motorway",
+			"Translation":"-  Perdón llego tarde. Mi coche se estropeó en la autopista.",
+			"Options":
+			[ 
+				"Break down",
+				"Carry on",				
+				"Run out of",
+				"Throw away"
+			]
+		},
+		{
+			"Question":  "Why did you <color=#5bd3de>______________</color>   my blue jeans? I know they were old, but they were really comfortable.",
+			"Answer": "Why did you   <i><color=#5bd3de>Throw away</color></i>    my blue jeans? I know they were old, but they were really comfortable.",
+			"Translation":"-  ¿Por qué tiraste mis pantalones azules? Se que eran viejos, pero eran muy cómodos.",
+			"Options":
+			[ 
+				"Throw away",
+				"Break down",				
+				"Run out of",
+				"Carry on"
+			]
+		},
+		{
+			"Question":  "What were you <color=#5bd3de>______________</color>   with David?",
+			"Answer": "What were you   <i><color=#5bd3de>talking/speaking about</color></i>    with David?",
+			"Translation":"-  ¿De que estabas hablando con David?",
+			"Options":
+			[ 
+				"Talk/speak about",
+				"Look for",				
+				"Go away",
+				"Take after"
+			]
+		},
+		{
+			"Question":  "I'm   <color=#5bd3de>______________</color>   for a few days on business next week.",
+			"Answer": "I'm   <i><color=#5bd3de>going away</color></i>    for a few days on business next week.",
+			"Translation":"-  Me voy fuera unos días de viaje de negocios la próxima semana",
+			"Options":
+			[ 
+				"Go away",
+				"Look for",				
+				"Talk/speak about",
+				"Take after"
+			]
+		},
+		{
+			"Question":  "We're   <color=#5bd3de>______________</color>   a flat in the city centre.",
+			"Answer": "We're   <i><color=#5bd3de>looking for</color></i>    a flat in the city centre.",
+			"Translation":"-  Estamos buscando un piso en el centro de la ciudad.",
+			"Options":
+			[ 
+				"Look for",
+				"Go away",				
+				"Talk/speak about",
+				"Take after"
+			]
+		},
+		{
+			"Question":  "I   <color=#5bd3de>______________</color>  my dad, but my sister   <color=#5bd3de>______________</color>   our mum.",
+			"Answer": "I  <i><color=#5bd3de>taking after</color></i>    my dad, but my sister   <i><color=#5bd3de>taking after</color></i>   our mum.",
+			"Translation":"-   Yo me parezco a mi padre, pero mi hermana se para a mi hermana.",
+			"Options":
+			[ 
+				"Take after",
+				"Go away",				
+				"Talk/speak about",
+				"Look for"
+			]
+		},
+		{
+			"Question":  "What time do you have to   <color=#5bd3de>______________</color>  tomorrow?",
+			"Answer": "What time do you have to  <i><color=#5bd3de>get up</color></i>    tomorrow?",
+			"Translation":"-   ¿A qué hora nos tenemos que levantar mañana?",
+			"Options":
+			[ 
+				"Get up",
+				"Take back",				
+				"Sit down",
+				"Put off"
+			]
+		},
+		{
+			"Question":  "This shirt's too small. I'll have to   <color=#5bd3de>______________</color>   tomorrow.",
+			"Answer": "This shirt's too small. I'll have to  <i><color=#5bd3de>take it back</color></i>   tomorrow. ",
+			"Translation":"-   Esta camiseta es muy pequeña. Tendré que devolverla.",
+			"Options":
+			[ 
+				"Take back",
+				"Get up",				
+				"Sit down",
+				"Put off"
+			]
+		},
+		{
+			"Question":  "Sandra's off sick today, so we'll have to   <color=#5bd3de>______________</color>   the meeting until next week.",
+			"Answer": "Sandra's off sick today, so we'll have to  <i><color=#5bd3de>put off</color></i>   the meeting until next week.",
+			"Translation":"-   Sandra está enferma hoy, asi que tendremos que posponer la reunión hasta la semana que viene.",
+			"Options":
+			[ 
+				"Put off",
+				"Get up",				
+				"Sit down",
+				"Take back"
+			]
+		},
+		{
+			"Question":  "Please   <color=#5bd3de>______________</color>   and make yourself comfortable. Mr. Smith will be with you in a few minutes.",
+			"Answer": "Please  <i><color=#5bd3de>sit down</color></i>   and make yourself comfortable. Mr. Smith will be with you in a few minutes.",
+			"Translation":"-   Por favor, sientate y ponte cómodo. Mr. Smith estará con usted en unos minutos.",
+			"Options":
+			[ 
+				"Sit down",
+				"Get up",				
+				"Put off",
+				"Take back"
+			]
+		},
+		{
+			"Question":  "I have to go to London on business for a few days. Would you mind   <color=#5bd3de>______________</color>   my cat while I'm away.",
+			"Answer": "I have to go to London on business for a few days. Would you mind  <i><color=#5bd3de>looking after</color></i>   my cat while I'm away.",
+			"Translation":"-   Tengo que ir a Londres de negocios uno par de dias. ¿Te impotaría cuidar de mi cat mientras estoy fuera?.",
+			"Options":
+			[ 
+				"Look after",
+				"Cut down",				
+				"Pick up",
+				"Bring up"
+			]
+		},
+		{
+			"Question":  "If you don't   <color=#5bd3de>______________</color>  on smoking, drinking and sex, you don't live longer. It just seems like it.",
+			"Answer": "If you don't    <i><color=#5bd3de>cut down</color></i>  on smoking, drinking and sex, you don't live longer. It just seems like it.",
+			"Translation":"-   Si no reduces el consumo de tabajo, bebida y sexo, no vivirás mucho. Parece que es así.",
+			"Options":
+			[ 
+				"Cut down",
+				"Look after",				
+				"Pick up",
+				"Bring up"
+			]
+		},
+		{
+			"Question":  "It’s difficult to   <color=#5bd3de>______________</color>  four children on a bus driver’s salary.",
+			"Answer": "It’s difficult to    <i><color=#5bd3de>bring up</color></i>  four children on a bus driver’s salary.",
+			"Translation":"-   Es difícil educar a 4 niños con un salario de conductor de autobús.",
+			"Options":
+			[ 
+				"Bring up",
+				"Look after",				
+				"Pick up",
+				"Cut down"
+			]
+		},
+		{
+			"Question":  "If it’s raining this afternoon, can you   <color=#5bd3de>______________</color>  from work?",
+			"Answer": "If it’s raining this afternoon, can you    <i><color=#5bd3de>pick me up</color></i>  from work?",
+			"Translation":"-   Si llueve esta tarde, ¿podrías recogerme del trabajo?.",
+			"Options":
+			[ 
+				"Pick up",
+				"Look after",				
+				"Bring up",
+				"Cut down"
+			]
+		},
+		{
+			"Question":  "My parents expected me to be a doctor or lawyer. When I chose a career in writing, I felt like I had   <color=#5bd3de>______________</color>",
+			"Answer": "My parents expected me to be a doctor or lawyer. When I chose a career in writing, I felt like I had   <i><color=#5bd3de>Let them down</color></i>",
+			"Translation":"-  Mis padres esperaban de mi ser doctor o abogado. Cuando elegí una trayectoria en escritura, sentí como si los hubiese decepcionado.",
+			"Options":
+			[ 
+				"Let down",
+				"Get over",				
+				"Shaken up",
+				"Cracked up"
+			]
+		},
+		{
+			"Question":  "A drunk driver lost control of his car and crashed into a tree right in front of our house. Luckily no one was hurt, but we were all pretty   <color=#5bd3de>______________</color>",
+			"Answer": "A drunk driver lost control of his car and crashed into a tree right in front of our house. Luckily no one was hurt, but we were all pretty    <i><color=#5bd3de>shaken up</color></i>",
+			"Translation":"-  Un conductor borracho perdió el control de su coche y lo estrellón contra un árbol justo en frente de nuestra casa. Por suerte nadie fue herido, pero estuvimos bastante afectados.",
+			"Options":
+			[ 
+				"Shaken up",
+				"Cracked up",				
+				"Blow up",
+				"Get over"
+			]
+		},
+		{
+			"Question":  "Joanna was upset that she didn't get into the university she wanted, but she   <color=#5bd3de>______________</color>   when she received a full scholarship to another excellent school",
+			"Answer": "Joanna was upset that she didn't get into the university she wanted, but she   <i><color=#5bd3de>cheered up</color></i>   when she received a full scholarship to another excellent school",
+			"Translation":"-  Joanna estaba moleta ya que  no consigió entrar en la universidad que quería, pero se animó cuando recibió una beca completa para otra universidad excelente.",
+			"Options":
+			[ 
+				"Cheer up",
+				"Cracked up",				
+				"Freak out",
+				"Let down"
+			]
+		},
+		{
+			"Question":  "Mike and I agreed to meet at the cafe at 7 o'clock, but he never   <color=#5bd3de>______________</color>   I waited for an hour and then went home.",
+			"Answer": "Mike and I agreed to meet at the cafe at 7 o'clock, but he never   <i><color=#5bd3de>showed up</color></i>   I waited for an hour and then went home.",
+			"Translation":"-  Mike y yo estuvimos de acuerdo en encontrarnos a las 7 en el café, pero el nunca apareció. Esperé una hora y entonces me fui a casa.",
+			"Options":
+			[ 
+				"Show up",
+				"Head out",				
+				"Take along",
+				"Came along"
+			]
+		},
+		{
+			"Question":  "I   <color=#5bd3de>______________</color>  really well with my dad. I feel like I can talk to him about anything.",
+			"Answer": "I   <i><color=#5bd3de>get along</color></i>   really well with my dad. I feel like I can talk to him about anything.",
+			"Translation":"-  Me llevo muy bien con mi padre, siento que puedo hablar con él de cualquier cosa.",
+			"Options":
+			[ 
+				"Get along",
+				"Fit in",				
+				"Pass for",
+				"Take along"
+			]
+		},
+		{
+			"Question":  "She's so confident that she sometimes   <color=#5bd3de>______________</color>   as a little arrogant.",
+			"Answer": "She's so confident that she sometimes   <i><color=#5bd3de>comes across</color></i>   as a little arrogant.",
+			"Translation":"-  Ella es tan confiada que a veces puede dar la iempreser de ser un poco arrogante.",
+			"Options":
+			[ 
+				"Come across",
+				"Look up to",				
+				"Pass for",
+				"Get along"
+			]
+		},
+		{
+			"Question":  "We're going to drop by the hospital to see how Sheila's doing after her surgery. Would you like to   <color=#5bd3de>______________</color>   ?",
+			"Answer": "We're going to drop by the hospital to see how Sheila's doing after her surgery. Would you like to   <i><color=#5bd3de>come along</color></i>  ?",
+			"Translation":"-  Vamos a parar en el hospital para ver como está Sheila despues de la cirugía. ¿Te gusta´ria acompañarnos?",
+			"Options":
+			[ 
+				"Come along",
+				"Come across",				
+				"Look up to",
+				"Get along"
+			]
+		},
+		{
+			"Question":  "On Saturday I   <color=#5bd3de>______________</color>   friends for a barbecue at the beach",
+			"Answer": "On Saturday I   <i><color=#5bd3de>met up with</color></i>  friends for a barbecue at the beach",
+			"Translation":"-  El sábado quedé con unos amigos para una barbacoa en la playa.",
+			"Options":
+			[ 
+				"Meet up",
+				"Come across",				
+				"Look up to",
+				"Get along"
+			]
+		},
+		{
+			"Question":  " If you don’t have his number, why don’t you   <color=#5bd3de>______________</color>    in the phone book?",
+			"Answer": " If you don’t have his number, why don’t you   <i><color=#5bd3de>Look it up</color></i>  in the phone book?",
+			"Translation":"-  Si no tienes su número, ¿porque no lo buscas en la agenda?",
+			"Options":
+			[ 
+				"Look up",
+				"Pick up",				
+				"Go off",
+				"Bring up"
+			]
+		},
+		{
+			"Question":  "The only reason you go to that horrible bar is to   <color=#5bd3de>______________</color>    girls.",
+			"Answer": "The only reason you go to that horrible bar is to   <i><color=#5bd3de>pick up</color></i>  girls.",
+			"Translation":"-  La única razón por la que vas a ese horrible bar es para ligar con chicas.",
+			"Options":
+			[ 
+				"Pick up",
+				"Look up",				
+				"Go off",
+				"Bring up"
+			]
+		},
+		{
+			"Question":  "It was so windy yesterday that my car alarm   <color=#5bd3de>______________</color>",
+			"Answer": "It was so windy yesterday that my car alarm   <i><color=#5bd3de>went off</color></i>",
+			"Translation":"-  Hacía tanto viento ayer que la alarma de mi coche sonó.",
+			"Options":
+			[ 
+				"Go off",
+				"Look up",				
+				"Pick up",
+				"Bring up"
+			]
+		},
+		{
+			"Question":  " Go to bed now if you don’t feel well, and I’ll   <color=#5bd3de>______________</color>    some hot chocolate.",
+			"Answer": " Go to bed now if you don’t feel well, and I’ll   <i><color=#5bd3de>Bring you up</color></i>    some hot chocolate.",
+			"Translation":"-  Ve a la cama si no te sientes bien, y yo te subiré chocolate caliente.",
+			"Options":
+			[ 
+				"Bring up",
+				"Look up",				
+				"Pick up",
+				"Go off"
+			]
+		},
+		{
+			"Question":  "Please   <color=#5bd3de>______________</color>    after you're finished using them.",
+			"Answer": "Please   <i><color=#5bd3de>put the scissors away</color></i>    after you're finished using them.",
+			"Translation":"-  Por favor, coloca las tijeras despues de que acabes de usarlas.",
+			"Options":
+			[ 
+				"Put away",
+				"Look up",				
+				"Pick up",
+				"Look after"
+			]
+		},
+		{
+			"Question":  "No, I didn't stay in a hotel. A friend of mine   <color=#5bd3de>______________</color>   for the night.",
+			"Answer": "No, I didn't stay in a hotel. A friend of mine   <i><color=#5bd3de>put me up</color></i>    for the night.",
+			"Translation":"-  No, no me quedé en un hotel. Un amigo mío me dejó quedarme en su casa por la noche.",
+			"Options":
+			[ 
+				"Put up",
+				"Slept in",				
+				"Go ahead",
+				"Look after"
+			]
+		},
+		{
+			"Question":  "You should get some rest. We have a long trip tomorrow and you don't want to    <color=#5bd3de>______________</color>  while driving.",
+			"Answer": "You should get some rest. We have a long trip tomorrow and you don't want to    <i><color=#5bd3de>nod off</color></i>    while driving.",
+			"Translation":"- Deberías descansar. Tenemos un largo viaje mañana y no quieres quedarte dormido mientras conduces.",
+			"Options":
+			[ 
+				"Nod up",
+				"Slept in",				
+				"Sleep over",
+				"Wake up"
+			]
+		},
+		{
+			"Question":  "I let my kids    <color=#5bd3de>______________</color>  until midnight so they could see the fireworks on New Year's",
+			"Answer": "I let my kids    <i><color=#5bd3de>stay up</color></i>    until midnight so they could see the fireworks on New Year's",
+			"Translation":"- Dejé a mis hijos quedarse despiertos hasta media noche, así pudiero vern los fuegos artificiales de Nuevo Año.",
+			"Options":
+			[ 
+				"Stay up",
+				"Hang up",				
+				"Get up",
+				"Wake up"
+			]
+		},
+		{
+			"Question":  "I can't find anyone to    <color=#5bd3de>______________</color>  my dogs while I'm on vacation.",
+			"Answer": "I can't find anyone to    <i><color=#5bd3de>look after</color></i>    my dogs while I'm on vacation.",
+			"Translation":" - No encuentro a nadie que cuide de mis perros mientras estoy de vacaciones.",
+			"Options":
+			[ 
+				"Look after",
+				"Lock out",				
+				"Put away",
+				"Go ahead"
+			]
+		},
+		{
+			"Question":  "I just spilled some soda on the table - can you hand me a paper towel to    <color=#5bd3de>______________</color>  ?",
+			"Answer": "I just spilled some soda on the table - can you hand me a paper towel to    <i><color=#5bd3de>wipe it up</color></i>    ?",
+			"Translation":" - He derramado soda en la mesa, ¿Puedes acercarme una toalla para limpiarlo?",
+			"Options":
+			[ 
+				"Wipe up",
+				"Put away",				
+				"Heat up",
+				"Chop up"
+			]
+		},
+		{
+			"Question":  "The eggs that were in the fridge went bad, so I    <color=#5bd3de>______________</color> ",
+			"Answer": "The eggs that were in the fridge went bad, so I    <i><color=#5bd3de>threw them away</color></i>",
+			"Translation":" - Los huevos que estaban en la nevera se pusieron malos, asi que los tiré.",
+			"Options":
+			[ 
+				"Throw away",
+				"Boil over",				
+				"Crash with",
+				"Chop up"
+			]
+		},
+		{
+			"Question":  "<color=#5bd3de>______________</color>    and eat the last piece of pizza - I don't want it.",
+			"Answer": "<i><color=#5bd3de>Go ahead</color></i>    and eat the last piece of pizza - I don't want it.",
+			"Translation":" - Ve y comete el último trozo de pizza, no lo quiero.",
+			"Options":
+			[ 
+				"Go ahead",
+				"Get up",				
+				"Heat up",
+				"Warm up"
+			]
+		},
+		{
+			"Question":  "Last Saturday I had to finish up some work. I don't have a key to the office, but the security guard    <color=#5bd3de>______________</color>",
+			"Answer": "Last Saturday I had to finish up some work. I don't have a key to the office, but the security guard    <i><color=#5bd3de>let me in</color></i>",
+			"Translation":" - El último sábado, tuve que terminar algo de trabajo. No tengo la llave de la oficina, pero el guardia de seguridad me dejó entrar.",
+			"Options":
+			[ 
+				"Let in",
+				"Lock out",				
+				"Heat up",
+				"Put up"
+			]
+		},
+		{
+			"Question":  "My daughter is planning to    <color=#5bd3de>______________</color>    a very competitive gymnastics team.",
+			"Answer": "My daughter is planning to    <i><color=#5bd3de>try out for</color></i>    a very competitive gymnastics team.",
+			"Translation":" - Mi hija está planeando intentar entrar en un equipo de gimnasia muy competitivo.",
+			"Options":
+			[ 
+				"Try out",
+				"Work out",				
+				"Come down",
+				"Bulk up"
+			]
+		},
+		{
+			"Question":  "I'm not a fitness fanatic, but I do try to    <color=#5bd3de>______________</color>    three times a week.",
+			"Answer": "I'm not a fitness fanatic, but I do try to   <i><color=#5bd3de>work out</color></i>    three times a week.",
+			"Translation":" - No soy un fanático del fitnes, pero intento ejercitar tres veces por semana.",
+			"Options":
+			[ 
+				"Work out",
+				"Try out",				
+				"Come down",
+				"Bulk up"
+			]
+		},
+		{
+			"Question":  "We had to get our car professionally cleaned after my son    <color=#5bd3de>______________</color>    all over the back seat.",
+			"Answer": "We had to get our car professionally cleaned after my son   <i><color=#5bd3de>threw up</color></i>    all over the back seat.",
+			"Translation":" - Tuvimos que manar a limpiar nuestro coche profesionalmente después de que mi hijo vomitara todo el asiento de atrás.",
+			"Options":
+			[ 
+				"Throw up",
+				"Pass out",				
+				"Stuff up",
+				"Bulk up"
+			]
+		},
+		{
+			"Question":  "My weight has gone up and down for years. I just can't seem to    <color=#5bd3de>______________</color>    a diet.",
+			"Answer": "My weight has gone up and down for years. I just can't seem to   <i><color=#5bd3de>stick to</color></i>    a diet.",
+			"Translation":" - Mi peso ha ido arriba y abajo durante años, no veo una dieta con la que quedarme.",
+			"Options":
+			[ 
+				"Stick to",
+				"Feel up",				
+				"Come down",
+				"Cut down"
+			]
+		},	
+		{
+			"Question":  "My weight has gone up and down for years. I just can't seem to    <color=#5bd3de>______________</color>    a diet.",
+			"Answer": "My weight has gone up and down for years. I just can't seem to   <i><color=#5bd3de>stick to</color></i>    a diet.",
+			"Translation":" - Mi peso ha ido arriba y abajo durante años, no veo una dieta con la que quedarme.",
+			"Options":
+			[ 
+				"Stick to",
+				"Feel up",				
+				"Come down",
+				"Cut down"
+			]
+		},
+		{
+			"Question":  "Do you    <color=#5bd3de>______________</color>    going for a walk, or is your stomach still hurting?",
+			"Answer": "Do you   <i><color=#5bd3de>feel up to</color></i>    going for a walk, or is your stomach still hurting?",
+			"Translation":" - ¿Te sientes bien para ir a dar un paseo, o todavía te duele el estómago?",
+			"Options":
+			[ 
+				"Feel up",
+				"Stick up",				
+				"Come down",
+				"Cut down"
+			]
+		},
+		{
+			"Question":  "I could never be a vegetarian. It'd be impossible for me to    <color=#5bd3de>______________</color>    hamburgers.",
+			"Answer": "I could never be a vegetarian. It'd be impossible for me to   <i><color=#5bd3de>give up</color></i>    hamburgers.",
+			"Translation":" - ¿Te sientes bien para ir a dar un paseo, o todavía te duele el estómago?",
+			"Options":
+			[ 
+				"Give up",
+				"Throw up",				
+				"Come down",
+				"Cut down"
+			]
+		},
+		{
+			"Question":  "Go to your bedroom NOW and    <color=#5bd3de>______________</color>    all your dirty clothes!",
+			"Answer": "Go to your bedroom NOW and   <i><color=#5bd3de>pick up</color></i>    all your dirty clothes!",
+			"Translation":" - ¡Ve a tu habitación ahora y recoge toda tu ropa sucia!",
+			"Options":
+			[ 
+				"Pick up",
+				"Bring up",				
+				"Take off",
+				"Look up"
+			]
+		},
+		{
+			"Question":  " I’ve been given more work and I’m earning more money this month, so things are really    <color=#5bd3de>______________</color>",
+			"Answer": " I’ve been given more work and I’m earning more money this month, so things are really   <i><color=#5bd3de>looking up</color></i>",
+			"Translation":" - He hecho más trabajo y estoy ganando más dinero este mes, asi que las cosas está mejorando",
+			"Options":
+			[ 
+				"Look up",
+				"Pick up",
+				"Bring up",				
+				"Take off"				
+			]
+		},
+		{
+			"Question":  "  My parents hate talking about my job at the strip club, so please don’t    <color=#5bd3de>______________</color>",
+			"Answer": "  My parents hate talking about my job at the strip club, so please don’t   <i><color=#5bd3de>bring it up</color></i>",
+			"Translation":" - Mis padres odian hablar sobre mi trabajo en el club de striptease, a si que por favor no saques el tema.",
+			"Options":
+			[ 
+				"Bring up",
+				"Pick up",								
+				"Take off",
+				"Look up"
+			]
+		},
+		{
+			"Question":  "  Our business hasn’t    <color=#5bd3de>______________</color>    yet, but it’s only the first year.",
+			"Answer": "  Our business hasn’t   <i><color=#5bd3de>taken off</color></i>    yet, but it’s only the first year.",
+			"Translation":" - Nuestro negocio no ha tenido éxito todavía, pero solo es el primer año.",
+			"Options":
+			[ 
+				"Take off",
+				"Bring up",
+				"Pick up",	
+				"Look up"
+			]
+		},
+		{
+			"Question":  "  Many founders of successful companies have    <color=#5bd3de>______________</color>    of college to work on their businesses.",
+			"Answer": "  Many founders of successful companies have   <i><color=#5bd3de>dropped out</color></i>    of college to work on their businesses.",
+			"Translation":" - Muchos fundadores de companías de éxitos han dejado el colegio para trabajar en sus negocios.",
+			"Options":
+			[ 
+				"Drop out",
+				"Got ahead",
+				"Jot down",	
+				"Kick out"
+			]
+		},
+		{
+			"Question":  "  If you can't go to the meeting, I'll send you an e-mail    <color=#5bd3de>______________</color>    the main points afterwards",
+			"Answer": " If you can't go to the meeting, I'll send you an e-mail   <i><color=#5bd3de>summing up</color></i>    the main points afterwards",
+			"Translation":" - Si no puedes ir a la reunión, te mandaré un e-mail resumiendo los puntos principales despues.",
+			"Options":
+			[ 
+				"Sum up",
+				"Cram for",
+				"Give out",	
+				"Kick out"
+			]
+		},
+		{
+			"Question":  " I have plenty of time to finish writing this article. I don't have to    <color=#5bd3de>______________</color>    until the end of the month.",
+			"Answer": " I have plenty of time to finish writing this article. I don't have to   <i><color=#5bd3de>turn it in</color></i>    until the end of the month.",
+			"Translation":" - Tengo suficiente tiempo para acabar de escribir este artículo. No tengo que entregarlo hasta final de mes.",
+			"Options":
+			[ 
+				"Turn in",
+				"Catch up with",
+				"Look over",	
+				"Give out"
+			]
+		},
+		{
+			"Question":  " That new restaurant is    <color=#5bd3de>______________</color>     free samples of their food to help attact customers.",
+			"Answer": " That new restaurant is   <i><color=#5bd3de>giving out</color></i>    free samples of their food to help attact customers.",
+			"Translation":" - Ese nuevo restaurante está repartiendo muestras gratis de su comida para atraer clientes.",
+			"Options":
+			[ 
+				"Give out",
+				"Catch up with",
+				"Kick out",	
+				"Drop out"
+			]
+		},
+		{
+			"Question":  " It sounds like something's wrong with the engine. We should probably    <color=#5bd3de>______________</color>     and take a look.",
+			"Answer": " It sounds like something's wrong with the engine. We should probably   <i><color=#5bd3de>pull over</color></i>     and take a look.",
+			"Translation":" - Suena como is algo estuviera mal en el motor. Deberíamos aparcar en lado y mirar.",
+			"Options":
+			[ 
+				"Pull over",
+				"Break down",
+				"Speed up",	
+				"Drop out"
+			]
+		},
+		{
+			"Question":  "You missed the exit - you need to    <color=#5bd3de>______________</color>     and drive back about 2 miles.",
+			"Answer": " You missed the exit - you need to   <i><color=#5bd3de>turn around</color></i>     and drive back about 2 miles.",
+			"Translation":" - Te has pasado la parada, tienes que girar y conducir hacia aqui unas 2 millas.",
+			"Options":
+			[ 
+				"Turn around",
+				"Break down",
+				"Set off",	
+				"Pull over"
+			]
+		},
+		{
+			"Question":  " I've got a lot of work to do right now, but I might be able to    <color=#5bd3de>______________</color>     for a few days next month.",
+			"Answer": " I've got a lot of work to do right now, but I might be able to   <i><color=#5bd3de>get away</color></i>     for a few days next month.",
+			"Translation":" - Tengo mucho trabajo que hacer ahora mismo, pero quizá podré hacer una escapada un par de días el próximo mes.",
+			"Options":
+			[ 
+				"Get away",
+				"Cut off",
+				"Set off",	
+				"Speed up"
+			]
+		},
+		{
+			"Question":  " I had to pay $2000 to fix my car after it    <color=#5bd3de>______________</color>",
+			"Answer": " I had to pay $2000 to fix my car after it   <i><color=#5bd3de>broke down</color></i>",
+			"Translation":" - Tuve que pagar $2000 para arreglar mi coche despues de que se estropease.",
+			"Options":
+			[ 
+				"Break down",
+				"Cut off",
+				"Roll down",	
+				"Slow donw"
+			]
+		},		
+		{
+			"Question":  " I was    <color=#5bd3de>______________</color>   three months ago, and I haven't been able to find work since.",
+			"Answer": " I was   <i><color=#5bd3de>laid off</color></i>   three months ago, and I haven't been able to find work since.",
+			"Translation":" - Me despidieron hace tres meses y no he sido capaz de encontrar trabajo desde entonces." ,
+			"Options":
+			[ 
+				"Lay off",
+				"Nail down",
+				"Tie up",	
+				"Shot down"
+			]
+		},
+		{
+			"Question":  " I joined the company as an intern and    <color=#5bd3de>______________</color>   for a whole year before being promoted.",
+			"Answer": " I joined the company as an intern and   <i><color=#5bd3de>slaved away</color></i>   for a whole year before being promoted.",
+			"Translation":" - Me uní a la companñia como interno y me maté a trabajar durante un año completo antes de ser ascendido." ,
+			"Options":
+			[ 
+				"Slave away",
+				"Nail down",
+				"Tie up",	
+				"Shot down"
+			]
+		},		
+		{
+			"Question":  " I have an old computer. It takes forever to    <color=#5bd3de>______________</color>",
+			"Answer": " I have an old computer. It takes forever to   <i><color=#5bd3de>boot up</color></i>",
+			"Translation":" - Tengo un ordenador viejo. Tarda mucho en arrancar." ,
+			"Options":
+			[ 
+				"Boot up",
+				"Scroll down",
+				"Type in",	
+				"Log out"
+			]
+		},
+		{
+			"Question":  " I need a place to    <color=#5bd3de>______________</color>   my laptop, I only have 10 minutes of battery life left.",
+			"Answer": " I need a place to   <i><color=#5bd3de>plug in</color></i>   my laptop, I only have 10 minutes of battery life left.",
+			"Translation":" - Necesito un sitio para conectar mi portátil. Solo tengo 10 minutors de vida de la batería." ,
+			"Options":
+			[ 
+				"Plug in",
+				"Screw up",
+				"Log on",	
+				"Boot up"
+			]
+		},	
+		{
+			"Question":  " My dad's good with computers. He'll help you    <color=#5bd3de>______________</color>  your wireles network.",
+			"Answer": " My dad's good with computers. He'll help you    <color=#5bd3de>set up</color>  your wireles network.",
+			"Translation":" - Mi padre es bueno con ordenadores. Te ayudará a configurar la red wifi." ,
+			"Options":
+			[ 
+				"Set up",
+				"Count on",
+				"Check out",	
+				"Boot up"
+			]
+		},
+		{
+			"Question":  " Oops, I must have    <color=#5bd3de>______________</color>  during the installation, because the program won't open.",
+			"Answer": " Oops, I must have    <color=#5bd3de>mess up</color>  during the installation, because the program won't open.",
+			"Translation":" - Ups, debo de haberla fastidiado durante la instalación, ya que el programa no abre." ,
+			"Options":
+			[ 
+				"Mess up",
+				"Boot up",
+				"Poop up",	
+				"Check out"
+			]
+		},
+		{
+			"Question":  " <color=#5bd3de>______________</color>  to the top of the page. I want to read the first paragraph of this article again.",
+			"Answer": " <color=#5bd3de>Scroll up</color>  to the top of the page. I want to read the first paragraph of this article again.",
+			"Translation":" - Desplázate hacia arriba de la página. Quiero leer el primer párrafo de este artículo otra vez." ,
+			"Options":
+			[ 
+				"Scroll up",
+				"Scroll down",
+				"Lock up",	
+				"Hook up"
+			]
+		},
+		{
+			"Question":  "I    <color=#5bd3de>______________</color>    the bus at the wrong stop and had to ask for directions.",
+			"Answer": "I    <color=#5bd3de>got off</color>    the bus at the wrong stop and had to ask for directions.",
+			"Translation":" - Me bjaé en la parada de bus equivocada y tuve que preguntar por direcciones." ,
+			"Options":
+			[ 
+				"Got off",
+				"Take off",
+				"Turn out",	
+				"Lock up"
+			]
+		},
+		{
+			"Question":  "I only wanted to buy a small present for my mother, but everything in the store was so beautiful that I    <color=#5bd3de>______________</color>    getting gifts for my entire family.",
+			"Answer": "I only wanted to buy a small present for my mother, but everything in the store was so beautiful that I    <color=#5bd3de>ended up</color>    getting gifts for my entire family.",
+			"Translation":" - Solo quería comprar un regalo pequeño para mi madre, pero todo lo de la tienda era tan bonito que acabé comprando regalos para la familia entera." ,
+			"Options":
+			[ 
+				"End up",
+				"Check out",
+				"Turn out",	
+				"Lock up"
+			]
+		},
+		{
+			"Question":  "When I'm traveling, I prefer to    <color=#5bd3de>______________</color>    with locals rather than with other tourists.",
+			"Answer": "When I'm traveling, I prefer to    <color=#5bd3de>hang out</color>    with locals rather than with other tourists.",
+			"Translation":" - Cuando viajo, prefiero salir con gente del sitio más que con otros turistas." ,
+			"Options":
+			[ 
+				"Hang out",
+				"Get off",
+				"Turn out",	
+				"End up"
+			]
+		},
+		{
+			"Question":  "My son wants to be a fireman when he    <color=#5bd3de>______________</color>.",
+			"Answer": "My son wants to be a fireman when he    <color=#5bd3de>grows up</color>.",
+			"Translation":" - Mi hijo quiere ser bombero cuando crezca." ,
+			"Options":
+			[ 
+				"Grew up",
+				"Bring up",
+				"Hurry up",	
+				"End up"
+			]
+		},
+		{
+			"Question":  "This project isn't very high priority, just do it whenever you can    <color=#5bd3de>______________</color>    to.",
+			"Answer": "This project isn't very high priority, just do it whenever you can    <color=#5bd3de>get around</color>    to.",
+			"Translation":" - Este proyecto no tiene mucha prioridad, hazlo solo cuando puedas tengas tiempo." ,
+			"Options":
+			[ 
+				"Get around",
+				"Look forward",
+				"Take after",	
+				"End up"
+			]
+		},
+		{
+			"Question":  "My ex-girlfriend    <color=#5bd3de>______________</color>    calling me and begging for another chance, so I finally blocked her number.",
+			"Answer": "My ex-girlfriend    <color=#5bd3de>kept on</color>    calling me and begging for another chance, so I finally blocked her number.",
+			"Translation":" - Mi ex novia siguió llamándome y suplicar otra oportunidad, a si que al final la bloqué el número." ,
+			"Options":
+			[ 
+				"Keep on",
+				"Grow up",
+				"Take after",	
+				"Put off"
+			]
+		},
+		{
+			"Question":  "<color=#5bd3de>______________</color>    and finish packing - we need to leave for the airport in ten minutes!",
+			"Answer": "<color=#5bd3de>Hurry up</color>    and finish packing - we need to leave for the airport in ten minutes!",
+			"Translation":" - Date prisa y acaba de hacer las maletas, ¡tenemos que salir hacia el aeropuerto en 10 minutos!" ,
+			"Options":
+			[ 
+				"Hurry up",
+				"Hold on",
+				"Come on",	
+				"Put off"
+			]
+		},
+		{
+			"Question":  "Brenda won't be at work today - her father    <color=#5bd3de>______________</color>    just last night and she's taking care of the funeral arrangements.",
+			"Answer": "Brenda won't be at work today - her father    <color=#5bd3de>passed away</color>    just last night and she's taking care of the funeral arrangements.",
+			"Translation":" - Brenda no estará hoy en el trabajo, su padre fallecío justo anoche y está llevanod a caba todos lo necesario para el funeral" ,
+			"Options":
+			[ 
+				"Pass away",
+				"Move away",
+				"Take after",	
+				"Put off"
+			]
+		},
+		{
+			"Question":  "The negotiations took a long time and there were a few miscommunications during the process, but everything eventually    <color=#5bd3de>______________</color>    and we all agreed to the partnership.",
+			"Answer": "The negotiations took a long time and there were a few miscommunications during the process, but everything eventually    <color=#5bd3de>worked out</color>    and we all agreed to the partnership.",
+			"Translation":" - Las negociaciones llevaron mucho tiempo y hubo algunos malentendidos durante el proceso, pero al final todo funcionó y todos estuvimos de acuerdo con el colaborador." ,
+			"Options":
+			[ 
+				"Work out",
+				"Look up",
+				"Switch back",	
+				"Put off"
+			]
+		},
+		{
+			"Question":  "I need the phone number for the restaurant. Could you <color=#5bd3de>______________</color> online?",
+			"Answer": "I need the phone number for the restaurant. Could you <color=#5bd3de>look it up</color> online?",
+			"Translation":" - Necesito el teléfon odel restaurante. ¿Puedes buscarlo en internet?" ,
+			"Options":
+			[ 
+				"Look up",
+				"Croos out",
+				"Put off",	
+				"Work out"
+			]
+		},
+		{
+			"Question":  "I don't know if I've been accepted into the program yet - I should <color=#5bd3de>______________</color> in the next few days.",
+			"Answer": "I don't know if I've been accepted into the program yet - I should <color=#5bd3de>find out</color> in the next few days.",
+			"Translation":" - No se si he sido aceptada en el programa ya. Debería saberlo en los próximos días." ,
+			"Options":
+			[ 
+				"Find out",
+				"Look up",
+				"Put off",	
+				"Work out"
+			]
+		},
+		{
+			"Question":  "I couldn't <color=#5bd3de>______________</color>  the difference between the present perfect and the past perfect, so I had to ask my teacher.",
+			"Answer": "I couldn't <color=#5bd3de>figure out</color>  the difference between the present perfect and the past perfect, so I had to ask my teacher.",
+			"Translation":" - No pude descubrir la diferencia entre el presente perfecto y el pasado perfecto, a si que tuve que preguntar a mi profesora." ,
+			"Options":
+			[ 
+				"Figure out",
+				"Look up",
+				"Find out",	
+				"Work out"
+			]
+		},
+    {
+      "Question": "After I <color=#5bd3de>______________</color>  I realized I'd forgotten to ask the travel agent an important question, so I called him back.",
+      "Answer": "After I <color=#5bd3de>hung up</color>  I realized I'd forgotten to ask the travel agent an important question, so I called him back.",
+      "Translation": " - Despues de colgar, me dí cuenta de que había olvidado preguntar al agente de viaje una importante pregunta, a si que le volví a llamar.",
+      "Options": [
+        "Hung up",
+        "Look up",
+        "Find out",
+        "Figure out"
+      ]
+    },
+    {
+			"Question":  "My son is lazy. I try to teach him about the importance of hard work, but I can't seem to <color=#5bd3de>______________</color>  him.",
+			"Answer": "My son is lazy. I try to teach him about the importance of hard work, but I can't seem to <color=#5bd3de>get through to</color>  him.",
+			"Translation":" -  Mi hijo es vago. Intento enseñarle lo importante del trabajo duro pero no consigo hacerselo entender." ,
+			"Options":
+			[ 
+				"Get through",
+				"Lighten up",
+				"Take up with",	
+				"Figure out"
+			]
+		}
+	] 	
+}

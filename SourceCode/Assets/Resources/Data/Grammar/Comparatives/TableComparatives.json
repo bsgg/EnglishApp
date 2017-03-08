@@ -1,0 +1,16 @@
+{
+	"Title": "Extra Have Got Examples",
+	"HeightTable": 80,
+	"HasHeaderRow":false,
+	"HeaderRow": 
+	[
+		"<color=#FDFF87><size=25>Extra Comparative Examples</size></color>"
+	],
+	"Rows":
+	[ 		
+		"<color=#FDFF87><size=23>Since she started working here, her spanish has been getting better and better.</size></color>\nDesde que ella empezó a trabajar aquí su español es cada vez mejor.",
+		"<color=#FDFF87><size=23>Since they came back from Berlín, their German has been getting worse and worse.</size></color>\nDesde que regresaron de Berlín su alemán es cada vez peor.",		
+		"<color=#FDFF87><size=23>Ese programa de televisión es cada vez menos gracioso</size></color>\nThat TV program is getting less and less funny.",		
+		"<color=#FDFF87><size=23>Es cada vez menos interesante.</size></color>\nIt’s getting less and less interesting."
+	]		
+}

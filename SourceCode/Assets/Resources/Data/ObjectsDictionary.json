@@ -1,0 +1,2175 @@
+{
+	"Objects":	
+	[
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Basket",
+			"Pronunciation": "/basket/",
+			"Meanings": 
+			[
+				"Cesta"
+			],
+			"EnglishExamples":
+			[ 
+				"Go and get me that basket for the picnic, please."
+			],
+			"SpanishExamples":
+			[ 
+				"Ve y traéme esa cesta para el picnic, por favor."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Bathing costume (UK)",
+			"Pronunciation": "/beizing coschumm/",
+			"Meanings": 
+			[
+				"Bañador Mujer"
+			],
+			"EnglishExamples":
+			[ 
+				"I left my bathing costume at the beach. I have to buy a new one but they're way too expensive!"
+			],
+			"SpanishExamples":
+			[ 
+				"Dejé el bañador en la playa. Tengo que comprarme uno nuevo pero, ¡son demasiado caros!"
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Bathrobe",
+			"Pronunciation": "/bazzzroub/",
+			"Meanings": 
+			[
+				"Albornoz"
+			],
+			"EnglishExamples":
+			[ 
+				"Whose bathrob is this? No one's, you can put it on after taking the shower."
+			],
+			"SpanishExamples":
+			[ 
+				"¿De quién es este alboronz?, De nadie, puedes ponertelo despues de la ducha."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Blanket",
+			"Pronunciation": "/blanket/",
+			"Meanings": 
+			[
+				"Manta"
+			],
+			"EnglishExamples":
+			[ 
+				"It's cold here. Have you got another blanket?"			
+			],
+			"SpanishExamples":
+			[ 
+				"Hace frio aqui. ¿Tienes otra manta?"
+			]			
+		},		
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Blender",
+			"Pronunciation": "/blenda/",
+			"Meanings": 
+			[
+				"Batidora"
+			],
+			"EnglishExamples":
+			[ 
+				"Hand blenders are great for making thick soups."			
+			],
+			"SpanishExamples":
+			[ 
+				"Las batidoras de mano son geniales para hacer sopas espesas."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Beer-mat",
+			"Pronunciation": "/biiir mat/",
+			"Meanings": 
+			[
+				"Posavasos"
+			],
+			"EnglishExamples":
+			[ 
+				"I need to get a loan from the bank."
+			],
+			"SpanishExamples":
+			[ 
+				"Necesito obtener un préstamo del banco.."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Boot (UK)",
+			"Pronunciation": "/buut/",
+			"Meanings": 
+			[
+				"Maletero"
+			],
+			"EnglishExamples":
+			[ 
+				"Did you see the news last night? It showed a dead body in boot of an abandoned car."
+			],
+			"SpanishExamples":
+			[ 
+				"¿Viste las noticias anoche? Se mostró un cuerpo muerto en el maletero de un coche abandonado."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Broom",
+			"Pronunciation": "/bruum/",
+			"Meanings": 
+			[
+				"Escoba"
+			],
+			"EnglishExamples":
+			[ 
+				"Cleaning supplies, brooms, and mops can be found at the back of the store."
+			],
+			"SpanishExamples":
+			[ 
+				"Las cosas de limpieza, escobas y mopas se encuentran en la parte de atrás de la tienda."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Brochure",
+			"Pronunciation": "/brouxa/",
+			"Meanings": 
+			[
+				"Folleto, Panfleto"
+			],
+			"EnglishExamples":
+			[ 
+				"A brochure is an informative paper document, that can be folded into a flyer."
+			],
+			"SpanishExamples":
+			[ 
+				"Un panfleto es un documento informativo, que se puede plegar en un folleto."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Bowl",
+			"Pronunciation": "/tiiin/",
+			"Meanings": 
+			[
+				"Bol, Tazón"
+			],
+			"EnglishExamples":
+			[ 
+				"We filled a bowl with popcorn before the movie."
+			],
+			"SpanishExamples":
+			[ 
+				"Llenamos un bol de palomitas antes de la película."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Bulb",
+			"Pronunciation": "/boolb/",
+			"Meanings": 
+			[
+				"Bombilla"
+			],
+			"EnglishExamples":
+			[ 
+				"The bulb in my room needs to be replaced."
+			],
+			"SpanishExamples":
+			[ 
+				"La bombilla de mi habitación tiene que cambiarse."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Cabinet",
+			"Pronunciation": "/kaaabinet/",
+			"Meanings": 
+			[
+				"Armario, Vitrina"
+			],
+			"EnglishExamples":
+			[ 
+				"Betty bought an antique cabinet at the flea market."
+			],
+			"SpanishExamples":
+			[ 
+				"Betty compró un antiguo armario en el mercadillo."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Can",
+			"Pronunciation": "/caaan/",
+			"Meanings": 
+			[
+				"Lata",
+				"Bote"
+			],
+			"EnglishExamples":
+			[ 
+				"We need three more cans of paint.",
+				"Pass me that can of peas."
+			],
+			"SpanishExamples":
+			[ 
+				"Necesitamos tres botes más de pintura.",
+				"Pásame esa lata de guisantes."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Carnation",
+			"Pronunciation": "/kaarnesion/",
+			"Meanings": 
+			[
+				"Clavel"
+			],
+			"EnglishExamples":
+			[ 
+				"A bouquet of blue carnations brightened up the living room."
+			],
+			"SpanishExamples":
+			[ 
+				"Un ramo de claveles azules iluminaba la habitación."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Carpet",
+			"Pronunciation": "/carpet/",
+			"Meanings": 
+			[
+				"Alfombra",
+				"Moqueta"
+			],
+			"EnglishExamples":
+			[ 
+				"Aladdin travels around on his magic carpet.",
+				"They're going to put carpet in every room"				
+			],
+			"SpanishExamples":
+			[ 
+				"Aladino viaja en su alfombra mágica.",
+				"Van a poner moqueta en todas las habitaciones"
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Cash",
+			"Pronunciation": "/caash/",
+			"Meanings": 
+			[
+				"Dinero en efectivo"
+			],
+			"EnglishExamples":
+			[ 
+				"So why did he pay cash if he had a pocket full of credit cards?"
+			],
+			"SpanishExamples":
+			[ 
+				"¿Porqué pagó con dinero en efectifo si tenía el bolsillo lleno de tarjetas de crédito?."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Chainsaw",
+			"Pronunciation": "/cheeinsoo/",
+			"Meanings": 
+			[
+				"Motosierra"
+			],
+			"EnglishExamples":
+			[ 
+				"The cat and dog ran when they heard the sound of the chainsaw."
+			],
+			"SpanishExamples":
+			[ 
+				"Perros y gatos corren cuando oyen el sonido de una motosierra."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Coat",
+			"Pronunciation": "/cooout/",
+			"Meanings": 
+			[
+				"Abrigo"
+			],
+			"EnglishExamples":
+			[ 
+				"It is cold out. You'd better put on your coat."
+			],
+			"SpanishExamples":
+			[ 
+				"Hace frío fuera. Mejor que te pongas tu abrigo."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Counter top",
+			"Pronunciation": "/caunte toop/",
+			"Meanings": 
+			[
+				"Encimera"
+			],
+			"EnglishExamples":
+			[ 
+				"He leaned over the kitchen counter top to cut the carrots."
+			],
+			"SpanishExamples":
+			[ 
+				"Se reclinó sobre la encimera para cortar las zanahorias."
+			]
+		},
+		
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Closet",
+			"Pronunciation": "/closet/",
+			"Meanings": 
+			[
+				"Armario empotrado"
+			],
+			"EnglishExamples":
+			[ 
+				"This bedroom has a large closet."
+			],
+			"SpanishExamples":
+			[ 
+				"Este dormitorio tiene un armario espacioso."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Comb",
+			"Pronunciation": "/coooum/",
+			"Meanings": 
+			[
+				"Peine"
+			],
+			"EnglishExamples":
+			[ 
+				"Comb your hair before you go out, you can use my comb."
+			],
+			"SpanishExamples":
+			[ 
+				"Peina tu pelo antes de salir, puedes usar mi peine."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Crust",
+			"Pronunciation": "/craaast/",
+			"Meanings": 
+			[
+				"Corteza"
+			],
+			"EnglishExamples":
+			[ 
+				"You have to take the rind off the cheese before you eat it."
+			],
+			"SpanishExamples":
+			[ 
+				"Hay que quitarle la corteza al queso antes de comérselo."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Curtain",
+			"Pronunciation": "/ceerrton/",
+			"Meanings": 
+			[
+				"Cortina"
+			],
+			"EnglishExamples":
+			[ 
+				"She hung a white shower curtain to complete the remodeled bathroom."
+			],
+			"SpanishExamples":
+			[ 
+				"Colgó una cortina de ducha blanca para finalizar la remodelación del baño."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Cutlery",
+			"Pronunciation": "/katlery/",
+			"Meanings": 
+			[
+				"Cubiertos"
+			],
+			"EnglishExamples":
+			[ 
+				"Are we going to have enough cutlery for everyone?"
+			],
+			"SpanishExamples":
+			[ 
+				"¿Vamos a tener suficientes cubiertos para todos?"
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Dagger",
+			"Pronunciation": "/daager/",
+			"Meanings": 
+			[
+				"Daga, Puñal"
+			],
+			"EnglishExamples":
+			[ 
+				"The scene ended with the hero of the play brandishing a dagger."
+			],
+			"SpanishExamples":
+			[ 
+				"La escena acabó con el héroe del juego blandiendo una daga."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Debt",
+			"Pronunciation": "/deet/",
+			"Meanings": 
+			[
+				"Deuda"
+			],
+			"EnglishExamples":
+			[ 
+				"She was so deep in debt that the only solution appeared to be bankruptcy."
+			],
+			"SpanishExamples":
+			[ 
+				"Estaba endeudada hasta el cuello y la única solución parecía ser la bancarrota."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Denim",
+			"Pronunciation": "/deniim/",
+			"Meanings": 
+			[
+				"Tela vaquera"
+			],
+			"EnglishExamples":
+			[ 
+				"Denim jackets are very popular, especially if they look old and worn."
+			],
+			"SpanishExamples":
+			[ 
+				"Las cazadoras vaqueras son muy populares, especialmente si parecen viejas y usadas."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Die",
+			"Pronunciation": "/daii/",
+			"Meanings": 
+			[
+				"Dadp"
+			],
+			"EnglishExamples":
+			[ 
+				"We can't play backgammon with only one die, we need several dice."
+			],
+			"SpanishExamples":
+			[ 
+				"No podemos jugar backgammon con un dado solo, necesitamos varios dados."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Duvet",
+			"Pronunciation": "/duvee/",
+			"Meanings": 
+			[
+				"Edredón"
+			],
+			"EnglishExamples":
+			[ 
+				"She picked up the duvet from the bed and draped it on the sofa, then undressed."			
+			],
+			"SpanishExamples":
+			[ 
+				"Cogío el edredón de la cama y lo puso en el sofá, entonces se desnudó."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Dustbin",
+			"Pronunciation": "/dastbin/",
+			"Meanings": 
+			[
+				"Cubo de basura"
+			],
+			"EnglishExamples":
+			[ 
+				"Can you take these empty beer cans outside please and throw them in the dustbin?"
+			],
+			"SpanishExamples":
+			[ 
+				"¿Puedes sacar estas botes de cerveza fuera por favor y tirarlas in la basura?"
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Essay",
+			"Pronunciation": "/eesei/",
+			"Meanings": 
+			[
+				"Ensayo, Redacción"
+			],
+			"EnglishExamples":
+			[ 
+				"The student had an essay on Shakespeare due on Wednesday."
+			],
+			"SpanishExamples":
+			[ 
+				"El estudiante tenía una redacción sobre Shakespeare el miércoles."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Fang",
+			"Pronunciation": "/feean/",
+			"Meanings": 
+			[
+				"Colmillo"
+			],
+			"EnglishExamples":
+			[ 
+				"The dog was barking and showing its fangs."
+			],
+			"SpanishExamples":
+			[ 
+				"El perro estaba ladrando y mostrando sus colmillos."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Feather",
+			"Pronunciation": "/feeda/",
+			"Meanings": 
+			[
+				"Pluma"
+			],
+			"EnglishExamples":
+			[ 
+				"My wife cannot sleep on a feather pillow due to her allergies."
+			],
+			"SpanishExamples":
+			[ 
+				"Mi esposa no puede dormir en una almohada de plumas a causa de su alergia."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Fine",
+			"Pronunciation": "/fain/",
+			"Meanings": 
+			[
+				"Multa"
+			],
+			"EnglishExamples":
+			[ 
+				"He received a fine for driving too fast."
+			],
+			"SpanishExamples":
+			[ 
+				"Recibió una multa por conducir demasiado deprisa."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Flip-Flop",
+			"Pronunciation": "/fliipfloop/",
+			"Meanings": 
+			[
+				"Chancla"
+			],
+			"EnglishExamples":
+			[ 
+				"I always wear flip-flops to the beach."
+			],
+			"SpanishExamples":
+			[ 
+				"Siempre llevo sandalias en la playa."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Folder",
+			"Pronunciation": "/foulda/",
+			"Meanings": 
+			[
+				"Carpeta"
+			],
+			"EnglishExamples":
+			[ 
+				"I put my notes in a folder, which I put in my backpack."
+			],
+			"SpanishExamples":
+			[ 
+				"Puse mis notas en una carpeta, la cual puse en mi mochila."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Funnel",
+			"Pronunciation": "/faanol/",
+			"Meanings": 
+			[
+				"Embudo"
+			],
+			"EnglishExamples":
+			[ 
+				"Jim poured the oil into the engine through a funnel."
+			],
+			"SpanishExamples":
+			[ 
+				"Jim vertió el aceite en el motro con un embudo."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Grave",
+			"Pronunciation": "/greeiv/",
+			"Meanings": 
+			[
+				"Tumba"
+			],
+			"EnglishExamples":
+			[ 
+				"How can you laugh like that with your grandmother in the grave only two days?" 	
+			],
+			"SpanishExamples":
+			[ 
+				"¿Cómo puedes reírte así con tu abuela en la tumba hace solo dos días."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Grater",
+			"Pronunciation": "/greita/",
+			"Meanings": 
+			[
+				"Rallador"
+			],
+			"EnglishExamples":
+			[ 
+				"Use a grater to make the vegetables uniform in size" 	
+			],
+			"SpanishExamples":
+			[ 
+				"Usa un rallador para hacer las verduras uniformes en tamaño."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Goggles",
+			"Pronunciation": "/guugools/",
+			"Meanings": 
+			[
+				"Gafas denatación"
+			],
+			"EnglishExamples":
+			[ 
+				"Don't you use goggles when you swim?" 	
+			],
+			"SpanishExamples":
+			[ 
+				"¿No usas gafas de natación cuando nadas?"
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Hanger",
+			"Pronunciation": "/hanga/",
+			"Meanings": 
+			[
+				"Percha"
+			],
+			"EnglishExamples":
+			[ 
+				"After doing laundry Maggie spent an hour putting all of her clothes back on their hangers." 	
+			],
+			"SpanishExamples":
+			[ 
+				"Después de hacer la colada Maggie pasó una hora poniendo de nuevo toda su ropa en sus perchas."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Heater",
+			"Pronunciation": "/hiter/",
+			"Meanings": 
+			[
+				"Calefactor"
+			],
+			"EnglishExamples":
+			[ 
+				"It was getting cold, so Irene turned on the heater." 	
+			],
+			"SpanishExamples":
+			[ 
+				"Me estaba quedando frio, asi que Irene encendió el calefactor."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Hook",
+			"Pronunciation": "/huuk/",
+			"Meanings": 
+			[
+				"Gancho"
+			],
+			"EnglishExamples":
+			[ 
+				"Mike hung his coat on the hook as he stepped into the house." 	
+			],
+			"SpanishExamples":
+			[ 
+				"Mike colgó su chaqueta en el gancho cuando entró en casa."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Hoover",
+			"Pronunciation": "/huuva/",
+			"Meanings": 
+			[
+				"Aspiradora"
+			],
+			"EnglishExamples":
+			[ 
+				"This old hoover's not picking up the dust anymore." 	
+			],
+			"SpanishExamples":
+			[ 
+				"Esta vieja aspiradora ya no recoge polvo."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Jar",
+			"Pronunciation": "/jaaaa/",
+			"Meanings": 
+			[
+				"Bote"
+			],
+			"EnglishExamples":
+			[ 
+				"You can keep those biscuits in a crystal jar."
+			],
+			"SpanishExamples":
+			[ 
+				"Puedes guardar estas galletas en un frasco de vidrio."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Jug",
+			"Pronunciation": "/yaag/",
+			"Meanings": 
+			[
+				"Jarra"
+			],
+			"EnglishExamples":
+			[ 
+				"Kate poured a jug of beer into the soup."
+			],
+			"SpanishExamples":
+			[ 
+				"Kate virtió una jarra de cerveza en la sopa."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Kettle",
+			"Pronunciation": "/keetol/",
+			"Meanings": 
+			[
+				"Hervidor de agua"
+			],
+			"EnglishExamples":
+			[ 
+				"Amanda switched on the kettle to make some tea."
+			],
+			"SpanishExamples":
+			[ 
+				"Amanda encendió el hervidor de agua para hacer te."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Knickers",
+			"Pronunciation": "/niiikers/",
+			"Meanings": 
+			[
+				"Bragas"
+			],
+			"EnglishExamples":
+			[ 
+				"There were some knickers over the bed!"
+			],
+			"SpanishExamples":
+			[ 
+				"¡Había bragas sobre la cama!"
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Latch",
+			"Pronunciation": "/laaach/",
+			"Meanings": 
+			[
+				"Pestillo, Cerrojo"
+			],
+			"EnglishExamples":
+			[ 
+				"Kyle opened the latch on the door."
+			],
+			"SpanishExamples":
+			[ 
+				"Kyle abrió el pestillo de la puerta."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Ladder",
+			"Pronunciation": "/laaada/",
+			"Meanings": 
+			[
+				"Escalera"
+			],
+			"EnglishExamples":
+			[ 
+				"I'd better get a screwdriver and tighten that ladder before you fall and break your neck."
+			],
+			"SpanishExamples":
+			[ 
+				"Mejor coger un destornillador y reforzar esa escalera antes de que te caigas y te rompas el cuello."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Leather",
+			"Pronunciation": "/leeeda/",
+			"Meanings": 
+			[
+				"Cuero, Piel"
+			],
+			"EnglishExamples":
+			[ 
+				"Leather that is tanned for shoe leather is stiffer than that used for gloves."
+			],
+			"SpanishExamples":
+			[ 
+				"El cuero que se curte como piel para zapatos es más duro que el de los guantes."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Letterbox",
+			"Pronunciation": "/leeterbox/",
+			"Meanings": 
+			[
+				"Buzón"
+			],
+			"EnglishExamples":
+			[ 
+				"Finally I've got the new book, it was left in the letterbox!"
+			],
+			"SpanishExamples":
+			[ 
+				"Por fin tengo el nuevo libro, lo dejaron en el buzón!"
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Litter",
+			"Pronunciation": "/litta/",
+			"Meanings": 
+			[
+				"Arena de Animales",
+				"Basura"
+			],
+			"EnglishExamples":
+			[ 
+				"John went to the store to buy more cat litter.",
+				"The streets were filled with litter because the waste management workers were on strike."
+			],
+			"SpanishExamples":
+			[ 
+				"Jonh fue a la tienda a comprar más arena de gato.",
+				"Las calles estaban cubuiertas con basura porque los trabajadores de la gestión de desperdicios estaban de huelga."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Loan",
+			"Pronunciation": "/loooun/",
+			"Meanings": 
+			[
+				"Préstamo"
+			],
+			"EnglishExamples":
+			[ 
+				"I need to get a loan from the bank."
+			],
+			"SpanishExamples":
+			[ 
+				"Necesito obtener un préstamo del banco.."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Mat",
+			"Pronunciation": "/maat/",
+			"Meanings": 
+			[
+				"Esterilla, Colchoneta",
+				"Alfombrilla"
+			],
+			"EnglishExamples":
+			[ 
+				"My gym requires all particpants in yoga classes to bring their own exercise mats to class with them.",
+				"A good bath mat helps you not to slip in the shower."
+			],
+			"SpanishExamples":
+			[ 
+				"En mi gimnasio es obligatorio para los participantes en clases de yoga, traer consigo sus propias esterillas.",
+				"Una buena alfombrilla de baño ayuda a no escurrite en la ducha."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Mistletoe",
+			"Pronunciation": "/miseltou/",
+			"Meanings": 
+			[
+				"Muérdago"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm waiting for him to get under the mistletoe so I can kiss him."
+			],
+			"SpanishExamples":
+			[ 
+				"Estoy deseando que él esté bajo muérdago y así poder besarle."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Mop",
+			"Pronunciation": "/mop/",
+			"Meanings": 
+			[
+				"Fregona, Mopa"
+			],
+			"EnglishExamples":
+			[ 
+				"Rachel grabbed a mop and cleaned the floor."
+			],
+			"SpanishExamples":
+			[ 
+				"Rachel cogió una fregona (mopa) y limpió el suelo."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Napkin",
+			"Pronunciation": "/naapkin/",
+			"Meanings": 
+			[
+				"Servilleta",
+				"Compresa"
+			],
+			"EnglishExamples":
+			[ 
+				"Can you bring me a napkin please? I threw the water all over the table, it's a mess. ",
+				"Karen went to the bathroom to change her napkin."
+			],
+			"SpanishExamples":
+			[ 
+				"¿Puédes traerme una servillega, por favor? Tiré el agua por toda la mesa, es un desastre.",
+				"Karen fue al baño a cambiar su compresa."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Nappy",
+			"Pronunciation": "/naaapi/",
+			"Meanings": 
+			[
+				"Pañal"
+			],
+			"EnglishExamples":
+			[ 
+				"Richard changed the baby's nappy, he's learning how to do it."
+			],
+			"SpanishExamples":
+			[ 
+				"Richard cambió el pañal del bebé, el está aprendiendo como hacerlo."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Needle",
+			"Pronunciation": "/niidol/",
+			"Meanings": 
+			[
+				"Aguja"
+			],
+			"EnglishExamples":
+			[ 
+				"His room was so untidy that trying to find anything there was like looking for a needle in a hystack."
+			],
+			"SpanishExamples":
+			[ 
+				"Su habitación estaba tan desordenada que intentar buscar algo era como buscar una aguja en un pajar."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Necklace",
+			"Pronunciation": "/neeklezz/",
+			"Meanings": 
+			[
+				"Collar"
+			],
+			"EnglishExamples":
+			[ 
+				"Her necklace around her neck matched her bracelet."
+			],
+			"SpanishExamples":
+			[ 
+				"Su collar alrededor de su cuello hacía juego con su pulsera."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Nest",
+			"Pronunciation": "/neest/",
+			"Meanings": 
+			[
+				"Nido"
+			],
+			"EnglishExamples":
+			[ 
+				"A nest is the home where birds lay their eggs in."
+			],
+			"SpanishExamples":
+			[ 
+				"Un nido es la casa donde los pájaros ponen sus huevos."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Note",
+			"Pronunciation": "/noout/",
+			"Meanings": 
+			[
+				"Nota",
+				"Nota musical",
+				"Billete"
+			],
+			"EnglishExamples":
+			[ 
+				"I wrote hime a note about the meeting time and left it on his desk.",
+				"The bird sang a beautiful note.",	
+				"I have three twenty-dollars notes."				
+			],
+			"SpanishExamples":
+			[ 
+				"Le escribí una nota sobre la hora de la reunión y la dejé en su mesa.",
+				"El pájaro cantó una bonita nota musical.",
+				"Tengo 3 billetes de 20 dólares."
+			]			
+		},
+		
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Oven",
+			"Pronunciation": "/oven/",
+			"Meanings": 
+			[
+				"Horno"
+			],
+			"EnglishExamples":
+			[ 
+				"The dinner is in the oven and will be ready in an hour."
+			],
+			"SpanishExamples":
+			[ 
+				"La cena está en el horno, estará lista en una hora.."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Padlock",
+			"Pronunciation": "/paadlook/",
+			"Meanings": 
+			[
+				"Candado"
+			],
+			"EnglishExamples":
+			[ 
+				"She put the patlock on the bike and left it attached to the railing."
+			],
+			"SpanishExamples":
+			[ 
+				"Puso el candado en la bici y la dejó sujeta a la reja."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Painkiller",
+			"Pronunciation": "/peinkiler/",
+			"Meanings": 
+			[
+				"Analgésico"
+			],
+			"EnglishExamples":
+			[ 
+				"Ginger is known to be a powerful natural painkiller."
+			],
+			"SpanishExamples":
+			[ 
+				"El jengibre es conocido por ser un poderoso analgésico natural."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Pipe",
+			"Pronunciation": "/paip/",
+			"Meanings": 
+			[
+				"Tubería"
+			],
+			"EnglishExamples":
+			[ 
+				"At least the plumber has changed the pipe! the street doesn't stink anymore."
+			],
+			"SpanishExamples":
+			[ 
+				"¡Al fin el fontanero ha cambiado la tuberia! La calle no apesta ya. "
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Pillow",
+			"Pronunciation": "/pillou/",
+			"Meanings": 
+			[
+				"Almohada"
+			],
+			"EnglishExamples":
+			[ 
+				"My wife can't sleep on a feather pillow due to her allergies."			
+			],
+			"SpanishExamples":
+			[ 
+				"Mi mujer no puede dormir en una almohada de plumas a causa a sus alergias."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Plaster",
+			"Pronunciation": "/plaaster/",
+			"Meanings": 
+			[
+				"Tirita"
+			],
+			"EnglishExamples":
+			[ 
+				"Tim has cut his knee, so his dad puts a plaster on it."
+			],
+			"SpanishExamples":
+			[ 
+				"Time se ha cortado la rodilla, asi que su padre le puso una tirita."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Prescription",
+			"Pronunciation": "/presscripxon/",
+			"Meanings": 
+			[
+				"Receta médica"
+			],
+			"EnglishExamples":
+			[ 
+				"He had an infection, so the doctor gave him a prescription for antibiotics."
+			],
+			"SpanishExamples":
+			[ 
+				"Tenía una infección a si que el médio le dio una receta para antibióticos."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Powder",
+			"Pronunciation": "/pouda/",
+			"Meanings": 
+			[
+				"Polvo",
+				"Polvo Maquillaje"
+			],
+			"EnglishExamples":
+			[ 
+				"Oliver tipped the powder into a cup and added hot water.",
+				"Emily uses powder on her face." 
+			],
+			"SpanishExamples":
+			[ 
+				"Oliver echó el polvo en una taza y añadió agua caliente.",
+				"Emily usa maquillaje en su cara."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Pot",
+			"Pronunciation": "/pooot/",
+			"Meanings": 
+			[
+				"Maceta",
+				"Olla, Cacerola"
+			],
+			"EnglishExamples":
+			[ 
+				"This blue flower are amazing and they fits perfectly in this pot.",
+				"I fancy some spaghetti bolognese, so could you put a pot on the fire to boil some pasta?" 
+			],
+			"SpanishExamples":
+			[ 
+				"Estas flores azules son increibles y encajan perfectamente en esta maceta.",
+				"Me apetecen espagueti boloñesa, asi que ¿podrías poner una cacerloa en el fuego para hervir pasta?"
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Purse",
+			"Pronunciation": "/peers/",
+			"Meanings": 
+			[
+				"Bolso"
+			],
+			"EnglishExamples":
+			[ 
+				"She opened her purse to take out her wallet."
+			],
+			"SpanishExamples":
+			[ 
+				"Ella abrió su bolso para sacar su cartera (billetera)."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Razor",
+			"Pronunciation": "/reizer/",
+			"Meanings": 
+			[
+				"Cuchilla afeitar"
+			],
+			"EnglishExamples":
+			[ 
+				"At home I use an electric shaver, but when I go to the barber shop I like having him shave me with an old-fashioned straight razor."
+			],
+			"SpanishExamples":
+			[ 
+				"En casa uso una máquina de afeitar eléctríca, pero cuanod voy a un barbero me gusta que me afeite con una cuchilla de afeitar antigua."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Recipe",
+			"Pronunciation": "/reecipi/",
+			"Meanings": 
+			[
+				"Receta de cocina"
+			],
+			"EnglishExamples":
+			[ 
+				"I've got a new recipe for making brownies!"
+			],
+			"SpanishExamples":
+			[ 
+				"¡Tengo una nueva receta para hacer brownies!"
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Receipt",
+			"Pronunciation": "/reciit/",
+			"Meanings": 
+			[
+				"Recibo"
+			],
+			"EnglishExamples":
+			[ 
+				"Acme Stores requires a purchase receipt if you wish to return something."
+			],
+			"SpanishExamples":
+			[ 
+				"Las tiendas Acme requieren un recibo de compra si quieres devolver algo."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Riddle",
+			"Pronunciation": "/riidol/",
+			"Meanings": 
+			[
+				"Acertijo",
+				"Enigma"
+			],
+			"EnglishExamples":
+			[ 
+				"The teacher said that whoever solved the riddle first would win a prize.",
+				"I haven't been able to figure out the riddle they published in the newspaper."				
+			],
+			"SpanishExamples":
+			[ 
+				"El profesor dijo que quien solucionara primero el acertijo tendría un premio.",
+				"No he sido capaz de descubrir el enigma se publicó en el periódico."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Robe",
+			"Pronunciation": "/roooub/",
+			"Meanings": 
+			[
+				"Bata, Toga"
+			],
+			"EnglishExamples":
+			[ 
+				"The first step to become a wizard is to get you a proper robe an a hat."		
+			],
+			"SpanishExamples":
+			[ 
+				"El primer paso para convertirse en mago es consegurte una toga apropiada y un sombrero."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Rucksack",
+			"Pronunciation": "/rooosack/",
+			"Meanings": 
+			[
+				"Mochila"
+			],
+			"EnglishExamples":
+			[ 
+				"A rucksack is a bag that you wear on your back."
+			],
+			"SpanishExamples":
+			[ 
+				"Una mochila es una cartera que lleas en tu espalda."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Rug",
+			"Pronunciation": "/raag/",
+			"Meanings": 
+			[
+				"Alfombra"
+			],
+			"EnglishExamples":
+			[ 
+				"Her apartment was decorated in Eastern style, with oriental rugs."
+			],
+			"SpanishExamples":
+			[ 
+				"Tenía el apartamento decorado al estilo oriental, con alfombra orientales."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Saber",
+			"Pronunciation": "/seiba/",
+			"Meanings": 
+			[
+				"Sable"
+			],
+			"EnglishExamples":
+			[ 
+				"The old Jedi grabbed his light saber and his last stab was the end of Darth Vader"
+			],
+			"SpanishExamples":
+			[ 
+				"El viejo Jedi empuño su sable de luz y su último intent fue el final de Darth Vader."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Scarecrow",
+			"Pronunciation": "/skercrou/",
+			"Meanings": 
+			[
+				"Espantapájaros"
+			],
+			"EnglishExamples":
+			[ 
+				"We put a scarecrow up in the garden to keep the pigeons away."
+			],
+			"SpanishExamples":
+			[ 
+				"Pusimos un espantapájaros en el jardín para que asuste a las palomas."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Scarf",
+			"Pronunciation": "/ssscarf/",
+			"Meanings": 
+			[
+				"Bufanda",
+				"Pañuelo"
+			],
+			"EnglishExamples":
+			[ 
+				"A scarf protects your throat from the cold.",
+				"She pulled the scarf from her neck and wiped her face."
+			],
+			"SpanishExamples":
+			[ 
+				"Una bufanda protege tu garganta del frío.",
+				"Ella tiró el pañuelo de su cuello y limpió su cara."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Screw",
+			"Pronunciation": "/ssscru/",
+			"Meanings": 
+			[
+				"Tornillo"
+			],
+			"EnglishExamples":
+			[ 
+				"I need some screws to build a new desk, would you come with me to the hardware store?"
+			],
+			"SpanishExamples":
+			[ 
+				"Necesito algunos tornillos para construir un nuevo escritorio, ¿me acompañarías a la ferretería?"
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Scrubber",
+			"Pronunciation": "/sscraba/",
+			"Meanings": 
+			[
+				"Estropajo"
+			],
+			"EnglishExamples":
+			[ 
+				"The lasagne should come off with a scrubber."
+			],
+			"SpanishExamples":
+			[ 
+				"La lasaña debería salir con el estropajo."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Screwdriver",
+			"Pronunciation": "/ssscrudraiva/",
+			"Meanings": 
+			[
+				"Destornillador"
+			],
+			"EnglishExamples":
+			[ 
+				"He tightened the screw with a screwdriver"
+			],
+			"SpanishExamples":
+			[ 
+				"Apretó el tornillo con un destornillador."
+			]
+		},
+		
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Scissors",
+			"Pronunciation": "/sssisoors/",
+			"Meanings": 
+			[
+				"Tijeras"
+			],
+			"EnglishExamples":
+			[ 
+				"I use the kitchen scissors to cut everything from chives to chickens."
+			],
+			"SpanishExamples":
+			[ 
+				"Uso unas tijeras de cocina para cortar todo desde cebolletas hasta pollos."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Sheet",
+			"Pronunciation": "/xiiit/",
+			"Meanings": 
+			[
+				"Sábana"
+			],
+			"EnglishExamples":
+			[ 
+				"We change the sheets on the bed every week."			
+			],
+			"SpanishExamples":
+			[ 
+				"Cambiamos las sábanas de la cama cada semana."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Shoelace",
+			"Pronunciation": "/shuleisssh/",
+			"Meanings": 
+			[
+				"Cordón"
+			],
+			"EnglishExamples":
+			[ 
+				"Do you know how to tie you shoelaces?"			
+			],
+			"SpanishExamples":
+			[ 
+				"¿Sábes cómo atarte los cordones?"
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Sketch",
+			"Pronunciation": "/sssketch/",
+			"Meanings": 
+			[
+				"Boceto"
+			],
+			"EnglishExamples":
+			[ 
+				"All painters make an pencil sketch before start drawing the final paint."
+			],
+			"SpanishExamples":
+			[ 
+				"Todos los pintores hacen un dibujo a lápiz antes de empezar a dibujar la pintura final."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Sink",
+			"Pronunciation": "/siink/",
+			"Meanings": 
+			[
+				"Lavabo, Pila"
+			],
+			"EnglishExamples":
+			[ 
+				"Just put the dirty dishes in the sink and I will clean them later."
+			],
+			"SpanishExamples":
+			[ 
+				"Tan solo pon los platos sucios en el lavabo y los lavaré después."
+			]			
+		},	
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Slippers",
+			"Pronunciation": "/ssslipeers/",
+			"Meanings": 
+			[
+				"Zapatillas de andar por casa"
+			],
+			"EnglishExamples":
+			[ 
+				"If you know your dad loves lounging around the house, a pair of comfortable slippers are key."
+			],
+			"SpanishExamples":
+			[ 
+				"Si sabes que tu padre adora vaguear por casa, un par de comodas zapatillas son la clave."
+			]
+		},		
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Slice",
+			"Pronunciation": "/slaiz/",
+			"Meanings": 
+			[
+				"Rodaja",
+				"Rebanada"
+			],
+			"EnglishExamples":
+			[ 
+				"Would you mind putting a slice of lemon in my coke, please?",
+				"Diet says that I can eat 4 slices of bread per day."
+			],
+			"SpanishExamples":
+			[ 
+				"¿Te importaría poner una rodaja de limón en mi cocacola, por favor?",
+				"La dieta dice que puedo comer 4 rebanadas de pan al día."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Sleigh",
+			"Pronunciation": "/ssslei/",
+			"Meanings": 
+			[
+				"Trineo"
+			],
+			"EnglishExamples":
+			[ 
+				"I always wanted to take a ride on Santa's sleigh, and get to know his reindeer."
+			],
+			"SpanishExamples":
+			[ 
+				"Siempre quise montar en el trineo de Santa y conocer a sus renos."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Soap",
+			"Pronunciation": "/soooup/",
+			"Meanings": 
+			[
+				"Jabón"
+			],
+			"EnglishExamples":
+			[ 
+				"She washed her hands with soap before watching the soap opera."
+			],
+			"SpanishExamples":
+			[ 
+				"Limpió sus manos con jabón antes de ver la telenovela."
+			]
+		},	
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Suncream",
+			"Pronunciation": "/sannncrim/",
+			"Meanings": 
+			[
+				"Crema solar"
+			],
+			"EnglishExamples":
+			[ 
+				"It's boiling today! It's way too hot to keep the suncream in the beach bag."
+			],
+			"SpanishExamples":
+			[ 
+				"¡Hace un calor abrasador hoy! Hace demiasiado claro para guardar la crema solar en la bolsa de playa."
+			]
+		},	
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Swing",
+			"Pronunciation": "/suinng/",
+			"Meanings": 
+			[
+				"Columpio"
+			],
+			"EnglishExamples":
+			[ 
+				"He pushed his child in the swing."
+			],
+			"SpanishExamples":
+			[ 
+				"Empujó a su hijo en el columpio."
+			]
+		},		
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Swimming shorts",
+			"Pronunciation": "/suiiiming sorts/",
+			"Meanings": 
+			[
+				"Bañador Hombre"
+			],
+			"EnglishExamples":
+			[ 
+				"I don't want to buy a new swiming shorts, I have my old one and it's perfect for the beach."
+			],
+			"SpanishExamples":
+			[ 
+				"No quiero comprarme un bañador nuevo, tengo mi viejo bañador y es perfecto para la playa."
+			]
+		},		
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Soil",
+			"Pronunciation": "/soooil/",
+			"Meanings": 
+			[
+				"Candado"
+			],
+			"EnglishExamples":
+			[ 
+				"We bought soil for the pot."
+			],
+			"SpanishExamples":
+			[ 
+				"Compramos tierra para la maceta."
+			]
+		},		
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Socket",
+			"Pronunciation": "/saaket/",
+			"Meanings": 
+			[
+				"Enchufe"
+			],
+			"EnglishExamples":
+			[ 
+				"I need a socket to charge up my mobile."
+			],
+			"SpanishExamples":
+			[ 
+				"Necesito un enchufe para cargar mi móvil."
+			]			
+		},	
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Spring",
+			"Pronunciation": "/ssspring/",
+			"Meanings": 
+			[
+				"Resorte"
+			],
+			"EnglishExamples":
+			[ 
+				"A spring popped out of the mattress."
+			],
+			"SpanishExamples":
+			[ 
+				"Un resorte salió del colchon."
+			]			
+		},	
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Staff",
+			"Pronunciation": "/ssstaaaff/",
+			"Meanings": 
+			[
+				"Bastón, Báculo",
+				"Empleados"
+			],
+			"EnglishExamples":
+			[ 
+				"A Wizard's Staff is the primary weapon of the Order of Wizard and serves as a symbol of their power. ",
+				"How many staff are there in total at your school?"
+			],
+			"SpanishExamples":
+			[ 
+				"Un báculo de mago es el arma principal de la orden de los magos y sirve como símbolo de su poder.",
+				"¿Cuántos empleados tiene tu escuela?"
+			]
+		},	
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Stapler",
+			"Pronunciation": "/sssteipla/",
+			"Meanings": 
+			[
+				"Grapadora"
+			],
+			"EnglishExamples":
+			[ 
+				"You'll find staplers and paper clips next to the photocopier."
+			],
+			"SpanishExamples":
+			[ 
+				"Encontrarás grapadoras y clips al lado de la fotocopia."
+			]
+		},				
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Straw",
+			"Pronunciation": "/strooo/",
+			"Meanings": 
+			[
+				"Pajita",
+				"Paja"
+			],
+			"EnglishExamples":
+			[ 
+				"You can sip lemonade through a straw.",
+				"The roof of that house is made of straw."
+			],
+			"SpanishExamples":
+			[ 
+				"Puedes sober limonada con una pajita.",
+				"El tejado de esa casa está hecho de paja."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Striped",
+			"Pronunciation": "/ssstraip/",
+			"Meanings": 
+			[
+				"Rayado, a Rayas"
+			],
+			"EnglishExamples":
+			[ 
+				"A striped is a pattern with straight lines."
+			],
+			"SpanishExamples":
+			[ 
+				"Un rayado es un patrón con lineas rectas."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Tap",
+			"Pronunciation": "/taap/",
+			"Meanings": 
+			[
+				"Grifo"
+			],
+			"EnglishExamples":
+			[ 
+				"Robert turned on the tape and let the water run into the sink."
+			],
+			"SpanishExamples":
+			[ 
+				"Robert abrió el grifo y dejo correr el agua en el lavabo . "
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Tablecloth",
+			"Pronunciation": "/teiibolclooz/",
+			"Meanings": 
+			[
+				"Mantel"
+			],
+			"EnglishExamples":
+			[ 
+				"We only use a tablecloth on the table when we have guests."
+			],
+			"SpanishExamples":
+			[ 
+				"Solo usamos un mantel sobre la mesa cuando tenemos invitados. "
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Tin",
+			"Pronunciation": "/tiiin/",
+			"Meanings": 
+			[
+				"Lata"
+			],
+			"EnglishExamples":
+			[ 
+				"Make sure you crush all the tin cans before putting them in the recycling."
+			],
+			"SpanishExamples":
+			[ 
+				"Asegurate de aplastar todas las latas antes de ponerlas en la papelera de reciclaje."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Tissue",
+			"Pronunciation": "/tiisu/",
+			"Meanings": 
+			[
+				"Pañuelo"
+			],
+			"EnglishExamples":
+			[ 
+				"Wendy wiped her nose with a tissue."
+			],
+			"SpanishExamples":
+			[ 
+				"Wendy limpió su nariz con un pañuelo"
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Tile",
+			"Pronunciation": "/tail/",
+			"Meanings": 
+			[
+				"Baldosa"
+			],
+			"EnglishExamples":
+			[ 
+				"Lift the back-left tile on the patio and you'll find a key."
+			],
+			"SpanishExamples":
+			[ 
+				"Levanta la baldosa posterior izquierda en el patio y encontrarás una llave."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Thimble",
+			"Pronunciation": "/ziimbol/",
+			"Meanings": 
+			[
+				"Dedal"
+			],
+			"EnglishExamples":
+			[ 
+				"I can't find the thimble that was in my sewing box."
+			],
+			"SpanishExamples":
+			[ 
+				"No puedo encontrar el dedal que estaba en la caja de costura."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Thread",
+			"Pronunciation": "/zreeet/",
+			"Meanings": 
+			[
+				"Hilo"
+			],
+			"EnglishExamples":
+			[ 
+				"Use a thread to tie the pieces together."
+			],
+			"SpanishExamples":
+			[ 
+				"Usa un hilo para atar las piezas juntas."
+			]
+		},		
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Toothbrush",
+			"Pronunciation": "/tuuzbrassh/",
+			"Meanings": 
+			[
+				"Cepillo de dientes"
+			],
+			"EnglishExamples":
+			[ 
+				"I tried an electric toothbrush but didn't like it."
+			],
+			"SpanishExamples":
+			[ 
+				"Probé un cepillo eléctrico de dientes pero no me gustó."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Toothpaste",
+			"Pronunciation": "/tuuzpeist/",
+			"Meanings": 
+			[
+				"Pasta de dientes"
+			],
+			"EnglishExamples":
+			[ 
+				"Why does every single kind of toothpaste taste of mint?."
+			],
+			"SpanishExamples":
+			[ 
+				"¿Por qué todas las pastas de dientes saben a menta?."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Torch",
+			"Pronunciation": "/tooch/",
+			"Meanings": 
+			[
+				"Linterna"
+			],
+			"EnglishExamples":
+			[ 
+				"The Vikings had brought torches to set fire to the enemy village."
+			],
+			"SpanishExamples":
+			[ 
+				"Los vikingos habían traido linternas para incendiar el pueblo enemigo."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Tray",
+			"Pronunciation": "/trei/",
+			"Meanings": 
+			[
+				"Bandeja"
+			],
+			"EnglishExamples":
+			[ 
+				"She returned with a tray, which held some bread and cheese and a jug of water."
+			],
+			"SpanishExamples":
+			[ 
+				"Ella volvió con una bandeja, que contenía pan y queso y una jarra de agua."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Tub",
+			"Pronunciation": "/taaab/",
+			"Meanings": 
+			[
+				"Envase"
+			],
+			"EnglishExamples":
+			[ 
+				"Ice cream and margarine normally come in plastic tubs."
+			],
+			"SpanishExamples":
+			[ 
+				"El healdo y la margarina normalmente vienen en envases de plástico."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Tweezer",
+			"Pronunciation": "/tuiiisers/",
+			"Meanings": 
+			[
+				"Pinzas"
+			],
+			"EnglishExamples":
+			[ 
+				"Have you tried getting the splinter out with tweezers?"
+			],
+			"SpanishExamples":
+			[ 
+				"¿Has intentado sacarte la espina con las pinzas?"
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Underpants",
+			"Pronunciation": "/aaanderpants/",
+			"Meanings": 
+			[
+				"Calzoncillos"
+			],
+			"EnglishExamples":
+			[ 
+				"I stayed at my aunt's house last night and I had my underpants left!"
+			],
+			"SpanishExamples":
+			[ 
+				"Me quedé en casa de mi tía anoche y me dejé los calzoncillos!"
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Wardrobe",
+			"Pronunciation": "/güordroub/",
+			"Meanings": 
+			[
+				"Armario"
+			],
+			"EnglishExamples":
+			[ 
+				"A wardrobe is a standing closed used for storing clothes."
+			],
+			"SpanishExamples":
+			[ 
+				"Un 'wardrope' es un armario de pie utilizado para guardar ropa."
+			]			
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Wand",
+			"Pronunciation": "/uaaand/",
+			"Meanings": 
+			[
+				"Varinta Mágica"
+			],
+			"EnglishExamples":
+			[ 
+				"The wizard waved his wand and the prince turned into a frog."
+			],
+			"SpanishExamples":
+			[ 
+				"El mago movió su varita y el príncipe se convirtió en rana."
+			]			
+		},		
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Wax",
+			"Pronunciation": "/uaaax/",
+			"Meanings": 
+			[
+				"Cera"
+			],
+			"EnglishExamples":
+			[ 
+				"Elizabeth waxed her upper lip to remove the dark hairs that were growing there."
+			],
+			"SpanishExamples":
+			[ 
+				"Elizabeth depiló su labio superior para eliminar los pelos negros que estaban creciendo ahí."
+			]			
+		},			
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Wig",
+			"Pronunciation": "/uuuig/",
+			"Meanings": 
+			[
+				"Peluca"
+			],
+			"EnglishExamples":
+			[ 
+				"She's wearing a redhead wig because suddenly, she got bald!"
+			],
+			"SpanishExamples":
+			[ 
+				"Lleva una peluca pelirroja porque de repente, !se volvío calva!"
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Wreath",
+			"Pronunciation": "/reuiiizz/",
+			"Meanings": 
+			[
+				"Corona"
+			],
+			"EnglishExamples":
+			[ 
+				"The coffin was covered in wreaths of roses."
+			],
+			"SpanishExamples":
+			[ 
+				"El ataúd estaba cuvierto con coronas de rosas."
+			]
+		},
+		{
+			"Category": "OBJECT",
+			"VocabularyWord": "Wool",
+			"Pronunciation": "/uoool/",
+			"Meanings": 
+			[
+				"Lana"
+			],
+			"EnglishExamples":
+			[ 
+				"The sweater was made of Shetland wool."
+			],
+			"SpanishExamples":
+			[ 
+				"El jersey estaba hecho de lana shetland."
+			]
+		}		
+	] 	
+}

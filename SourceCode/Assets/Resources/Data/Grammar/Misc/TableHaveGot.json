@@ -1,0 +1,32 @@
+{
+	"Title": "Extra Have Got Examples",
+	"HeightTable": 1500,
+	"HasHeaderRow":false,
+	"HeaderRow": 
+	[
+		"<color=#FDFF87><size=25>Have Got Examples</size></color>"
+	],
+	"Rows":
+	[ 		
+		"<color=#FDFF87><size=23>I've got lots o problems.</size></color>\nTengo muchos problemas",
+		"<color=#FDFF87><size=23>I've got lots of things to do today.</size></color>\nTengo muchas cosas que hacer hoy.",		
+		"<color=#FDFF87><size=23>You've got something on your face.</size></color>\nTienes algo en la cara.",		
+		"<color=#FDFF87><size=23>You've got something on your chin.</size></color>\nTienes algo en la barbilla.",
+		"<color=#FDFF87><size=23>You've got something on your cheek.</size></color>\nTienes algo en la mejilla.",
+		"<color=#FDFF87><size=23>She's got beautiful long hair.</size></color>\nTiene el pelo largo y precioso.",
+		"<color=#FDFF87><size=23>She's got a lovely smile.</size></color>\nTiene una bonita sonrisas.",
+		"<color=#FDFF87><size=23>That hasn't got anything to do with this.</size></color>\nEso no tiene nada que ver con esto.",
+		"<color=#FDFF87><size=23>This hasn't got anything to do with my job.</size></color>\nEsto no tiene nada que ver con mi trabajo.",
+		"<color=#FDFF87><size=23>I haven't got any money on me.</size></color>\nNo tengo nada de dinero encima.",
+		"<color=#FDFF87><size=23>He hasn't got any money on him either.</size></color>\nEl no tiene nada de dinero encima tampoco.",		
+		"<color=#FDFF87>Have they got anything on this afternoon<size=23></size></color>\n¿Tienen algo en la agenda para esta tarde?\n",
+		"<color=#FDFF87>Has he got a girlfriend?<size=23></size></color>\n¿Tiene novia?",
+		"<color=#FDFF87>Has she got a big nose?<size=23></size></color>\n¿Tiene la nariz grande?",
+		"<color=#FDFF87>Have you got a tenner of a fiver on you?<size=23></size></color>\n¿Tienes un billete de 10 o de 5?",
+		"<color=#FDFF87>Have you got time for a chat?<size=23></size></color>\n¿Tienes tiempo para charlar un poco?",
+		
+		"<color=#FDFF87>I've got to have dinner by seven o'clock tonight<size=23></size></color>\nTengo que cenar esta noche a las siete como muy tarde.",
+		"<color=#FDFF87>I've got to go! I've got something on at six<size=23></size></color>\n¡Me tengo que ir!Tengo que hacer algo a las 6.",
+		"<color=#FDFF87>He's got to go to the doctor's next week.<size=23></size></color>\nTiene que ir médico la semana que viene."
+	]		
+}

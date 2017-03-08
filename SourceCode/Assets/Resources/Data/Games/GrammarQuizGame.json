@@ -1,0 +1,772 @@
+{
+	"GrammarQuiz":
+	[
+		{
+			"Question": "I´m not going to   <color=#5bd3de>______________</color>    this behaviour any longer!",
+			"Answer": "I´m not going to   <color=#5bd3de>put up with</color>    this behaviour any longer!",
+			"Translation":"-   ¡No voy a tolerar este comportamiento más!",
+			"Options":
+			[ 
+				"Put up with",	
+				"Put up",
+				"Put with",
+				"Put down"
+			]
+		},
+		{
+			"Question": "You   <color=#5bd3de>______________</color>    be tired after all that hard work!",
+			"Answer": "You   <color=#5bd3de>must</color>    be tired after all that hard work!",
+			"Translation":"-   ¡Debes estar cansado despues de todo ese duro trabajo!",
+			"Options":
+			[ 
+				"Must",	
+				"Can't",
+				"Might",
+				"Could"
+			]
+		},
+		{
+			"Question": "I´m doing a law degree-specialising  <color=#5bd3de>______________</color>    commercial law.",
+			"Answer": "I´m doing a law degree-specialising  <color=#5bd3de>in</color>    commercial law.",
+			"Translation":"-   Estoy haciendo un ley grado especializado en ley comercial.",
+			"Options":
+			[ 
+				"In",	
+				"On",
+				"At",
+				"For"
+			]
+		},
+		{
+			"Question": "You  <color=#5bd3de>______________</color>    a doctor if you  <color=#5bd3de>______________</color>    harder at school!",
+			"Answer": "You  <color=#5bd3de>could have been</color>    a doctor if you  <color=#5bd3de>had studied</color>    harder at school!",
+			"Translation":"-   Tengo dos semanas de vacaciones. ¡No puedo esperar!",
+			"Options":
+			[ 
+				"Could have been - Had studied",	
+				"Would be - studied",
+				"Would have been - Would studied",
+				"Will - Had studied'"
+			]
+		},	
+		{
+			"Question": "I have two  <color=#5bd3de>______________</color>    holiday. I can't wait!",
+			"Answer": "I have two  <color=#5bd3de>weeks</color>    holiday. I can't wait!",
+			"Translation":"-   Tengo dos semanas de vacaciones. ¡No puedo esperar!",
+			"Options":
+			[ 
+				"Weeks",	
+				"Week's",
+				"Week",
+				"Weeks'"
+			]
+		},	
+		{
+			"Question": "I´ve been  <color=#5bd3de>______________</color>    a diet, but it´s hard to   <color=#5bd3de>______________</color>    to it.",
+			"Answer": "I´ve been  <color=#5bd3de>on a diet</color>    a diet, but it´s hard to   <color=#5bd3de>stick</color>    to it.",
+			"Translation":"-   He estado de dieta, pero es duro seguir con ella.",
+			"Options":
+			[ 
+				"On - Stick",	
+				"For - Stick",
+				"In - Follow",
+				"On - Follow"
+			]
+		},	
+		{
+			"Question": "My phone <color=#5bd3de>______________</color> while we    <color=#5bd3de>______________</color>    the move.",
+			"Answer": "My phone  <i><color=#5bd3de>rang</color></i>  while we   <i><color=#5bd3de>were watching</color></i>    the move.",
+			"Translation":"-   Mi teléfono sonó cuando estábamos viendo la tele.",
+			"Options":
+			[ 
+				"Rang  -  Were watching",	
+				"Was ringin  -  Watched",
+				"Rang  -  Watched",
+				"Was ringing  -  were watching"
+			]
+		},
+		{
+			"Question": "I always   <color=#5bd3de>______________</color>    lots of New Year resolutions, but I can never    <color=#5bd3de>______________</color>    to them.",
+			"Answer": "I always   <color=#5bd3de>make</color>    lots of New Year resolutions, but I can never    <color=#5bd3de>stick</color>    to them.",
+			"Translation":"-   Siempre hago muchas promesas de Nuevo Año, pero nunca puedo seguirlas.",
+			"Options":
+			[ 
+				"Make  -  Stick",	
+				"Do  -  Follow",
+				"Make  -  Follow",
+				"Do  -  Stick"
+			]
+		},		
+		{
+			"Question": "We've run out of milk! I    <color=#5bd3de>______________</color>    get some when I go to the shop later.",
+			"Answer": "We've run out of milk! I    <color=#5bd3de>will</color>        get some when I go to the shop later.",
+			"Translation":"-   Nos hemos quedado sin leche! Iré a por algo cuando vaya a la tienda después.",
+			"Options":
+			[ 
+				"Will",	
+				"-",
+				"Am going to",
+				"Would"
+			]
+		},
+		{
+			"Question": "You <color=#5bd3de>______________</color>    a doctor if you    <color=#5bd3de>______________</color>    harder at school!",
+			"Answer": "You <color=#5bd3de>could have been</color>    a doctor if you    <color=#5bd3de>had studied</color>    harder at school!",
+			"Translation":"-  ¡Podrías haber sido doctor si hubieras estudiado más duro en el colegio!",
+			"Options":
+			[ 
+				"Could have been  -  Had studied",
+				"Would have been  -  Would studied",	
+				"Would be  -  Studied",				
+				"Will  -  Had studied"
+			]
+		},
+		{
+			"Question": "I can't meet you at 10 o'clock tomorrow I    <color=#5bd3de>______________</color>    at that time.",
+			"Answer": "I can't meet you at 10 o'clock tomorrow I  <i><color=#5bd3de>will be teaching</color></i>     at that time.",
+			"Translation":"-  No puedo quedar contigo mañana a las 10, estaré enseñando en esa hora.",
+			"Options":
+			[ 
+				"Will be teaching",	
+				"Will teach",
+				"am going to teach",
+				"Will be teach"
+			]
+		},
+		{
+			"Question": "I can meet you at 12 o'clock I    <color=#5bd3de>______________</color>    teaching by then.",
+			"Answer": "I can meet you at 12 o'clock I  <i><color=#5bd3de>will have finished</color></i>     teaching by then.",
+			"Translation":"-  Puedo encontrarme contigo a las 12, habré terminado de enseñar para entonces.",
+			"Options":
+			[ 
+				"Will have finished",	
+				"Finished",
+				"Would finish",
+				"Will be finishing"
+			]
+		},
+		{
+			"Question": "My car    <color=#5bd3de>______________</color>    at the moment, so I have to walk to work.",
+			"Answer": "My car  <i><color=#5bd3de>is being repaired</color></i>    at the moment, so I have to walk to work.",
+			"Translation":"-   Mi coche está siendo reparado en este momento, a si que tengo que caminar al trabajo.",
+			"Options":
+			[ 
+				"Is being repaired",	
+				"Has been repaired",
+				"Is been repaired",
+				"Is repairing"
+			]
+		},
+		{
+			"Question": "When I was a child, I    <color=#5bd3de>______________</color>    live on a farm.",
+			"Answer": "When I was a child, I  <i><color=#5bd3de>used to</color></i>    live on a farm.",
+			"Translation":"-   Cuando era niño vivía (solía vivir) en una granja.",
+			"Options":
+			[ 
+				"Used to",	
+				"Use to",
+				"Would",
+				"Were"
+			]
+		},
+		
+		{
+			"Question": "Do you know that    <color=#5bd3de>______________</color>   is spelt    <color=#5bd3de>______________</color>    in American English?",
+			"Answer": "Do you know that    <i><color=#5bd3de>theatre</color></i>  is spelt   <i><color=#5bd3de>theater</color></i>    in American English?",
+			"Translation":"-   Mi teléfono sonó cuando estábamos viendo la tele.",
+			"Options":
+			[ 
+				"Theatre  -  Theater",	
+				"Program  -  Programme",
+				"Traveling  -  Travelling",
+				"Color  -  Colour"
+			]
+		},
+		{
+			"Question": "I bought    <color=#5bd3de>______________</color>   a new guitar for Christmas!",
+			"Answer": "I bought   <i><color=#5bd3de>myself</color></i>    a new guitar for Christmas!",
+			"Translation":"-  ¡Me compré una nueva guitarra para Navidad!",
+			"Options":
+			[ 
+				"Myself",	
+				"Me",
+				"To me",
+				"For me"
+			]
+		},
+		{
+			"Question": "Who is responsible    <color=#5bd3de>______________</color>   this mess?",
+			"Answer": "Who is responsible   <i><color=#5bd3de>for</color></i>    this mess?",
+			"Translation":"-  ¿Quién es responsable de este desastre?",
+			"Options":
+			[ 
+				"For",	
+				"On",
+				"To",
+				"-"
+			]
+		},
+		{
+			"Question": "<color=#5bd3de>______________</color>   it was rainning, we decided to play football.",
+			"Answer": "<i><color=#5bd3de>Althought</color></i>    it was rainning, we decided to play football.",
+			"Translation":"-   A pesar de que estaba lloviendo, decididmos jugar al fútbol.",
+			"Options":
+			[ 
+				"Althought",	
+				"In Spite of",
+				"Even",
+				"Despite"
+			]
+		},
+		{
+			"Question": "I have    <color=#5bd3de>______________</color>   friends coming round for dinner tonight. Do you want to come?",
+			"Answer": "I have   <i><color=#5bd3de>a few</color></i>    friends coming round for dinner tonight. Do you want to come?",
+			"Translation":"-   Tengo unos pocos amigos viniendo esta noche a cenar. ¿Quieres venir?",
+			"Options":
+			[ 
+				"A few",	
+				"A little",
+				"Little",
+				"Few"
+			]
+		},
+		{
+			"Question": "<color=#5bd3de>______________</color>    like a leaf, Paul slowly opened his eyes.",
+			"Answer": "<i><color=#5bd3de>Shaking</color></i>   like a leaf, Paul slowly opened his eyes.",
+			"Translation":"-   Temblando como una hoja, Paul lentamente abrió los ojos",
+			"Options":
+			[ 
+				"Shaking",	
+				"Shake",
+				"Shook",
+				"Shaken"
+			]
+		},
+		{
+			"Question": "Don't worry if it doesn't    <color=#5bd3de>______________</color>    you can always take it back.",
+			"Answer": "Don't worry if it doesn't    <i><color=#5bd3de>fit</color></i>   you can always take it back.",
+			"Translation":"-   No te preocupes si no te vale, siempre puedes devolverlo.",
+			"Options":
+			[ 
+				"Fit",	
+				"Suit",
+				"Look",
+				"Sit"
+			]
+		},
+		
+		{
+			"Question": "    <color=#5bd3de>______________</color>   Mount Everest is in    <color=#5bd3de>______________</color>    Himalayas.",
+			"Answer": "    <color=#5bd3de>-</color>   Mount Everest is in    <color=#5bd3de>the</color>    Himalayas.",
+			"Translation":"-   El Monte Everest esta en el Himalayas.",
+			"Options":
+			[ 
+				" - , The",	
+				" The , The",	
+				" The , - ",	
+				" - , - "
+			]
+		},		
+		{
+			"Question": "He is going to   <color=#5bd3de>______________</color>    University in September to study English.",
+			"Answer": "He is going to   <i><color=#5bd3de>-</color></i>    University in September to study English.",
+			"Translation":"-   Va a ir a la universidad en septiembre a estudiar Inglés",
+			"Options":
+			[ 
+				" - ",	
+				"a",
+				"an",
+				"the"
+			]
+		},
+		
+		{
+			"Question": "He's got   <color=#5bd3de>______________</color>    wine.",
+			"Answer": "He's got    <i><color=#5bd3de>some</color></i>   wine.",
+			"Translation":"-   Tiene vino.",
+			"Options":
+			[ 
+				"Some",	
+				"much",
+				"many",
+				"so"
+			]
+		},
+		{
+			"Question": "Could you shut the window? I'm    <color=#5bd3de>______________</color>    cold.",
+			"Answer": "Could you shut the window? I'm    <i><color=#5bd3de>some</color></i>   cold.",
+			"Translation":"-   ¿Podrías cerrar la ventana? Tengo un poco de frío.",
+			"Options":
+			[ 
+				"A bit",	
+				"Absolutely",
+				"Totally",
+				"Completely"
+			]
+		},
+		{
+			"Question": "She will tell you    <color=#5bd3de>______________</color>    to the party.",
+			"Answer": "She will tell you   <i><color=#5bd3de>what to bring</color></i>   to the party.",
+			"Translation":"-   Ella te dirá que traer a la fiesta.",
+			"Options":
+			[ 
+				"What to bring",
+				"What bring",				
+				"What will bring",
+				"to bring"
+			]
+		},
+		{
+			"Question": "Are you taller than Peter? No. But I'm    <color=#5bd3de>______________</color>",
+			"Answer": "Are you taller than Peter? No. But I'm    <i><color=#5bd3de>almost as tall</color></i>",
+			"Translation":"-   ¿Eres más alto qeu Peter? No Pero soy casi tan alto.",
+			"Options":
+			[ 
+				"Almost as tall",
+				"Almost tallest",				
+				"Taller",
+				"As Taller"
+			]
+		},
+		{
+			"Question": "The plane flew    <color=#5bd3de>______________</color>    the castle.",
+			"Answer": "The plane flew   <i><color=#5bd3de>over</color></i>    the castle.",
+			"Translation":"-   El avión voló por encima del castillo.",
+			"Options":
+			[ 
+				"Over",
+				"Under",				
+				"Beneath",
+				"South"
+			]
+		},
+		{
+			"Question":  "His new girlfriend is   <color=#5bd3de>______________</color>    nicer than his last one.",
+			"Answer": "His new girlfriend is    <i><color=#5bd3de>far</color></i>    nicer than his last one.",
+			"Translation":"-   Su nueva novia es mucho más agradable que la última.",
+			"Options":
+			[ 
+				"Far",
+				"Very",				
+				"Quite",
+				"Exactly"
+			]
+		},
+		{
+			"Question":  "I waited for him    <color=#5bd3de>______________</color>    eight o'clock",
+			"Answer": "I waited for him    <i><color=#5bd3de>until</color></i>    eight o'clock.",
+			"Translation":"-   Le esperé hasta las 8.",
+			"Options":
+			[ 
+				"Until",
+				"At",				
+				"For",
+				"By"
+			]
+		},
+		{
+			"Question":  "I    <color=#5bd3de>______________</color>   early tomorrow.",
+			"Answer": "I    <i><color=#5bd3de>will leave</color></i>    early tomorrow..",
+			"Translation":"-   Me levantaré pronto mañana.",
+			"Options":
+			[ 
+				"Will leave",
+				"Left",				
+				"Waill left",
+				"Leaving"
+			]
+		},
+		{
+			"Question":  "She went to school    <color=#5bd3de>______________</color>   three months..",
+			"Answer": "She went to school    <i><color=#5bd3de>for</color></i>    three months..",
+			"Translation":"-   Ella fue al colegio tres meses.",
+			"Options":
+			[ 
+				"For",
+				"Since",				
+				"About",
+				"Ago"
+			]
+		},
+		{
+			"Question":  "I had    <color=#5bd3de>______________</color>    cut yesterday. What do you think?",
+			"Answer": "I had    <i><color=#5bd3de>my hair</color></i>    cut yesterday. What do you think?",
+			"Translation":"-   Ella fue al colegio tres meses.",
+			"Options":
+			[ 
+				"My hair",
+				"My hairs",				
+				"Some hairs",
+				"The hair"
+			]
+		},
+		{
+			"Question":  "I really enjoy the class!    <color=#5bd3de>______________</color>    students are very nice.",
+			"Answer": "I really enjoy the class!    <i><color=#5bd3de>my hair</color></i>    students are very nice.",
+			"Translation":"-   Disfruto de la clase! Los estudiantes son muy buenos.",
+			"Options":
+			[ 
+				"The",
+				"",				
+				"All",
+				"No"
+			]
+		},
+		{
+			"Question":  "We've been waiting for ages! The food    <color=#5bd3de>______________</color>    be ready by now.",
+			"Answer": "We've been waiting for ages! The food    <color=#5bd3de>must</color>    be ready by now.",
+			"Translation":"-  ¡Llevamos esperando años! La comida debería estar preparada ya.",
+			"Options":
+			[ 
+				"Must",
+				"May",				
+				"Might",
+				"Can't"
+			]
+		},
+		{
+			"Question":  "We've run out of milk! I    <color=#5bd3de>______________</color>    get some when I go to the shop later.",
+			"Answer": "We've run out of milk! I    <i><color=#5bd3de>will</color></i>    get some when I go to the shop later.",
+			"Translation":"-  ¡Nos hemos quedado sin leche! Compráre algo cuando vaya a la tienda depués.",
+			"Options":
+			[ 
+				"Will",
+				"",				
+				"am going to",
+				"would"
+			]
+		},
+		{
+			"Question":  "If you    <color=#5bd3de>______________</color>    go anywhere in the world, where    <color=#5bd3de>______________</color>    you go?",
+			"Answer": "If you    <color=#5bd3de>could</color>    go anywhere in the world, where    <color=#5bd3de>would</color>    you go?",
+			"Translation":"-  Si pudieras ir a cualquier lugar de este mundo, ¿Donde irías?",
+			"Options":
+			[ 
+				"Could  -  Would",	
+				"Can  -  Will",	
+				"Could  -  Will",	
+				"Would  -  Would"	
+			]
+		},
+		
+		{
+			"Question":  "If his band    <color=#5bd3de>______________</color>    on tour with The Electrons Jamie    <color=#5bd3de>______________</color>    in England.",
+			"Answer": "If his band    <color=#5bd3de>goes</color>    on tour with The Electrons Jamie    <color=#5bd3de>will stay</color>     in England.",
+			"Translation":"-  Si su banda va en un tur con The Electrons, Jamie se quedará en England.",
+			"Options":
+			[ 
+				"Goes  -  Will stay",	
+				"Goes  -  Stays",	
+				"Will stay  -  Goes",	
+				"Will go  -  Stays"	
+			]
+		},
+		{
+			"Question":  "If Emily    <color=#5bd3de>______________</color>    to France next year, Carolina   <color=#5bd3de>______________</color>   her.",
+			"Answer": "If Emily    <color=#5bd3de>goes</color>    to France next year, Carolina   <color=#5bd3de>might visit</color>   her.",
+			"Translation":"-  Si Emily va a Francia el próximo año, Carolina podría visitarla.",
+			"Options":
+			[ 
+				"Goes  -  Might visit",	
+				"Will go  -  Visits",	
+				"Might go  -  Visits",	
+				"Will go  -  Stays"	
+			]
+		},
+		{
+			"Question":  "People    <color=#5bd3de>______________</color>    if you   <color=#5bd3de>______________</color>   loudly in a library.",
+			"Answer": "People    <color=#5bd3de>might complain</color>    if you   <color=#5bd3de>talk</color>   loudly in a library.",
+			"Translation":"-  La gente podría quejarse si hablas alto en una biblioteca.",
+			"Options":
+			[ 
+				"Might complain  -  Talk",	
+				"Might complain  -  will talk",	
+				"Are complaining  -  Talk",	
+				"Complain  -  Will talk"	
+			]
+		},
+		{
+			"Question":  "If I    <color=#5bd3de>______________</color>  for my next exams, I  <color=#5bd3de>______________</color>   very well.",
+			"Answer": "If I    <color=#5bd3de>don't study</color>  for my next exams, I  <color=#5bd3de>won't do</color>   very well.",
+			"Translation":"- Si no estudio para mis próximos exámenes, no lo haré muy bien.",
+			"Options":
+			[ 
+				"Don't study  -  Won't do",	
+				"Don't study  -  Don't do",	
+				"Study -  Don't do",	
+				"Study  -  Won't do"	
+			]
+		},
+		{
+			"Question":  "I almost    <color=#5bd3de>______________</color>  catch the train, but I was a few seconds too late.",
+			"Answer": "I almost    <color=#5bd3de>managed to</color>  catch the train, but I was a few seconds too late.",
+			"Translation":"- Casi fui capaz de coger el tren, pero llegué unos segundos tarde.",
+			"Options":
+			[ 
+				"Managed to",	
+				"Am able to",	
+				"Could",	
+				"Can"	
+			]
+		},
+		
+		{
+			"Question":  "When I was a child, I    <color=#5bd3de>______________</color>    live on a farm.",
+			"Answer": "When I was a child, I    <color=#5bd3de>cused to</color>    live on a farm.",
+			"Translation":" -  Cuando era niño, solía vivir en una granja.",
+			"Options":
+			[ 
+				"Used to",	
+				"Use to",	
+				"Would",	
+				"Were"
+			]
+		},
+
+
+		{
+			"Question":  "I haven't told my mum    <color=#5bd3de>______________</color>    !",
+			"Answer": "I haven't told my mum    <i><color=#5bd3de>yet</color></i>    !",
+			"Translation":"-  ¡No se lo he contado a mi madre todavía!",
+			"Options":
+			[ 
+				"Yet",
+				"Already",				
+				"Still",
+				"Just"
+			]
+		},				
+		{
+			"Question":  "This pizza is    <color=#5bd3de>______________</color>    delicius!",
+			"Answer": "This pizza is    <i><color=#5bd3de>absolutely</color></i>    delicius!",
+			"Translation":" -  ¡Esta pizza está absolutamente deliciosa!",
+			"Options":
+			[ 
+				"Absolutely",
+				"Very",				
+				"A lot",
+				"A bit"
+			]
+		},		
+		{
+			"Question":  "Peter is playing tennis    <color=#5bd3de>______________</color>   Sunday.",
+			"Answer": "Peter is playing tennis    <i><color=#5bd3de>on</color></i>    Sunday.",
+			"Translation":" - Peter juega tenis el domingo.",
+			"Options":
+			[ 
+				"On",
+				"In",				
+				"At",
+				"For"
+			]
+		},		
+		{
+			"Question":  "My brother's birthday is    <color=#5bd3de>______________</color>   the 5th of November.",
+			"Answer": "My brother's birthday is    <i><color=#5bd3de>on</color></i>    the 5th of November.",
+			"Translation":" - El cumpleaños de mi hermano es el 5 de noviembre.",
+			"Options":
+			[ 
+				"On",
+				"In",				
+				"At",
+				"For"
+			]
+		},	
+		{
+			"Question":  "My birthday is    <color=#5bd3de>______________</color>   May.",
+			"Answer": "My birthday is    <i><color=#5bd3de>in</color></i>    May.",
+			"Translation":" - Mi cumpleaños es en Mayo.",
+			"Options":
+			[ 
+				"In",
+				"On",								
+				"At",
+				"For"
+			]
+		},	
+		{
+			"Question":  "We are going to see my parents    <color=#5bd3de>______________</color>   the weekend.",
+			"Answer": "We are going to see my parents    <i><color=#5bd3de>at</color></i>   the weekend.",
+			"Translation":" - Vamos a ver a mis padres el fin de semana.",
+			"Options":
+			[ 
+				"At",
+				"In",
+				"On",
+				"For"
+			]
+		},	
+		{
+			"Question":  "<color=#5bd3de>______________</color>   1666, a great fire broke out in London.",
+			"Answer": "<i><color=#5bd3de>In</color></i>  1666, a great fire broke out in London.",
+			"Translation":" - En 1666, un gran incendio explotó en Londres.",
+			"Options":
+			[ 
+				"In",
+				"At",				
+				"On",
+				"For"
+			]
+		},	
+		{
+			"Question":  "I don't like walking alone in the streets    <color=#5bd3de>______________</color>  night.",
+			"Answer": "I don't like walking alone in the streets    <i><color=#5bd3de>at</color></i>   night.",
+			"Translation":" - No me gusta caminar sola por las calles de noche.",
+			"Options":
+			[ 
+				"At",
+				"In",
+				"On",
+				"For"
+			]
+		},
+		{
+			"Question":  "What are you doing    <color=#5bd3de>______________</color>  the afternoon?",
+			"Answer": "What are you doing    <i><color=#5bd3de>in</color></i>   the afternoon?",
+			"Translation":" - ¿Que haces por la tarde?",
+			"Options":
+			[ 
+				"In",
+				"At",				
+				"On",
+				"For"
+			]
+		},
+		{
+			"Question":  "My friend has been living in Canada    <color=#5bd3de>______________</color>  two years.",
+			"Answer": "My friend has been living in Canada    <i><color=#5bd3de>for</color></i>    two years.",
+			"Translation":" - Mi amigo lleva viviendo en Canada 2 años.",
+			"Options":
+			[ 
+				"For",
+				"In",
+				"At",				
+				"On"				
+			]
+		},
+
+
+
+
+		{
+			"Question":  "John worked hard and    <color=#5bd3de>______________</color>    his best at his job, but he still wasn't promoted.",
+			"Answer": "John worked hard and    <i><color=#5bd3de>did</color></i>    his best at his job, but he still wasn't promoted.",
+			"Translation":"-   John trabajó duro y dio lo mejor de si mismo, pero aún no ha sido ascendido.",
+			"Options":
+			[ 
+				"Did",
+				"Made",				
+				"Make",
+				"Do"
+			]
+		},
+		{
+			"Question":  "The teenagers were    <color=#5bd3de>______________</color>    such a noise that the neighbour called the police.",
+			"Answer": "The teenagers were    <i><color=#5bd3de>making</color></i>    such a noise that the neighbour called the police.",
+			"Translation":"-   Los adolescentens estaban haciendo tanto ruido que los vecinos llamaron a la policía.",
+			"Options":
+			[ 
+				"Making",
+				"Doing",				
+				"Make",
+				"Do"
+			]
+		},
+		{
+			"Question":  "She    <color=#5bd3de>______________</color>    a payment on her debt every month. Soon she'll have finished paying it off.",
+			"Answer": "She    <i><color=#5bd3de>makes</color></i>    a payment on her debt every month. Soon she'll have finished paying it off.",
+			"Translation":"-   Ella hace un pago de sus deudas todos los meses. Pronto habrá acabado de pagar todas.",
+			"Options":
+			[ 
+				"Makes",
+				"Does",				
+				"Made",
+				"Did"
+			]
+		},
+		{
+			"Question":  "So many chores to     <color=#5bd3de>______________</color>    ! I need to clean the bathroom and the kitchen, hoover and change all the beds.",
+			"Answer": "So many chores to     <i><color=#5bd3de>do</color></i>    ! I need to clean the bathroom and the kitchen, hoover and change all the beds.",
+			"Translation":"-  ¡Tantas tareas que hacer! Tengo que limpiar el baño y la cocina, aspirar y cambiar todas las camas.",
+			"Options":
+			[ 
+				"Do",
+				"Make",				
+				"Done",
+				"Made"
+			]
+		},
+		{
+			"Question":  "Sorry, I've     <color=#5bd3de>______________</color>    a mistake. The restaurant isn't here, but on another street.",
+			"Answer": "Sorry, I've     <i><color=#5bd3de>made</color></i>    a mistake. The restaurant isn't here, but on another street.",
+			"Translation":"-  Lo siento me he confundido un error. El restaurante no está aqui, si no en otra calle.",
+			"Options":
+			[ 
+				"Made",
+				"Done",				
+				"Do",
+				"Make"
+			]
+		},
+		{
+			"Question":  "It's late, and we should go home. Let's     <color=#5bd3de>______________</color>    a move.",
+			"Answer": "It's late, and we should go home. Let's     <i><color=#5bd3de>make</color></i>    a move.",
+			"Translation":"-  Es tarde, deberíamos ir a casa.  Movámonos.",
+			"Options":
+			[ 
+				"Make",
+				"Do",				
+				"Made",
+				"Done"
+			]
+		},
+		{
+			"Question":  "He     <color=#5bd3de>______________</color>   a promise to his grandmother that he'd never fight anyone ever again.",
+			"Answer": "He    <i><color=#5bd3de>made</color></i>    a promise to his grandmother that he'd never fight anyone ever again.",
+			"Translation":"- Le Hizo una promesa a su abuela de que nunca lucharía contra nadie otra vez.",
+			"Options":
+			[ 
+				"Made",
+				"Did",				
+				"Make",
+				"Does"
+			]
+		},
+		{
+			"Question":  "I called the hotel and     <color=#5bd3de>______________</color>   a reservation for two people for Saturday the 16th.",
+			"Answer": "I called the hotel and    <i><color=#5bd3de>made</color></i>    a reservation for two people for Saturday the 16th.",
+			"Translation":"- Llamé al hotel e hize una reserva para dos personas para el Sábado 16.",
+			"Options":
+			[ 
+				"Made",
+				"Did",				
+				"Make",
+				"Does"
+			]
+		},
+		{
+			"Question":  "Could you lend me 20€ for lunch? I'll     <color=#5bd3de>______________</color>   tomorrow.",
+			"Answer": "Could you lend me 20€ for lunch? I'll    <i><color=#5bd3de>pay you back</color></i>    tomorrow.",
+			"Translation":"-¿Podrías prestarme 20€ para comer? Te lo devloveré mañana.",
+			"Options":
+			[ 
+				"Pay back",
+				"Save up",				
+				"Shell out",
+				"Come up"
+			]
+		},
+		{
+			"Question":  "Do you know that     <color=#5bd3de>______________</color>   is spelt    <color=#5bd3de>______________</color>    in American English?",
+			"Answer": "Do you know that     <color=#5bd3de>litre</color>   is spelt    <color=#5bd3de>liter</color>    in American English?",
+			"Translation":"-¿Sabías que litro se deletrea litro en Inglés Americano?",
+			"Options":
+			[ 
+				"Litre - Liter",
+				"Program - Programme ",				
+				"Traveling - Travelling",
+				"Color - Colour"
+			]
+		}
+	] 	
+}
