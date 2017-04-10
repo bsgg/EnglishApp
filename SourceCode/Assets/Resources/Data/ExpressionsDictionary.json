@@ -659,25 +659,41 @@
 				"No me extraña que el bebé esté llorando, hay que cambiarle el dodoti."
 			]
 		},
-		{
-			"VocabularyWord": "Long time no see",
+    {
+      "VocabularyWord": "Long time no see",
+      "Meanings": [
+        "Saludo informal: Cuanto tiempo sin verte"
+      ],
+      "EnglishExamples": [
+        "Hey Anabell! How are you going? Long time no see an all that.",
+        "Hi there, Paul. Long time no see.",
+        "Hey, John! Long time no see!"
+      ],
+      "SpanishExamples": [
+        "¡Hey Anabell! ¿Qué tal estás? Cuanto tiempo tiempo sin verte y todo eso.",
+        "Hola, Paul. Cuanto tiempo sin verte.",
+        "¡Hey, John! ¡Cuánto tiempo sin verte!"
+      ]
+    },
+    {
+			"VocabularyWord": "Spill the beans",
 			"Meanings": 
 			[
-				"Saludo informal: Cuanto tiempo sin verte"
+				"Revelar un secreto"
 			],			
 			"EnglishExamples":
 			[ 
-				"Hey Anabell! How are you going? Long time no see an all that.",
-				"Hi there, Paul. Long time no see.",
-				"Hey, John! Long time no see!"
+				"The Scotland Yard Police have been trying to get him to spill the beans about the anomalies in the department but he won’t tell them a thing.",
+        "There is a surprise party for Heidi on Wednesday. Please don't spill the beans.",
+        "My husband was afraid to spill the beans about the cost of his purchases."
 			],
 			"SpanishExamples":
 			[ 
-				"¡Hey Anabell! ¿Qué tal estás? Cuanto tiempo tiempo sin verte y todo eso.",
-				"Hola, Paul. Cuanto tiempo sin verte.",
-				"¡Hey, John! ¡Cuánto tiempo sin verte!"
+				"La policia de Scotland Yard llevan intentando sacarle el secreto sobre las anomails en el departament pero no dirá nada.",
+        "Hay una fiesta sopresa para Heidi el miércoles. Por favor no lo descubráis.",
+        "Mi mariod tenía miedo de decir el coste de sus compras"
 			]
-		},
+		},	
 		{
 			"VocabularyWord": "On the way",
 			"Meanings": 
