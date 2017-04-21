@@ -24,38 +24,67 @@
 				"Si sigues intentándolo, serás capaz de estirarte más lejos."
 			]
 		},
-		{
-			"Title": "Make and Do",
-			"Description": "Make and Do mean almost the same: Hacer",	
-			"ExtraInfo":"Table_Data/Grammar/Misc/TableMakeDo",					
+    {
+      "Title": "Make and Do",
+      "Description": "Make and Do mean almost the same: Hacer",
+      "ExtraInfo": "Table_Data/Grammar/Misc/TableMakeDo",
+      "Rules": [
+        "R01:<color=#5bd3de>Do: </color><color=#c9e8ff>Use for general activities.</color>",
+        "R02:<color=#5bd3de>Make: </color><color=#c9e8ff>Use when we create or construct something.</color>"
+      ],
+      "EnglishExamples": [
+        "R01:She sat on the sofa, doing a crossword and drinking tea",
+        "R01:She's fed up with doing everything herself. She needs some help.",
+        "R01:John has decided to do a course in computing this autumn.",
+        "R01:Allie spends ages doing her hair in the morning.",
+
+        "R02:She had toothache, so she made an appointment with the dentist for the following day.",
+        "R02:I've made my decision. I'm going to go back to university.",
+        "R02:You're not trying hard enough! Make an effort!",
+        "R02:Why was Lisa late? Did she make an excuse?"
+      ],
+      "SpanishExamples": [
+        "Se sentó en el sofá, haciendo un crucigrama y tomando te.",
+        "Ella está harta haciendo todo por si misma. Necesita ayuda.",
+        "John ha decidido hacer un curso en informática este otoño",
+        "Allie pasa años arreglándose el pelo por la mañna.",
+
+        "Le dolía un diente, asi que pidió una cita con el dentista para el día siguiente.",
+        "He tomado mi decisión. Voy a volver a la universidad.",
+        "¡No lo estás intentando lo suficientemente fuerte! ¡Haz un esfuerzo!",
+        "¿Porqué Lisa llegó tarde? ¿Dió una excusa?"
+      ]
+    },
+    {
+			"Title": "May vs Might",
+			"Description": "May and Migh are both ways of expressing possibility",	
+			"ExtraInfo":"",					
 			"Rules":
-			[ 
-				"R01:<color=#5bd3de>Do: </color><color=#c9e8ff>Use for general activities.</color>",
-				"R02:<color=#5bd3de>Make: </color><color=#c9e8ff>Use when we create or construct something.</color>"
+			[
+        "R01:General Rule - <color=#5bd3de>May: </color><color=#c9e8ff>Present Tense</color> - <color=#5bd3de>Might: </color><color=#c9e8ff>Past Tense</color>",
+				"R02:<color=#5bd3de>Today: </color><color=#c9e8ff>May and might are interchangeable.</color>"
 			],			
 			"EnglishExamples":
 			[ 
-				"R01:She sat on the sofa, doing a crossword and drinking tea",
-				"R01:She's fed up with doing everything herself. She needs some help.",
-				"R01:John has decided to do a course in computing this autumn.",
-				"R01:Allie spends ages doing her hair in the morning.",
+				"R01:I think that comment may have offended some people.",
+				"R01:He may not come.",
+        "R01:He might still get here in time.",
+        "R01:I might go out on my bike today, but then again, I might not.",
 				
-				"R02:She had toothache, so she made an appointment with the dentist for the following day.",
-				"R02:I've made my decision. I'm going to go back to university.",
-				"R02:You're not trying hard enough! Make an effort!",
-				"R02:Why was Lisa late? Did she make an excuse?"
+				"R02:I may/might go home early if I’m tired.",
+				"R02:He might/may have visited Italy before settling in Nuremberg",
+				"R02:By the time you read this, he may/might have made his decision."
 			],
 			"SpanishExamples":
 			[ 
-				"Se sentó en el sofá, haciendo un crucigrama y tomando te.",
-				"Ella está harta haciendo todo por si misma. Necesita ayuda.",
-				"John ha decidido hacer un curso en informática este otoño",
-				"Allie pasa años arreglándose el pelo por la mañna.",
+				"Creo que el comentario puede haber ofendido a algunas persona.",
+				"Puede que no venga.",
+				"Puede que todavía llegue a tiempo.",
+				"Puede que salta a montar en bici hoy, pero otra vez, puede que no.",
 				
-				"Le dolía un diente, asi que pidió una cita con el dentista para el día siguiente.",
-				"He tomado mi decisión. Voy a volver a la universidad.",
-				"¡No lo estás intentando lo suficientemente fuerte! ¡Haz un esfuerzo!",
-				"¿Porqué Lisa llegó tarde? ¿Dió una excusa?"
+				"Puede que me vaya a casa pronto si estoy cansada.",
+				"Puede que haya visitado Italia antes de asentarme en Nuremberg.",
+				"Para cuando leas esto, él habrá tomado su decisión."
 			]
 		},
 		{

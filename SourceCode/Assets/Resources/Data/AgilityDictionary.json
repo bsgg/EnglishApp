@@ -503,6 +503,40 @@
       ]
     },
     {
+      "VocabularyWord": "How far..?",
+      "Meanings": [ "¿Cómo de lejos...? (Talk about distance)" ],
+      "EnglishExamples": [
+        "How far do you usually walk? I walk 5 kilometers.",
+        "How far will you drive?",
+        "How far is New York from Los Angeles? - New York is about 2900 miles from Los Angeles.",
+        "How far is the closest bus stop from the supermarket? The closest bus stop is 200 meters away."
+      ],
+      "SpanishExamples": [
+        "¿Cómo de lejos caminas normalmente? Camino 5 km.",
+        "¿Cómo de lejos conducirás?",
+        "¿Cuánto de lejos está Nueva York de los Ángeles? - New York está a unas 2900 millas de los Ángeles.",
+        "¿Cuánto de lejos está la parada de autobús más cercanda del supermercado? La parada más cercana está a 200 metros."
+      ]
+    },
+    {
+      "VocabularyWord": "How long..?",
+      "Meanings": [ "¿Cuanto tiempo...? (Talk about amount of time something takes.)" ],
+      "EnglishExamples": [
+        "How long did you wait? I waited for 30 minutes.",
+        "How long have you been living in Canada?",
+        "How long do you usually stretch in the morning? - I usually stretch for 10 minutes.",
+        "How long did the film last? - It lasted around 2 hours.",
+        "How long is the Nile river? (Physical lenght or something)"
+      ],
+      "SpanishExamples": [
+        "¿Cuánto tiempo esperaste? Esperé 30 minutos.",
+        "¿Cuánto tiempo llevas viviendo en Canadá?",
+        "¿Cuánto tiempo estiras normalmente por la mañana? - Suelo estirar 10 minutos.",
+        "¿Cuánto duró la película? - Duró unas 2 horas.",
+        "¿Cómo de largo es el rio Nilo?"
+      ]
+    },
+    {
       "VocabularyWord": "I agree with",
       "Meanings": [ "Estoy de acuerdo" ],
       "EnglishExamples": [
