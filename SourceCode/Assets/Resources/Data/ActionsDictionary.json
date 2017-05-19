@@ -381,23 +381,37 @@
 				"Sally empanó el salmón con hierbas y especies."
 			]			
 		},
-		{
-			"Category": "ACTION",
-			"VocabularyWord": "Bribe",
-			"Pronunciation": "/braid/",
-			"Meanings": 
-			[
-				"Sobornar"
-			],
-			"EnglishExamples":
-			[ 
-				"The mayor is suspected of offering a bribe to his assistant in order to cover up his wrongdoing."
-			],
-			"SpanishExamples":
-			[ 
-				"El alclade es sospechoso de ofrecer un soborno a su asistente para cubri su delito."
-			]			
-		},
+    {
+      "Category": "ACTION",
+      "VocabularyWord": "Bribe",
+      "Pronunciation": "/braid/",
+      "Meanings": [
+        "Sobornar"
+      ],
+      "EnglishExamples": [
+        "The mayor is suspected of offering a bribe to his assistant in order to cover up his wrongdoing."
+      ],
+      "SpanishExamples": [
+        "El alclade es sospechoso de ofrecer un soborno a su asistente para cubri su delito."
+      ]
+    },
+    {
+      "Category": "ACTION",
+      "VocabularyWord": "Bug",
+      "Pronunciation": "/bagg/",
+      "Meanings": [
+        "Fastidiar, Molestar",
+        "Fastidiar, Molestar"
+      ],
+      "EnglishExamples": [
+        "Don't bug me, I really need to concentrate!",
+        "When I am in the theater, it really bugs me if somebody behind me starts cracking seeds, talking with somebody, or answering his phone."
+      ],
+      "SpanishExamples": [
+        "No me molestes, Necesito concentrarme de verdad!",
+        "Cuando estoy en el teatro, lo de verdad me molesta es si alguien detrás empieza a comer semillas, hablar con alguien o coger el teléfono."
+      ]
+    },
     {
       "Category": "ACTION",
       "VocabularyWord": "Burp",
@@ -1526,24 +1540,41 @@
 				"El cogió mi mano y me sacó de ahi."
 			]			
 		},
-		{
+    {
+      "Category": "ACTION",
+      "VocabularyWord": "Giggle",
+      "Pronunciation": "/gigol/",
+      "Meanings": [
+        "Reir con nerviosismo",
+        "Risilla"
+      ],
+      "EnglishExamples": [
+        "The boys giggled and whispered to each other in class.",
+        "Kate let out a nervous giggle."
+      ],
+      "SpanishExamples": [
+        "Los chicos reían nerviosamente y se susurraban en clase.",
+        "Kate dejó salir una nerviosa risilla"
+      ]
+    },
+    {
 			"Category": "ACTION",
-			"VocabularyWord": "Giggle",
-			"Pronunciation": "/gigol/",
+			"VocabularyWord": "Gobble",
+			"Pronunciation": "/gabol/",
 			"Meanings": 
 			[
-				"Reir con nerviosismo",
-				"Risilla"
+				"Tragar",
+				"Engullir"
 			],
 			"EnglishExamples":
 			[ 
-				"The boys giggled and whispered to each other in class.",
-				"Kate let out a nervous giggle."
+				"Don't use the cash machine it's just gobbled my debit card!",
+				"The cats gobbled the chicken liver hungrily."
 			],
 			"SpanishExamples":
 			[ 
-				"Los chicos reían nerviosamente y se susurraban en clase.",
-				"Kate dejó salir una nerviosa risilla"
+				"¡No useis el cajero, se acaba de tragar mi tarjeta de débito!",
+				"Los gatos engullieron el hígado de pollo ávidamente"
 			]			
 		},
 		{
