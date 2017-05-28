@@ -2319,21 +2319,35 @@
 				"Pisé una caca."				
 			]			
 		},
-		{
+    {
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Slick",
+      "Pronunciation": "/ssslick/",
+      "Meanings": [
+        "Resbaladizo"
+      ],
+      "EnglishExamples": [
+        "Tara slipped on the slick ice."
+      ],
+      "SpanishExamples": [
+        "Tara se resbaló en el hielo resbaladizo."
+      ]
+    },
+    {
 			"Category": "ADJECTIVE",
-			"VocabularyWord": "Slick",
-			"Pronunciation": "/ssslick/",
+			"VocabularyWord": "Slob",
+			"Pronunciation": "/ssslob/",
 			"Meanings": 
 			[
-				"Resbaladizo"
+				"Cerdo/a, Guarro/a"
 			],
 			"EnglishExamples":
 			[ 
-				"Tara slipped on the slick ice."
+				"You are such a slob, why don't you clean this mess? The flat is full of empty cans and boxes of pizza!"
 			],
 			"SpanishExamples":
 			[ 
-				"Tara se resbaló en el hielo resbaladizo."
+				"Eres un completo cerdo, ¿Porque no limpias este desastre? !El piso está lleno de botes vacios cajas de pizza!"
 			]			
 		},
 		{

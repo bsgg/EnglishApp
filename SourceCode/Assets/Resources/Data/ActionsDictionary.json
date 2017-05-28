@@ -2099,25 +2099,43 @@
 			[ 
 				"Salté para atrás cuando el perro comenzó a ladrar."
 			]
-		},	
-		{
+		},
+    {
+      "Category": "ACTION",
+      "VocabularyWord": "Lift",
+      "Pronunciation": "/liift/",
+      "Meanings": [
+        "Levantar, Alzar"
+
+      ],
+      "EnglishExamples": [
+        "The car was lifted so the mechanic could work underneath."
+      ],
+      "SpanishExamples": [
+        "Levantaron el coche así el mecánico pudo trabajar por debajo."
+      ]
+    },	
+    {
 			"Category":  "ACTION",
-			"VocabularyWord": "Lift",
-			"Pronunciation": "/liift/",
+			"VocabularyWord": "Lurk",
+			"Pronunciation": "/luurk/",
 			"Meanings": 
 			[
-				"Levantar, Alzar"
+        "Acechar, Merodear",
+        "Acechar, Merodear"
 								
 			],
 			"EnglishExamples":
-			[ 
-				"The car was lifted so the mechanic could work underneath."
+			[
+        "The cat lurked in the bushes, waiting for potential prey.",
+        "When you become a parent, you start to notice danger lurking everywhere."
 			],
 			"SpanishExamples":
-			[ 
-				"Levantaron el coche así el mecánico pudo trabajar por debajo."
+			[
+        "El gato acechaba en los arbustos, esperando por una presa potencial.",
+        "Cuando te conviertes en padre, empezas a notar peligros merodeando en todos sitios."
 			]
-		},	
+		},
 		{
 			"Category":  "ACTION",
 			"VocabularyWord": "Mash",

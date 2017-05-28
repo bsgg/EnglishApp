@@ -477,22 +477,36 @@
 			[ 
 				"Pasó, se quedó la noche en mi casa el sábado noche."
 			]			
-		},	
-		{
+		},
+    {
+      "Category": "MISC",
+      "VocabularyWord": "Cramp",
+      "Pronunciation": "/craamp/",
+      "Meanings": [
+        "Calambre, Tirón"
+      ],
+      "EnglishExamples": [
+        "I woke up in the middle of the night because I got a cramp in my left foot. I hate when that happens!"
+      ],
+      "SpanishExamples": [
+        "Me desperté en medio de la noche porque me dió un calambre en el izquierdo pie. ¡Odio cuando eso pasa!"
+      ]
+    },	
+    {
 			"Category": "MISC",
-			"VocabularyWord": "Cramp",
-			"Pronunciation": "/craamp/",
+			"VocabularyWord": "Craving",
+			"Pronunciation": "/creiving/",
 			"Meanings": 
 			[
-				"Calambre, Tirón"
+				"Antojo"
 			],
 			"EnglishExamples":
 			[ 
-				"I woke up in the middle of the night because I got a cramp in my left foot. I hate when that happens!"			
+				"When I was pregnant, I had a craving for watermelon."			
 			],
 			"SpanishExamples":
 			[ 
-				"Me desperté en medio de la noche porque me dió un calambre en el izquierdo pie. ¡Odio cuando eso pasa!"
+				"Cuando estaba embarazada, tenía antojos por sandía."
 			]			
 		},	
 		
