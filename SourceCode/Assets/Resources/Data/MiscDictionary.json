@@ -2535,21 +2535,35 @@
 				"Adam le dio al gato callejero un poco de leche."
 			]			
 		},
-		{
+    {
+      "Category": "MISC",
+      "VocabularyWord": "Stain",
+      "Pronunciation": "/sssteini/",
+      "Meanings": [
+        "Mancha"
+      ],
+      "EnglishExamples": [
+        "She always does the dishes without paying any attention to the actual stains on the plates."
+      ],
+      "SpanishExamples": [
+        "Siempre friega los platos sin prestar ninguna atención a las manchas en los platos."
+      ]
+    },
+    {
 			"Category": "MISC",
-			"VocabularyWord": "Stain",
-			"Pronunciation": "/sssteini/",
+			"VocabularyWord": "Stall",
+			"Pronunciation": "/ssstol/",
 			"Meanings": 
 			[
-				"Mancha"
+				"Puesto, Caseta"
 			],
 			"EnglishExamples":
 			[ 
-				"She always does the dishes without paying any attention to the actual stains on the plates."			
+				"Let's go! There is a stall at the market selling French cheese."			
 			],
 			"SpanishExamples":
 			[ 
-				"Siempre friega los platos sin prestar ninguna atención a las manchas en los platos."
+				"Vamos! Hay un puesto en el mercado vendiendo queso Francés."
 			]			
 		},
 		{
