@@ -284,7 +284,7 @@ namespace EnglishApp
             {
                 for (int i = 0; i < nCategories; i++)
                 {
-                    CATEGORY_WORDS auxCat = (CATEGORY_WORDS)i;
+                    //CATEGORY_WORDS auxCat = (CATEGORY_WORDS)i;
                     lCategories.Add(i);
                 }
             }

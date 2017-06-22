@@ -1324,21 +1324,37 @@
 				"El pelícano estaba aleteando sus alas delante de mí."
 			]			
 		},
-		{
+    {
+      "Category": "ACTION",
+      "VocabularyWord": "Flicker",
+      "Pronunciation": "/fliiiker/",
+      "Meanings": [
+        "Parpadeo"
+      ],
+      "EnglishExamples": [
+        "Paul saw a flicker or light in the dark."
+      ],
+      "SpanishExamples": [
+        "Paul vio un parpadeo o luz en la oscuridad"
+      ]
+    },
+    {
 			"Category": "ACTION",
-			"VocabularyWord": "Flicker",
-			"Pronunciation": "/fliiiker/",
+			"VocabularyWord": "Flirt",
+			"Pronunciation": "/fleeert/",
 			"Meanings": 
 			[
-				"Parpadeo"
+				"Flitera, coquetear"
 			],
 			"EnglishExamples":
 			[ 
-				"Paul saw a flicker or light in the dark."
+				"Rachel was always flirting at the bar.",
+        "I'm flirting with the idea of going to Japan next year. "
 			],
 			"SpanishExamples":
 			[ 
-				"Paul vio un parpadeo o luz en la oscuridad"
+				"Rachel esta siempre flirteando en el bar.",
+        "Estoy coqueteando (pensando) en la idea de ir a Japón el próximo año."
 			]			
 		},
 		{

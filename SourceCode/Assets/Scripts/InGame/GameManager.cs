@@ -2,9 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using Utility;
+using UnityEngine.UI;
 
 namespace EnglishApp
 {
+    /*[System.Serializable]
+    public class ImagetItem
+    {
+        public Image Image;
+        
+    }*/
+
+
+
     public class GameManager : Singleton<GameManager>
     {
         public enum STATE_MENU
@@ -49,6 +59,22 @@ namespace EnglishApp
         {
             get { return this.m_DataGrammar; }
         }
+
+        private List<Image> m_ListImages = new List<Image>();
+
+        public Image SelectImageByName(string name)
+        {
+            for (int i = 0; i < m_ListImages.Count; i++)
+            {
+                if (m_ListImages[i].name.Equals(name))
+                {
+                    return m_ListImages[i];
+                }
+            }
+
+            return null;
+        }
+
 
         void Start()
         {
