@@ -194,6 +194,23 @@
 			[ 				
 				"Estos brownies tienes unos pocos de bultos."
 			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Burn out",
+			"Pronunciation": "/beernout/",
+			"Meanings": 
+			[
+				"Exhausto, Agotado"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm totally burned out, I need a vacation badly, or at least a few days off."				
+			],
+			"SpanishExamples":
+			[ 				
+				"Estoy completamente agotadi, necesito vacaciones de verdad o al menos unos dias fuera."
+			]	 			
 		},			
 		{
 			"Category": "ADJECTIVE",
