@@ -20,7 +20,8 @@ namespace EnglishApp
             MODALS,
             PREPOSITIONS,
             SPEAKING_GRAMMAR,
-            COMPARATIVES
+            COMPARATIVES,
+            PASSIVE
         }
 
         ConditionalData dataConditionals;
@@ -84,6 +85,13 @@ namespace EnglishApp
         {
             get { return this.dataComparativeGrammar; }
             set { this.dataComparativeGrammar = value; }
+        }
+
+        private PassiveData m_DataPassiveGrammar;
+        public PassiveData DataPassiveGrammar
+        {
+            get { return m_DataPassiveGrammar; }
+            set { m_DataPassiveGrammar = value; }
         }
 
         public GrammarDictionary() { }
@@ -170,6 +178,15 @@ namespace EnglishApp
             }
         }
 
+        private void LoadPassiveGrammar()
+        {
+            string jsonActionsString = Utils.LoadJSONResource("Data/Grammar/Passive/Passive");
+            if (jsonActionsString != "")
+            {
+                m_DataPassiveGrammar = JsonMapper.ToObject<PassiveData>(jsonActionsString);
+            }
+        }
+
         #endregion LoadGrammarMethods
 
         public string GetSectionGrammarTitle(SECTION_GRAMMAR section)
@@ -189,6 +206,9 @@ namespace EnglishApp
                 case SECTION_GRAMMAR.MISC:
                     title = "MISC";
                     break;
+                case SECTION_GRAMMAR.QUESTIONS:
+                    title = "QUESTIONS";
+                    break;
                 case SECTION_GRAMMAR.MODALS:
                     title = "MODALS";
                     break;
@@ -200,6 +220,9 @@ namespace EnglishApp
                     break;
                 case SECTION_GRAMMAR.COMPARATIVES:
                     title = "COMPARATIVES";
+                    break;
+                case SECTION_GRAMMAR.PASSIVE:
+                    title = "PASSIVE VOICE";
                     break;
             }
             return title;
@@ -263,6 +286,12 @@ namespace EnglishApp
             {
                 loadComparativesGrammar();
                 return this.dataComparativeGrammar.ComparativesGrammar;
+            }
+
+            if (section == SECTION_GRAMMAR.PASSIVE)
+            {
+                LoadPassiveGrammar();
+                return m_DataPassiveGrammar.PassiveGrammar;
             }
 
             return null;
