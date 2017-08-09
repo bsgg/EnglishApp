@@ -738,6 +738,8 @@ namespace CrossWordUtil
 
 		#region HANDLE_CROSS_WORD
 
+        
+
 		/// <summary>
 		/// Tries to get the question in across coord if there is an actual word according to the given coord
 		/// </summary>
@@ -759,13 +761,13 @@ namespace CrossWordUtil
 			int auxICol =_iCol;		
 			for (int i = auxICol; i>=0; i--) 
 			{
-				if (grid[_iRow,i] == CrossWordGenerator.EMPTYCHARACTER)
+				if (grid[_iRow,i] == EMPTYCHARACTER)
 				{
 					auxICol = i+1;
 					break;
 				}
 				
-				if ((i == 0) && (grid[_iRow,i] != CrossWordGenerator.EMPTYCHARACTER))
+				if ((i == 0) && (grid[_iRow,i] != EMPTYCHARACTER))
 				{
 					auxICol = i;
 				}
@@ -774,9 +776,9 @@ namespace CrossWordUtil
 			
 			// Gets word to check in list
 			string word = "";
-			for (int i = auxICol; i< CrossWordGenerator.NCols; i++) 
+			for (int i = auxICol; i< NCols; i++) 
 			{
-				if (grid[_iRow,i] != CrossWordGenerator.EMPTYCHARACTER)
+				if (grid[_iRow,i] != EMPTYCHARACTER)
 				{
 					word += grid[_iRow,i];
 				}else
