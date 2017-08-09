@@ -1853,6 +1853,23 @@
 		},	
 		{
 			"Category": "ADJECTIVE",
+			"VocabularyWord": "Rumble",
+			"Pronunciation": "/rambool/",
+			"Meanings": 
+			[
+				"Retumbido"
+			],
+			"EnglishExamples":
+			[ 
+				"Agatha heard the rumble of thunder in the distance."
+			],
+			"SpanishExamples":
+			[ 				
+				"Agath escucho el retumbido de los truenos a lo lejos."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
 			"VocabularyWord": "Rush",
 			"Pronunciation": "/raaash/",
 			"Meanings": 
