@@ -763,22 +763,15 @@ namespace CrossWordUtil
         /// <param name="_iRow">Row to check</param>
         /// <param name="_iCol">Col to check</param>
 
-        public InfoWordCrossword GetAcrossInfo(int iRow, int iCol/*, out  int _iRowStart, out int _iColStart, out string _question,out string _word*/)
+        public InfoWordCrossword GetAcrossInfo(int iRow, int iCol)
 		{
             InfoWordCrossword infoAcross = new InfoWordCrossword();
 
             // Set the correct letter
-            infoAcross.Valid = false;
-            infoAcross.Letter = grid[iRow, iCol];
+            infoAcross.Valid = false;            
             infoAcross.StartRow = iRow;
 
-
-            // Piece
-            //_iRowStart = iRow;
-			//_question = "";
-			//_word = "";
-
-			// Find first across position
+			// Find the first column until is an empty character
 			int auxICol = iCol;		
 			for (int i = auxICol; i>=0; i--) 
 			{
@@ -795,8 +788,6 @@ namespace CrossWordUtil
 			}
             infoAcross.StartCol = auxICol;
 
-            //_iColStart = auxICol;
-			
 			// Gets word to check in list
 			string word = "";
 			for (int i = auxICol; i< NCols; i++) 
@@ -808,8 +799,7 @@ namespace CrossWordUtil
 				{
 					break;
 				}
-			}
-			
+			}			
 
 			if (word != "")
 			{
@@ -825,8 +815,8 @@ namespace CrossWordUtil
 
                         infoAcross.Question = listSingleWords[i].Questions;
                         infoAcross.Word = listSingleWords[i].Answer;
+                        infoAcross.Letter = grid[iRow, iCol];
                         infoAcross.Valid = true;
-                        //return true;
 					}
 				}
 			}		
@@ -854,7 +844,7 @@ namespace CrossWordUtil
 
             // Set the correct letter
             infoDown.Valid = false;
-            infoDown.Letter = grid[iRow, iCol];
+            
             infoDown.StartCol = iCol;
 
 
@@ -901,6 +891,7 @@ namespace CrossWordUtil
 					{
                         infoDown.Question = listSingleWords[i].Questions;
                         infoDown.Word = listSingleWords[i].Answer;
+                        infoDown.Letter = grid[iRow, iCol];
                         infoDown.Valid = true;
 					}
 				}
