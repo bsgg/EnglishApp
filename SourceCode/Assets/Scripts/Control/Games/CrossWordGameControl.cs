@@ -16,10 +16,10 @@ namespace EnglishApp
         [SerializeField] private CrossWordGameUI                m_CrossWordGUI;
 
         /// Generated cross word
-        private CrossWordGenerator                              m_CurrentCrossWord;
+        private CrossWordGenerator                              m_CrossWordSolution;
         // Last row and column pressed
-        private int                                             m_LastPressedRow = -1;
-        private int                                             m_LastPressedColumn = -1;
+        private int                                             m_LastSelectedRow = -1;
+        private int                                             m_LastSelectedColumn = -1;
 
         // Row and column to start the crossword
         private int                                             m_StartRow;
@@ -32,6 +32,7 @@ namespace EnglishApp
         private Color                                           m_ColorCorrectWord = new Color32(161, 255, 174, 255);
 
         private Color                                           m_ColorNormalLetter = new Color32(255, 255, 255, 255);
+
         private List<CellCrossWord>                             m_LastHighlightCells;
         //private string                                          m_CurrentHighlightWord; // Current word according to the cell selected
 
@@ -98,7 +99,7 @@ namespace EnglishApp
         {
             if (m_DataCrossword != null)
             {
-                m_CurrentCrossWord = new CrossWordGenerator(m_DataCrossword.GetListWords());
+                m_CrossWordSolution = new CrossWordGenerator(m_DataCrossword.GetListWords());
                 // Print the grid
                 SetGridInBoard();
                 // Highlight a cell 
@@ -124,17 +125,17 @@ namespace EnglishApp
             {
                 for (int iCol = 0; iCol < CrossWordGenerator.NCols; iCol++)
                 {
-                    char currentLetter = m_CurrentCrossWord.Letter(iRow, iCol);
+                    char currentLetter = m_CrossWordSolution.Letter(iRow, iCol);
                     if (currentLetter == CrossWordGenerator.EMPTYCHARACTER)
                     {
-                        m_CrossWordGUI.Piece(iRow, iCol).IsBlock = true;
-                        m_CrossWordGUI.Piece(iRow, iCol).Letter = CrossWordGenerator.EMPTYCHARACTER.ToString();
+                        m_CrossWordGUI.GetCell(iRow, iCol).IsBlock = true;
+                        m_CrossWordGUI.GetCell(iRow, iCol).Letter = CrossWordGenerator.EMPTYCHARACTER.ToString();
 
                     }
                     else
                     {
-                        m_CrossWordGUI.Piece(iRow, iCol).IsBlock = false;
-                        m_CrossWordGUI.Piece(iRow, iCol).Letter = "";
+                        m_CrossWordGUI.GetCell(iRow, iCol).IsBlock = false;
+                        m_CrossWordGUI.GetCell(iRow, iCol).Letter = "";
                         // Check hint
                         if (!findInitWord)
                         {
@@ -167,19 +168,31 @@ namespace EnglishApp
         /// <param name="iColumn">Index Column</param>
         public void OnCellPress(int iRow, int iColumn)
         {
-            m_LastPressedRow = iRow;
-            m_LastPressedColumn = iColumn;
+            m_LastSelectedRow = iRow;
+            m_LastSelectedColumn = iColumn;
             HighlightCell(iRow, iColumn);            
         }
 
         /// <summary>
-        /// Handles when a button letter is pressed in the possible letters for the word in grid
+        /// Handles when an available letter is pressed, 
+        /// sets that letter and check if accross or down direction the word is completed and correct
+        /// That list of cells will be blocked
         /// </summary>
-        /// <param name="idLetter">Identifier letter.</param>
+        /// <param name="idLetter">Letter id.</param>
         public void OnLetterButtonPress(int idLetter)
         {
             string auxLetter = m_CrossWordGUI.GetLetter(idLetter);
-            m_CrossWordGUI.SetLetter(m_LastPressedRow, m_LastPressedColumn, auxLetter);
+            
+            // Set letter in grid
+            m_CrossWordGUI.SetLetter(m_LastSelectedRow, m_LastSelectedColumn, auxLetter);
+
+            // Get accross and down info for this coords in solution grid
+            InfoWordCrossword accrossInfo = m_CrossWordSolution.GetAcrossInfo(m_LastSelectedRow, m_LastSelectedColumn);
+            InfoWordCrossword downInfo = m_CrossWordSolution.GetAcrossInfo(m_LastSelectedRow, m_LastSelectedColumn);
+
+
+
+
 
             // Check if that letter is the last one in the word
 
@@ -187,7 +200,7 @@ namespace EnglishApp
             Debug.Log("OnLetterButtonPress m_AcrossWordSelected: " + m_AcrossWordSelected + " m_DownWordSelected: " + m_DownWordSelected);
 
             // Check if the lenght are the same to check if both words are the same
-            bool isCorrect = true;
+            //bool isCorrect = false;
            /* if (m_CurrentHighlightWord.Length == m_LastHighlightCells.Count)
             {
                 for (int i = 0; i < m_LastHighlightCells.Count; i++)
@@ -209,7 +222,7 @@ namespace EnglishApp
             }*/
 
             // If both are correct, change the color of the cells and block the buttons
-            if (isCorrect)
+            /*if (isCorrect)
             {
                 Debug.LogFormat("Both corrects");
                 for (int i = 0; i < m_LastHighlightCells.Count; i++)
@@ -225,7 +238,7 @@ namespace EnglishApp
             if (auxLetter == m_CurrentCrossWord.Letter(m_LastPressedRow, m_LastPressedColumn).ToString())
             {
                 m_ListCoordHints.Remove(new Vector2(m_LastPressedRow, m_LastPressedColumn));
-            }
+            }*/
         }
 
         /// <summary>
@@ -244,8 +257,8 @@ namespace EnglishApp
                     auxRow = (int)m_ListCoordHints[i].x;
                     auxCol = (int)m_ListCoordHints[i].y;
 
-                    currentAnswer = m_CrossWordGUI.Piece(auxRow, auxCol).Letter;
-                    correctAnswer = this.m_CurrentCrossWord.Letter(auxRow, auxCol).ToString();
+                    currentAnswer = m_CrossWordGUI.GetCell(auxRow, auxCol).Letter;
+                    correctAnswer = this.m_CrossWordSolution.Letter(auxRow, auxCol).ToString();
 
                     if (currentAnswer != correctAnswer)
                     {
@@ -307,40 +320,42 @@ namespace EnglishApp
             }
 
             m_LastHighlightCells = new List<CellCrossWord>();
-
+            m_CrossWordGUI.Question = "";
 
             // Check across
-            int iRowStart = -1;
-            int iColStart = -1;
-            string accrossQuestion = string.Empty;
-            string accrossWord = string.Empty;
-            if (m_CurrentCrossWord.TryGetAcrossQuestion(_iRow, _iCol, out iRowStart, out iColStart, out accrossQuestion, out accrossWord))
+            //int iRowStart = -1;
+            //int iColStart = -1;
+            // string accrossQuestion = string.Empty;
+            //string accrossWord = string.Empty;
+            InfoWordCrossword accrossInfo = m_CrossWordSolution.GetAcrossInfo(_iRow, _iCol);
+           // if (m_CurrentCrossWord.GetAcrossQuestion(_iRow, _iCol, out iRowStart, out iColStart, out accrossQuestion, out accrossWord))
+            if (accrossInfo.Valid)
             {
                 // Setup last row, and last column pressed only if is first time
                 if (startGame)
                 {
-                    m_LastPressedRow = iRowStart;
-                    m_LastPressedColumn = iColStart;
+                    m_LastSelectedRow = accrossInfo.StartRow;
+                    m_LastSelectedColumn = accrossInfo.StartCol;
                 }
 
-                m_AcrossWordSelected = accrossWord;
-                m_CrossWordGUI.Question = accrossQuestion;                
+                m_AcrossWordSelected = accrossInfo.Word;
+                m_CrossWordGUI.Question = "Accross: " + accrossInfo.Question;                
 
                 // Add cell for that word
-                for (int i = iColStart; i < CrossWordGenerator.NCols; i++)
+                for (int i = accrossInfo.StartCol; i < CrossWordGenerator.NCols; i++)
                 {
-                    if (m_CurrentCrossWord.Letter(iRowStart, i) != CrossWordGenerator.EMPTYCHARACTER)
+                    if (m_CrossWordSolution.Letter(accrossInfo.StartRow, i) != CrossWordGenerator.EMPTYCHARACTER)
                     {
-                        if ((iRowStart == _iRow) && (i == _iCol))
+                        if ((accrossInfo.StartRow == _iRow) && (i == _iCol))
                         {
-                            m_CrossWordGUI.Piece(iRowStart, i).ColorBackground = m_ColorStrongHighlight;
+                            m_CrossWordGUI.GetCell(accrossInfo.StartRow, i).ColorBackground = m_ColorStrongHighlight;
                         }
                         else
                         {
-                            m_CrossWordGUI.Piece(iRowStart, i).ColorBackground = m_ColorSlightHighlight;
+                            m_CrossWordGUI.GetCell(accrossInfo.StartRow, i).ColorBackground = m_ColorSlightHighlight;
                         }
 
-                        m_LastHighlightCells.Add(m_CrossWordGUI.Piece(iRowStart, i));
+                        m_LastHighlightCells.Add(m_CrossWordGUI.GetCell(accrossInfo.StartRow, i));
                     }
                     else
                     {
@@ -350,35 +365,46 @@ namespace EnglishApp
             }
 
             // Check across
-            iRowStart = -1;
-            iColStart = -1;
-            string downQuestion = "";
-            string downWord = "";
+            //iRowStart = -1;
+            //iColStart = -1;
+            //string downQuestion = "";
+            //string downWord = "";
 
-            if (m_CurrentCrossWord.TryGetDownQuestion(_iRow, _iCol, out iRowStart, out iColStart, out downQuestion, out downWord))
+
+            InfoWordCrossword downInfo = m_CrossWordSolution.GetDownInfo(_iRow, _iCol);
+
+            if (downInfo.Valid)
+            //if (m_CurrentCrossWord.TryGetDownQuestion(_iRow, _iCol, out iRowStart, out iColStart, out downQuestion, out downWord))
             {
                 // Setup last row, and last column pressed only if is first time
                 if (startGame)
                 {
-                    m_LastPressedRow = iRowStart;
-                    m_LastPressedColumn = iColStart;
+                    m_LastSelectedRow = downInfo.StartRow;
+                    m_LastSelectedColumn = downInfo.StartCol;
                 }
-                m_DownWordSelected = downWord;
-                m_CrossWordGUI.Question = downQuestion;
-
-                for (int i = iRowStart; i < CrossWordGenerator.NRows; i++)
+                m_DownWordSelected = downInfo.Word;
+                if (accrossInfo.Valid)
                 {
-                    if (m_CurrentCrossWord.Letter(i, iColStart) != CrossWordGenerator.EMPTYCHARACTER)
+                    m_CrossWordGUI.Question += "\nDown: " + downInfo.Question;
+                }
+                else
+                {
+                    m_CrossWordGUI.Question += "Down: " + downInfo.Question;
+                }
+
+                for (int i = downInfo.StartRow; i < CrossWordGenerator.NRows; i++)
+                {
+                    if (m_CrossWordSolution.Letter(i, downInfo.StartCol) != CrossWordGenerator.EMPTYCHARACTER)
                     {
-                        if ((i == _iRow) && (iColStart == _iCol))
+                        if ((i == _iRow) && (downInfo.StartCol == _iCol))
                         {
-                            m_CrossWordGUI.Piece(i, iColStart).ColorBackground = m_ColorStrongHighlight;
+                            m_CrossWordGUI.GetCell(i, downInfo.StartCol).ColorBackground = m_ColorStrongHighlight;
                         }
                         else
                         {
-                            m_CrossWordGUI.Piece(i, iColStart).ColorBackground = m_ColorSlightHighlight;
+                            m_CrossWordGUI.GetCell(i, downInfo.StartCol).ColorBackground = m_ColorSlightHighlight;
                         }
-                        m_LastHighlightCells.Add(m_CrossWordGUI.Piece(i, iColStart));
+                        m_LastHighlightCells.Add(m_CrossWordGUI.GetCell(i, downInfo.StartCol));
                     }
                     else
                     {
@@ -388,34 +414,78 @@ namespace EnglishApp
             }
 
             // Set the letters
-            Debug.Log("HighlightCell accrossWord: " + accrossWord + "accrossQuestion: " + accrossQuestion + " downWord:" + downWord + "downQuestion: "+ downQuestion);
+            Debug.Log("AccrossWord valid: " + accrossInfo.Valid + " Letter: " + accrossInfo.Letter + " - Question: " + accrossInfo.Question + " - Word:" + accrossInfo.Word);
+            Debug.Log("DownWord valid: " + downInfo.Valid + " Letter: " + downInfo.Letter + " - Question: " + downInfo.Question + " - Word:" + downInfo.Word);
 
             // Sets the letters for this word
             //if ((!string.IsNullOrEmpty(accrossWord) 
             {
-                // Letters
-                List<string> listLetters = new List<string>();
+                
 
                 Random.InitState((int)System.DateTime.Now.Ticks);
 
+                // Letters
+                List<char> listLetters = new List<char>();
+
+                // Add correct letter in list letters first
+                if (accrossInfo.Valid && downInfo.Valid)
+                {
+                    listLetters.Add(accrossInfo.Letter);
+
+                }else if (accrossInfo.Valid && !downInfo.Valid)
+                {
+                    listLetters.Add(accrossInfo.Letter);
+                }else
+                {
+                    listLetters.Add(downInfo.Letter);
+                }
+
+
+                // Add rest of the letters to the list
+                if (accrossInfo.Valid)
+                {
+                    // Include valid letter  
+                    for (int i = 0; i < accrossInfo.Word.Length; i++)
+                    {
+                        // Don't add the correct letter if it's already there
+                        if (accrossInfo.Letter != accrossInfo.Word[i])
+                        {
+                            listLetters.Add(accrossInfo.Word[i]);
+                        }
+                    }
+                }
+
                 // Add each letter to the list
-                if (!string.IsNullOrEmpty(accrossWord))
+                if (downInfo.Valid)
                 {
-                    for (int i = 0; i < accrossWord.Length; i++)
+                    for (int i = 0; i < downInfo.Word.Length; i++)
                     {
-                        listLetters.Add(accrossWord[i].ToString());
-                    }
-                }
-                if (!string.IsNullOrEmpty(downWord))
-                {
-                    for (int i = 0; i < downWord.Length; i++)
-                    {
-                        listLetters.Add(downWord[i].ToString());
+                        if (downInfo.Letter != downInfo.Word[i])
+                        {
+                            listLetters.Add(downInfo.Word[i]);
+                        }
                     }
                 }
 
 
-                // Include random extra letters to fill all the gaps, maximun 10 letters
+                //Debug.Log("listLetters.Count: " + listLetters.Count);
+
+                for (int i = (listLetters.Count-1); i< m_CrossWordGUI.NumberOfLetters; i++)
+                {
+                    int iChanceWord = Random.Range(0, ALPHABETLETTERS.Length);
+                    listLetters.Add(ALPHABETLETTERS[iChanceWord]);
+                }
+
+
+               // Debug.Log("Final number letters listLetters.Count: " + listLetters.Count);
+
+                // Shuffle list and set the 
+                listLetters = Utils.Shuffle(listLetters);
+                m_CrossWordGUI.SetLetterButtons(listLetters);
+
+                // Random letters to fill 
+                // Include random extra letters to fill all the gaps, maximun 10 letters m_CrossWordGUI.LetterNumber
+
                 /*// Set extra letters
                 for (int i = (word.Length - 1); i < 10; i++)
                 {
@@ -423,8 +493,9 @@ namespace EnglishApp
                     listLetters.Add(ALPHABETLETTERS[chanceWord].ToString());
                 }*/
 
-                listLetters = Utils.Shuffle(listLetters);
-                m_CrossWordGUI.SetLetterButtons(listLetters);
+                // Shuffle list
+
+              
             }
         }
 
@@ -480,7 +551,7 @@ namespace EnglishApp
             {
                 for (int iCol = 0; iCol < CrossWordGenerator.NCols; iCol++)
                 {
-                    m_CrossWordGUI.Piece(iRow, iCol).Letter = m_CurrentCrossWord.Letter(iRow, iCol).ToString();
+                    m_CrossWordGUI.GetCell(iRow, iCol).Letter = m_CrossWordSolution.Letter(iRow, iCol).ToString();
                 }
             }
             // Block hint buttons
@@ -498,7 +569,7 @@ namespace EnglishApp
             {
                 for (int iCol = 0; iCol < CrossWordGenerator.NCols; iCol++)
                 {
-                    m_CrossWordGUI.Piece(iRow, iCol).Letter = "";
+                    m_CrossWordGUI.GetCell(iRow, iCol).Letter = "";
                 }
             }
         }

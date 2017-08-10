@@ -14,6 +14,11 @@ namespace EnglishApp
         [Header("CrossWordGameUI")]
         [SerializeField] private RectTransform      m_ContentCrossWord;
         [SerializeField] private List<TextButton>   m_Letters;
+        public int NumberOfLetters
+        {
+            get { return m_Letters.Count; }
+           
+        }
         [SerializeField] private Text               m_Question;
         public string Question
         {
@@ -30,7 +35,7 @@ namespace EnglishApp
         private CellCrossWord[,]                    m_GridBoard;
 
 
-        public CellCrossWord Piece(int _iRow, int _iCol)
+        public CellCrossWord GetCell(int _iRow, int _iCol)
         {
             if ((_iRow <= -1) || (_iRow >= CrossWordGenerator.NRows) ||
                 (_iCol <= -1) || (_iCol >= CrossWordGenerator.NCols))
@@ -71,13 +76,13 @@ namespace EnglishApp
         /// Sets each letter in buttons by a list given
         /// </summary>
         /// <param name="_letters">list of letters.</param>
-        public void SetLetterButtons(List<string> _letters)
+        public void SetLetterButtons(List<char> _letters)
         {
             for (int i = 0; i < _letters.Count; i++)
             {
                 if (i < m_Letters.Count)
                 {
-                    m_Letters[i].Text = _letters[i];
+                    m_Letters[i].Text = _letters[i].ToString();
                 }
             }
         }

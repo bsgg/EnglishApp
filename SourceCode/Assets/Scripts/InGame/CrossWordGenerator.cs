@@ -60,9 +60,27 @@ namespace CrossWordUtil
 			score = 0;
 		}
 	}
-	#endregion Coord Struct
+    #endregion Coord Struct
 
-	public class CrossWordGenerator
+    public class InfoWordCrossword
+    {
+        public bool Valid;
+        public int StartRow;
+        public int StartCol;
+        public string Question;
+        public string Word;
+        public char Letter;
+
+        public InfoWordCrossword()
+        {
+            Valid = false;
+            StartRow = -1;
+            StartCol = -1;
+        }
+    }
+
+
+    public class CrossWordGenerator
 	{	
 		public static int RANGEWORDS = 20;
 		public static int NRows = 8;
@@ -736,73 +754,83 @@ namespace CrossWordUtil
 			return null;
 		}
 
-		#region HANDLE_CROSS_WORD
+        #region HANDLE_CROSS_WORD
 
-        
+        /// <summary>
+        /// Tries to get the question in across coord if there is an actual word according to the given coord
+        /// </summary>
+        /// <returns>Returns WordCell with a valid answer</returns>
+        /// <param name="_iRow">Row to check</param>
+        /// <param name="_iCol">Col to check</param>
 
-		/// <summary>
-		/// Tries to get the question in across coord if there is an actual word according to the given coord
-		/// </summary>
-		/// <returns>Returns wheter it was succes or not</returns>
-		/// <param name="_iRow">Row to check</param>
-		/// <param name="_iCol">Col to check</param>
-		/// <param name="_iRowStart">Output row for the word</param>
-		/// <param name="_iColStart">Output col for the word</param>
-		/// <param name="_question">Question for that word</param>
-		/// <param name="_word">Word for that question</param>
-		public bool TryGetAcrossQuestion(int _iRow, int _iCol, out  int _iRowStart, out int _iColStart, out string _question,out string _word)
+        public InfoWordCrossword GetAcrossInfo(int iRow, int iCol/*, out  int _iRowStart, out int _iColStart, out string _question,out string _word*/)
 		{
-			// Piece
-			_iRowStart = _iRow;
-			_question = "";
-			_word = "";
+            InfoWordCrossword infoAcross = new InfoWordCrossword();
+
+            // Set the correct letter
+            infoAcross.Valid = false;
+            infoAcross.Letter = grid[iRow, iCol];
+            infoAcross.StartRow = iRow;
+
+
+            // Piece
+            //_iRowStart = iRow;
+			//_question = "";
+			//_word = "";
 
 			// Find first across position
-			int auxICol =_iCol;		
+			int auxICol = iCol;		
 			for (int i = auxICol; i>=0; i--) 
 			{
-				if (grid[_iRow,i] == EMPTYCHARACTER)
+				if (grid[iRow, i] == EMPTYCHARACTER)
 				{
 					auxICol = i+1;
 					break;
 				}
 				
-				if ((i == 0) && (grid[_iRow,i] != EMPTYCHARACTER))
+				if ((i == 0) && (grid[iRow,i] != EMPTYCHARACTER))
 				{
 					auxICol = i;
 				}
 			}
-			_iColStart = auxICol;
+            infoAcross.StartCol = auxICol;
+
+            //_iColStart = auxICol;
 			
 			// Gets word to check in list
 			string word = "";
 			for (int i = auxICol; i< NCols; i++) 
 			{
-				if (grid[_iRow,i] != EMPTYCHARACTER)
+				if (grid[iRow,i] != EMPTYCHARACTER)
 				{
-					word += grid[_iRow,i];
+					word += grid[iRow,i];
 				}else
 				{
 					break;
 				}
 			}
 			
+
 			if (word != "")
 			{
 				// Find word in list words
-				for (int i= 0; i<this.listSingleWords.Count; i++)
+				for (int i= 0; i<listSingleWords.Count; i++)
 				{
 					// Get the original word without index word
-					string auxWord = this.listSingleWords[i].Answer;
+					string auxWord = listSingleWords[i].Answer;
 					if (auxWord == word)
 					{
-						_question = this.listSingleWords[i].Questions;
-						_word = this.listSingleWords[i].Answer;
-						return true;
+                        //_question = this.listSingleWords[i].Questions;
+                        //_word = this.listSingleWords[i].Answer;
+
+                        infoAcross.Question = listSingleWords[i].Questions;
+                        infoAcross.Word = listSingleWords[i].Answer;
+                        infoAcross.Valid = true;
+                        //return true;
 					}
 				}
 			}		
-			return false;	
+			return infoAcross;	
 		}
 
 		/// <summary>
@@ -811,64 +839,73 @@ namespace CrossWordUtil
 		/// <returns>Returns wheter it was succes or not</returns>
 		/// <param name="_iRow">Row to check</param>
 		/// <param name="_iCol">Col to check</param>
-		/// <param name="_iRowStart">Output row for the word</param>
+		/*/// <param name="_iRowStart">Output row for the word</param>
 		/// <param name="_iColStart">Output col for the word</param>
 		/// <param name="_question">Question for that word</param>
-		/// <param name="_word">Word for that question</param>
-		public bool TryGetDownQuestion(int _iRow, int _iCol, out  int _iRowStart, out int _iColStart, out string _question,out string _word)
+		/// <param name="_word">Word for that question</param>*/
+		public InfoWordCrossword GetDownInfo(int iRow, int iCol/*, out  int _iRowStart, out int _iColStart, out string _question,out string _word*/)
 		{
-			// Piece
-			_iColStart = _iCol;
+            // Piece
+            /*_iColStart = iCol;
 			_question = "";
-			_word = "";
-			
-			// Find first down position
-			int auxIRow =_iRow;
+			_word = "";*/
+
+            InfoWordCrossword infoDown = new InfoWordCrossword();
+
+            // Set the correct letter
+            infoDown.Valid = false;
+            infoDown.Letter = grid[iRow, iCol];
+            infoDown.StartCol = iCol;
+
+
+            // Find first down position
+            int auxIRow = iRow;
 			
 			for (int i = auxIRow; i>=0; i--) 
 			{
-				if (grid[i,_iCol] == CrossWordGenerator.EMPTYCHARACTER)
+				if (grid[i,iCol] == EMPTYCHARACTER)
 				{
 					auxIRow = i+1;
 					break;
 				}
 				
-				if ((i == 0) && (grid[i,_iCol] != CrossWordGenerator.EMPTYCHARACTER))
+				if ((i == 0) && (grid[i,iCol] != EMPTYCHARACTER))
 				{
 					auxIRow = i;
 				}
 			}
-			
-			_iRowStart = auxIRow;
+
+            infoDown.StartRow = auxIRow;
+            //_iRowStart = auxIRow;
 			// Gets word to check in list
 			string word = "";
-			for (int i = auxIRow; i< CrossWordGenerator.NRows; i++) 
+			for (int i = auxIRow; i< NRows; i++) 
 			{
-				if (grid[i,_iCol] != CrossWordGenerator.EMPTYCHARACTER)
+				if (grid[i,iCol] != EMPTYCHARACTER)
 				{
-					word += grid[i,_iCol];
+					word += grid[i,iCol];
 				}else
 				{
 					break;
 				}
 			}
-			
-			if (word != "")
+                        
+            if (word != "")
 			{
 				// Find word in list words
-				for (int i= 0; i<this.listSingleWords.Count; i++)
+				for (int i= 0; i< listSingleWords.Count; i++)
 				{
 					// Get the original word without index word
-					string auxWord = this.listSingleWords[i].Answer;
+					string auxWord = listSingleWords[i].Answer;
 					if (auxWord == word)
 					{
-						_question = this.listSingleWords[i].Questions;
-						_word = this.listSingleWords[i].Answer;
-						return true;
+                        infoDown.Question = listSingleWords[i].Questions;
+                        infoDown.Word = listSingleWords[i].Answer;
+                        infoDown.Valid = true;
 					}
 				}
 			}		
-			return false;	
+			return infoDown;	
 		}
 
 
