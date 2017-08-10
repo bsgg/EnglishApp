@@ -197,19 +197,23 @@ namespace EnglishApp
 
         public void OnSpeakWordPress()
         {
-#if !UNITY_EDITOR && UNITY_ANDROID
-		EasyTTSUtil.SpeechFlush (m_CurrentWord.VocabularyWord);
-#endif
+
+            if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
+            {
+                EasyTTSUtil.SpeechFlush(m_CurrentWord.VocabularyWord);
+            }
+
         }
 
         public void OnSpeakExamplePress()
         {
-#if !UNITY_EDITOR && UNITY_ANDROID
-		if (m_CurrentWord.EnglishExamples != null && m_IndexExample < m_CurrentWord.EnglishExamples.Count) 
-		{
-			EasyTTSUtil.SpeechFlush (m_CurrentWord.EnglishExamples [m_IndexExample]);
-		}
-#endif
+            if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
+            {
+                if (m_CurrentWord.EnglishExamples != null && m_IndexExample < m_CurrentWord.EnglishExamples.Count)
+                {
+                    EasyTTSUtil.SpeechFlush(m_CurrentWord.EnglishExamples[m_IndexExample]);
+                }
+            }
         }
 
         #endregion ButtonHandles
