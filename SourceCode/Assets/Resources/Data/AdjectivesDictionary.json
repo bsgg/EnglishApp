@@ -1853,6 +1853,23 @@
 		},	
 		{
 			"Category": "ADJECTIVE",
+			"VocabularyWord": "Roughly",
+			"Pronunciation": "/Raffly/",
+			"Meanings": 
+			[
+				"Aproximandamente"
+			],
+			"EnglishExamples":
+			[ 
+				"Martin has done roughly eight hours' work today."
+			],
+			"SpanishExamples":
+			[ 				
+				"Marina ha hecho aproximadamente 8 horas de trabajo hoy."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
 			"VocabularyWord": "Rumble",
 			"Pronunciation": "/rambool/",
 			"Meanings": 

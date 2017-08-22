@@ -1633,6 +1633,23 @@
 		},
 		{
 			"Category": "MISC",
+			"VocabularyWord": "Mould",
+			"Pronunciation": "/moould/",
+			"Meanings": 
+			[
+				"Moho"
+			],
+			"EnglishExamples":
+			[ 
+				"We found mould growing behind the toilet."			
+			],
+			"SpanishExamples":
+			[ 
+				"Encontramos moho creciendo abajo del baño."
+			]			
+		},
+		{
+			"Category": "MISC",
 			"VocabularyWord": "Nephew",
 			"Pronunciation": "/neefiu/",
 			"Meanings": 

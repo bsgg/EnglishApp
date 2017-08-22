@@ -3479,6 +3479,23 @@
 		},
 		{
 			"Category": "ACTION",
+			"VocabularyWord": "Sprain",
+			"Pronunciation": "/sssprein/",
+			"Meanings": 
+			[
+				"Hacerse un esguince, Torcedura"
+			],
+			"EnglishExamples":
+			[ 
+				"The football player had to pull out of the game because of a sprain."
+			],
+			"SpanishExamples":
+			[ 
+				"El jugador de futbol tuvo que salir del partido porque se hizo un esguince."
+			]			
+		},
+		{
+			"Category": "ACTION",
 			"VocabularyWord": "Spoil",
 			"Pronunciation": "/sspoil/",
 			"Meanings": 
@@ -3688,6 +3705,27 @@
 		},
 		{
 			"Category": "ACTION",
+			"VocabularyWord": "Toss",
+			"Pronunciation": "/toos/",
+			"Meanings": 
+			[
+				"Tirar",
+				"Lanzar"				
+			],
+			"EnglishExamples":
+			[ 
+				"Jacob tossed the ball to Pippa.",
+				"The two friends couldn't decide which film to watch, so they tossed a coin."
+				
+			],
+			"SpanishExamples":
+			[ 
+				"Jacob tiro la pelota a Pippa",
+				"Los dos amigos no pudieron decidirse que película ver, a si que "
+			]
+		},
+		{
+			"Category": "ACTION",
 			"VocabularyWord": "Tuck",
 			"Pronunciation": "/tuuk/",
 			"Meanings": 
@@ -3705,6 +3743,24 @@
 			[ 
 				"Adrian metió el periódico bajo su brazo.",
 				"¡Venga! ¡Mete la barriga para la foto, Sam!"
+			]
+		},
+		{
+			"Category": "ACTION",
+			"VocabularyWord": "Thrush",
+			"Pronunciation": "/truasst/",
+			"Meanings": 
+			[
+				"Empujar"				
+			],
+			"EnglishExamples":
+			[ 
+				"Robert thrust the door with his shoulder and finally succeeded in getting it open."
+				
+			],
+			"SpanishExamples":
+			[ 
+				"Robert empujó la puerta con el hombro y finalmente consiguió abrirla."
 			]
 		},
 		{
