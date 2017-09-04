@@ -71,63 +71,102 @@ namespace EnglishApp
             {
                 m_WordDataLoaded = true;
                 string jsonActionsString = Utils.LoadJSONResource("Data/ActionsDictionary");
-                if (jsonActionsString != "")
+                if (!string.IsNullOrEmpty(jsonActionsString))
                 {
                     m_DataActions = JsonMapper.ToObject<ActionsDictionary>(jsonActionsString);
+                }else
+                {
+                    Debug.LogError("[DataDictionary.LoadWords] json Actions NULL");
                 }
 
                 string jsonFoodString = Utils.LoadJSONResource("Data/FoodDictionary");
-                if (jsonFoodString != "")
+                if (!string.IsNullOrEmpty(jsonFoodString))
                 {
                     m_DataFood = JsonMapper.ToObject<FoodDictionary>(jsonFoodString);
                 }
+                else
+                {
+                    Debug.LogError("[DataDictionary.LoadWords] json Food NULL");
+                }
 
                 string jsonAnimalsString = Utils.LoadJSONResource("Data/AnimalsDictionary");
-                if (jsonAnimalsString != "")
+                if (!string.IsNullOrEmpty(jsonAnimalsString))
                 {
                     m_DataAnimals = JsonMapper.ToObject<AnimalsDictionary>(jsonAnimalsString);
                 }
+                else
+                {
+                    Debug.LogError("[DataDictionary.LoadWords] json Animals NULL");
+                }
 
                 string jsonObjectsString = Utils.LoadJSONResource("Data/ObjectsDictionary");
-                if (jsonObjectsString != "")
+                if (!string.IsNullOrEmpty(jsonObjectsString))
                 {
                     m_DataObjects = JsonMapper.ToObject<ObjectsDictionary>(jsonObjectsString);
                 }
+                else
+                {
+                    Debug.LogError("[DataDictionary.LoadWords] json Objects NULL");
+                }
 
                 string jsonAdjectivesString = Utils.LoadJSONResource("Data/AdjectivesDictionary");
-                if (jsonAdjectivesString != "")
+                if (!string.IsNullOrEmpty(jsonAdjectivesString))
                 {
                     m_DataAdjectives = JsonMapper.ToObject<AdjectivesDictionary>(jsonAdjectivesString);
                 }
+                else
+                {
+                    Debug.LogError("[DataDictionary.LoadWords] json Adjectives NULL");
+                }
 
                 string jsonAdverbsString = Utils.LoadJSONResource("Data/AdverbsDictionary");
-                if (jsonAdverbsString != "")
+                if (!string.IsNullOrEmpty(jsonAdverbsString))
                 {
                     m_DataAdverbs = JsonMapper.ToObject<AdverbsDictionary>(jsonAdverbsString);
                 }
+                else
+                {
+                    Debug.LogError("[DataDictionary.LoadWords] json Adverbs NULL");
+                }
 
                 string jsonMiscsString = Utils.LoadJSONResource("Data/MiscDictionary");
-                if (jsonMiscsString != "")
+                if (!string.IsNullOrEmpty(jsonMiscsString))
                 {
                     m_DataMisc = JsonMapper.ToObject<MiscsDictionary>(jsonMiscsString);
                 }
+                else
+                {
+                    Debug.LogError("[DataDictionary.LoadWords] json Misc NULL");
+                }
 
                 string jsonPlacesString = Utils.LoadJSONResource("Data/PlacesDictionary");
-                if (jsonPlacesString != "")
+                if (!string.IsNullOrEmpty(jsonPlacesString))
                 {
                     m_DataPlaces = JsonMapper.ToObject<PlacesDictionary>(jsonPlacesString);
                 }
+                else
+                {
+                    Debug.LogError("[DataDictionary.LoadWords] json Places NULL");
+                }
 
                 string jsonConnectedWordsString = Utils.LoadJSONResource("Data/ConnectedWordsDictionary");
-                if (jsonConnectedWordsString != "")
+                if (!string.IsNullOrEmpty(jsonConnectedWordsString))
                 {
                     m_DataConnectedWords = JsonMapper.ToObject<ConnectedWordsDictionary>(jsonConnectedWordsString);
                 }
+                else
+                {
+                    Debug.LogError("[DataDictionary.LoadWords] json ConnectedWords NULL");
+                }
 
                 string jsonBodyPartsString = Utils.LoadJSONResource("Data/BodyPartsDictionary");
-                if (jsonBodyPartsString != "")
+                if (!string.IsNullOrEmpty(jsonBodyPartsString))
                 {
                     m_DataBodyParts = JsonMapper.ToObject<BodyPartsDictionary>(jsonBodyPartsString);
+                }
+                else
+                {
+                    Debug.LogError("[DataDictionary.LoadWords] json Bodyparts NULL");
                 }
             }
         }
@@ -258,6 +297,12 @@ namespace EnglishApp
         /// <returns></returns>
         public Word GetRandomWord(List<CATEGORY_WORDS> listExcludes = null)
         {
+            // For debug purposes
+            return m_DataObjects.Objects[0];
+
+
+
+
             List<int> lCategories = new List<int>();
             int nCategories = System.Enum.GetNames(typeof(CATEGORY_WORDS)).Length;
             if (listExcludes != null)

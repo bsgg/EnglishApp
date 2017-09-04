@@ -15,7 +15,14 @@ public class Word: Vocabulary
 		set { this.pronunciation = value; }
 		get { return this.pronunciation; }
 	}
-	
-	public Word() {}
+
+    private string imageRef;
+    public string ImageRef
+    {
+        set { this.imageRef = value; }
+        get { return this.imageRef; }
+    }
+
+    public Word() {}
 
 }

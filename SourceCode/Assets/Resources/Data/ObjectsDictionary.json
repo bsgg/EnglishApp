@@ -4,7 +4,8 @@
 		{
 			"Category": "OBJECT",
 			"VocabularyWord": "Basket",
-			"Pronunciation": "/basket/",
+      "Pronunciation": "/basket/",
+      "ImageRef":  "ImageTest0",
 			"Meanings": 
 			[
 				"Cesta"
@@ -21,7 +22,8 @@
 		{
 			"Category": "OBJECT",
 			"VocabularyWord": "Bathing costume (UK)",
-			"Pronunciation": "/beizing coschumm/",
+      "Pronunciation": "/beizing coschumm/",
+      "ImageRef":  "ImageTest1",
 			"Meanings": 
 			[
 				"Bañador Mujer"
@@ -38,7 +40,8 @@
 		{
 			"Category": "OBJECT",
 			"VocabularyWord": "Bathrobe",
-			"Pronunciation": "/bazzzroub/",
+      "Pronunciation": "/bazzzroub/",
+      "ImageRef":  "ImageTest2",
 			"Meanings": 
 			[
 				"Albornoz"

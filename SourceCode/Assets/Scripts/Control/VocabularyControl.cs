@@ -110,6 +110,13 @@ namespace EnglishApp
                     break;
             }
 
+            // Set sprite
+            Debug.Log("m_CurrentWord.ImageRef: " + m_CurrentWord.ImageRef);
+            if (!string.IsNullOrEmpty(m_CurrentWord.ImageRef))
+            {
+                m_VocabularyPanelUI.ReferenceImage.sprite = GameManager.Instance.SpriteManager.GetSpriteByName(m_CurrentWord.ImageRef);
+            }
+
         }
 
         /// <summary>

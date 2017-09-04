@@ -57,24 +57,16 @@ namespace EnglishApp
         private GrammarDictionary m_DataGrammar;
         public GrammarDictionary DataGrammar
         {
-            get { return this.m_DataGrammar; }
+            get { return m_DataGrammar; }
         }
 
-        private List<Image> m_ListImages = new List<Image>();
-
-        public Image SelectImageByName(string name)
+        [SerializeField] private SpriteManager m_SpriteManager;
+        public SpriteManager SpriteManager
         {
-            for (int i = 0; i < m_ListImages.Count; i++)
-            {
-                if (m_ListImages[i].name.Equals(name))
-                {
-                    return m_ListImages[i];
-                }
-            }
-
-            return null;
+            get { return m_SpriteManager; }
         }
 
+       
 
         void Start()
         {

@@ -41,5 +41,13 @@ namespace EnglishApp
             get { return m_BtnNextExample; }
             set { m_BtnNextExample = value; }
         }
+
+        [SerializeField]
+        private Image m_ReferenceImage;
+        public Image ReferenceImage
+        {
+            get { return m_ReferenceImage; }
+            set { m_ReferenceImage = value; }
+        }
     }
 }
