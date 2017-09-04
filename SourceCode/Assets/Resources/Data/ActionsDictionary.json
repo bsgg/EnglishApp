@@ -1556,6 +1556,24 @@
 				"El cogió mi mano y me sacó de ahi."
 			]			
 		},
+		
+		{
+			"Category": "ACTION",
+			"VocabularyWord": "Grasp",
+			"Pronunciation": "/grassp/",
+			"Meanings": 
+			[
+				"Agarrar, Sujetar fuerte"
+			],
+			"EnglishExamples":
+			[ 
+				"Mike grasped his bag tightly on the subway."
+			],
+			"SpanishExamples":
+			[ 
+				"Mike agarro su cartera fuerte en el metro."
+			]			
+		},
     {
       "Category": "ACTION",
       "VocabularyWord": "Giggle",
@@ -1969,6 +1987,23 @@
 			[ 
 				"El paciente gemía cuando el cirugano pinchaba su herida.",
 				"El hermano pequeño de Jonh se quejaba todo el tiempo."
+			]			
+		},
+		{
+			"Category": "ACTION",
+			"VocabularyWord": "Mock",
+			"Pronunciation": "/mook/",
+			"Meanings": 
+			[
+				"Ridiculizar, Burlarse de"
+			],
+			"EnglishExamples":
+			[ 
+				"You're mocking me, aren't you? What's wrong with my new tshirt? It's cool!"				
+			],
+			"SpanishExamples":
+			[ 
+				"Te estás burlando de mi, ¿no? ¿Qué pasa con mi nueva camiseta? ¡Es guay!"
 			]			
 		},
 		{
@@ -3625,6 +3660,28 @@
 				"Se que es muy generosa, ¡pero no debiste aprovechar de ella!"
 			]
 		},
+		{
+			"Category": "ACTION",
+			"VocabularyWord": "Tease",
+			"Pronunciation": "/tiiis/",
+			"Meanings": 
+			[
+				"Burlarse",
+				"Molestar"
+			],
+			"EnglishExamples":
+			[ 
+				"I got teased at school because my hair looked funny.",
+				"Stop teasing your little sister!"
+				
+			],
+			"SpanishExamples":
+			[ 
+				"En el colegio se burlaban de mí porque mi pelo se veía raro.",
+				"¡Deja de molestar a tu hermana!"
+			]
+		},
+		
 		{
 			"Category": "ACTION",
 			"VocabularyWord": "Tear",

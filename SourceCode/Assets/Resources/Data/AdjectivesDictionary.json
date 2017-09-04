@@ -2797,7 +2797,22 @@
         "Mi jefe es un completo gilipollas. No nos dará vacaciones."
       ]
     },
-    {
+	
+		{
+			  "Category": "ADJECTIVE",
+			  "VocabularyWord": "Waterprrof",
+			  "Pronunciation": "/uatapruuf/",
+			  "Meanings": [
+				"Impermeable, Resistente al agua"
+			  ],
+			  "EnglishExamples": [
+				"My waterproof jacket came in handy in that downpour yesterday."
+			  ],
+			  "SpanishExamples": [
+				"Mi chaqueta impermeable me vino muy bien durante el chaparrón de ayer."
+			  ]
+			},
+		{
 			"Category": "ADJECTIVE",
 			"VocabularyWord": "Wacky",
 			"Pronunciation": "/uuuaky/",
@@ -2860,42 +2875,42 @@
 				"Ayer por la noche fue fantástico, pero hoy tengo una resaca horrible."
 			]	 			
 		},
-    {
-      "Category": "ADJECTIVE",
-      "VocabularyWord": "Wise",
-      "Pronunciation": "/waais/",
-      "Meanings": [
-        "Sabio, Inteligente",
-        "Sensato"
-      ],
-      "EnglishExamples": [
-        "Everybody went to the wise old man for advice.",
-        "Driving at night with no lights was not a wise thing to do."
-      ],
-      "SpanishExamples": [
-        "Todos iban con el sabio anciano a pedir consejo.",
-        "Conducir de noche con las luces apagadas no es algo inteligente."
-      ]
-    },
-    {
-			"Category": "ADJECTIVE",
-			"VocabularyWord": "Wobbly",
-			"Pronunciation": "/uuuobly/",
-			"Meanings": 
-			[
-        "Mareado",
-        "Tambaleante"
-			],
-      "EnglishExamples": [
-        
-        "She said she was feeling wobbly and needed to sit down.",
-        "Don't put anything heavy on that wobbly table."
-      ],
-      "SpanishExamples": [
-        
-        "Dijo que se sentía mareada y necesitaba sentarse.",
-        "No pongas nada pesado en esa mesa tambaleante."
-      ]
+		{
+		  "Category": "ADJECTIVE",
+		  "VocabularyWord": "Wise",
+		  "Pronunciation": "/waais/",
+		  "Meanings": [
+			"Sabio, Inteligente",
+			"Sensato"
+		  ],
+		  "EnglishExamples": [
+			"Everybody went to the wise old man for advice.",
+			"Driving at night with no lights was not a wise thing to do."
+		  ],
+		  "SpanishExamples": [
+			"Todos iban con el sabio anciano a pedir consejo.",
+			"Conducir de noche con las luces apagadas no es algo inteligente."
+		  ]
+		},
+		{
+				"Category": "ADJECTIVE",
+				"VocabularyWord": "Wobbly",
+				"Pronunciation": "/uuuobly/",
+				"Meanings": 
+				[
+			"Mareado",
+			"Tambaleante"
+				],
+		  "EnglishExamples": [
+			
+			"She said she was feeling wobbly and needed to sit down.",
+			"Don't put anything heavy on that wobbly table."
+		  ],
+		  "SpanishExamples": [
+			
+			"Dijo que se sentía mareada y necesitaba sentarse.",
+			"No pongas nada pesado en esa mesa tambaleante."
+		  ]
 		}		
 	] 	
 }
