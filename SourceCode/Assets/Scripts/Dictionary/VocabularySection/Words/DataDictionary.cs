@@ -296,12 +296,7 @@ namespace EnglishApp
         /// </summary>
         /// <returns></returns>
         public Word GetRandomWord(List<CATEGORY_WORDS> listExcludes = null)
-        {
-            // For debug purposes
-            return m_DataObjects.Objects[0];
-
-
-
+        {         
 
             List<int> lCategories = new List<int>();
             int nCategories = System.Enum.GetNames(typeof(CATEGORY_WORDS)).Length;

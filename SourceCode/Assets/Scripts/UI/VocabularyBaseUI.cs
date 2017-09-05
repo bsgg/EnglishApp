@@ -43,11 +43,19 @@ namespace EnglishApp
         }
 
         [SerializeField]
-        private Image m_ReferenceImage;
-        public Image ReferenceImage
+        private GameObject m_BtnImageReference;
+        public GameObject BtnImageReference
         {
-            get { return m_ReferenceImage; }
-            set { m_ReferenceImage = value; }
+            get { return m_BtnImageReference; }
+            set { m_BtnImageReference = value; }
+        }
+
+        [SerializeField]
+        private ImageReferencePopup m_ImagePopup;
+        public ImageReferencePopup ImagePopup
+        {
+            get { return m_ImagePopup; }
+            set { m_ImagePopup = value; }
         }
     }
 }

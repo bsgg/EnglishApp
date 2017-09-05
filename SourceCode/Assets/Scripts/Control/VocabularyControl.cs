@@ -114,7 +114,12 @@ namespace EnglishApp
             Debug.Log("m_CurrentWord.ImageRef: " + m_CurrentWord.ImageRef);
             if (!string.IsNullOrEmpty(m_CurrentWord.ImageRef))
             {
-                m_VocabularyPanelUI.ReferenceImage.sprite = GameManager.Instance.SpriteManager.GetSpriteByName(m_CurrentWord.ImageRef);
+                m_VocabularyPanelUI.ImagePopup.ImageReference.sprite = GameManager.Instance.SpriteManager.GetSpriteByName(m_CurrentWord.ImageRef);
+                m_VocabularyPanelUI.BtnImageReference.SetActive(true);
+            }
+            else
+            {
+                m_VocabularyPanelUI.BtnImageReference.SetActive(false);
             }
 
         }
@@ -221,6 +226,16 @@ namespace EnglishApp
                     EasyTTSUtil.SpeechFlush(m_CurrentWord.EnglishExamples[m_IndexExample]);
                 }
             }
+        }
+
+        public void OnImageReferencePress()
+        {
+            m_VocabularyPanelUI.ImagePopup.Show();
+        }
+
+        public void OnImageReferencePopupPress()
+        {
+            m_VocabularyPanelUI.ImagePopup.Hide();
         }
 
         #endregion ButtonHandles
