@@ -42,10 +42,10 @@ namespace EnglishApp
         public GrammarControl GrammarSectionControl;
         public GamesControl GamesSectionControl;
 
-        private DataDictionary m_DataDictionary;
-        public DataDictionary DataDictionary
+        private DataDictionary m_VocabularyDictionary;
+        public DataDictionary VocabularyDictionary
         {
-            get { return this.m_DataDictionary; }
+            get { return this.m_VocabularyDictionary; }
         }
 
         private GamesDictionary m_DataGamesDictionary;
@@ -60,13 +60,14 @@ namespace EnglishApp
             get { return m_DataGrammar; }
         }
 
+        private BaseControl m_CurrentControl;
+
+
         [SerializeField] private SpriteManager m_SpriteManager;
         public SpriteManager SpriteManager
         {
             get { return m_SpriteManager; }
         }
-
-       
 
         void Start()
         {
@@ -75,8 +76,15 @@ namespace EnglishApp
 		EasyTTSUtil.Initialize (EasyTTSUtil.UnitedKingdom);
 #endif
 
-            // Load Dictionaries
-            m_DataDictionary = new DataDictionary();
+            // Load vocabulary
+            m_VocabularyDictionary = new DataDictionary();
+
+
+
+
+
+
+
             m_DataGrammar = new GrammarDictionary();           
             m_DataGamesDictionary = new GamesDictionary();
 
@@ -88,11 +96,12 @@ namespace EnglishApp
         {
             if (Input.GetKeyUp(KeyCode.Escape))
             {
-                OnBackMenu();
+                m_CurrentControl.Back();
+                //OnBackMenu();
             }
         }
 
-        public void OnBackMenu()
+        /*public void OnBackMenu()
         {
             switch (m_StateMenu)
             {
@@ -110,7 +119,7 @@ namespace EnglishApp
                     GamesSectionControl.Back();
                     break;
             }
-        }
+        }*/
 
         public void BackMainMenu()
         {
@@ -118,7 +127,7 @@ namespace EnglishApp
             m_MainMenuPanelUI.Show();
         }
 
-        public void OnOptionMainMenu(int indexMenu)
+       /* public void OnOptionMainMenu(int indexMenu)
         {
             m_MainMenuPanelUI.Hide();
 
@@ -129,7 +138,7 @@ namespace EnglishApp
                 case 3:
                 case 4:
                     m_StateMenu = STATE_MENU.VOCABULARY_MENU;
-                    m_VocabularySectionControl.SectionVocabulary = (DataDictionary.SECTION_VOCABULARY)indexMenu;
+                    m_VocabularySectionControl.SelectedCategory = (DataDictionary.CATEGORY)indexMenu;
                     m_VocabularySectionControl.Init();
                     break;
                 case 5:
@@ -142,7 +151,7 @@ namespace EnglishApp
                     GamesSectionControl.Init();
                     break;
             }
-        }
+        }*/
 
         void OnApplicationQuit()
         {

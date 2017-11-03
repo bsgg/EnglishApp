@@ -43,14 +43,14 @@ namespace EnglishApp
             string auxCategory = "";
 
             // Create a list of available categories
-            List<DataDictionary.CATEGORY_WORDS> lExcludeCategories = new List<DataDictionary.CATEGORY_WORDS>();
-            lExcludeCategories.Add(DataDictionary.CATEGORY_WORDS.CONNECTEDWORDS);
+            List<VocabularyControl.ECATEGORY> lExcludeCategories = new List<VocabularyControl.ECATEGORY>();
+            lExcludeCategories.Add(VocabularyControl.ECATEGORY.ConnectedWords);
 
             do
             {
-                Word auxW = GameManager.Instance.DataDictionary.GetRandomWord(lExcludeCategories);
-                currentWord = auxW.VocabularyWord;
-                auxCategory = auxW.Category;
+                //Word auxW = GameManager.Instance.VocabularyDictionary.GetRandomWord(lExcludeCategories);
+                //currentWord = auxW.VocabularyWord;
+                //auxCategory = auxW.Category;
 
 
             } while (currentWord.Length > m_HangmanGUI.LettersSolution.Count);
@@ -125,7 +125,7 @@ namespace EnglishApp
         public override void Init()
         {
             // Load data
-            GameManager.Instance.DataDictionary.LoadSection(DataDictionary.SECTION_VOCABULARY.WORDS);
+           // GameManager.Instance.DataDictionary.LoadSection(DataDictionary.SECTION_VOCABULARY.WORDS);
 
             // Init hangman
             initHangman();

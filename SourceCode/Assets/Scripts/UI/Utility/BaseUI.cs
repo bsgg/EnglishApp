@@ -3,56 +3,23 @@ using System.Collections;
 
 namespace EnglishApp
 {
-    public class BaseUI : MonoBehaviour
+    public class BaseUI : BaseControl
     {
         [Header("Base Panel")]
         [SerializeField] protected CanvasGroup      m_CanvasGroupBaseUI;
-        [SerializeField] protected RectTransform    m_TransformUI;
-        [SerializeField] protected bool             m_HideOnStart;
-        protected bool                              m_IsVisible;
-        public bool IsVisible
+        [SerializeField] protected RectTransform    m_TransformUI;        
+        
+        public override void Show()
         {
-            get { return m_IsVisible; }
-            set { m_IsVisible = value; }
-        }
-
-        void Awake()
-        {
-            DoAwake();
-        }
-        void Start()
-        {
-            DoStart();
-        }
-
-        void Update()
-        {
-            DoUpdate();
-        }
-
-        protected virtual void DoAwake(){}
-
-        protected virtual void DoStart()
-        {
-            m_IsVisible = true;
-            if (m_HideOnStart)
-            {
-                Hide();
-            }
-        }
-
-        protected virtual void DoUpdate() { }
-
-        public virtual void Show()
-        {
-            m_IsVisible = true;
+            base.Show();  
             m_CanvasGroupBaseUI.alpha = 1.0f;
             m_CanvasGroupBaseUI.interactable = true;
             m_CanvasGroupBaseUI.blocksRaycasts = true;
         }
 
-        public virtual void Hide()
+        public override void Hide()
         {
+            base.Hide();
             m_IsVisible = false;
             m_CanvasGroupBaseUI.alpha = 0.0f;
             m_CanvasGroupBaseUI.interactable = false;

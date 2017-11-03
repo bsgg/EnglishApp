@@ -1,0 +1,260 @@
+{
+	"Data":	
+	[	
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Backyard",
+			"Pronunciation": "/backkiard/",
+			"Meanings": 
+			[
+				"Patio trasero"
+			],
+			"EnglishExamples":
+			[ 
+				"They sit in the backyard and read all summer."
+			],
+			"SpanishExamples":
+			[ 
+				"Se sientan en el patio trasero todo el verano a leer."
+			]			
+		},
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Bookshop",
+			"Pronunciation": "/buuukshop/",
+			"Meanings": 
+			[
+				"Librería Pequeña"
+			],
+			"EnglishExamples":
+			[ 
+				"Many small bookshops have closed."
+			],
+			"SpanishExamples":
+			[ 
+				"Muchas librerías pequeñas han cerrado."
+			]			
+		},		
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Chemist's",
+			"Pronunciation": "/quemist/",
+			"Meanings": 
+			[
+				"Farmacia"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm going to the chemist to get some painkillers."
+			],
+			"SpanishExamples":
+			[ 
+				"Voy a la farmacia a consegur algunos analgésicos."
+			]			
+		},	
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Cottage",
+			"Pronunciation": "/coootich/",
+			"Meanings": 
+			[
+				"Casa de campo, Cabaña"
+			],			
+			"EnglishExamples":
+			[ 
+				"A cottage is, typically, a small house located in a rural location."
+			],
+			"SpanishExamples":
+			[ 
+				"Una casa de campo es, típicamente, una casa pequeña situada en una zona rural."
+			]				
+		},	
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Gig",
+			"Pronunciation": "/giig/",
+			"Meanings": 
+			[
+				"Concierto"
+			],
+			"EnglishExamples":
+			[ 
+				"Yes! I've heard of them. I went to one of their gigs last year."
+			],
+			"SpanishExamples":
+			[ 
+				"Si! He oido de ellos. Fui a uno de sus conciertos el año pasado."
+			]			
+		},	
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Fair",
+			"Pronunciation": "/feeer/",
+			"Meanings": 
+			[
+				"Feria"
+			],
+			"EnglishExamples":
+			[ 
+				"Did you go to the book fair at the convention centre last year?"
+			],
+			"SpanishExamples":
+			[ 
+				"¿Fuiste a la feria de libros en el centro de convenciones el año pasado?."
+			]			
+		},	
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Farmyard",
+			"Pronunciation": "/faaiard/",
+			"Meanings": 
+			[
+				"Corral"
+			],
+			"EnglishExamples":
+			[ 
+				"Pigs, chickens and cows are all farmyard animals."
+			],
+			"SpanishExamples":
+			[ 
+				"Los cerdos, gallinas y vacas son todos animales de corral."
+			]			
+		},	
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Health-food shop",
+			"Pronunciation": "/helth fud shop/",
+			"Meanings": 
+			[
+				"Herbolario"
+			],
+			"EnglishExamples":
+			[ 
+				"How far is it from the heath-food shop to the coffee shop? I have to buy some infusions for my headache."
+			],
+			"SpanishExamples":
+			[ 
+				"¿A qué distancia está le herbolario de la cafetería? Tengo que comprar algunas infusiones para mi dolor de cabeza."
+			]			
+		},	
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Pantry",
+			"Pronunciation": "/peentri/",
+			"Meanings": 
+			[
+				"Despensa"
+			],
+			"EnglishExamples":
+			[ 
+				"A pantry is a small room or closet off the kitchen where food and dishes are stored."
+			],
+			"SpanishExamples":
+			[ 
+				"Una despensa es una pequeña habitación o armario de cocina donde la comida y los platos osn guardados."
+			]			
+		},	
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Graveyard",
+			"Pronunciation": "/greiiviard/",
+			"Meanings": 
+			[
+				"Cementerio"
+			],
+			"EnglishExamples":
+			[ 
+				"Three generations of the family are buried in the church's graveyard."
+			],
+			"SpanishExamples":
+			[ 
+				"Tres generaciones de la familia están enterradas en el cementerio de la iglesia."
+			]			
+		},
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Grocery",
+			"Pronunciation": "/grouseri/",
+			"Meanings": 
+			[
+				"Supermercado"
+			],
+			"EnglishExamples":
+			[ 
+				"I went to the grocery store and I bought some vegetables and some other groceries."
+			],
+			"SpanishExamples":
+			[ 
+				"Fui al supermercado y compré algunas verduras y otros comestibles."
+			]			
+		},
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Haystack",
+			"Pronunciation": "/heiiistak/",
+			"Meanings": 
+			[
+				"Pajar"
+			],
+			"EnglishExamples":
+			[ 
+				"In late summer, the fileds are filled with haystacks."
+			],
+			"SpanishExamples":
+			[ 
+				"Tarde en verano, los campos se llenan de pajares."
+			]			
+		},
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Library",
+			"Pronunciation": "/laibrari/",
+			"Meanings": 
+			[
+				"Biblioteca"
+			],
+			"EnglishExamples":
+			[ 
+				"Our local libary has a huge selection."
+			],
+			"SpanishExamples":
+			[ 
+				"Nuestra biblioteca ldel barrio tiene una gran selección."
+			]			
+		},
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Theatre",
+			"Pronunciation": "/ziete/",
+			"Meanings": 
+			[
+				"Teatro"
+			],
+			"EnglishExamples":
+			[ 
+				"There are two theatres standing empty in my hometown."
+			],
+			"SpanishExamples":
+			[ 
+				"Hay dos teatros abandonados en mi pueblo natal."
+			]			
+		},
+		{
+			"Category": "PLACE",
+			"VocabularyWord": "Tube (UK)",
+			"Pronunciation": "/chiubbb/",
+			"Meanings": 
+			[
+				"Metro (UK)"
+			],
+			"EnglishExamples":
+			[ 
+				"I took the tube from Victoria to Liverpool Street. It was dear!"
+			],
+			"SpanishExamples":
+			[ 
+				"Cogí el metro desde la calle Victoria hasta Liverpool. ¡Fue caro!."
+			]			
+		}
+	] 	
+}

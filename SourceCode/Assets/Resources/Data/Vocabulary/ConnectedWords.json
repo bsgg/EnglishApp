@@ -1,0 +1,732 @@
+{
+	"Data":	
+	[
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "A Bit + adj",
+			"Pronunciation": "/aa bit/",
+			"Meanings": 
+			[
+				"Un poco",
+				"Un poco",
+				"Un poco"
+			],
+			"EnglishExamples":
+			[ 
+				"She's a bit rude",
+				"I'm a bit tired",
+				"Take a jacket. It's a bit chilly tonight."
+			],
+			"SpanishExamples":
+			[ 
+				"Ella es un poco maleducada.",
+				"Estoy un poco cansada",
+				"Coge una chaqueta. Hace un poco de frio."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Above",
+			"Pronunciation": "/abaavv/",
+			"Meanings": 
+			[
+				"Encima",
+				"Por encima de"
+			],
+			"EnglishExamples":
+			[ 
+				"She hung a picture above the fireplace",
+				"Her level is above the national average."
+			],
+			"SpanishExamples":
+			[ 
+				"Ella colgó un cuadro sobre la chimenea.",
+				"Su nivel está por encima de la media nacional."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Ahead",
+			"Pronunciation": "/aaajeed/",
+			"Meanings": 
+			[
+				"Delante de",
+				"Por delante"
+			],
+			"EnglishExamples":
+			[ 
+				"Cheri couldn't see ahead, too many people were blocking her view.",
+				"You definitely deserve a pat on the back for finishing the project 3 days ahead of schedule. Well done!"
+			],
+			"SpanishExamples":
+			[ 
+				"Cheri no pudo ver delante, demasiada gente estaba bloqueando su vista.",
+				"De verdad mereces una palmada en la espalda por acabar el proyecto 3 dias por delatne del planing. Bien hecho!"
+			]			
+		},	
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Afterwards",
+			"Pronunciation": "/afteruerds/",
+			"Meanings": 
+			[
+				"Despues",
+				"Luego, Más tarde"
+			],
+			"EnglishExamples":
+			[ 
+				"Let's eat and go to a move afterwards.",
+				"Afterward he left, shutting the door with force."
+			],
+			"SpanishExamples":
+			[ 
+				"Comamos y después vayamos al cine.",
+				"Más tardeel se fue cerrando la puerta con fuerza."
+			]			
+		},	
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Along",
+			"Pronunciation": "/aalong/",
+			"Meanings": 
+			[
+				"Junto, Acompañado",
+				"A lo largo"
+			],
+			"EnglishExamples":
+			[ 
+				"My dog likes to run along the path as I ride by.",
+				"A fence runs along the river for safety."
+			],
+			"SpanishExamples":
+			[ 
+				"A mi perro le gusta correr junto a mi cuando monto en bici.",
+				"Una valla corre a lo largo del rio para seguridad."
+			]			
+		},	
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Among",
+			"Pronunciation": "/amaang/",
+			"Meanings": 
+			[
+				"En medio",
+				"Entre (grupo cosas)",
+				"Entre"
+			],
+			"EnglishExamples":
+			[ 
+				"Jonh's farm is situated among the cornfields of eastern Kansas.",
+				"Be happy, you're among firends.",
+				"Their music's popular among college students."
+			],
+			"SpanishExamples":
+			[ 
+				"La granja de Jonh se encuentra en medio de los campos de maiz al este de Kansas.",
+				"Se feliz, estás entre amigos.",
+				"Su música es popular entre los estudiantes universitarios."
+			]			
+		},		
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Around",
+			"Pronunciation": "/aaraund/",
+			"Meanings": 
+			[
+				"Alrededor",
+				"Aproximadamente"
+			],
+			"EnglishExamples":
+			[ 
+				"They put a fence around the swimming pool.",
+				"The meeting lasted around three hours."
+			],
+			"SpanishExamples":
+			[ 
+				"Pusierion una valla alrededor de la piscina.",
+				"La reunión duró aproximadamente tres horas."
+			]			
+		},			
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Away",
+			"Pronunciation": "/aauey/",
+			"Meanings": 
+			[
+				"De distancia",
+				"Forma", 
+				"Manera"
+			],
+			"EnglishExamples":
+			[ 
+				"The cathedral is 5 minutes away.",
+				"What's the best way to cook buey?",
+				"What's the best way of getting to the beach?"
+			],
+			"SpanishExamples":
+			[ 
+				"La catedral está a 5 minutos de distancia.",
+				"¿Cuál es la mejor forma de cocinar buey?",
+				"¿Cuál es la mejor manera de llegar a la playa?"
+			]			
+		},	
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Beside",
+			"Pronunciation": "/biisaid/",
+			"Meanings": 
+			[
+				"Junto a",
+				"Al lado de"
+			],
+			"EnglishExamples":
+			[ 
+				"I keep a flashlight beside my bed.",
+				"He doesn't seem as short beside the other men."
+			],
+			"SpanishExamples":
+			[ 
+				"Tengo una linterna junto a mi cama.",
+				"No parece tan bajito al lado de otros hombres."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Beyond",
+			"Pronunciation": "/biiiond/",
+			"Meanings": 
+			[
+				"Más allá",
+				"Más de"
+			],
+			"EnglishExamples":
+			[ 
+				"Clouds were visible beyond the mountains.",
+				"The hotel cannot hold reservations beyond seventy-two hours."
+			],
+			"SpanishExamples":
+			[ 
+				"Las nuves eran visibles más allá de las montañas.",
+				"El hotel no puede mantener las reservas más de 72 horas."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Beneath",
+			"Pronunciation": "/benizz/",
+			"Meanings": 
+			[
+				"Debajo de"
+			],
+			"EnglishExamples":
+			[ 
+				"The calm surface of the water hid the dangerous rocks beneath."
+			],
+			"SpanishExamples":
+			[ 
+				"La superficie calmada del agua escondían las peligrosas rocas de debajo ."
+			]			
+		},		
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Beware",
+			"Pronunciation": "/biiuee/",
+			"Meanings": 
+			[
+				"Tener cuidado"
+			],
+			"EnglishExamples":
+			[ 
+				"She received a letter from an anonymus person warning here to beware of her husband."
+			],
+			"SpanishExamples":
+			[ 
+				"Recibió una carta de una persona anónima avisándola de que tuviese cuidado con su marido."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Eventually",
+			"Pronunciation": "/ivenchuali/",
+			"Meanings": 
+			[
+				"Finalmente, Al final"
+			],
+			"EnglishExamples":
+			[ 
+				"He eventually decided to buy the green car."
+			],
+			"SpanishExamples":
+			[ 
+				"Al final decidió comprar el coche verde."
+			]			
+		},	
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Either",
+			"Pronunciation": "/idzaa/",
+			"Meanings": 
+			[
+				"Tampoco",
+				"Tampoco"
+			],
+			"EnglishExamples":
+			[ 
+				"I didn't like the film either.",
+				" I don't have many shirts and she doesn't have many skirts either."
+			],
+			"SpanishExamples":
+			[ 
+				"Tampoco me gsutó la película.",
+				"No tengo muchas camisetas y ella tampoco tiene muchas faldas."
+			]			
+		},	
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Even though",
+			"Pronunciation": "/iiiven dzo/",
+			"Meanings": 
+			[
+				"Aunque, A pesar de"
+			],
+			"EnglishExamples":
+			[ 
+				"Even though it was really hot, she was wearing a thick woollen sweater."
+			],
+			"SpanishExamples":
+			[ 
+				"Aunque hacía mucho calor, ella llevaba un grueso jersey de lana.."
+			]			
+		},		
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Hardly",
+			"Pronunciation": "/haarli/",
+			"Meanings": 
+			[
+				"Apenas, Casi Nunca"
+			],
+			"EnglishExamples":
+			[ 
+				"Jim hardly ever visits his parents, anymore"
+			],
+			"SpanishExamples":
+			[ 
+				"Jim apenas(casi nunca) visita a sus padres ya."
+			]			
+		},		
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "However",
+			"Pronunciation": "/joueva/",
+			"Meanings": 
+			[
+				"Sin embargo",
+				"Aunque"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm happy about the project. However, I'm worried about the costs.",
+				"I like the idea, however, I don't think it will work."
+			],
+			"SpanishExamples":
+			[ 
+				"Estoy contento con el proyecto. Sin embargo, estoy preoucpado con los costes.",
+				"Me gusta la idea, aunque, no creo que funcione."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "In order to",
+			"Pronunciation": "/in oorder tu/",
+			"Meanings": 
+			[
+				"Para"
+			],
+			"EnglishExamples":
+			[ 
+				"You don't need a degree in order to work as an escort. In order to travel abroad you must have a valid passport."
+			],
+			"SpanishExamples":
+			[ 
+				"No necesitas un título para trabajar de escolta. Para viajar al extranjero debes tener un pasaporte vigente."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "In Spite of",
+			"Pronunciation": "/in ssspait of/",
+			"Meanings": 
+			[
+				"A pesar de"
+			],
+			"EnglishExamples":
+			[ 
+				"He didn't stop getting into work late, in spite of the fact that his boss had already given him two official warnings."
+			],
+			"SpanishExamples":
+			[ 
+				"El no paró de llegar tarde al trabajo, a pesar de que su jefe ya le había dado dos avisos oficiales."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Kind of",
+			"Pronunciation": "/Kaaindof/",
+			"Meanings": 
+			[
+				"Un poco, Algo",
+				"Tipo de",
+				"Amable"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm getting kind of fed up with you complaining all the time.",
+				"Alex doesn't want this kind of life.",
+				"It's very kind of you to invite me to your birthday party."
+			],
+			"SpanishExamples":
+			[ 
+				"Estoy un poco harto de tus quejas todo el tiempo.",
+				"Alex no quiere este tipo de vida.",
+				"Eres muy amable al invitarme a tu fiesta de cumpleaños."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Likely",
+			"Pronunciation": "/laikly/",
+			"Meanings": 
+			[
+				"Probablemente"
+			],
+			"EnglishExamples":
+			[ 
+				"It's not very likely that he'll go."
+				
+			],
+			"SpanishExamples":
+			[			
+				"No es muy probable que vaya."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Nearby",
+			"Pronunciation": "/niierbai/",
+			"Meanings": 
+			[
+				"Próximo, cercano"
+			],
+			"EnglishExamples":
+			[ 
+				"Jim attended a nearby school."
+			],
+			"SpanishExamples":
+			[ 
+				"Jim asistió a un colegio cercano."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Nearly",
+			"Pronunciation": "/niiirli/",
+			"Meanings": 
+			[
+				"Casi"
+			],
+			"EnglishExamples":
+			[ 
+				"Nearly all of the team left the office at 5:00 p.m and there was a lot of work to do. It was a disaster!"
+			],
+			"SpanishExamples":
+			[ 
+				"Casi todo el equipo dejó la oficina a las 5 de la tarde y había mucho trabajo que hacer. Fue un desastre!"
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Nevertheless",
+			"Pronunciation": "/neverdelees/",
+			"Meanings": 
+			[
+				"No obstante",
+				"Aun así"
+			],
+			"EnglishExamples":
+			[ 
+				"It's rainning. Nevertheless, I'm going to go for a walk.",
+				"I was very tired last night. Nevertheless, I stayed up watching a film until two in the morning."				
+			],
+			"SpanishExamples":
+			[ 
+				"Está lloviendo. No obstante , voy a ir a dar un paseo.",
+				"Estaba muy cansado anoche. Aun así, me quedé viendo una película hasta las dos de la madrugada."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Right away",
+			"Pronunciation": "/raait euey/",
+			"Meanings": 
+			[
+				"Inmediatamente"
+			],
+			"EnglishExamples":
+			[ 
+				"I called her back right away after the accident."
+				
+			],
+			"SpanishExamples":
+			[			
+				"La llamé inmediatamente después del accidente ."
+			]			
+		},	
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Quite",
+			"Pronunciation": "/cuait/",
+			"Meanings": 
+			[
+				"Un montón de",
+				"Bastante"
+			],
+			"EnglishExamples":
+			[ 
+				"If you want to learn to play the piano, you'll need to spend quite a lot of money on lessons",
+				"There is quite a bit of information in this book listed about the theory of Compute Science."
+				
+			],
+			"SpanishExamples":
+			[			
+				"Si quieres aprender a tocar el piano, necesitarás gastar mucho dinero en lecciones.",
+				"Hay bastante información en este libro sobre la teoría Ordenadores."
+			]			
+		},			
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Rather",
+			"Pronunciation": "/raada/",
+			"Meanings": 
+			[
+				"Bastante",
+				"Preferir"
+			],
+			"EnglishExamples":
+			[ 
+				"He was rather disturbed by the images of the war.",
+				"I would rather go to a bar than go to the movies."
+				
+			],
+			"SpanishExamples":
+			[			
+				"Se sentía bastante afectado por las imágenes de la guerra.",
+				"Preferiría ir al bar en vez de ir al cine."
+			]			
+		},	
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Reckon",
+			"Pronunciation": "/reekon/",
+			"Meanings": 
+			[
+				"Pensar, Creer"
+			],
+			"EnglishExamples":
+			[ 
+				"Do you reckon you'll be able to pass your driving test?"
+				
+			],
+			"SpanishExamples":
+			[			
+				"¿Crees qué podrás aprobar el exámen de conducir?"
+			]			
+		},	
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Regardless",
+			"Pronunciation": "/rigardless/",
+			"Meanings": 
+			[
+				"En cualquier caso",
+				"De todas formas",
+				"Independientementete"
+			],
+			"EnglishExamples":
+			[ 
+				"He will do what he wants, regardless.",
+				"This earth is very heavy but I'm going to dig it regardless.",
+				"Regardless of sunny weather, they went for playing football."
+				
+			],
+			"SpanishExamples":
+			[			
+				"En cualquier caso hará lo que quiera.",
+				"Esta tierra es muy pesada pero voy a cabarla de todas formas.",
+				"Independientemente del tiempo soleado, fuero a jugar fútbol. "
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Roughtly",
+			"Pronunciation": "/raafli/",
+			"Meanings": 
+			[
+				"Aproximadamente",
+				"Básicamente"
+			],
+			"EnglishExamples":
+			[ 
+				"Martin has done roughly eight hours work today.",
+				"Edward spoke and ate roughly and Sarah thought him thoroughly uncultured"
+			],
+			"SpanishExamples":
+			[			
+				"Martin ha hecho aproximadamente 8 horas de trabajo hoy.",
+				"Edward habló y comió básicamente y Sarah  pensó de él que era completamente inculto."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Shortly",
+			"Pronunciation": "/shortly/",
+			"Meanings": 
+			[
+				"En breve, Pronto"
+			],
+			"EnglishExamples":
+			[ 
+				"I just need to make a quick phone call, I'll be with you shortly."
+				
+			],
+			"SpanishExamples":
+			[			
+				"Sólo necesito hacer una llamada rápida, estaré contigo en breve (pronto)."			
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Straight away",
+			"Pronunciation": "/ssstreit euey/",
+			"Meanings": 
+			[
+				"Inmediatamente"
+			],
+			"EnglishExamples":
+			[ 
+				"She came to the beach straight away."
+				
+			],
+			"SpanishExamples":
+			[			
+				"Vino a la playa inmediatamente."			
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Sort of",
+			"Pronunciation": "/sooorof/",
+			"Meanings": 
+			[
+				"Tipo de",
+				"Tipo de",
+				"Algo así"
+			],
+			"EnglishExamples":
+			[ 
+				"There are all sorts of fruits in this salad.",				
+				"I wouldn't worry too much about that sort of things.",
+				"Is he your boyfriend? - Sort of, It's complicated."
+				
+			],
+			"SpanishExamples":
+			[			
+				"Hay todo tipo de frutas en esta ensalada.",
+				"No me preocuparía mucho sobre ese tipo de cosas.",
+				"¿Es el tu novio? - Algo así, es complicado."			
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Therefore",
+			"Pronunciation": "/deerfor/",
+			"Meanings": 
+			[
+				"Por lo tanto",
+				"Por eso"
+			],
+			"EnglishExamples":
+			[ 
+				"I think, therefore I am.",
+				"The young boy refused to obey the teacher. Therefore, he was sent home."				
+				
+			],
+			"SpanishExamples":
+			[			
+				"Pienso, por lo tanto existo.",
+				"El joven chico se negó a obedecer a la profesora. Por eso fue enviado a casa."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Though",
+			"Pronunciation": "/dooou/",
+			"Meanings": 
+			[
+				"Aunque",
+				"Sin embargo"
+			],
+			"EnglishExamples":
+			[ 
+				"I wouldn't call him, though he beged me.",
+				"Hugh Grant is great in romantic comedies. He isn't a very good dramatic actor, though."
+				
+			],
+			"SpanishExamples":
+			[			
+				"No lo llamaría aunqeu me lo rogara.",
+				"Hugh Grant es genial en comedias romáticas. El no es muy buen actor dramático, sin embargo."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Whereas",
+			"Pronunciation": "/ueeras/",
+			"Meanings": 
+			[
+				"Mientras que"
+			],
+			"EnglishExamples":
+			[ 
+				"He likes broccoli, whereas she hates it."		
+			],
+			"SpanishExamples":
+			[			
+				"A él le gusta el brócoli, mientras que ella lo odia."
+			]			
+		},
+		{
+			"Category": "CONNECTEDWORDS",
+			"VocabularyWord": "Within",
+			"Pronunciation": "/uiiidziinn/",
+			"Meanings": 
+			[
+				"A dentro",
+				"Dentro de",
+				"Dentro de"
+			],
+			"EnglishExamples":
+			[ 
+				"I could hear a scratching sound coming from within.",
+				"Please stay within the boundaries.",
+				"The project is due within three days."				
+			],
+			"SpanishExamples":
+			[			
+				"Podía escuchar un sonido de rasguños viniendo de dentro.",
+				"Por favor, permanezca dentro de los límites.",
+				"El proyecto debe estar terminado dentro de tres días"
+			]			
+		}
+	] 	
+}

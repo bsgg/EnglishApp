@@ -1,0 +1,2970 @@
+{
+	"Data":	
+	[
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Accurate",
+			"Pronunciation": "/acuiret/",
+			"Meanings": 
+			[
+				"Correcto"
+			],
+			"EnglishExamples":
+			[ 
+				"The thermometer's reading is very accurate."			
+			],
+			"SpanishExamples":
+			[ 
+				"La lectura del termómetro es muy correcta."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Aisle",
+			"Pronunciation": "/aaiel/",
+			"Meanings": 
+			[
+				"Pasillo"
+			],
+			"EnglishExamples":
+			[ 
+				"Aisle seats generally allow a passenger to stretch his or her legs more."			
+			],
+			"SpanishExamples":
+			[ 
+				"Los asientos de pasillo normalmente permiten al pasajero estirar sus piernas más."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Aunt",
+			"Pronunciation": "/aaant/",
+			"Meanings": 
+			[
+				"Tía"
+			],
+			"EnglishExamples":
+			[ 
+				"My mother doesn't have any sisters so I don't have any aunt."			
+			],
+			"SpanishExamples":
+			[ 
+				"Mi madre no tiene ninguna hermana a si que no tengo ninguna tía."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Blast",
+			"Pronunciation": "/blast/",
+			"Meanings": 
+			[
+				"Explosión"
+			],
+			"EnglishExamples":
+			[ 
+				"The miners ran for cover at the sound of the blast."			
+			],
+			"SpanishExamples":
+			[ 
+				"Los mineros corrieron para cubrirse del sonido de la explosión"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Backache",
+			"Pronunciation": "/bakeik/",
+			"Meanings": 
+			[
+				"Dolor de espalda"
+			],
+			"EnglishExamples":
+			[ 
+				"Lifting those boxes gave me a terrible backache. "			
+			],
+			"SpanishExamples":
+			[ 
+				"Levantar esas cajas me dio un horrible dolor de espalda"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Bargain",
+			"Pronunciation": "/bargin/",
+			"Meanings": 
+			[
+				"Chollo, Ganga"
+			],
+			"EnglishExamples":
+			[ 
+				"These designer shoes were a bargain!"			
+			],
+			"SpanishExamples":
+			[ 
+				"¡Estos zapatos de diseño fuero un chollo!"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Be worth",
+			"Pronunciation": "/bi worrth/",
+			"Meanings": 
+			[
+				"Merecer la pena",
+				"Merecer la pena"
+			],
+			"EnglishExamples":
+			[ 
+				"Is it worth visiting London? It's way too expensive.",
+				"It costs a pound but it's totally worth it, look at the view!"			
+			],
+			"SpanishExamples":
+			[ 
+				"¿Merece la pena visitar Londres? Es demasiado caro.",
+				"Cuesta una libra pero merece mucho la pena, ¡mira las vistas!"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Bellyache",
+			"Pronunciation": "/belyeik/",
+			"Meanings": 
+			[
+				"Dolor de tripa"
+			],
+			"EnglishExamples":
+			[ 
+				"All that ice cream has given me a bellyache."			
+			],
+			"SpanishExamples":
+			[ 
+				"Todo el helado me ha dado dolor de tripa."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Beat",
+			"Pronunciation": "/biiit/",
+			"Meanings": 
+			[
+				"Ritmo música"
+			],
+			"EnglishExamples":
+			[ 
+				"I can't follow the beat of this song."			
+			],
+			"SpanishExamples":
+			[ 
+				"No puedo seguir el ritmo de esta canción."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Beware",
+			"Pronunciation": "/biweee/",
+			"Meanings": 
+			[
+				"Tener cuidado con"
+			],
+			"EnglishExamples":
+			[ 
+				"Beware of pickpockets in London, They're everywhere!"			
+			],
+			"SpanishExamples":
+			[ 
+				"Ten cuidado con los carteristas en Londres. ¡Están por todos lados!"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Blizzard",
+			"Pronunciation": "/blized/",
+			"Meanings": 
+			[
+				"Tomenta de nieve"
+			],
+			"EnglishExamples":
+			[ 
+				"The family were trapped in their car during the blizzard."			
+			],
+			"SpanishExamples":
+			[ 
+				"La familia se quedó atraapada en su coche durante la tormenta de nieve."
+			]			
+		},		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Boil",
+			"Pronunciation": "/boooil/",
+			"Meanings": 
+			[
+				"Hervir",
+				"Mucho calor"
+			],
+			"EnglishExamples":
+			[ 
+				"The soups is boiling already,",
+				"It's going to be absolutely boiling tomorrow."				
+			],
+			"SpanishExamples":
+			[ 
+				"Las sopas estaba hirviendo ya.",
+				"Va ha hacer muchísimo calor mañna"
+			]			
+		},			
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Bonfire",
+			"Pronunciation": "/boonfair/",
+			"Meanings": 
+			[
+				"Fogata, Hoguera"
+			],
+			"EnglishExamples":
+			[ 
+				"The villagers gathered in the evening for a huge bonfire."
+			],
+			"SpanishExamples":
+			[ 
+				"Los aldeanos se reunieron por la tarde para hacer una enorme hoguera."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Boner",
+			"Pronunciation": "/boouner/",
+			"Meanings": 
+			[
+				"Erección, Empalme"
+			],
+			"EnglishExamples":
+			[ 
+				"When he stood up everyone could see he had a boner."
+			],
+			"SpanishExamples":
+			[ 
+				"Cuando el levantó todo el mundo pudo ver que tenía una erección."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Bond",
+			"Pronunciation": "/boon/",
+			"Meanings": 
+			[
+				"Lazo, Vínculo"
+			],
+			"EnglishExamples":
+			[ 
+				"The two sisters have a real bond."
+			],
+			"SpanishExamples":
+			[ 
+				"Las dos hermanas tienen un vínculo real."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Bounty",
+			"Pronunciation": "/baunti/",
+			"Meanings": 
+			[
+				"Recompensa"
+			],
+			"EnglishExamples":
+			[ 
+				"There is a bounty of a million dollars on the suspected terrorist."
+			],
+			"SpanishExamples":
+			[ 
+				"Hay una recompensa de un millón de dólares para un terrorista sospechoso."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Bucket list",
+			"Pronunciation": "/baket list/",
+			"Meanings": 
+			[
+				"Cosas por hacer en tu vida"
+			],
+			"EnglishExamples":
+			[ 
+				"A bucket list is a list where you put things you wish to do before dying"			
+			],
+			"SpanishExamples":
+			[ 
+				"Una lista cubo es una lista donde pones cosas que deseas hacer antes de morir."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Busker",
+			"Pronunciation": "/baska/",
+			"Meanings": 
+			[
+				"Musico callejero"
+			],
+			"EnglishExamples":
+			[ 
+				"They bought some donuts and Ron bought a CD from a 'Chinese chappy', a busker playing with two-stringed ancient violin."			
+			],
+			"SpanishExamples":
+			[ 
+				"Compraron algunos donuts y Ron compró un CD de un tipo Chino, un músico callejero tocando con un violín antiguo de dos cuerdas."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Budget",
+			"Pronunciation": "/bagget/",
+			"Meanings": 
+			[
+				"Presupuesto"
+			],
+			"EnglishExamples":
+			[ 
+				"Fiona created a family spendig budget."			
+			],
+			"SpanishExamples":
+			[ 
+				"Fiona creó un presupuesto familiar"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Board",
+			"Pronunciation": "/booord/",
+			"Meanings": 
+			[
+				"Tablón",
+				"Tabla",
+				"Pensión - hotel"
+			],
+			"EnglishExamples":
+			[ 
+				"Somebody put a board over the mud so people could walk on it."	,
+				"During hurricanes, put boards over the windows.",
+				"We are going to london next september, we picked a half board. This option is cheaper than full board."				
+			],
+			"SpanishExamples":
+			[ 
+				"Alguien puso un tablón sobre el barro para que la gente pudiese pasar.",
+				"Durante los huracanes, poner tablas sobre las ventanas.",
+				"Nos vamos a londres el próximo septiembre, escogimos media pensión. Esta opción es más barata que la pensión completa."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Cardboard",
+			"Pronunciation": "/caabord/",
+			"Meanings": 
+			[
+				"Cartón"
+			],
+			"EnglishExamples":
+			[ 
+				"My son is making a castle out of cardboard for his cardboard dragon."
+			],
+			"SpanishExamples":
+			[ 
+				"Mi hijo está hacienod un castillo de cartón para su dragón de cartón."
+			]
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Cashier",
+			"Pronunciation": "/caxieer/",
+			"Meanings": 
+			[
+				"Cajero"
+			],
+			"EnglishExamples":
+			[ 
+				"The cashier bagged the customer's groceries."
+			],
+			"SpanishExamples":
+			[ 
+				"El cajero embolsó la comida del cliente."
+			]
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Career",
+			"Pronunciation": "/cariia/",
+			"Meanings": 
+			[
+				"Taryectoria Profesional",
+				"Taryectoria Profesional"
+			],
+			"EnglishExamples":
+			[ 
+				"My wife has a successful career in advertising.",
+				"My borther did a degree in Toursim at university and now he has a sucessul career."	
+			],
+			"SpanishExamples":
+			[ 
+				"Mi mujer tiene una trayectoria profesional en publicidad.",
+				"Mi heramno hizo una carrera en turismo en launiversidad y ahora itene una trayectoria profesional exitosa."
+			]
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Clerk",
+			"Pronunciation": "/claark/",
+			"Meanings": 
+			[
+				"Dependiente, Recepcionista"
+			],
+			"EnglishExamples":
+			[ 
+				"I know the clerk down at Starbuck's more than I know my own mother."			
+			],
+			"SpanishExamples":
+			[ 
+				"Conozco al dependiente de Starbuck's más que a mi propia madre."
+			]			
+		},			
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Choir",
+			"Pronunciation": "/cuaier/",
+			"Meanings": 
+			[
+				"Coro"
+			],
+			"EnglishExamples":
+			[ 
+				"The high school choir won first place at the competition."			
+			],
+			"SpanishExamples":
+			[ 
+				"El coro del colegio ganó el primer lugar en la competición."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Craft",
+			"Pronunciation": "/kruuuaft/",
+			"Meanings": 
+			[
+				"Oficio",
+				"Artesanía, Manualidades"
+			],
+			"EnglishExamples":
+			[ 
+				"Nan's father was a woodworker, and she learned the craft from him.",
+				"My daughter made a cute little potholder in her crafts class."				
+			],
+			"SpanishExamples":
+			[ 
+				"El padre de Nan fue carpintero, y ella aprendío el oficio de él.",
+				"Mi hija hizo una adorable pequeña manopla en su clase de manualidades."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Crash",
+			"Pronunciation": "/crasssh/",
+			"Meanings": 
+			[
+				"Pasar la noche, Quedarse en"
+			],
+			"EnglishExamples":
+			[ 
+				"He crashed at my house Saturday night"			
+			],
+			"SpanishExamples":
+			[ 
+				"Pasó, se quedó la noche en mi casa el sábado noche."
+			]			
+		},
+    {
+      "Category": "MISC",
+      "VocabularyWord": "Cramp",
+      "Pronunciation": "/craamp/",
+      "Meanings": [
+        "Calambre, Tirón"
+      ],
+      "EnglishExamples": [
+        "I woke up in the middle of the night because I got a cramp in my left foot. I hate when that happens!"
+      ],
+      "SpanishExamples": [
+        "Me desperté en medio de la noche porque me dió un calambre en el izquierdo pie. ¡Odio cuando eso pasa!"
+      ]
+    },	
+    {
+			"Category": "MISC",
+			"VocabularyWord": "Craving",
+			"Pronunciation": "/creiving/",
+			"Meanings": 
+			[
+				"Antojo"
+			],
+			"EnglishExamples":
+			[ 
+				"When I was pregnant, I had a craving for watermelon."			
+			],
+			"SpanishExamples":
+			[ 
+				"Cuando estaba embarazada, tenía antojos por sandía."
+			]			
+		},	
+		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Constipated",
+			"Pronunciation": "/cooonstipeited/",
+			"Meanings": 
+			[
+				"Estreñido"
+			],
+			"EnglishExamples":
+			[ 
+				"Have a laxative if you are constipated."			
+			],
+			"SpanishExamples":
+			[ 
+				"Toma un laxante si estás extreñido."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Cough",
+			"Pronunciation": "/cooof/",
+			"Meanings": 
+			[
+				"Tos"
+			],
+			"EnglishExamples":
+			[ 
+				"The baby girl has a cough, so her parents are taking her to the doctor."			
+			],
+			"SpanishExamples":
+			[ 
+				"La bebe tiene tos, asi que sus padres la están llevando al médico."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Cousin",
+			"Pronunciation": "/caaason/",
+			"Meanings": 
+			[
+				"Primo"
+			],
+			"EnglishExamples":
+			[ 
+				"Uncle Mike's daughter Maria is my favourite cousin."			
+			],
+			"SpanishExamples":
+			[ 
+				"María, la hija de mi tío Mike, es mi prima favorita."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Crush",
+			"Pronunciation": "/krasssh/",
+			"Meanings": 
+			[
+				"Encapricharse"
+			],
+			"EnglishExamples":
+			[ 
+				"I have a crush on Brad Pitt, but I'll probably never get a chance to have a relationship with him."			
+			],
+			"SpanishExamples":
+			[ 
+				"Me he encaprichado de Brad Pitt, pero probablemente nunca tendré la oportunidad de tener una relación con él."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Crop",
+			"Pronunciation": "/kroop/",
+			"Meanings": 
+			[
+				"Cultivo"
+			],
+			"EnglishExamples":
+			[ 
+				"Grandmother's farm always bore crops of corn and tomatoes"			
+			],
+			"SpanishExamples":
+			[ 
+				"La granja de mi abuela siempre tenía cultivos de maíz y tomátes."
+			]			
+		},				
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Curse",
+			"Pronunciation": "/ceers/",
+			"Meanings": 
+			[
+				"Maldición"
+			],
+			"EnglishExamples":
+			[ 
+				"In the end, it turns out that the ogre was under a curse."			
+			],
+			"SpanishExamples":
+			[ 
+				"Al final, resultó que el ogro estaba bajo una maldición."
+			]			
+		},				
+		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Dawn",
+			"Pronunciation": "/dooon/",
+			"Meanings": 
+			[
+				"Amanecer"
+			],
+			"EnglishExamples":
+			[ 
+				"The day dawned without a cloud in the sky."			
+			],
+			"SpanishExamples":
+			[ 
+				"El día amaneción sin una nive en el cielo."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Daisy",
+			"Pronunciation": "/deisi/",
+			"Meanings": 
+			[
+				"Margarita"
+			],
+			"EnglishExamples":
+			[ 
+				"Sunlight sparkled across the field of daisies."			
+			],
+			"SpanishExamples":
+			[ 
+				"La luz del sol reflejada sobre el campo de margaritas."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Daffodil",
+			"Pronunciation": "/daafodil/",
+			"Meanings": 
+			[
+				"Narciso"
+			],
+			"EnglishExamples":
+			[ 
+				"The daffodils opened in February this year."			
+			],
+			"SpanishExamples":
+			[ 
+				"Los narcisos se abrieron en Febrero este año."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Damp",
+			"Pronunciation": "/daaamp/",
+			"Meanings": 
+			[
+				"Humedad"
+			],
+			"EnglishExamples":
+			[ 
+				"Did you do anything about the damp in our bathroom?"			
+			],
+			"SpanishExamples":
+			[ 
+				"¿Hiciste algo sobre la humedad de nuestro baño?"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Debris",
+			"Pronunciation": "/deebri/",
+			"Meanings": 
+			[
+				"Restos, Escombros"
+			],
+			"EnglishExamples":
+			[ 
+				"The rescue team searched the debris of the bombed building for survivors."						
+			],
+			"SpanishExamples":
+			[ 
+				"El equipo de rescate buscó entre los escombros del edificio bombardeado por supervivientes."				
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Degree",
+			"Pronunciation": "/digriii/",
+			"Meanings": 
+			[
+				"Carrera, Licenciatura",
+				"Carrera, Licenciatura"
+			],
+			"EnglishExamples":
+			[ 
+				"My daughter did a degree in Medicine",
+				"I did an interesting degree at university, but it's not very useful in my career."							
+			],
+			"SpanishExamples":
+			[ 
+				"Mi hija hizo una carrera en Medicina",
+				"Hice una interesante carrera en la universidad, pero no es muy útil en mi trayectoria profesional."				
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Deposit",
+			"Pronunciation": "/diiposit/",
+			"Meanings": 
+			[
+				"Ingréso, Depósito"
+			],
+			"EnglishExamples":
+			[ 
+				"Juan`s made a 1000 euros deposit in your account."						
+			],
+			"SpanishExamples":
+			[ 
+				"Juan ha hecho un ingreso un ingreso de 1000 euros en tu cuenta."				
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Disturb",
+			"Pronunciation": "/distaaarb/",
+			"Meanings": 
+			[
+				"Inquietar",
+				"Interrumpir"
+			],
+			"EnglishExamples":
+			[ 
+				"The last night movie was really disturbing. Afterwards I couldn't sleep .",
+				"The professor went home to work, as her students kept disturbing her in her office"				
+			],
+			"SpanishExamples":
+			[ 
+				"La película de anoche fue muy inquietante. Después no pude dormir.",
+				"La profesora se fue a casa a trabajar. ya que sus estudiantes segían interrumpiéndola en su oficina."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Dick",
+			"Pronunciation": "/diiick/",
+			"Meanings": 
+			[
+				"Gilipollas"
+			],
+			"EnglishExamples":
+			[ 
+				"That guy is such a dick for leaving without paying his share of the bill."			
+			],
+			"SpanishExamples":
+			[ 
+				"Ese tío es un gilipollas por irse sin pagar su parte de la cuenta."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Dickhead",
+			"Pronunciation": "/diickheed/",
+			"Meanings": 
+			[
+				"Gilipollas"
+			],
+			"EnglishExamples":
+			[ 
+				"Frank is a real dickhead. He forgot my Christmas present."			
+			],
+			"SpanishExamples":
+			[ 
+				"Frank es un auténtico gilipollas. Olvidó mi regalo de Navidad."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Ditch",
+			"Pronunciation": "/diiick/",
+			"Meanings": 
+			[
+				"Zanja, cuneta"
+			],
+			"EnglishExamples":
+			[ 
+				"There was a ditch running alongside the road."			
+			],
+			"SpanishExamples":
+			[ 
+				"Hay una zanja bordeando la calle."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Dole",
+			"Pronunciation": "/dool/",
+			"Meanings": 
+			[
+				"El paro"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm currently unemployed so I'm on the dole."			
+			],
+			"SpanishExamples":
+			[ 
+				"Actualmente estoy desempleado asi que estyo cobrando el paro."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Downhill",
+			"Pronunciation": "/daunill/",
+			"Meanings": 
+			[
+				"Cuesta abajo"
+			],
+			"EnglishExamples":
+			[ 
+				"A ball released on a slope will go downhill."			
+			],
+			"SpanishExamples":
+			[ 
+				"Una pelota que se suelte en un plano inclinado, bajará cuesta abajo."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Draft",
+			"Pronunciation": "/draaft/",
+			"Meanings": 
+			[
+				"Corriente de aire",
+				"Borrador, Boceto"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm getting ill with the draught from the open window.",
+				"He was on his third draft of the speech, but still wanted to make some changes"
+			],
+			"SpanishExamples":
+			[ 
+				"Me estoy poniendo mala con la corriente de aire de la ventana abierta.",
+				"Estaba en el tercer borrador del discurso, pero todavía quería hacer cambios."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Drizzle",
+			"Pronunciation": "/drizzol/",
+			"Meanings": 
+			[
+				"Llovizna"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm going out for a walk. It's only drizzling"
+			],
+			"SpanishExamples":
+			[ 
+				"Voy a dar un paseo. Solo está llovinazno."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Drop",
+			"Pronunciation": "/drop/",
+			"Meanings": 
+			[
+				"Gota"
+			],
+			"EnglishExamples":
+			[ 
+				"I just felt a drop of rain."			
+			],
+			"SpanishExamples":
+			[ 
+				"Acabo de sentir una gota de lluvia"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Dry",
+			"Pronunciation": "/draaai/",
+			"Meanings": 
+			[
+				"Seco"
+			],
+			"EnglishExamples":
+			[ 
+				"The chair was dry because it was not in the rain."			
+			],
+			"SpanishExamples":
+			[ 
+				"La silla estaba seca porque no estaba bajo la lluvia."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Dude",
+			"Pronunciation": "/diiud/",
+			"Meanings": 
+			[
+				"Tío, Tipo"
+			],
+			"EnglishExamples":
+			[ 
+				"Dude, you have no fucking idea."
+			],
+			"SpanishExamples":
+			[ 
+				"Tio, no tienes ni jodida idea."
+			]
+		},
+		{	
+			"Category": "MISC",
+			"VocabularyWord": "Expense",
+			"Pronunciation": "/expeens/",
+			"Meanings": 
+			[
+				"Gasto"
+			],
+			"EnglishExamples":
+			[ 
+				"We need our car to get to work, so it's a necessary expense."
+			],
+			"SpanishExamples":
+			[ 
+				"Necesitamos el coche para ir a trabajar, asi que es un gato necesario."
+			]			
+		},		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Fat-Free",
+			"Pronunciation": "/faat friii/",
+			"Meanings": 
+			[
+				"Sin grasa"
+			],
+			"EnglishExamples":
+			[ 
+				"I bought some fat-free yogurt, but it doesn't taste as good as the real thing!."			
+			],
+			"SpanishExamples":
+			[ 
+				"Compré un yogur sin grasa, pero ¡no sabe tan bueno como el real!"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Fairy",
+			"Pronunciation": "/feeri/",
+			"Meanings": 
+			[
+				"Hada"
+			],
+			"EnglishExamples":
+			[ 
+				"Tom's grandfather told him stories about fairies and goblins."			
+			],
+			"SpanishExamples":
+			[ 
+				"El abuelo de Tom le contó historias sobre hadas y duendes."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Fare",
+			"Pronunciation": "/feeer/",
+			"Meanings": 
+			[
+				"Precio Pasaje"
+			],
+			"EnglishExamples":
+			[ 
+				"Kyle paid his fare and got out of the taxi."			
+			],
+			"SpanishExamples":
+			[ 
+				"Kyle pagó su pasaje y salió del taxi"
+			]			
+		},			
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Feral",
+			"Pronunciation": "/ferool/",
+			"Meanings": 
+			[
+				"Salvaje"
+			],
+			"EnglishExamples":
+			[ 
+				"You have to be careful around feral foxes."			
+			],
+			"SpanishExamples":
+			[ 
+				"Tienes que tener cuidado con los zorros salvajes."
+			]			
+		},				
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Fee",
+			"Pronunciation": "/fiii/",
+			"Meanings": 
+			[
+				"Tarifa"
+			],
+			"EnglishExamples":
+			[ 
+				"There's a fee for getting your driving licence."			
+			],
+			"SpanishExamples":
+			[ 
+				"Hay una tarifa para conseguir la licencia de conducir."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Flea market",
+			"Pronunciation": "/fli market/",
+			"Meanings": 
+			[
+				"Mercadillo"
+			],
+			"EnglishExamples":
+			[ 
+				"You can find some real bargains at the local flea market."	
+			],
+			"SpanishExamples":
+			[ 
+				"Puedes encontrar verdaderas gangas en el mercadillo local."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Flat tire",
+			"Pronunciation": "/flat taia/",
+			"Meanings": 
+			[
+				"Pinchazo"
+			],
+			"EnglishExamples":
+			[ 
+				"Ouch I have a headache, I could go to get some aspirins but I can't use my bike because it has a flat tire!"	
+			],
+			"SpanishExamples":
+			[ 
+				"Ouch tengo dolor de cabeza, Podría ir a comprar aspirinas pero no puedo usar mi bici porque ¡tiene un pinchazo!"
+			]			
+		},
+    {
+      "Category": "MISC",
+      "VocabularyWord": "Flesh",
+      "Pronunciation": "/Flesssh/",
+      "Meanings": [
+        "Carne",
+        "Carne (Del cuerpo)"
+      ],
+      "EnglishExamples": [
+        "The butcher cut the flesh off the animal's bones. ",
+        "My sister refuses to eat the flesh of any animals."
+      ],
+      "SpanishExamples": [
+        "El carnicero cortó la carne de los huesos del animal.",
+        "Mi hermana se niega a comer carne de ningún animal. "
+      ]
+    },		
+    {
+			"Category": "MISC",
+			"VocabularyWord": "Flood",
+			"Pronunciation": "/flaad/",
+			"Meanings": 
+			[
+				"Inundación"
+			],
+			"EnglishExamples":
+			[ 
+				"There have been some devastating floods in central Europe recently"
+			],
+			"SpanishExamples":
+			[ 
+				"Ha habido unas inundaciones devastadoras en Europa central últimamente"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Freedom",
+			"Pronunciation": "/friiidom/",
+			"Meanings": 
+			[
+				"Libertad"
+			],
+			"EnglishExamples":
+			[ 
+				"Freedom of speech is an important basis of democracy."			
+			],
+			"SpanishExamples":
+			[ 
+				"La libertad de expresión es una parte esencial de la democracia."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Frost",
+			"Pronunciation": "/froost/",
+			"Meanings": 
+			[
+				"Escarcha"
+			],
+			"EnglishExamples":
+			[ 
+				"Aaron always loved it when frost formed on the windows."			
+			],
+			"SpanishExamples":
+			[ 
+				"Aaron adora cuando la escarcha se forma en las ventanas."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Fond",
+			"Pronunciation": "/foond/",
+			"Meanings": 
+			[
+				"Cariñoso"
+			],
+			"EnglishExamples":
+			[ 
+				"I have very fond memories of that relationship."
+			],
+			"SpanishExamples":
+			[ 
+				"Tengo recuedos muy cariñosos de esa relación."
+			]
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Foam",
+			"Pronunciation": "/fooum/",
+			"Meanings": 
+			[
+				"Espuma"
+			],
+			"EnglishExamples":
+			[ 
+				"The beer foamed over the top of the glass. "
+			],
+			"SpanishExamples":
+			[ 
+				"La cerveza echaba espuma sobre la parte superior del vaso."
+			]
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Folk",
+			"Pronunciation": "/fook/",
+			"Meanings": 
+			[
+				"Gente"
+			],
+			"EnglishExamples":
+			[ 
+				"That's all for now, folks."
+			],
+			"SpanishExamples":
+			[ 
+				"Eso es todo, gente."
+			]
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Fog",
+			"Pronunciation": "/fooog/",
+			"Meanings": 
+			[
+				"Niebla"
+			],
+			"EnglishExamples":
+			[ 
+				"Fog is the vapour in the air near the ground."			
+			],
+			"SpanishExamples":
+			[ 
+				"La niebla es el vapor en el aire cerca del suelo"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Foreign",
+			"Pronunciation": "/forena/",
+			"Meanings": 
+			[
+				"Extranjero"
+			],
+			"EnglishExamples":
+			[ 
+				"She lives in a foreign country."			
+			],
+			"SpanishExamples":
+			[ 
+				"Ella vive en un pais extranjero."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Forecast",
+			"Pronunciation": "/fooorcast/",
+			"Meanings": 
+			[
+				"Predicción del tiempo"
+			],
+			"EnglishExamples":
+			[ 
+				"The forecast indicated that it would rain tonight."			
+			],
+			"SpanishExamples":
+			[ 
+				"La predicción del tiempo indico que llovería esta noche."
+			]			
+		},			
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Flu",
+			"Pronunciation": "/fluuu/",
+			"Meanings": 
+			[
+				"Gripe"
+			],
+			"EnglishExamples":
+			[ 
+				"A flu epidemic has caused at least 3 deaths in the city."
+			],
+			"SpanishExamples":
+			[ 
+				"Una epidemia de fiebre ha causado al menos 3 muertes en la ciudad."
+			]
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Gap",
+			"Pronunciation": "/gaap/",
+			"Meanings": 
+			[
+				"Hueco"
+			],
+			"EnglishExamples":
+			[ 
+				"Mind the gap between the train and the platform as you board on the train."			
+			],
+			"SpanishExamples":
+			[ 
+				"Cuidado con el hueco entre el tren y la estación cuando subas al tren."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Grant",
+			"Pronunciation": "/gruaant/",
+			"Meanings": 
+			[
+				"Beca, subención"
+			],
+			"EnglishExamples":
+			[ 
+				"My sister was given a grant for her good grades."			
+			],
+			"SpanishExamples":
+			[ 
+				"Mi hermana recibió una beca por sus buenas notas."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Glimpse",
+			"Pronunciation": "/glimps/",
+			"Meanings": 
+			[
+				"Vistazo, Ojeada"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm about to get a glimpse behind closed doors."			
+			],
+			"SpanishExamples":
+			[ 
+				"Estoy apunto de echar una ojeada detras de las puertas cerradas."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Hangover",
+			"Pronunciation": "/eeenouver/",
+			"Meanings": 
+			[
+				"Resaca"
+			],
+			"EnglishExamples":
+			[ 
+				"It's the last time I get drunk I have a terrible hangover! I need some aspirins."			
+			],
+			"SpanishExamples":
+			[ 
+				"¡Es la última vez que me eborracho tengo una resaca terrible! Necesito aspirinas."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Handshake",
+			"Pronunciation": "/haaandsheik/",
+			"Meanings": 
+			[
+				"Apretón de manos"
+			],
+			"EnglishExamples":
+			[ 
+				"The attorney gave Alice a firm handshake in greeting.."			
+			],
+			"SpanishExamples":
+			[ 
+				"El abogado le dio a Alicia un firme apretón de manos como saludo."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Harass",
+			"Pronunciation": "/heeras/",
+			"Meanings": 
+			[
+				"Acosar"
+			],
+			"EnglishExamples":
+			[ 
+				"The electricity company continue to harass me with their nasty letters, even though I paid my overdue bill months ago."			
+			],
+			"SpanishExamples":
+			[ 
+				"La compañía eléctrica continúa acosandome con desagradables cartas, incluso aunque pagué mi factura atrasada hace mesess."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Hill",
+			"Pronunciation": "/hill/",
+			"Meanings": 
+			[
+				"Colina"
+			],
+			"EnglishExamples":
+			[ 
+				"My house is built on a hill."			
+			],
+			"SpanishExamples":
+			[ 
+				"Mi casa está construida en una colina."
+			]			
+		},				
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Harmless",
+			"Pronunciation": "/haarmless/",
+			"Meanings": 
+			[
+				"Inocuo",
+				"Inofensivo"
+			],
+			"EnglishExamples":
+			[ 
+				"Walking outside in the rain is totally harmless.",
+				"Don't worry about Tina, she is harmless."
+			],
+			"SpanishExamples":
+			[ 
+				"Caminar fuera en la lluvia es completamente inocuo.",
+				"No te preocupes por tina, ella es inofensiva."
+			]			
+		},				
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Heat",
+			"Pronunciation": "/hiiit/",
+			"Meanings": 
+			[
+				"Calor"
+			],
+			"EnglishExamples":
+			[ 
+				"You could feel the heat of the fire."			
+			],
+			"SpanishExamples":
+			[ 
+				"Pódias sentir el calor del fuego."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Heartbeat",
+			"Pronunciation": "/haaatbiit/",
+			"Meanings": 
+			[
+				"Latido corazón"
+			],
+			"EnglishExamples":
+			[ 
+				"Your heartbeat is very loud."			
+			],
+			"SpanishExamples":
+			[ 
+				"El latido de tu corazón es muy alto."
+			]			
+		},		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Hight temperature",
+			"Pronunciation": "/haiii tempracha/",
+			"Meanings": 
+			[
+				"Fiebre"
+			],
+			"EnglishExamples":
+			[ 
+				"I've got a high temperature, but I need a prescription to get an antibiotic."			
+			],
+			"SpanishExamples":
+			[ 
+				"Tengo fiebre, pero necesito una receta para conseguir un antibiótico."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Hint",
+			"Pronunciation": "/hiiint/",
+			"Meanings": 
+			[
+				"Pista"
+			],
+			"EnglishExamples":
+			[ 
+				"He gave a hint to help the child guess the answer."			
+			],
+			"SpanishExamples":
+			[ 
+				"Le dio una pista para ayudar al niño a adivinar la respuesta."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Holiday (UK)",
+			"Pronunciation": "/hoooliday/",
+			"Meanings": 
+			[
+				"Vacaciones"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm going on holiday next week and I havent' packet yet!"			
+			],
+			"SpanishExamples":
+			[ 
+				"¡Me voy de vacaciones la semana que viene y no he hecho la maleta aún!"
+			]			
+		},	
+		{
+			"Category":  "MISC",
+			"VocabularyWord": "Hood",
+			"Pronunciation": "/huuud/",
+			"Meanings": 
+			[
+				"Capucha"								
+			],
+			"EnglishExamples":
+			[ 
+				"Seth put on his hood when it started to rain."
+			],
+			"SpanishExamples":
+			[ 
+				"Seth se puso su capucha cuando empezó a llover."
+			]
+		},		
+		{
+			"Category":  "MISC",
+			"VocabularyWord": "Hoax",
+			"Pronunciation": "/jooouks/",
+			"Meanings": 
+			[
+				"Chiste, broma"								
+			],
+			"EnglishExamples":
+			[ 
+				"I can’t believe your story, it’s a hoax, isn’t it?."
+			],
+			"SpanishExamples":
+			[ 
+				"No me creo tu historia, es una broma ¿no?"
+			]
+		},					
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Injure",
+			"Pronunciation": "/iiinyur/",
+			"Meanings": 
+			[
+				"Dañar, Herir"
+			],
+			"EnglishExamples":
+			[ 
+				"The driver lost control of the vehicle and a passenger inside the truck was taken to hospital with minor injuries."			
+			],
+			"SpanishExamples":
+			[ 
+				"El conductor perdió el control del vehículo y el pasajero de dentro del camión fue llevado al hospital con daños menores."
+			]			
+		},		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Interviewee",
+			"Pronunciation": "/iiinterviuii/",
+			"Meanings": 
+			[
+				"Entrevistado"
+			],
+			"EnglishExamples":
+			[ 
+				"An interviewee is a person who is  interviewed by journalist or by a interviewer for a new job."			
+			],
+			"SpanishExamples":
+			[ 
+				"Un entrevistado es una persona que es entrevistada por un periodista o por un entrevistador para un nuevo trabajo."
+			]			
+		},		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Knacker",
+			"Pronunciation": "/nakeer/",
+			"Meanings": 
+			[
+				"Dejar Hecho polvo"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm Knackered! I want to go home please."
+			],
+			"SpanishExamples":
+			[ 
+				"¡Estoy echo polvo!Quiero ir a casa por favor."
+			]
+		},		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Kind of",
+			"Pronunciation": "/kainnndoff/",
+			"Meanings": 
+			[
+				"Un poco, Algo",
+				"Algo así"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm getting kind of fed up with you complaining all the time.",
+				"Is he your boyfriend? Kind of, it's complicated"
+			],
+			"SpanishExamples":
+			[ 
+				"Estoy un poco harto de que te quejes todo el tiempo.",
+				"¿Es ese tu novio?. Algo así, es complicado."
+			]
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Mortgage",
+			"Pronunciation": "/mooorguich/",
+			"Meanings": 
+			[
+				"Hipoteca"
+			],
+			"EnglishExamples":
+			[ 
+				"I finished paying my mortgage last Christmas."			
+			],
+			"SpanishExamples":
+			[ 
+				"Acabé de pagar la hipoteca la navidad pasada."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Monk",
+			"Pronunciation": "/moonk/",
+			"Meanings": 
+			[
+				"Monje"
+			],
+			"EnglishExamples":
+			[ 
+				"A monk is a male member of a religious community bound by vows of poverty, chastity, and obedience."			
+			],
+			"SpanishExamples":
+			[ 
+				"Un monje es un miembro varón de una comunidad religiosa obligado a los votos de pobreza,  virginidad y obediencia."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Molest",
+			"Pronunciation": "/moolest/",
+			"Meanings": 
+			[
+				"Abusar sexualmente"
+			],
+			"EnglishExamples":
+			[ 
+				"A judge has reserved decision on the sentence the man who molested and shot explicit video of an eight year old girl."			
+			],
+			"SpanishExamples":
+			[ 
+				"Un juez se reservó la decisión sobre la sentencia del hombre que abusó y grabó vídeo explícito de una niña de ocho años de edad."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Mould",
+			"Pronunciation": "/moould/",
+			"Meanings": 
+			[
+				"Moho"
+			],
+			"EnglishExamples":
+			[ 
+				"We found mould growing behind the toilet."			
+			],
+			"SpanishExamples":
+			[ 
+				"Encontramos moho creciendo abajo del baño."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Nephew",
+			"Pronunciation": "/neefiu/",
+			"Meanings": 
+			[
+				"Sobrino"
+			],
+			"EnglishExamples":
+			[ 
+				"My nephew, I mean my brother's boy, is coming over to watch the game."			
+			],
+			"SpanishExamples":
+			[ 
+				"Mi sobrino, quiero decir el niño de mi hermano, viene a ver el partido."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Niece",
+			"Pronunciation": "/niiiz/",
+			"Meanings": 
+			[
+				"Sobrina"
+			],
+			"EnglishExamples":
+			[ 
+				"My niece, I mean my sister's girl, is coming over to watch the movie."			
+			],
+			"SpanishExamples":
+			[ 
+				"Mi sobrina, quiero decir la niña de mi hermana, viene a ver la película."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Landslide",
+			"Pronunciation": "/laaandlaid/",
+			"Meanings": 
+			[
+				"Derrumbe"
+			],
+			"EnglishExamples":
+			[ 
+				"Heavy rains have caused landslides throughout the area."			
+			],
+			"SpanishExamples":
+			[ 
+				"Las fuertes lluvias causaron algunos derrumbes en la zona."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Lack",
+			"Pronunciation": "/laaack/",
+			"Meanings": 
+			[
+				"Falta"
+			],
+			"EnglishExamples":
+			[ 
+				"The lack of water has caused the animals to die of thirst."			
+			],
+			"SpanishExamples":
+			[ 
+				"La falta de agua ha causado que los animales mueran de sed."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Lane",
+			"Pronunciation": "/lein/",
+			"Meanings": 
+			[
+				"Carril",
+				"Carril (sports)"
+			],
+			"EnglishExamples":
+			[ 
+				"Kyle was pulled over by the police for failing to use his blinker when he changed lanes.",
+				"Gary accidentally went out of his lane during the swim meet and was disqualified."				
+			],
+			"SpanishExamples":
+			[ 
+				"Kyle fue parado por la policía por no usar sus intermitentes cuando cambió de carril.",
+				"Gari se salió de su carril sin querer durante el encuentro de natación y fue descalificado."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Leftovers",
+			"Pronunciation": "/leeftouvas/",
+			"Meanings": 
+			[
+				"Sobras de comida"
+			],
+			"EnglishExamples":
+			[ 
+				"There's some leftovers in the fridge if you're hungry."			
+			],
+			"SpanishExamples":
+			[ 
+				"Hay sobras en la nevera si tienes hambre."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Outfit",
+			"Pronunciation": "/autfiit/",
+			"Meanings": 
+			[
+				"Ropa, Traje"
+			],
+			"EnglishExamples":
+			[ 
+				"Rachel is buying herself a new outfit for her holiday."			
+			],
+			"SpanishExamples":
+			[ 
+				"Rachel se está comprando un nuevo traje para sus vacaciones."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Overcast",
+			"Pronunciation": "/ouuvercast/",
+			"Meanings": 
+			[
+				"Nublado"
+			],
+			"EnglishExamples":
+			[ 
+				"It's overcast today, I hope it doesn't rain."			
+			],
+			"SpanishExamples":
+			[ 
+				"Está nublado hoy, espero que no llueve."
+			]			
+		},
+    {
+      "Category": "MISC",
+      "VocabularyWord": "Overseas",
+      "Pronunciation": "/ouversiis/",
+      "Meanings": [
+        "Extranjero"
+      ],
+      "EnglishExamples": [
+        "After studying overseas for a few years, he returned to Spain, and got a great job."
+      ],
+      "SpanishExamples": [
+        "Despues de estudiar en el extrajero unos pocos años, volvió a España y consigió un gran trabajo."
+      ]
+    },	
+    {
+			"Category": "MISC",
+			"VocabularyWord": "Parcel",
+			"Pronunciation": "/paaasel/",
+			"Meanings": 
+			[
+				"Paquete"
+			],
+			"EnglishExamples":
+			[ 
+				"Steve posted a large parcel to John."			
+			],
+			"SpanishExamples":
+			[ 
+				"Steve mandó un paquet a John"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Payslip",
+			"Pronunciation": "/peeislip/",
+			"Meanings": 
+			[
+				"Nomina"
+			],
+			"EnglishExamples":
+			[ 
+				"I've finally got my payslip, I don't know why the took so long to give it to me."			
+			],
+			"SpanishExamples":
+			[ 
+				"Por fin tengo mi nómina, no se porque les llevó tanto tiempo dármelo."
+			]			
+		},			
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Peek",
+			"Pronunciation": "/piik/",
+			"Meanings": 
+			[
+				"Vistazo, Ojeada"
+			],
+			"EnglishExamples":
+			[ 
+				"The baby was sleeping so we just peeked in the window."			
+			],
+			"SpanishExamples":
+			[ 
+				"El bebé estaba durmiendo así que sólo echamos un vistazo por la ventana."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Pedestrian",
+			"Pronunciation": "/pedestrian/",
+			"Meanings": 
+			[
+				"Peatón"
+			],
+			"EnglishExamples":
+			[ 
+				"Roads aren't always designed with pedestrians in mind."			
+			],
+			"SpanishExamples":
+			[ 
+				"Las calles no siempre son diseñados con los peatones en mente."
+			]			
+		},				
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Pit",
+			"Pronunciation": "/pit/",
+			"Meanings": 
+			[
+				"Hoyo"
+			],
+			"EnglishExamples":
+			[ 
+				"This road is full of bumps and pits."			
+			],
+			"SpanishExamples":
+			[ 
+				"Esta carretera está llena de bultos y hoyos."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Plot",
+			"Pronunciation": "/plooot/",
+			"Meanings": 
+			[
+				"Argumento, Trama"
+			],
+			"EnglishExamples":
+			[ 
+				"The plot of this film is predictable, I'm bored."			
+			],
+			"SpanishExamples":
+			[ 
+				"El argumenta de esta peli es predecible, estoy aburrida."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Polling",
+			"Pronunciation": "/poooling/",
+			"Meanings": 
+			[
+				"Votación, Elecciones"				
+			],
+			"EnglishExamples":
+			[ 
+				"Polling in the election ends at 7 o'clock this evening. We have to rush to be on time to the polling station."			
+			],
+			"SpanishExamples":
+			[ 
+				"La votación termina a las 7 de la tarde. Tenemos que darnos prisa para llegar a la mesa de votaciones."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Prank",
+			"Pronunciation": "/praaank/",
+			"Meanings": 
+			[
+				"Broma"
+			],
+			"EnglishExamples":
+			[ 
+				"Dawn's pranks were starting to annoy her colleagues."			
+			],
+			"SpanishExamples":
+			[ 
+				"Las bromas de Dawn empezaron a molestar a sus compañeros."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Priest",
+			"Pronunciation": "/priist/",
+			"Meanings": 
+			[
+				"Sacerdote, Cura"
+			],
+			"EnglishExamples":
+			[ 
+				"The high priest himself conducted the ritual sacrifice at the alter."			
+			],
+			"SpanishExamples":
+			[ 
+				"El sumo sacerdote llevó a cabo el sacrificio ritual en el altar."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Proof",
+			"Pronunciation": "/pruuuuf/",
+			"Meanings": 
+			[
+				"Prueba"
+			],
+			"EnglishExamples":
+			[ 
+				"He was holding a smoking gun, that's all the proof I need."			
+			],
+			"SpanishExamples":
+			[ 
+				"Él tenía una pistola humeante en su mano, esa es toda la prueba que necesito."
+			]			
+		},
+    {
+      "Category": "MISC",
+      "VocabularyWord": "Puddle",
+      "Pronunciation": "/paadel/",
+      "Meanings": [
+        "Charco"
+      ],
+      "EnglishExamples": [
+        "After the rain, there were several puddles along the street."
+      ],
+      "SpanishExamples": [
+        "Después de la lluvia, había varios charcos a lo largo de la calle."
+      ]
+    },
+    {
+			"Category": "MISC",
+			"VocabularyWord": "Puzzle",
+			"Pronunciation": "/paazol/",
+      "Meanings": 
+      [
+        "Rompecabezas, Misterio",
+        "Confundido, Desconcertado"
+      ],
+      "EnglishExamples": [
+
+        "Tom looked very puzzled when I asked him that question.",
+        "I really don't know where your keys could be; it certainly is a puzzle."
+      ],
+			"SpanishExamples":
+			[ 
+				"Tom parecía muy desconcertado cuando le pregunte eso.",
+        "No se donde pueden estar mis llabas, es un misterio."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Quest",
+			"Pronunciation": "/cuest/",
+			"Meanings": 
+			[
+				"Misión, Búsqueda"
+			],
+			"EnglishExamples":
+			[ 
+				"The knight set out on his quest with only his faithful steed for company.."			
+			],
+			"SpanishExamples":
+			[ 
+				"El caballero partió en su búsqueda con la compañia sólo de su fiel corcel."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Quid",
+			"Pronunciation": "/quuid/",
+			"Meanings": 
+			[
+				"Libra"
+			],
+			"EnglishExamples":
+			[ 
+				"You can get lunch there for five quid."			
+			],
+			"SpanishExamples":
+			[ 
+				"Puedes almorzar allí por cinco libras."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Rate",
+			"Pronunciation": "/reit/",
+			"Meanings": 
+			[
+				"Tarifa, Precio"
+			],
+			"EnglishExamples":
+			[ 
+				"What's your rate for this service?"			
+			],
+			"SpanishExamples":
+			[ 
+				"¿Cuál es tu tarifa para este servicio?"
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Rehearsal",
+			"Pronunciation": "/rejersal/",
+			"Meanings": 
+			[
+				"Práctica, Entrenamiento"
+			],
+			"EnglishExamples":
+			[ 
+				"Henry asked his friend to listen to a rehearsal of his speech and give him feedback."			
+			],
+			"SpanishExamples":
+			[ 
+				"Henry preguntó a sus amigos oir una práctica de su discurso y darle feedback."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Reliable",
+			"Pronunciation": "/relaiabol/",
+			"Meanings": 
+			[
+				"Fiable, Responsable"
+			],
+			"EnglishExamples":
+			[ 
+				"He is reliable and shows up for work every day."			
+			],
+			"SpanishExamples":
+			[ 
+				"Es una persona fiable y aparece para trabajar todos los diás."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Row",
+			"Pronunciation": "/raau/",
+			"Meanings": 
+			[
+				"Fiable, Responsable"
+			],
+			"EnglishExamples":
+			[ 
+				"They had a really loud row last night."			
+			],
+			"SpanishExamples":
+			[ 
+				"Tuvieron una bronca muy fuerte anoche"
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Rubber",
+			"Pronunciation": "/raaba/",
+			"Meanings": 
+			[
+				"Goma"
+			],
+			"EnglishExamples":
+			[ 
+				"Are all rubber tyres mado of rubber?"			
+			],
+			"SpanishExamples":
+			[ 
+				"¿Están todos los neumáticos de goma hechos de goma?"
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Runny nose",
+			"Pronunciation": "/raaani noous/",
+			"Meanings": 
+			[
+				"Moquear"
+			],
+			"EnglishExamples":
+			[ 
+				"I have a terrible cold and I have a runny nose. It's so annoying!"			
+			],
+			"SpanishExamples":
+			[ 
+				"Tengo un resfriado terrible y me moquea la nariz. ¡Es tan molest!"
+			]			
+		},
+		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Rubbish",
+			"Pronunciation": "/raaabish/",
+			"Meanings": 
+			[
+				"Basura",
+				"Chorradas, Tonterías"
+			],
+			"EnglishExamples":
+			[ 
+				"Can you take the rubbish out to the bin please?",
+				"Oh please, stop talking rubbish!"				
+			],
+			"SpanishExamples":
+			[ 
+				"¿Puedes sacar la basura fuera de la papelera, por favor?",
+				"¡Por favor, deja de hablar chorradas!"
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Savings",
+			"Pronunciation": "/siiivins/",
+			"Meanings": 
+			[
+				"Ahorros"
+			],
+			"EnglishExamples":
+			[ 
+				"We used all our savings to buy this business."			
+			],
+			"SpanishExamples":
+			[ 
+				"Usamos todos nuestros ahorros para comprar un negocio."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Savory",
+			"Pronunciation": "/seeeivori/",
+			"Meanings": 
+			[
+				"Salado, Sabroso"
+			],
+			"EnglishExamples":
+			[ 
+				"A spicy sauce that isn't sweet is an example of a savory sauce."		
+			],
+			"SpanishExamples":
+			[ 
+				"Una salsa picanta que no es dulce es un ejemplo de salsa salada o sabrosa."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Scar",
+			"Pronunciation": "/ssscarr/",
+			"Meanings": 
+			[
+				"Cicatriz"
+			],
+			"EnglishExamples":
+			[ 
+				"I frightened when I saw the large scar in his face."			
+			],
+			"SpanishExamples":
+			[ 
+				"Me asuste cuando vie la gran cicatriz en su cara."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Schemes",
+			"Pronunciation": "/ssskism/",
+			"Meanings": 
+			[
+				"Plan, Estrategia",
+				"Conspirar, Maquinar"
+			],
+			"EnglishExamples":
+			[ 
+				"There are several government schemes to help students from poor families afford a private education",
+				"The officials schemed against the president."			
+			],
+			"SpanishExamples":
+			[ 
+				"Hay varias estrategias para ayudar a estudiantes de familias probres para permitirse una educación privada.",
+				"Los secretarios conspiraron contra el presidente."
+			]			
+		},			
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Shiver",
+			"Pronunciation": "/xiva/",
+			"Meanings": 
+			[
+				"Escalofrío"
+			],
+			"EnglishExamples":
+			[ 
+				"I don't want to go over there, that alley sends me shivers down my spine."			
+			],
+			"SpanishExamples":
+			[ 
+				"No quiero ir por ahi, ese callejón me da escalofríos."
+			]			
+		},		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Shit",
+			"Pronunciation": "/xiiit/",
+			"Meanings": 
+			[
+				"Mierda"
+			],
+			"EnglishExamples":
+			[ 
+				"I don't give a shit what the people thinks about me! I'm happy with my life!"			
+			],
+			"SpanishExamples":
+			[ 
+				"¡Me importa una mierda lo que piense la gente sobre mi! ¡Estoy feliz en mi vida!"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Season",
+			"Pronunciation": "/siison/",
+			"Meanings": 
+			[
+				"Especies, Condimentos"
+			],
+			"EnglishExamples":
+			[ 
+				"My mother always told me that how you season food is more important than everything else when preparing a meal."			
+			],
+			"SpanishExamples":
+			[ 
+				"Mi madre siempre me dijo que como sazonas la comida es más importante que todo lo demás cuando preparas comida."
+			]			
+		},			
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Sensible",
+			"Pronunciation": "/sensibol/",
+			"Meanings": 
+			[
+				"Sensato, Prudente"
+			],
+			"EnglishExamples":
+			[ 
+				"Nathan is very sensible; he never does anything wild and spontaneous."			
+			],
+			"SpanishExamples":
+			[ 
+				"Nathn es muy sensato, el nunca hace nada loco o expontáneo."
+			]			
+		},		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Sensitive",
+			"Pronunciation": "/sensitive/",
+			"Meanings": 
+			[
+				"Sensible"
+			],
+			"EnglishExamples":
+			[ 
+				"My neck is sensitive and gets irritated easily."			
+			],
+			"SpanishExamples":
+			[ 
+				"Mi cuello es sensible y se irrita fácilmente."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Set",
+			"Pronunciation": "/seet/",
+			"Meanings": 
+			[
+				"Plato, Escenario",
+				"Conjunto, Juego.",
+				"Poner la mesa"
+			],
+			"EnglishExamples":
+			[ 
+				"Did you see the set when you went to Hollywood?",	
+				"We have a new set of tools",
+				"I have to set the table before dinner."
+				
+			],
+			"SpanishExamples":
+			[ 
+				"¿Viste el plató cuando fuiste a Hollywood?",
+				"Tenemos un nuevo conjunto de herramientas.",
+				"Tengo que poner la mesa antes de cenar"
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Shithead",
+			"Pronunciation": "/shiiithed/",
+			"Meanings": 
+			[
+				"Gilipollas"
+			],
+			"EnglishExamples":
+			[ 
+				"Tom called me a shithead. How dare he!"			
+			],
+			"SpanishExamples":
+			[ 
+				"Tom me llamó gilipolla. ¡Como se atreve!"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Smog",
+			"Pronunciation": "/ssmog/",
+			"Meanings": 
+			[
+				"Niebla contaminada"
+			],
+			"EnglishExamples":
+			[ 
+				"People who live in big cities in Asia often wear face masks to protect themselves from the smog."			
+			],
+			"SpanishExamples":
+			[ 
+				"Gente que vive en ciudades grandes de Asia normalmente llevan máscaras para protegerse de la niebla contamida."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Snout",
+			"Pronunciation": "/sssnout/",
+			"Meanings": 
+			[
+				"Hocico"
+			],
+			"EnglishExamples":
+			[ 
+				"Humans have a nose in the middle of our face, but a pig has a snout."			
+			],
+			"SpanishExamples":
+			[ 
+				"Los humanos tenemos una nariz en medio de la cara, pero los cerdos tienen un hocico."
+			]			
+		},
+{
+			"Category": "MISC",
+			"VocabularyWord": "Sore throat",
+			"Pronunciation": "/soour zroot/",
+			"Meanings": 
+			[
+				"Garganta irritada"
+			],
+			"EnglishExamples":
+			[ 
+				"I've got a sore throat, I need some cough sweets."			
+			],
+			"SpanishExamples":
+			[ 
+				"Tengo la garganta irritada, necesito caramelos para la garganta."
+			]			
+		},			
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Stealth",
+			"Pronunciation": "/sssteelzz/",
+			"Meanings": 
+			[
+				"Sigilo"
+			],
+			"EnglishExamples":
+			[ 
+				"Ian moved through the dense undergrowth with impressive stealth."			
+			],
+			"SpanishExamples":
+			[ 
+				"Ian se movío a través del denso matorlla con una impresionante sigilo."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Sting",
+			"Pronunciation": "/stiiin/",
+			"Meanings": 
+			[
+				"Picadura"
+			],
+			"EnglishExamples":
+			[ 
+				"Some people are allergic to bee stings."			
+			],
+			"SpanishExamples":
+			[ 
+				"Algunas personas son alérgicas a las picaduras de abeja."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Stronhold",
+			"Pronunciation": "/ssstronhold/",
+			"Meanings": 
+			[
+				"Fuerte"
+			],
+			"EnglishExamples":
+			[ 
+				"Mel lived in a high.crime area, so he turned his house into a stronghold with locks, alarms and a safe room in the basement."			
+			],
+			"SpanishExamples":
+			[ 
+				"Mei vivía en un área alta en crímenes, así que convirtió su casa en un fuerte con cerrojos, alarmas y una habiación de seguridad en el sótano."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Stun",
+			"Pronunciation": "/sstaan/",
+			"Meanings": 
+			[
+				"Aturdir, Atontar"
+			],
+			"EnglishExamples":
+			[ 
+				"The boxer stunned his opponent with a right hook."			
+			],
+			"SpanishExamples":
+			[ 
+				"El boxeador aturdió su oponente con un gancho derecho."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Sleeve",
+			"Pronunciation": "/sliiv/",
+			"Meanings": 
+			[
+				"Manga",
+				"Funda, Cubierta"
+			],
+			"EnglishExamples":
+			[ 
+				"The dress was black with red sleeves."	,
+				"The wallet had sleeves for credit cards."				
+			],
+			"SpanishExamples":
+			[ 
+				"El vestido era negro con mangas rojas.",
+				"La cartera tenía fundas para las tarjetas de crédito."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Sparks",
+			"Pronunciation": "/sssparks/",
+			"Meanings": 
+			[
+				"Chispas"
+			],
+			"EnglishExamples":
+			[ 
+				"Did you see how Tim and Mary were talking to each other? It's so obvious that there are sparks between them and that they like each other!"
+			],
+			"SpanishExamples":
+			[ 
+				"¿Viste como Tim y Mari estaban hablando entre ellos? Es muy obvio que hay chispas entre ellos y ¡que se gustan!"
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Spot",
+			"Pronunciation": "/ssspot/",
+			"Meanings": 
+			[
+				"Lugar, Sitio",
+				"Mancha"
+			],
+			"EnglishExamples":
+			[ 
+				"That's the spot where the murder took place.",
+				"There is a ketchup spot on your shirt there."				
+			],
+			"SpanishExamples":
+			[ 
+				"Ese es el lugar donde se cometió el asesinato .",
+				"Tienes una mancha de ketchup en la camisa ahi"
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Stray",
+			"Pronunciation": "/ssstrei/",
+			"Meanings": 
+			[
+				"Callejero"
+			],
+			"EnglishExamples":
+			[ 
+				"Adam gave the stray cat some milk."			
+			],
+			"SpanishExamples":
+			[ 
+				"Adam le dio al gato callejero un poco de leche."
+			]			
+		},
+    {
+      "Category": "MISC",
+      "VocabularyWord": "Stain",
+      "Pronunciation": "/sssteini/",
+      "Meanings": [
+        "Mancha"
+      ],
+      "EnglishExamples": [
+        "She always does the dishes without paying any attention to the actual stains on the plates."
+      ],
+      "SpanishExamples": [
+        "Siempre friega los platos sin prestar ninguna atención a las manchas en los platos."
+      ]
+    },
+    {
+			"Category": "MISC",
+			"VocabularyWord": "Stall",
+			"Pronunciation": "/ssstol/",
+			"Meanings": 
+			[
+				"Puesto, Caseta"
+			],
+			"EnglishExamples":
+			[ 
+				"Let's go! There is a stall at the market selling French cheese."			
+			],
+			"SpanishExamples":
+			[ 
+				"Vamos! Hay un puesto en el mercado vendiendo queso Francés."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Stich",
+			"Pronunciation": "/ssstich/",
+			"Meanings": 
+			[
+				"Puntos de sutura",
+				"Puntada de coser"
+			],
+			"EnglishExamples":
+			[ 
+				"The cut on Gareth's head needed a stitch.",
+				"Marilyn sewed up the rip in her skirt with neat stitches."				
+			],
+			"SpanishExamples":
+			[ 
+				"El corte de la cabeza de Gareth necesitaba puntos.",
+				"Marilín cosió el desgarrón en su falda con puntadas limpias."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Sunset",
+			"Pronunciation": "/saanset/",
+			"Meanings": 
+			[
+				"Puesta de sol"
+			],
+			"EnglishExamples":
+			[ 
+				"I love sitting on the beach with a beer and watching the sunset."
+			],
+			"SpanishExamples":
+			[ 
+				"Me encanta sentarme en la playa con una cerveza viendo la puesta de sol."
+			]
+		},
+    {
+      "Category": "MISC",
+      "VocabularyWord": "Subtle",
+      "Pronunciation": "/saatel/",
+      "Meanings": [
+        "Sútil"
+      ],
+      "EnglishExamples": [
+        "Ben sniffed the air; there was a subtle scent of woodsmoke, as though someone had had a fire hours before."
+      ],
+      "SpanishExamples": [
+        "Ben olisqueó el aire, había un aroma sutil a humo de leña, como si alguien huebiera habido un fuego horas antes."
+      ]
+    },	
+    {
+			"Category": "MISC",
+			"VocabularyWord": "Sweat",
+			"Pronunciation": "/suuuet/",
+			"Meanings": 
+			[
+				"Sudor"
+			],
+			"EnglishExamples":
+			[ 
+				"Joe was covered in sweat after he went running."
+			],
+			"SpanishExamples":
+			[ 
+				"Joe estaba cuvierto de sudor despues de ir a correr."
+			]
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Sweet",
+			"Pronunciation": "/suuit/",
+			"Meanings": 
+			[
+				"Dulce",
+				"Adorable",
+				"Genial, Guay (Slang)"
+			],
+			"EnglishExamples":
+			[ 
+				"This dessert is very sweet.",
+				"You have a sweet dog.",
+				"Mashed potatoes for dinner. Sweet!"
+			],
+			"SpanishExamples":
+			[ 
+				"Este es un postre muy dulce",
+				"Tienes un perro adorable.",
+				"Puré de patata para cenar. ¡Genial!"
+			]
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Swear word",
+			"Pronunciation": "/sueer word/",
+			"Meanings": 
+			[
+				"Palabrota"
+			],
+			"EnglishExamples":
+			[ 
+				"Swear words are the first thing you want to learn in another language."
+			],
+			"SpanishExamples":
+			[ 
+				"Las palabrotas es lo primero que quieres aprender en otro idioma."
+			]
+		},
+    {
+      "Category": "MISC",
+      "VocabularyWord": "Tenant",
+      "Pronunciation": "/teeenant/",
+      "Meanings": [
+        "Incilino"
+      ],
+      "EnglishExamples": [
+        "A landlord rents his flat to a tenant."
+      ],
+      "SpanishExamples": [
+        "Un dueño alquila su piso a un inquilino."
+      ]
+    },	
+    {
+      "Category": "MISC",
+      "VocabularyWord": "Tip",
+      "Pronunciation": "/tip/",
+      "Meanings": [
+        "Punta",
+        "Propina"
+      ],
+      "EnglishExamples": [
+        "She is at the far tip of the pier",
+        "He left a 15% tip"
+      ],
+      "SpanishExamples": [
+        "Está en la punta más alejada del embarcadero",
+        "Dejó una propina del 15%"
+      ]
+    },	
+    {
+			"Category": "MISC",
+			"VocabularyWord": "Tomb",
+			"Pronunciation": "/tumm/",
+			"Meanings": 
+			[
+				"Tumba, Sepulcro"
+			],
+			"EnglishExamples":
+			[ 
+				"The mourners were gathered around the tomb."			
+			],
+			"SpanishExamples":
+			[ 
+				"Los dolientes estaban juntos alrededor de la tumba."
+			]			
+		},			
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Tramp",
+			"Pronunciation": "/traaamp/",
+			"Meanings": 
+			[
+				"Vagabundo"
+			],
+			"EnglishExamples":
+			[ 
+				"He's been a tramp for fifteen years."			
+			],
+			"SpanishExamples":
+			[ 
+				"Ha sido vagabundo desde hace 15 años."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Trap",
+			"Pronunciation": "/traaap/",
+			"Meanings": 
+			[
+				"Trampa"
+			],
+			"EnglishExamples":
+			[ 
+				"They clearly want us to fall into the trap."			
+			],
+			"SpanishExamples":
+			[ 
+				"Es obvio que quieren que caigamos en la trampa."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Trouble",
+			"Pronunciation": "/trabol/",
+			"Meanings": 
+			[
+				"Problemas, lios"
+			],
+			"EnglishExamples":
+			[ 
+				"Don't forget your passport and don't get into trouble!"			
+			],
+			"SpanishExamples":
+			[ 
+				"¡No olvides el pasaporte y no te metas en lios!"
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Teardrop",
+			"Pronunciation": "/tiiiardrop/",
+			"Meanings": 
+			[
+				"Lágrima"
+			],
+			"EnglishExamples":
+			[ 
+				"A single teardrop rolled down her face."			
+			],
+			"SpanishExamples":
+			[ 
+				"Una simple gota rodó por su cara."
+			]			
+		},		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Toothache",
+			"Pronunciation": "/tuuuzeik/",
+			"Meanings": 
+			[
+				"Dolor de muelas"
+			],
+			"EnglishExamples":
+			[ 
+				"I've got toothache because I've been putting off going to the dentist for weeks."			
+			],
+			"SpanishExamples":
+			[ 
+				"Tengo dolor de muelas porque he pospuesto ir al dentista durante semanas."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Tweak",
+			"Pronunciation": "/tuiiik/",
+			"Meanings": 
+			[
+				"Modificación, Alteración Pequeña",
+				"Modificar"
+			],
+			"EnglishExamples":
+			[ 
+				"The machine was almost working; it just needed a couple of tweaks.",
+				"This is a good essay and, if you tweak it a bit, I think it could be great."				
+			],
+			"SpanishExamples":
+			[ 
+				"La máquina estaba casi funcionando, solo necesitaba un par de modificaciones.",
+				"Es un buen ensallo, si lo modificas un poco, creo que sería genial."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Uncle",
+			"Pronunciation": "/aaankool/",
+			"Meanings": 
+			[
+				"Tío"
+			],
+			"EnglishExamples":
+			[ 
+				"My uncle Mario is my mothers's brother."			
+			],
+			"SpanishExamples":
+			[ 
+				"Mi tio Mario es el hermano de mi madre."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Unemployed",
+			"Pronunciation": "/anemploid/",
+			"Meanings": 
+			[
+				"Desempleado"
+			],
+			"EnglishExamples":
+			[ 
+				"The full monty movie is about a group of unemployed men."			
+			],
+			"SpanishExamples":
+			[ 
+				"La película full monty trata sobre un grupo de hombres desempleados."
+			]			
+		},		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Uphill",
+			"Pronunciation": "/aapill/",
+			"Meanings": 
+			[
+				"Cuesta arriba"
+			],
+			"EnglishExamples":
+			[ 
+				"I find hard carrying bags after doing the shopping, there is a intense uphill on my way to home."			
+			],
+			"SpanishExamples":
+			[ 
+				"Me cuesta llevar bolsas después de hacer la compra, hay una cuesta arriba muy intensa de camino a casa."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Wax",
+			"Pronunciation": "/uuuax/",
+			"Meanings": 
+			[
+				"Cera"
+			],
+			"EnglishExamples":
+			[ 
+				"The beautician applied wax to Sarah's leg."			
+			],
+			"SpanishExamples":
+			[ 
+				"La estilista aplicó cera a las piernas de Sarah."
+			]			
+		},		
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Wet",
+			"Pronunciation": "/weeet/",
+			"Meanings": 
+			[
+				"Mojado"
+			],
+			"EnglishExamples":
+			[ 
+				"The rug was wet after the toilet overflowed."			
+			],
+			"SpanishExamples":
+			[ 
+				"La alfombra estaba mojada despues de que el vater rebosara."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Witchcraft",
+			"Pronunciation": "/uichcraft/",
+			"Meanings": 
+			[
+				"Brujería",
+				"Hechizos"
+			],
+			"EnglishExamples":
+			[ 
+				"There is clearly some kind of witchcraft going on.",
+				"People were mercilessly executed for practising witchcraft."				
+			],
+			"SpanishExamples":
+			[ 
+				"Hay cláramente algún tipo de brujería ocurriendo.",
+				"La gente era ejecutada despiadadamente por practicar hechicería."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Wound",
+			"Pronunciation": "/uuund/",
+			"Meanings": 
+			[
+				"Herida"
+			],
+			"EnglishExamples":
+			[ 
+				"Rose thought her breakup with Ian was a wound that would never heal."	
+			],
+			"SpanishExamples":
+			[ 
+				"Rose pensó que su rotura con Ian era una herida que nunca se curaría."
+			]			
+		}		
+	] 	
+}
