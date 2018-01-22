@@ -13,6 +13,8 @@ namespace EnglishApp
 
         [SerializeField] private VocabularyControl m_VocabularyControl;
 
+        [SerializeField] private GrammarControl m_GrammarControlControl;
+
         private BaseControl m_CurrentControl = null;
 
         [SerializeField]
@@ -26,7 +28,10 @@ namespace EnglishApp
 #endif
             m_VocabularyControl.Init();
 
+            m_GrammarControlControl.Init();
             m_MainMenu.Show();
+
+
         }
 
 

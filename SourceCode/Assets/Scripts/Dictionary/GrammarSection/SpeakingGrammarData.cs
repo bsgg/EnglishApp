@@ -2,7 +2,7 @@
 
 public class SpeakingGrammarData
 {
-	private List<Grammar> speakingGrammar;
+	/*private List<Grammar> speakingGrammar;
 	public List<Grammar> SpeakingGrammar
 	{
 		get { return this.speakingGrammar; }
@@ -12,5 +12,5 @@ public class SpeakingGrammarData
 	public SpeakingGrammarData()
 	{
 		speakingGrammar = new List<Grammar>();
-	}
+	}*/
 }

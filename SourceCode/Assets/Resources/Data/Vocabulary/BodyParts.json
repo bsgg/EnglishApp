@@ -246,6 +246,26 @@
 		},
 		{
 			"Category": "MISC",
+			"VocabularyWord": "Sprain",
+			"Pronunciation": "/ssprein/",
+			"Meanings": 
+			[
+				"Esguince",
+				"Hacerse un esguince"
+			],
+			"EnglishExamples":
+			[ 
+				"The football player had to pull out of the game because of a sprain.",
+				"John stood on a loose rock and sprained his ankle"
+			],
+			"SpanishExamples":
+			[ 
+				"El jugador de fútbol tuvo que salir del partido por un esguince.",
+				"Jonh piso en una piedra suelta y se hizo un esguince en el tobillo"
+			]			
+		},
+		{
+			"Category": "MISC",
 			"VocabularyWord": "Tummy",
 			"Pronunciation": "/taami/",
 			"Meanings": 

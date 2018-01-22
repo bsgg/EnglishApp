@@ -2,7 +2,7 @@
 
 public class MiscData
 {
-	private List<Grammar> miscGrammar;
+	/*private List<Grammar> miscGrammar;
 	public List<Grammar> MiscGrammar
 	{
 		get { return this.miscGrammar; }
@@ -12,5 +12,5 @@ public class MiscData
 	public MiscData()
 	{
 		miscGrammar = new List<Grammar>();
-	}
+	}*/
 }

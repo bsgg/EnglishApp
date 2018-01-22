@@ -3,14 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using LitJson;
 
+
 namespace EnglishApp
 {
-    public class GrammarDictionary
+    /*public class GrammarDictionary
     {
         /// <summary>
         /// Type of category
         /// </summary>
-        public enum SECTION_GRAMMAR
+        /*public enum SECTION_GRAMMAR
         {
             CONDITIONALS = 0,
             FUTURE,
@@ -253,7 +254,7 @@ namespace EnglishApp
                 return this.dataAdverbs.AdverbGrammar;
             }
 
-            if (section == SECTION_GRAMMAR.MISC)
+            /*if (section == SECTION_GRAMMAR.MISC)
             {
                 loadMisc();
                 return this.dataMisc.MiscGrammar;
@@ -280,9 +281,9 @@ namespace EnglishApp
             {
                 loadSpeakingGrammar();
                 return this.dataSpeakingGrammar.SpeakingGrammar;
-            }
+            }*/
 
-            if (section == SECTION_GRAMMAR.COMPARATIVES)
+           /* if (section == SECTION_GRAMMAR.COMPARATIVES)
             {
                 loadComparativesGrammar();
                 return this.dataComparativeGrammar.ComparativesGrammar;
@@ -296,5 +297,5 @@ namespace EnglishApp
 
             return null;
         }
-    }
+    }*/
 }

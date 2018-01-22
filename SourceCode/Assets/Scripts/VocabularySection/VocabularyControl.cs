@@ -24,7 +24,7 @@ namespace EnglishApp
         }
     }
 
-    [System.Serializable]
+    [Serializable]
     public class WordDictionary
     {
         public List<Word> Data;

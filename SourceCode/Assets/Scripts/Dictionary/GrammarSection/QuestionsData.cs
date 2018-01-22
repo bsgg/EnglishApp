@@ -2,7 +2,7 @@
 
 public class QuestionsData
 {
-	private List<Grammar> questionsGrammar;
+	/*private List<Grammar> questionsGrammar;
 	public List<Grammar> QuestionsGrammar
 	{
 		get { return this.questionsGrammar; }
@@ -12,5 +12,5 @@ public class QuestionsData
 	public QuestionsData()
 	{
 		questionsGrammar = new List<Grammar>();
-	}
+	}*/
 }

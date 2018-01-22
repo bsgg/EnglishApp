@@ -5,8 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 
 namespace EnglishApp
-{
-    
+{    
     public class DataDictionary
     {
         /// <summary>

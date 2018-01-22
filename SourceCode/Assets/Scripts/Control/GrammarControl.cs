@@ -5,6 +5,39 @@ using LitJson;
 
 namespace EnglishApp
 {
+    public class Grammar
+    {
+        public string Title;
+        public string Description;
+        public List<string> Rules;
+        public string ExtraInfo;
+
+        private List<string> EnglishExamples;
+
+        private List<string> SpanishExamples;
+
+        public Grammar()
+        {
+            Rules = new List<string>();
+            EnglishExamples = new List<string>();
+            SpanishExamples = new List<string>();
+        }
+
+    }
+
+    [System.Serializable]
+    public class GrammarDictionary
+    {
+        public List<Grammar> Data;
+
+        public GrammarDictionary()
+        {
+            Data = new List<Grammar>();
+        }
+
+       
+    }
+
     public class GrammarControl : BaseControl
     {
         [Header("Menu Grammar")]
@@ -13,23 +46,46 @@ namespace EnglishApp
         [Header("Grammar UI")]
         [SerializeField] private GrammarSectionUI   m_GrammarPanelUI;
 
-        private GrammarDictionary.SECTION_GRAMMAR   m_SectionGrammar;
-        public GrammarDictionary.SECTION_GRAMMAR    SectionGrammar
+
+        /// <summary>
+        /// Type of category
+        /// </summary>
+        public enum EGRAMMARTYPE
+        {
+            CONDITIONALS = 0,
+            FUTURE,
+            ADVERBS,            
+            QUESTIONS,
+            MODALS,
+            PREPOSITIONS,
+            SPEAKING,
+            COMPARATIVES,
+            PASSIVE,
+            MISC,
+            NUM
+        }
+
+        private EGRAMMARTYPE m_SectionGrammar;
+        /*public SECTION_GRAMMAR    SectionGrammar
         {
             set { m_SectionGrammar = value; }
             get { return m_SectionGrammar; }
-        }
+        }*/
 
         private List<Grammar>                       m_ListGrammar;
         private int                                 m_IndexGrammar;
         private int                                 m_IndexRule;
         private int                                 m_MaxRules;
 
+        private List<GrammarDictionary> m_DictionarySet;
+
         #region BaseControl
         public override void Init()
         {
+            LoadDataSet();
+
             m_GrammarPanelUI.Hide();
-            m_GrammarMenuUI.Show();
+            //m_GrammarMenuUI.Show();
         }
 
         public override void Finish()
@@ -66,14 +122,37 @@ namespace EnglishApp
 
         #endregion BaseControl
 
+        public void LoadDataSet()
+        {
+            m_DictionarySet = new List<GrammarDictionary>();
+
+            for (int i = 0; i < (int)(EGRAMMARTYPE.NUM); i++)
+            {
+                string nameData = ((EGRAMMARTYPE)i).ToString();
+                string path = "Data/Grammar/" + nameData;
+                string jsonData = Utils.LoadJSONResource(path);
+                if (!string.IsNullOrEmpty(jsonData))
+                {
+                    GrammarDictionary set = JsonMapper.ToObject<GrammarDictionary>(jsonData);
+                    m_DictionarySet.Add(set);
+                }
+                else
+                {
+                    Debug.LogError("[GrammarControl.LoadDataSet] " + nameData + " NULL ");
+                }
+            }
+        }
+
         public void OnSectionPress(int section)
         {
-            m_SectionGrammar = (GrammarDictionary.SECTION_GRAMMAR)section;
+            m_SectionGrammar = (EGRAMMARTYPE)section;
 
             m_GrammarPanelUI.Show();
             m_GrammarMenuUI.Hide();
             InitGrammar();
         }
+
+       
 
         private void InitGrammar()
         {
@@ -81,7 +160,7 @@ namespace EnglishApp
             m_GrammarPanelUI.PopupTable.Hide();
 
             m_ListGrammar = new List<Grammar>();
-            m_ListGrammar = GameManager.Instance.DataGrammar.LoadSection(m_SectionGrammar);
+            //m_ListGrammar = GameManager.Instance.DataGrammar.LoadSection(m_SectionGrammar);
             if (m_ListGrammar != null)
             {
                 // Setup menu scroll
@@ -90,7 +169,8 @@ namespace EnglishApp
                 {
                     listTitleGrammar.Add(m_ListGrammar[i].Title);
                 }
-                string titleGrammar = GameManager.Instance.DataGrammar.GetSectionGrammarTitle(m_SectionGrammar);
+                //string titleGrammar = GameManager.Instance.DataGrammar.GetSectionGrammarTitle(m_SectionGrammar);
+                string titleGrammar = "";
                 GameManager.Instance.MenuBarControl.InitScroll(titleGrammar, listTitleGrammar);
                 GameManager.Instance.MenuBarControl.ScrollMenu.HandleButtonPress += onHandleMenuButtonGrammarPress;
                 // Init indexGrammar with -1 to setup grammar correctly
@@ -169,7 +249,7 @@ namespace EnglishApp
             // Gets all examples with the keyRule
             List<string> listEnglishExamples = new List<string>();
             List<int> listIndexExamples = new List<int>();
-            for (int i = 0; i < m_ListGrammar[m_IndexGrammar].EnglishExamples.Count; i++)
+           /* for (int i = 0; i < m_ListGrammar[m_IndexGrammar].EnglishExamples.Count; i++)
             {
                 string auxExample = m_ListGrammar[m_IndexGrammar].EnglishExamples[i];
                 string keyExample = auxExample.Substring(0, 4);
@@ -179,7 +259,7 @@ namespace EnglishApp
                     listEnglishExamples.Add(example);
                     listIndexExamples.Add(i);
                 }
-            }
+            }*/
 
             string finalExample = "";
             // Fill up examples with the list
@@ -190,7 +270,7 @@ namespace EnglishApp
                 finalExample += "<color=#c9e8ff>" + listEnglishExamples[i] + "</color>\n";
                 // Find spanish examples
                 int iSpanishExample = listIndexExamples[i];
-                finalExample += "<size=18><color=#93d47f>  - " + m_ListGrammar[m_IndexGrammar].SpanishExamples[iSpanishExample] + "</color></size>\n\n";
+                //finalExample += "<size=18><color=#93d47f>  - " + m_ListGrammar[m_IndexGrammar].SpanishExamples[iSpanishExample] + "</color></size>\n\n";
             }
 
             m_GrammarPanelUI.Examples = finalExample;

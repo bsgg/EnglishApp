@@ -2,7 +2,7 @@
 
 public class ModalsData
 {
-	private List<Grammar> modalsGrammar;
+	/*private List<Grammar> modalsGrammar;
 	public List<Grammar> ModalsGrammar
 	{
 		get { return this.modalsGrammar; }
@@ -12,5 +12,5 @@ public class ModalsData
 	public ModalsData()
 	{
 		modalsGrammar = new List<Grammar>();
-	}
+	}*/
 }
