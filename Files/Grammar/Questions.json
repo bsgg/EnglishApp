@@ -1,0 +1,84 @@
+{
+	"Data":
+	[	
+		{
+			"Title": "Questions 1",
+			"Description": "Indirect Questions",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Strictire: </color><color=#c9e8ff>Normal question (polite part)  + normal sentece where you say what you want from the other person.</color>",
+				"R02:<color=#5bd3de>Indirect Questions are more polite than normal quetions</color>",				
+				"R03:<color=#5bd3de>The more longer more polite</color>"	
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:Can I ask you  +  how old you are?",
+				"R01:Could you tell me  + where the station is, please?",
+				"R01:Do you have any idea + who that old man is?",
+				"R01:Do you know + if Sarah can swim?",
+				
+				"R02:Do you think John speaks German?",
+				"R02:Does anyone know What time the film starts?",
+				"R02:Would you mind telling me how you learnt such good English?",
+				"R02:Would you mind telling me how much a ticket costs?",
+				
+				"R03:Would you mind getting me a chocolate biscuit, please?",
+				"R03:Would you mind locking the door when you leave?",
+				"R03:Do you think you could get me a cup of tea, please?",
+				"R03:Can you pass me some more ice, please? "
+			],
+			"SpanishExamples":
+			[ 
+				"¿Puedo preguntarte cuantos años tienes?",
+				"¿Podrías decirme dónde está la estación, por favor?",
+				"¿Tienes alguna idea quien es ese hombre viejo?",
+				"¿Sabes si Sarah puede nadar?",
+				
+				"Crees que John habla Alemán?",
+				"¿Sabe alguien a que hora empieza la película?",
+				"¿Te importaría decirme cómo aprendiste tan buen inglés?",
+				"¿Te importaría decirme cuánto cuesta un ticket?",
+				
+				"¿Te importaría traerme una galleta de chocolate, por favor?",
+				"¿Te importaría cerrar la puerta cuando te vayas?",
+				"¿Podrías pasarme hacerme una taza de té, por favor?",
+				"¿Puedes pasarme más hielo, por favor?"
+			]
+		},
+		{
+			"Title": "Questions 2",
+			"Description": "Questions which ends with a preposition",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#c9e8ff>Some questions need a preposition at the </color><color=#5bd3de>end of the question because the verb goes with a preposition</color><color=#c9e8ff> or it's mandatory</color>",
+				"R02:<color=#5bd3de>Verbs Examples: </color><color=#c9e8ff>Like talk....to, Concerned....about, Ask....for</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:Who is a dating service for?",
+				"R01:Who did you give your number to?",
+				"R01:What kind of hobbies are you interested in?",
+				"R01:What does she look like?",
+				
+				"R02:What are you concerned about?",
+				"R02:Have you got any idea what this is for?",
+				"R02:Where to? What with?",
+				"R02:When did you have to go there by?"
+			],
+			"SpanishExamples":
+			[ 
+				"¿Para quién es el servicio de citas?",
+				"¿A quién le diste tu número?",
+				"¿Qué tipo de hobbies estás interesado?",
+				"Do you know who she is talking to?",
+				
+				"¿Por qué estás preocupado?",
+				"¿Tienes alguna idea para qué es esto?",
+				"¿Hacia dónde? ¿Con qué?",
+				"¿Para cuándo tuviste que irte allí?"
+			]
+		}	
+	]
+}

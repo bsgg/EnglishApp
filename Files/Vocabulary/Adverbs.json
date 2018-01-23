@@ -1,0 +1,76 @@
+{
+	"Data":	
+	[		
+		{
+			"Category": "ADVERB",
+			"VocabularyWord": "Adquired",
+			"Pronunciation": "/akuaier/",
+			"Meanings": 
+			[
+				"Adquirido"
+			],
+			"EnglishExamples":
+			[ 
+				"Oysters are definitely an acquired taste."				
+			],
+			"SpanishExamples":
+			[ 				
+				"Las ostras definitivamente son un gusto adquirido."
+			]	 			
+		},
+		{
+			"Category": "ADVERB",
+			"VocabularyWord": "Hardly",
+			"Pronunciation": "/hardly/",
+			"Meanings": 
+			[
+				"Apenas, Casi nada"
+			],
+			"EnglishExamples":
+			[ 
+				"There is hardly anything to eat in this house."				
+			],
+			"SpanishExamples":
+			[ 				
+				"No hay casi nada de comer en esta casa"
+			]	 			
+		},
+		{
+			"Category": "ADVERB",
+			"VocabularyWord": "Nerve-racking",
+			"Pronunciation": "/neerv racking/",
+			"Meanings": 
+			[
+				"Estresante"
+			],
+			"EnglishExamples":
+			[ 
+				"The last five kilometers was a nerve-wracking time as we passed through an ambush zone."
+			],
+			"SpanishExamples":
+			[ 				
+				"Los 5 últimos kilómetros fueron un momento estreante ya que pasamos por una emboscada"
+			]	 			
+		},
+		{
+			"Category": "ADVERB",
+			"VocabularyWord": "Slightly",
+			"Pronunciation": "/ssslaizly/",
+			"Meanings": 
+			[
+				"Un poco",
+				"Algo"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm feeling slightly tired after the walk.",
+				"He touched her slightly to get her attention."				
+			],
+			"SpanishExamples":
+			[ 				
+				"Me siento algo cansado despues de andar.",
+				"La tocó suavemente para llamar su atención." 
+			]	 			
+		}
+	] 	
+}

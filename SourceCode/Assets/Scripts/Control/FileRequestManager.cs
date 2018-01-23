@@ -1,4 +1,5 @@
 ﻿using LitJson;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,16 +7,16 @@ using UnityEngine;
 namespace Utility
 {
 
-    [System.Serializable]
+    [Serializable]
     public class IndexFile
     {
         public string FileName;
         public string URL;
-        public string Data;
+        //public string Data;
         public FileRequestManager.EDATATYPE DataType;
     }
 
-    [System.Serializable]
+    [Serializable]
     public class FileData
     {
         public List<IndexFile> Data;
@@ -49,10 +50,15 @@ namespace Utility
         }
         #endregion Instance
 
-        [SerializeField]
-        private string m_FileDataUrl = "http://beatrizcv.com/Data/FileData.json";
+       
 
         [SerializeField]
+        public List<IndexFile> m_IndexFileDataURL;
+
+        [SerializeField]
+        public List<FileData> m_Data;
+
+        //[SerializeField]
         private FileData m_FileData;
         public FileData FileData
         {
@@ -69,8 +75,40 @@ namespace Utility
         {
             get { return m_ProgressText; }
         }
-        
-        public IEnumerator RequestFiles()
+
+
+  
+        private string m_FileDataUrl = "http://beatrizcv.com/Data/";
+
+
+        public IEnumerator RequestIndexFiles()
+        {
+            m_Data = new List<FileData>();
+            for (int i=0; i< m_IndexFileDataURL.Count; i++)
+            {
+                WWW wwwFile = new WWW(m_IndexFileDataURL[i].URL);
+                yield return wwwFile;
+                string jsonData = wwwFile.text;
+
+                Debug.LogWarning("<color=yellow>" + "[FileRequestManager] Retrieving file " + m_IndexFileDataURL[i] + " Data: " + jsonData + "</color>");
+
+                try
+                {
+                    m_Data.Add(JsonMapper.ToObject<FileData>(jsonData));
+
+                }
+                catch (Exception e)
+                {
+                    Debug.LogWarning("<color=yellow>" + "[FileRequestManager] Unable to parse " + m_IndexFileDataURL[i] + "</color>");
+                }
+
+                yield return null;
+                
+            }
+
+        }
+
+        /*public IEnumerator RequestFiles()
         {
             m_FileData = new FileData();
             m_PercentProgress = 0.0f;
@@ -85,48 +123,55 @@ namespace Utility
             WWW wwwFile = new WWW(m_FileDataUrl);
             yield return wwwFile;
             string jsonData = wwwFile.text;
+
             if (!string.IsNullOrEmpty(jsonData))
             {
-                if (!string.IsNullOrEmpty(jsonData))
+                try
                 {
                     m_FileData = JsonMapper.ToObject<FileData>(jsonData);
 
-                    Debug.LogWarning("<color=yellow>" + "[FileRequestManager] Requesting... " + m_FileData.Data.Count + " Files " + "</color>");
+                }
+                catch (Exception e)
+                {
+                    Debug.LogWarning("<color=yellow>" + "[FileRequestManager] Unable to parse " + m_FileDataUrl + " Data: " + jsonData  + "</color>");
+                }
 
-                    //JapaneseApp.AppController.Instance.DebugUI.Log0 = "[FileRequestManager] Requesting... " + m_FileData.Data.Count;
-                    for (int i = 0; i < m_FileData.Data.Count; i++)
+                yield return null;
+
+
+                Debug.LogWarning("<color=yellow>" + "[FileRequestManager] Requesting... " + m_FileData.Data.Count + " Files " + "</color>");
+                for (int i = 0; i < m_FileData.Data.Count; i++)
+                {
+                    if (string.IsNullOrEmpty(m_FileData.Data[i].URL))
                     {
-                        if (string.IsNullOrEmpty(m_FileData.Data[i].URL))
-                        {
-                            continue;
-                        }
+                        continue;
+                    }
 
-                        // Request
-                        Debug.LogWarning("<color=yellow>" + "[FileRequestManager] Requesting: " + (i + 1) + "/" + m_FileData.Data.Count + " : " + m_FileData.Data[i].FileName + "</color>");
-                        //JapaneseApp.AppController.Instance.DebugUI.Log0 = "[FileRequestManager] Requesting: " + (i + 1) + "/" + m_FileData.Data.Count + " : " + m_FileData.Data[i].FileName;
-
-                        WWW www = new WWW(m_FileData.Data[i].URL);
-                        while (!www.isDone)
-                        {
-                            m_PercentProgress = www.progress * 100.0f;
-                            m_ProgressText = m_PercentProgress.ToString() + " % ";
-                            yield return null;
-                        }
-
+                    // Request
+                    Debug.LogWarning("<color=yellow>" + "[FileRequestManager] Requesting: " + (i + 1) + "/" + m_FileData.Data.Count + " : " + m_FileData.Data[i].FileName + "</color>");
+                 
+                    WWW www = new WWW(m_FileData.Data[i].URL);
+                    while (!www.isDone)
+                    {
                         m_PercentProgress = www.progress * 100.0f;
                         m_ProgressText = m_PercentProgress.ToString() + " % ";
-
-                        m_FileData.Data[i].Data = www.text;
-
-
-                        Debug.LogWarning("<color=yellow>" + "[FileRequestManager] Data Retrieved: " + m_FileData.Data[i].Data +  "</color>");
+                        yield return null;
                     }
+
+                    m_PercentProgress = www.progress * 100.0f;
+                    m_ProgressText = m_PercentProgress.ToString() + " % ";
+
+                    //m_FileData.Data[i].Data = www.text;
+
+
+                    Debug.LogWarning("<color=yellow>" + "[FileRequestManager] Data Received "+ "</color>");
                 }
-            }else
+            }
+            else
             {
-                Debug.LogWarning("<color=yellow>" + "[FileRequestManager] File Data Json is null or empty" + "</color>");
-            }            
-        }
+                Debug.LogWarning("<color=yellow>" + "[FileRequestManager] File Data " + m_FileDataUrl + " Json is null or empty" + "</color>");
+            }
+        }*/
 
     }
 }

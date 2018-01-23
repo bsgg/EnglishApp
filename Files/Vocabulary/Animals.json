@@ -1,0 +1,447 @@
+{
+	"Data":	
+	[	
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Badger",
+			"Pronunciation": "/baaya/",
+			"Meanings": 
+			[
+				"Tejón"
+			],
+			"EnglishExamples":
+			[ 
+				"A badgers is a short-legged omnivores, strong claws and distintive head markings."			
+			],
+			"SpanishExamples":
+			[ 
+				"Un tejón es un omnivorocon piernas cortas, fuertes garras y unas marcas distintivas en la cabeza."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Beetle",
+			"Pronunciation": "/biitel/",
+			"Meanings": 
+			[
+				"Escarabajo"
+			],
+			"EnglishExamples":
+			[ 
+				"I saw a beetle, which is an insect with two pairs of wings, flying over the meadow."			
+			],
+			"SpanishExamples":
+			[ 
+				"Vi un escarabajo, el cual es un insecto con dos pares de alas, volando sobre la pradera."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Bitch",
+			"Pronunciation": "/Biiich/",
+			"Meanings": 
+			[
+				"Perra", 
+				"Cabrona, Zorra"
+			],
+			"EnglishExamples":
+			[ 
+				"Our cousin wants to mate his bitch with our dog.",
+				"My neighbour is a complete bitch."			
+			],
+			"SpanishExamples":
+			[ 
+				"Nuestro primo quiere cruzar su perra con nuestro perro.",
+				"Mi vecina es una completa zorra o cabrona."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Bull",
+			"Pronunciation": "/buuul/",
+			"Meanings": 
+			[
+				"Toro"
+			],
+			"EnglishExamples":
+			[ 
+				"Most large towns in Spain have bull rings."			
+			],
+			"SpanishExamples":
+			[ 
+				"La mayoría de las grandes ciudades en España tienen una plaza de toros."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Caterpillar",
+			"Pronunciation": "/caterpiler/",
+			"Meanings": 
+			[
+				"Oruga"
+			],
+			"EnglishExamples":
+			[ 
+				"Eventually, caterpillars become into butterflies."			
+			],
+			"SpanishExamples":
+			[ 
+				"Al final, las orugas se convierten en mariposas."
+			]			
+		},		
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Crab",
+			"Pronunciation": "/craab/",
+			"Meanings": 
+			[
+				"Cangrejo"
+			],
+			"EnglishExamples":
+			[ 
+				"Crab cakes are best if they use large lumps of crab meat from the body of the crab."			
+			],
+			"SpanishExamples":
+			[ 
+				"La croqueta de cangrejo tiene mejor sabor si se utiliza la carne del cuerpo del cangrejo."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Cock",
+			"Pronunciation": "/cok/",
+			"Meanings": 
+			[
+				"Gallo"
+			],
+			"EnglishExamples":
+			[ 
+				"The cock crows early in the morning."			
+			],
+			"SpanishExamples":
+			[ 
+				"El gallo canta temprano en la mañana."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Deer",
+			"Pronunciation": "/diiia/",
+			"Meanings": 
+			[
+				"Ciervo"
+			],
+			"EnglishExamples":
+			[ 
+				"When we reached the countryside, we saw a gorgeous deer (male doe) eating the tree leaves."			
+			],
+			"SpanishExamples":
+			[ 
+				"Cuando llegamos al campo, vimos unos magníficos ciervos que comen las hojas de los árboles."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Doe",
+			"Pronunciation": "/dooou/",
+			"Meanings": 
+			[
+				"Cierva"
+			],
+			"EnglishExamples":
+			[ 
+				"Hunters are allowed to kill up to two does (femala deer) per season."			
+			],
+			"SpanishExamples":
+			[ 
+				"Los cazadores pueden matar hasta dos ciervas por temporada."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Eagle",
+			"Pronunciation": "/igol/",
+			"Meanings": 
+			[
+				"Aguila"
+			],
+			"EnglishExamples":
+			[ 
+				"The eagle is a bird which soars in the sky looking for a tiny animals like rabbits."			
+			],
+			"SpanishExamples":
+			[ 
+				"El águila es un pájaro que planea en el cielo buscando pequeños animales como conejos."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Hawk",
+			"Pronunciation": "/haack/",
+			"Meanings": 
+			[
+				"Halcón"
+			],
+			"EnglishExamples":
+			[ 
+				"The hawk swooped down and grabbed the rat."			
+			],
+			"SpanishExamples":
+			[ 
+				"El halcón bajó en picada y agarró a la rata."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Hedgehog ",
+			"Pronunciation": "/hedchok/",
+			"Meanings": 
+			[
+				"Erizo"
+			],
+			"EnglishExamples":
+			[ 
+				"Lucy always wanted a cute pet hedgehog."			
+			],
+			"SpanishExamples":
+			[ 
+				"Lucy siempre quiso una mascota erizo mona."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Lamb",
+			"Pronunciation": "/laaam/",
+			"Meanings": 
+			[
+				"Cordero"
+			],
+			"EnglishExamples":
+			[ 
+				"Roast leg of lamb is delicious with new potatoes and mint sauce."			
+			],
+			"SpanishExamples":
+			[ 
+				"La pierna de cordero asada es deliciosa con patatas y salsa de menta."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Ladybird",
+			"Pronunciation": "/leidiberd/",
+			"Meanings": 
+			[
+				"Mariquita"
+			],
+			"EnglishExamples":
+			[ 
+				"Ladybirds are very beneficial in a garden."			
+			],
+			"SpanishExamples":
+			[ 
+				"Las mariposas son muy beneficiosas en un jardín."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Peacock",
+			"Pronunciation": "/pikak/",
+			"Meanings": 
+			[
+				"Pavo real"
+			],
+			"EnglishExamples":
+			[ 
+				"The princess chose a piece of roast peacock."			
+			],
+			"SpanishExamples":
+			[ 
+				"La princesa eligió una porción de pavo real asado."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Pigeon",
+			"Pronunciation": "/piyyon/",
+			"Meanings": 
+			[
+				"Paloma"
+			],
+			"EnglishExamples":
+			[ 
+				"There are always a lot of pigeons in Trafalgar Square in London."			
+			],
+			"SpanishExamples":
+			[ 
+				"Simpre hay muchas palomas en la plaza Trafalgar en Londres."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Raven",
+			"Pronunciation": "/reiven/",
+			"Meanings": 
+			[
+				"Cuervo"
+			],
+			"EnglishExamples":
+			[ 
+				"The raven, which is a black bird, hopped from one branh to another in the tree."			
+			],
+			"SpanishExamples":
+			[ 
+				"El cuervo, el cual es un pájaro negro, saltó de una rama a otra en el árbol."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Reindeer",
+			"Pronunciation": "/reindia/",
+			"Meanings": 
+			[
+				"Reno"
+			],
+			"EnglishExamples":
+			[ 
+				"When I was a child I always wanted a pet reindeer that could fly like the ones that pull Santa's sleigh."			
+			],
+			"SpanishExamples":
+			[ 
+				"Cuando era un niño siempre quise tener un reno como mascota que pudiera volar como los que tiran del trieno de Santa."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Seagull",
+			"Pronunciation": "/siiigal/",
+			"Meanings": 
+			[
+				"Gaviota"
+			],
+			"EnglishExamples":
+			[ 
+				"I can hear tons of seagulls at the seaside!"			
+			],
+			"SpanishExamples":
+			[ 
+				"¡Puedo escuchar un montón de gaviotas en la playa!"
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Seaweed",
+			"Pronunciation": "/sigüid/",
+			"Meanings": 
+			[
+				"Alga marina"
+			],
+			"EnglishExamples":
+			[ 
+				"Seaweed is chock-full of vitamins, minerals, and fibre, and can be tasty."			
+			],
+			"SpanishExamples":
+			[ 
+				"El alga marina esta a tope de vitaminas, minerales y fibra, y puede ser sabroso."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Shark",
+			"Pronunciation": "/xaaark/",
+			"Meanings": 
+			[
+				"Tiburón"
+			],
+			"EnglishExamples":
+			[ 
+				"Tiger sharks are not often aggressive towards humans."			
+			],
+			"SpanishExamples":
+			[ 
+				"Los tiburones tigre no suele ser agresivos con los humanos."
+			]			
+		},
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Sloth",
+			"Pronunciation": "/sloot/",
+			"Meanings": 
+			[
+				"Perezoso"
+			],
+			"EnglishExamples":
+			[ 
+				"Sloth: Type of animal that lives in trees in South and Central America and that moves very slowly."			
+			],
+			"SpanishExamples":
+			[ 
+				"Perezoso: Tipo de animal que vive en arboles al sur y centro America y se mueve muy lento."
+			]			
+		},
+    {
+      "Category": "ANIMALS",
+      "VocabularyWord": "Starfish",
+      "Pronunciation": "/staarfishhh/",
+      "Meanings": [
+        "Estrella de mar"
+      ],
+      "EnglishExamples": [
+        "We saw a differnet kinds of starfish on the beach."
+      ],
+      "SpanishExamples": [
+        "Vimos distionts tipos de estrellas de mar en la playa."
+      ]
+    },	
+    {
+			"Category": "ANIMALS",
+			"VocabularyWord": "Sparrow",
+			"Pronunciation": "/ssspaarou/",
+			"Meanings": 
+			[
+				"Gorrión"
+			],
+			"EnglishExamples":
+			[ 
+				"Some birds are colorful and vivid, but not the sparrow: this tiny bird is usually only brown or grey."			
+			],
+			"SpanishExamples":
+			[ 
+				"Algunos pájaros son coloridos y vívidos, pero no el gorrión: este pequeño pájaro normalmente es solo gris y marrón."
+			]			
+		},			
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Swan",
+			"Pronunciation": "/suuuan/",
+			"Meanings": 
+			[
+				"Cisne"
+			],
+			"EnglishExamples":
+			[ 
+				"Below them there was a lake with swans swimming and a island."			
+			],
+			"SpanishExamples":
+			[ 
+				"Bajo ellos habí aun lago con cisnes nadando y una isla."
+			]			
+		},		
+		{
+			"Category": "ANIMALS",
+			"VocabularyWord": "Wasp",
+			"Pronunciation": "/waasp/",
+			"Meanings": 
+			[
+				"Avispa"
+			],
+			"EnglishExamples":
+			[ 
+				"Take care of that wasp nest!"			
+			],
+			"SpanishExamples":
+			[ 
+				"¡Ten mucho cuidado con ese nido de avispas!"
+			]			
+		}		
+	] 	
+}

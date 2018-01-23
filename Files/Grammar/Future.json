@@ -1,0 +1,251 @@
+{
+	"Data":
+	[	
+		{
+			"Title": "Future Be able to",
+			"Description": "Use to express if we can do something in the future (Will can NO!!)",	
+			"ExtraInfo":"",				
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Afirmative:</color><color=#c9e8ff> 'Suj' + will + be able to + verb infinitive</color>",
+				"R02:<color=#5bd3de>Negative:</color><color=#c9e8ff> 'Suj' + will not (won't) + be able to  + verb infinitive</color>",
+				"R03:<color=#5bd3de>Question:</color><color=#c9e8ff> Will + 'Suj' + be able to + verb infinitive + '?'</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:She will be able to get tickets if she gets to the box office early.",
+				"R01:Tom will be able to come over if he leaves the office early.",
+				"R01:You’ll be able to change a flat tire as long as you have a jack.",				
+				"R01:We’ll be able to go camping next week unless it is not raining bucketing down.",
+				
+				"R02:She won’t be able to come to Tim’s leaving party if she doesn’t make up with Susan.",
+				"R02:We won’t be able to pass the exam even if we study all night long.",
+				"R02:I won’t be able to do any exercise unless Peter gives me my bike back.",
+				"R02:As she left her fancy costume, she won’t be able to wear it.",
+				
+				"R03:Will he able to beat her if he doesn’t play well?",
+				"R03:If nobody helps you to tidy this mess, will you be able to tidy it by yourself?",
+				"R03:Will people be able to turn invisible sometime in the future?",
+				"R03:Do you think Javier will be able to make it to Bill’s book launch party?"
+			],
+			"SpanishExamples":
+			[ 
+				"Podrá conseguir tickets si llega pronto a la taquilla.",
+				"Tom podrá venir a casa si sale de la oficina pronto.",
+				"Podrás cambiar una rueda pinchada siempre y cuando tengas un gato.",
+				"Podremos ir de camping la próxima semana a no ser que no esté diluviando.",
+				
+				"No podrá venir a la fiesta de despedida de Tim si no hace las paces con Susan",
+				"No podrán aprobar el exámen aunque estudien toda la noche.",
+				"No podré hacer ejercicio a menos que Peter me devuelva mi bici.",
+				"Como se dejó su disfraz en casa, no podrá ponérselo.",
+				
+				"¿Podrá él ganarle a ella si no juega bien?",
+				"Si nadie te ayuda a recoger todo este lío, ¿Podrás recogerlo tú solo?",
+				"¿Podrá la gente volverse invisible en algún momento en el futuro?",
+				"¿Crees que Javier podrá ir a la fiesta de presentación del libro de Bill?"
+			]
+		},
+		{
+			"Title": "Future Going to",
+			"Description": "Use for plans or intentions",	
+			"ExtraInfo":"",				
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Afirmative:</color><color=#c9e8ff> 'Suj' + vb to be  + going to (gonna) + verb infinitive</color>",
+				"R02:<color=#5bd3de>Negative:</color><color=#c9e8ff> 'Suj' + vb to be  + not + going to (gonna) + verb infinitive</color>",
+				"R03:<color=#5bd3de>Question:</color><color=#c9e8ff> vb to be  + 'Suj' + going to (gonna) + verb infinitive + '?'</color>",
+				"R04:<color=#5bd3de>Plans:</color><color=#c9e8ff> Use for the intention to do something</color>",
+				"R05:<color=#5bd3de>Predictions:</color><color=#c9e8ff> Predictions about weather or things that happens without our control.</color>",
+				"R06:<color=#5bd3de>Arrangement or near Plans:</color><color=#c9e8ff> We use present continuos for that</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:I'm going to call you tonight.",
+				"R01:She is going to be late.",
+				"R01:They are gonna be happy to see you.",
+				"R02:I'm not going to call you tonight.",
+				"R02:She isn't going to be late.",
+				"R02:They aren't going to be happy to see you.",
+				"R03:Are you gonna call me tonight?",
+				"R03:Is she going to be late?",
+				"R03:Are they going to be happy to see you?",
+				"R04:We are going to have a party tonight!",
+				"R04:Richard is going to take an English class.",
+				"R04:I’m going to clean my room tonight.",
+				"R05:It doesn’t look like we’re going to sell any ice cream today.",
+				"R05:It's not gonna raing today, I hope so...",
+				"R06:Sarah is coming next thursday.",
+				"R06:I'm going to the doctor this afternoon."
+			],
+			"SpanishExamples":
+			[ 
+				"Voy a llamarte esta noche.",
+				"Va a llegar tarde",
+				"Van a estar felices de verte",
+				"No voy a llamarte esta noche.",
+				"No va a llegar tarde",
+				"No van a estar felices de verte",
+				"¿Vas a llamarme esta noche?",
+				"¿Va a llegar tarde?",
+				"¿Van a estar felices de verte?",
+				"¡Vamos a dar una fiesta esta noche!",
+				"Richard va a dar clases de inglés",
+				"Voy a limpiar mi habitación esta noche.",
+				"Parece que no vamos a vender ningún helado hoy.",
+				"No va a llover hoy, espero..",
+				"Sarah viene el próximo jueves",
+				"Voy al doctor esta tarde"
+			]
+		},
+		{
+			"Title": "Future Will",
+			"Description": "Use to decide something at the moment of speaking or Predictions",
+			"ExtraInfo":"",				
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Afirmative:</color><color=#c9e8ff> 'Suj' + will + verb (contraction: she'll /I'll / They'll...)</color>",
+				"R02:<color=#5bd3de>Negative:</color><color=#c9e8ff> 'Suj' + will + not (won't) + verb</color>",
+				"R03:<color=#5bd3de>Question:</color><color=#c9e8ff> Will  + 'Suj' + verb + '?'</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:The door’s bell rings, I’ll get it.",
+				"R01:That looks heavy, I'll help you.",
+				"R01:I’ll be with you in a minute.",
+				"R01:We’ll keep an eye on everything",
+				
+				"R02:I think she won’t mind if you ask her about that!",
+				"R02:We won't accept the terms of this contract.",
+				"R02:Tommy, I am sorry I will not help you with your homework. I am too busy right now.",
+				
+				"R03:When will they come?",
+				"R03:Will you open the door for me, please?",
+				"R03:What will happen?"
+			],
+			"SpanishExamples":
+			[ 
+				"El timbre suena, iré a abrir.",
+				"Eso parece pesado, te ayudaré.",
+				"Estaré contigo en un minuto.",
+				"Estaremos pendientes de todo",
+				
+				"No creo que le importe si la preguntas sobre eso!",
+				"No aceptaremos los términos de este contrato.",
+				"Tommy, lamentablemente no te ayudaré con la tarea. Estoy demasiado ocupado en este momento.",
+				
+				"¿Cuándo vendrán?",
+				"¿Quieres abrirme la puerta, por favor?",
+				" ¿Qué pasará?"
+			]
+		},
+		{
+			"Title": "Will Probably",
+			"Description": "Uses when there is an element of doubt.",			
+			"ExtraInfo":"",				
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Afirmative:</color><color=#c9e8ff> 'Suj' + will + probably + verb infinitive</color>",
+				"R02:<color=#5bd3de>Negative:</color><color=#c9e8ff> 'Suj' + will + not (won't) + probably + verb infinitive</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:I’ll probably go.",
+				"R01:It'll probably rain.",
+				"R01:She’ll probably forget.",
+				"R01:We’ll probably go with you.",
+				
+				"R02:We probably won’t go to the meeting.",
+				"R02:She probably won’t even think about it.",
+				"R02:You probably won’t have time."
+
+			],
+			"SpanishExamples":
+			[ 
+				"Es probable que vaya",
+				"Es probable que llueva",
+				"Probablemente lo olvidará.",
+				"Es probable que te acompañemos.",
+				
+				"Es probable que no vayamos a la reunión.",
+				"Es probable que ni se le ocurra.",
+				"Es probable que no tengas tiempo."
+				
+			]
+		},
+		{
+			"Title": "Future Perect Simple",
+			"Description": "An action will happen before another action in the future or in a specific time",		
+			"ExtraInfo":"",				
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Afirmative:</color><color=#c9e8ff> 'Suj' + will  have + vb past participle</color>",
+				"R02:<color=#5bd3de>Negative:</color><color=#c9e8ff> 'Suj' + will + not (won't) have + vb past participle</color>",
+				"R03:<color=#5bd3de>Question:</color><color=#c9e8ff> Will  + 'Suj' + have + vb past participle + '?'</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:The party will have ended by the time you finish work.",
+				"R01:I’ll have eaten before we meet.",				
+				"R01:I will have been in London for six months by the time I leave.",				
+				"R01:By the time I finish this course, I will have taken ten tests.",
+				
+				"R02:We won’t have become fluent in English by the time we leave for Mexico next month.",
+				"R02:I won’t have done the dishes by the time we have to leave home.",
+				
+				"R03:Will you have perfected your English by the time you come back from the U.S?.",
+				"R03:Will she have learned enough Chinese to communicate before she moves to Beijing?"
+			],
+			"SpanishExamples":
+			[ 
+				"La fiesta habrá terminado para cuando termines el trabajo",
+				"Habré comido antes de reunirnos.",
+				"Habré estado en Londres 6 meses para cuando me vaya.",
+				"Para cuando termine este curso, habré hecho 10 tests.",
+				
+				"No vamos a tener fluidez en español antes de irnos a México el mes que viene.",				
+				"No habré lavado los platos para cuando tengamos que irnos de casa.",
+				
+				"¿Habrás perfeccionado tu Inglés para cuando vuelvas de US?",
+				"¿Habrá aprendido suficiente Chino para comunicarse antes de mudarse a Beijing?."
+				
+			]
+		},
+		{
+			"Title": "Future Perect Continuous",
+			"Description": "Action will continue up until a particular event or time in the future.",
+			"ExtraInfo":"",				
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Afirmative:</color><color=#c9e8ff> 'Suj' + will  have been + vb ing</color>",
+				"R02:<color=#5bd3de>Negative:</color><color=#c9e8ff> 'Suj' + will + not (won't) have been + vb ing</color>",
+				"R03:<color=#5bd3de>Question:</color><color=#c9e8ff> Will  + 'Suj' + have been + vb ing  + '?'</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:Francis will have been living in Italy for 4 years by the time he finishes his studies.",
+				"R01:We will been working for 24 hours by the time we finish this project.",				
+				"R01:Jessica will have been studying English for 5 years when she moves to England next April.",				
+				
+				"R02:By this time of the year They won´t have been travelling for over a year.",
+				"R02:When I go to the shop, by her own good I expect She won’t have been using my bike.",
+				
+				"R03:Will you have been living together for long before you get married?",
+				"R03:Will you have been waiting for more than two hours when her plane finally arrives?"
+			],
+			"SpanishExamples":
+			[ 
+				"Francis habrá estado viviendo en Italia 4 años para cuando termine sus estudios.",
+				"Habremos estado trabajando durante 24 horas para cuando hayamos terminado este proyecto.",
+				"Jessica habrá estado estudiando inglés durante 5 años, hasta que se haya trasladado a Inglaterra el próximo abril.",
+				
+				"Para este momento del año No llevarán viajando más de un año.",				
+				"Cuando vaya a la tienda, por su propio bien espero que no habrá estado usando mi bici.",
+				
+				"¿Habréis estado conviviendo durante mucho tiempo antes de os hayáis casado?",
+				"¿Habrás estado esperando más de dos horas cuando el avión llegue por fin?"
+				
+			]
+		}
+	]
+}

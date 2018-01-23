@@ -1,0 +1,136 @@
+{
+	"Data":
+	[
+		{
+			"Title": "May",
+			"Description": "May is often used to express likelihood or probability",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>May Structure: </color><color=#c9e8ff>Suj + May (or may not) + verb.</color>",
+				"R02:<color=#5bd3de>May means: </color><color=#c9e8ff>Podría, Quizá, Puede que.</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:Pigs may flight",
+				"R01:He may come later",
+				"R01:I may go to the party later",
+				"R01:They may raise my salary",
+				
+				"R02:I may get my salary raise ",
+				"R02:I may not get any holidays until 20 - 25.",
+				"R02:That may be a good idea.",
+				"R02:I may not have time to do it today."
+			],
+			"SpanishExamples":
+			[ 
+				"Puede que los cerdos vuelen.",
+				"El podría venir luego.",
+				"Quizá vaya a la fiesta luego.",
+				"Quizá me suban el salario.",
+				
+				"Puede que mi salario sea subido.",
+				"Puede que no tenga vacaciones hasta el  20 - 25",
+				"Puede que eso sea una buena idea",
+				"Puede que no tenga tiempo para hacerlo hoy."
+			]
+		},	
+		{
+			"Title": "Must & Have to",
+			"Description": "Responsibility and Obligation",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Must: </color><color=#c9e8ff>Uses for responsabilities (Debo...)</color>",
+				"R02:<color=#5bd3de>Have to: </color><color=#c9e8ff>Obligations, and something you have to do, an exteral rule.</color>",
+				"R03:<color=#5bd3de>Mustn't: </color><color=#c9e8ff>An absolutely prohibition. Very strong</color>",
+				"R04:<color=#5bd3de>Don't have to: </color><color=#c9e8ff>Don't necessary to do something.</color>",
+				"R05:<color=#5bd3de>Must II: </color><color=#c9e8ff>Uses for logic conclusions. (Use in positive and negative)</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:I must go to work",
+				"R01:I must study English.",
+				"R01:You must go for a walk with the dog at least once a day.",
+				"R01:I must finish this report.",
+				
+				"R02:I have to pay the taxes.",
+				"R02:I'll have to move house next year.",
+				"R02:I have to tell you something. (There isn't another option)",
+				"R02:I have to invite my boss.(It's an obligation)",
+				
+				"R03:You mustn't call me",
+				"R03:They mustn't drive tonight",
+				"R03:We mustn't talk to anyone.",
+				"R03:In future you mustn't call me at work.",
+				
+				"R04:She doesn't have to visit her mother.",
+				"R04:In a smoking area you don’t have to smoke bur you can do it if you want.",
+				"R04:You don't have to wear a tie for school.",
+				
+				"R05:You're not wearing a coat. You must be cold",
+				"R05:He always looks tired, he must work very hard.",
+				"R05:I called her twice but she didn't answer. She must be busy.",
+				"R05:I haven't seen John for months. He musn't work here anymore."
+			],
+			"SpanishExamples":
+			[ 
+				"Debo ir al trabajo.",
+				"Debo estudiar iIglés.",
+				"Debes pasear al perro al menos una vez al día.",
+				"Debo acabar este informe.",
+				
+				"Tengo que pagar impuestos.",
+				"Tendré que mudarme el año que viene.",
+				"Tengo que decirte algo.",
+				"Tengo que invitar a mi jefe.",
+				
+				"No debes llamarme (bajo ningún concepto.)",
+				"No deben conducir esta noche",
+				"No debemos hablar con nadie.",
+				"De ahora en adelante no debes llamarme al trabajo.",
+				
+				"No tiene que visitar a su madre",
+				"En un area para fumar no tienes porqué fumar pero puedes  hacederlo si quieres.",
+				"No tienes porque llevar una corbata al colegio.",
+				
+				"No llevas un abrigo. Debes tener frio.",
+				"Siempre parece cansado, debe estar trabajando muy duro",
+				"La llamé dos veces pero no contestó. Debe estar ocupada.",
+				"No he visto a John en meses. No debe trabajar aqui ya."
+			]
+		},
+		{
+			"Title": "Be able to",
+			"Description": "Be able to means: Ser capa de",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>The meaning is similar to can/could: </color><color=#c9e8ff>Be able to can be use in any tense: To be able to + infinitive </color>",
+				"R02:<color=#5bd3de>Negative sentences: </color><color=#c9e8ff>Could and was/were able to have the same meaning.</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:You will be able to get tickets to the concert if you arrive at the box office early.",
+				"R01:The kids have not been able to study much today.",
+				"R01:After I had been able to open the box, I discovered that it was empty.",
+				"R01:If Betsy danced every day, she would be able to become a professional dancer.",
+				
+				"R02:The climbers couldn’t /weren’t able to reach the summit yesterday.",
+				"R02:Tom couldn’t/wasn’t able to win the contest last year.",
+				"R02:Jim was not able to meet Richard yesterday."
+			],
+			"SpanishExamples":
+			[ 
+				"Serás capaz de conseguir tickets para el concierto si llegas pronto al estanco.",
+				"Los niños no han sido capaces de estudiar mucho hoy.",
+				"Después de que había podido abrir la caja, descubrí que estaba vacía.",
+				"Si Betsy bailara todos los días, podría haber sido una bailarina profesional.",
+				
+				"Los escaladores no pudieron llegar a la cima ayer.",
+				"Tom no pudo ganar el concurso el año pasado.",
+				"Jim no pudo encontrarse con Richard ayer."
+			]
+		}
+	]
+}

@@ -1,0 +1,811 @@
+{
+  "Data": [
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Aubergine",
+      "Pronunciation": "/oobEryin/",
+      "Meanings": [
+        "Berenjena"
+      ],
+      "EnglishExamples": [
+        "I love grilled aubergine."
+      ],
+      "SpanishExamples": [
+        "Me encanta la berengena a la parrilla."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Avocado",
+      "Pronunciation": "/avocaro/",
+      "Meanings": [
+        "Aguacate"
+      ],
+      "EnglishExamples": [
+        "Karl loves to eat avocados with salt and a little lime juice."
+      ],
+      "SpanishExamples": [
+        "A Karl le encanta comer aguacates con salta y un poco de zumo de lima."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Apricot",
+      "Pronunciation": "/eipricot/",
+      "Meanings": [
+        "Albaricoque"
+      ],
+      "EnglishExamples": [
+        "For dessert, we ate apricots with fresh cream."
+      ],
+      "SpanishExamples": [
+        "De postre, comimos albaricoques con nata fresca."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Bake",
+      "Pronunciation": "/beik/",
+      "Meanings": [
+        "Hornear"
+      ],
+      "EnglishExamples": [
+        "I'm baking a cake. It's going to be delicious."
+      ],
+      "SpanishExamples": [
+        "Estoy horneando un pastel. Va a estar riquísimo."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "blackpudding",
+      "Pronunciation": "/blakpuudin/",
+      "Meanings": [
+        "Morcilla"
+      ],
+      "EnglishExamples": [
+        "Do you know that a blackpudding is a sausage made with blood?"
+      ],
+      "SpanishExamples": [
+        "¿Sabías que la morcilla es una salchicha hecha de sangre?"
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Beans",
+      "Pronunciation": "/biiins/",
+      "Meanings": [
+        "Judias"
+      ],
+      "EnglishExamples": [
+        "A full English breakfast has some beans with some sausages, tomato, some bacon.."
+      ],
+      "SpanishExamples": [
+        "Un desayuno inglés ocmpleto tiene judias con salsichas, tomate, bacon..."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Biscuit",
+      "Pronunciation": "/biskit/",
+      "Meanings": [
+        "Galleta (UK)"
+      ],
+      "EnglishExamples": [
+        "She handed him the plate of biscuits, and he took one."
+      ],
+      "SpanishExamples": [
+        "Ella le entregó el plato de galletas y el cogió una."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Bun",
+      "Pronunciation": "/baaan/",
+      "Meanings": [
+        "Panecillo, Bollo"
+      ],
+      "EnglishExamples": [
+        "I feel a bit peckish, I feel like having a hot dog with a really oily sausage, some pickles and onions inside a nice bun."
+      ],
+      "SpanishExamples": [
+        "Tengo un poco de hambre, me apetece tomar un perrito caliente con una grasienta salchicha, pepinillos y cebolla en un buen pan."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Broth",
+      "Pronunciation": "/broooth/",
+      "Meanings": [
+        "Caldo, Sopa"
+      ],
+      "EnglishExamples": [
+        "If you feel sick, you´d better have a light broth or soup for dinner."
+      ],
+      "SpanishExamples": [
+        "Si te sientes enfermo, es mejor que tome sun caldo ligero para cenar."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Cabbage",
+      "Pronunciation": "/cAbich/",
+      "Meanings": [
+        "Repollo"
+      ],
+      "EnglishExamples": [
+        "People sometimes mixed cabbage up with lettuce."
+      ],
+      "SpanishExamples": [
+        "La gente a veces confunde el repollo con la lechuga."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Chickpea",
+      "Pronunciation": "/chiikpii/",
+      "Meanings": [
+        "Garbanzo"
+      ],
+      "EnglishExamples": [
+        "To make hummus from scratch, you'll need chickpeas."
+      ],
+      "SpanishExamples": [
+        "Para hacer humus de cero, necesitarás garbanzos."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Courgette",
+      "Pronunciation": "/couryet/",
+      "Meanings": [
+        "Calabacín"
+      ],
+      "EnglishExamples": [
+        "Zucchini or courgette is a green vegetable usually harvested in autumn."
+      ],
+      "SpanishExamples": [
+        "El calabacín es una hortaliza que normalmente se cosecha en otoño."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Cold cut",
+      "Pronunciation": "/cooold cut/",
+      "Meanings": [
+        "Fiambre"
+      ],
+      "EnglishExamples": [
+        "The buffet included a selection of cold cuts such as slices of ham, cheese , turkey and others."
+      ],
+      "SpanishExamples": [
+        "El buffet incluía una selección de fiambre como rodajas de jamón, queso, pavo y otros."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Cauliflower",
+      "Pronunciation": "/cooliflauar/",
+      "Meanings": [
+        "Fiambre"
+      ],
+      "EnglishExamples": [
+        "Here's a recipe that calls for cauliflower and sesame seeds.."
+      ],
+      "SpanishExamples": [
+        "Aqui hay una receta de coliflor y semillas de sésamo."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Chestnut",
+      "Pronunciation": "/xeessnatt/",
+      "Meanings": [
+        "Castaña"
+      ],
+      "EnglishExamples": [
+        "I love buying warm chestnuts in winter!"
+      ],
+      "SpanishExamples": [
+        "¡Me encanta comprar castañas calientes en invierno!"
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Cucumber",
+      "Pronunciation": "/kiucamber/",
+      "Meanings": [
+        "Pepino"
+      ],
+      "EnglishExamples": [
+        "Cucumber is widely used in salads."
+      ],
+      "SpanishExamples": [
+        "El pepino se usa mucho en ensaladas"
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Chips (UK)",
+      "Pronunciation": "/chipppss/",
+      "Meanings": [
+        "Patatas fritas(cocinadas)"
+      ],
+      "EnglishExamples": [
+        "I fancy some chips."
+      ],
+      "SpanishExamples": [
+        "Me apetecen unas patatas fritas."
+      ]
+    },
+    {
+      "Category": "MISC",
+      "VocabularyWord": "Dairy",
+      "Pronunciation": "/deri/",
+      "Meanings": [
+        "lácteo"
+      ],
+      "EnglishExamples": [
+        "Many people find it difficult to digest milk, and get a stomachache if they eat dairy products."
+      ],
+      "SpanishExamples": [
+        "Mucha gente encuentra dificil de digerir leche, y tienen dolor de estómago si ellos comen productos lácteos."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Dessert",
+      "Pronunciation": "/disert/",
+      "Meanings": [
+        "Postre"
+      ],
+      "EnglishExamples": [
+        "Would you like ice cream for dessert?"
+      ],
+      "SpanishExamples": [
+        "¿Quieres helado de postre?"
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Deviled Egg",
+      "Pronunciation": "/devild egg/",
+      "Meanings": [
+        "Huevos Rellenos"
+      ],
+      "EnglishExamples": [
+        "A very popular finger food at America Parties is deviled eggs, because they can be stuffed with many different flavorings"
+      ],
+      "SpanishExamples": [
+        "Una comida de deos muy popular en las fiestas son los huevos rellenos, pero que se pueden rellenar con muchas cosas diferentes."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Dough",
+      "Pronunciation": "/douuu/",
+      "Meanings": [
+        "Masa"
+      ],
+      "EnglishExamples": [
+        "The baker shaped the dough and left it to rise."
+      ],
+      "SpanishExamples": [
+        "El panadero le dio forma a la masa y la dejó crecer."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "French fries (USA)",
+      "Pronunciation": "/freench frais/",
+      "Meanings": [
+        "Patatas fritas(cocinadas)"
+      ],
+      "EnglishExamples": [
+        "I feel like some French fries."
+      ],
+      "SpanishExamples": [
+        "Me apetecen unas patatas fritas."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Garlic",
+      "Pronunciation": "/gaarlic/",
+      "Meanings": [
+        "Ajo"
+      ],
+      "EnglishExamples": [
+        "Italian restaurants sometimes serve garlic bread with pasta dishes."
+      ],
+      "SpanishExamples": [
+        "Los restaurantes italianos a veces sirven pan de ajo con los platos de pasta."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Grapes",
+      "Pronunciation": "/greips/",
+      "Meanings": [
+        "Uvas"
+      ],
+      "EnglishExamples": [
+        "I'm in charge of buying the grapes for New Year's Eve."
+      ],
+      "SpanishExamples": [
+        "Yo me encargo de comprar uvas para la noche de fin de año."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Grill",
+      "Pronunciation": "/Gruild/",
+      "Meanings": [
+        "Parilla"
+      ],
+      "EnglishExamples": [
+        "How about grill fish for tonight?"
+      ],
+      "SpanishExamples": [
+        "¿Qué tal pescado a la parilla esta noche?"
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Ham",
+      "Pronunciation": "/haaam/",
+      "Meanings": [
+        "Jamón serrano"
+      ],
+      "EnglishExamples": [
+        "Tim makes the best ham sandwich you've ever had."
+      ],
+      "SpanishExamples": [
+        "STim hace el mejor sandwich de jamón que hayas probado."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Hazelnut",
+      "Pronunciation": "/heizelnut/",
+      "Meanings": [
+        "Avellana"
+      ],
+      "EnglishExamples": [
+        "The cake was garnished with crushed hazelnuts."
+      ],
+      "SpanishExamples": [
+        "La tarta estaba adornada con avellanas machacadas."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Jam",
+      "Pronunciation": "/yaaam/",
+      "Meanings": [
+        "Mermelada"
+      ],
+      "EnglishExamples": [
+        "Sheila used the leftover plums to make jam."
+      ],
+      "SpanishExamples": [
+        "Sheila usaba ciruelas sobrantes para hacer mermelada."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Mince",
+      "Pronunciation": "/miiinc/",
+      "Meanings": [
+        "Picar carne con máquina"
+      ],
+      "EnglishExamples": [
+        "Mince the beef before you use it."
+      ],
+      "SpanishExamples": [
+        "Pica la carne antes de usarla."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Minced meat",
+      "Pronunciation": "/miinced meet/",
+      "Meanings": [
+        "Carne picada"
+      ],
+      "EnglishExamples": [
+        "We need minced mee to make a delicious hamburguer."
+      ],
+      "SpanishExamples": [
+        "Necesitamos carne picada para hacer una deliciosa hamburguesa."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Milkshake",
+      "Pronunciation": "/milkseik/",
+      "Meanings": [
+        "Batido"
+      ],
+      "EnglishExamples": [
+        "Would you like a milkshake with your burger and fries? "
+      ],
+      "SpanishExamples": [
+        "¿Quieres un batido para acompañar tu hamburguesa con patatas fritas?"
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Nut",
+      "Pronunciation": "/naat/",
+      "Meanings": [
+        "Nuez",
+        "Loco, chiflado"
+      ],
+      "EnglishExamples": [
+        "Tom ate a handful of the nuts from the bowl on the bar.",
+        "The cheetah went nuts and dipped his head in the butter at noon"
+      ],
+      "SpanishExamples": [
+        "Tomo comió un puñado de nueces del bol en el bar.",
+        "El guepardo se volvió loco y metió la cabeza en la mantequilla al mediodía"
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Lager",
+      "Pronunciation": "/laga/",
+      "Meanings": [
+        "Cerveza Rubia"
+      ],
+      "EnglishExamples": [
+        "When Americans say 'beer' they mean 'lager' or a 'pint of lager'."
+      ],
+      "SpanishExamples": [
+        "Cuando los Americanos dicen 'cerveza' quiere decir 'cerveza rubia' o una 'pinta de cerveza rubia'."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Leek",
+      "Pronunciation": "/liik/",
+      "Meanings": [
+        "Puerro"
+      ],
+      "EnglishExamples": [
+        "Lentils, beans and chickpeas are sort of legumes."
+      ],
+      "SpanishExamples": [
+        "Las lentejas, judías y garbanzos son un tipos de legumbre."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Lentil",
+      "Pronunciation": "/leentil/",
+      "Meanings": [
+        "Lenteja"
+      ],
+      "EnglishExamples": [
+        "The leek is a vegetable similar to onions."
+      ],
+      "SpanishExamples": [
+        "El puerro es un vegetal parecio a las cebollas."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Oat",
+      "Pronunciation": "/out/",
+      "Meanings": [
+        "Avena"
+      ],
+      "EnglishExamples": [
+        "Oat porridge is a popular breakfast all over Europe."
+      ],
+      "SpanishExamples": [
+        "La crema de avena es un desayuno muy popular en toda Europa."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Onion",
+      "Pronunciation": "/oonion/",
+      "Meanings": [
+        "Cebolla"
+      ],
+      "EnglishExamples": [
+        "I like a broiled cheese crust on French onion soup."
+      ],
+      "SpanishExamples": [
+        "Me gusta una corteza de queso a la parrilla en la sopa de cebolla Francesa."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Peach",
+      "Pronunciation": "/piich/",
+      "Meanings": [
+        "Melocotón"
+      ],
+      "EnglishExamples": [
+        "Peaches and nectarines are the same species, even though they are regarded as different fruits."
+      ],
+      "SpanishExamples": [
+        "Melocotones y necatrinas son de la misma especia, a pesa de que consideran como diferentes frutas."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Pear",
+      "Pronunciation": "/peer/",
+      "Meanings": [
+        "Pera"
+      ],
+      "EnglishExamples": [
+        "Pear is a good food for diabetics. It helps maintain control of glucose levels."
+      ],
+      "SpanishExamples": [
+        "La pera es un buen alimento para la diabetes. Ayuda a mantener controlado los niveles de glucosa."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Pie",
+      "Pronunciation": "/pai/",
+      "Meanings": [
+        "Pastel",
+        "Tarta"
+      ],
+      "EnglishExamples": [
+        "I'd like pie, mashed potatoes and vegetables.",
+        "Would you like ice cream with your apple pie?"
+      ],
+      "SpanishExamples": [
+        "Querría un trozo de pastel, puré de patata y verdura.",
+        "¿Le apetece un helado con su tarta de manzana?"
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Pineapple",
+      "Pronunciation": "/painapol/",
+      "Meanings": [
+        "Piña"
+      ],
+      "EnglishExamples": [
+        "She greilled a tasty kebab of green pepper, ham, and pineapple cubes on a skewer."
+      ],
+      "SpanishExamples": [
+        "Asó un delicioso kebab con pimiento verde, jamón y dados de piña en una brocheta."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Plum",
+      "Pronunciation": "/plam/",
+      "Meanings": [
+        "Ciruela"
+      ],
+      "EnglishExamples": [
+        "Plum is the small, tasty fruit of the plum tree."
+      ],
+      "SpanishExamples": [
+        "La ciruela es una fruta pequeña y sabroza del ciruelo."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Poultry",
+      "Pronunciation": "/poooultry/",
+      "Meanings": [
+        "Carne de ave"
+      ],
+      "EnglishExamples": [
+        "I love eating poultry meat, especially chicken and turkey."
+      ],
+      "SpanishExamples": [
+        "Me encanta comer carne de ave, especialmente pollo y pavo."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Prawn",
+      "Pronunciation": "/prrown/",
+      "Meanings": [
+        "Gamba, Langostino"
+      ],
+      "EnglishExamples": [
+        "Prawns are crustaceans."
+      ],
+      "SpanishExamples": [
+        "Los langostinos son crustáceos."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Raw",
+      "Pronunciation": "/rooo/",
+      "Meanings": [
+        "Crudo"
+      ],
+      "EnglishExamples": [
+        "Not everyone who orders a steak Tartar knows it consists of raw meat."
+      ],
+      "SpanishExamples": [
+        "No todos los que ordenan un filete tártaro saben que consiste en carne cruda."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Raspberry",
+      "Pronunciation": "/raaasbery/",
+      "Meanings": [
+        "Frambuesa"
+      ],
+      "EnglishExamples": [
+        "Belinda picked raspberries from the garden to make a cake."
+      ],
+      "SpanishExamples": [
+        "Belinda cogió frambueas del jardín para hacer una tarta."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Roast",
+      "Pronunciation": "/ruust/",
+      "Meanings": [
+        "Asar"
+      ],
+      "EnglishExamples": [
+        "On her birthday, he made roast beef with vegetable"
+      ],
+      "SpanishExamples": [
+        "No todos los que ordenan un filete tártaro saben que consiste en carne cruda."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Sauce",
+      "Pronunciation": "/sooos/",
+      "Meanings": [
+        "Salsa"
+      ],
+      "EnglishExamples": [
+        "Roast pork is traditionally served with apple sauce."
+      ],
+      "SpanishExamples": [
+        "El cerdo asado se sirve tradicionalmente con salsa de manzana."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Sausage",
+      "Pronunciation": "/sosich/",
+      "Meanings": [
+        "Salchicha"
+      ],
+      "EnglishExamples": [
+        "Italian sausage with roasted green peppers and onions make a wonderful main course."
+      ],
+      "SpanishExamples": [
+        "Las salchichas Italianas con pimientos verdes y cebollas asados hacen un primer plato increible."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Steam",
+      "Pronunciation": "/stiim/",
+      "Meanings": [
+        "Vapor,Cocer al vapor"
+      ],
+      "EnglishExamples": [
+        "Steam is produced by boiling liquid water."
+      ],
+      "SpanishExamples": [
+        "El vapor se produce hirviendo agua líquida."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Strawberry",
+      "Pronunciation": "/ssstrobery/",
+      "Meanings": [
+        "Fresa"
+      ],
+      "EnglishExamples": [
+        "We have wild strawberries growing in the back yard."
+      ],
+      "SpanishExamples": [
+        "Tenemos fresas salvajes creciendo en el patio trasero."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Stew",
+      "Pronunciation": "/ssstiu/",
+      "Meanings": [
+        "Estofado"
+      ],
+      "EnglishExamples": [
+        "Drew has food poisoning. The beef stew must have been bad. "
+      ],
+      "SpanishExamples": [
+        "Drew tiene intonxicación. El estofado de carne debe haberse puesto malo."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Syrup",
+      "Pronunciation": "/siirap/",
+      "Meanings": [
+        "Jarabe",
+        "Sirope"
+      ],
+      "EnglishExamples": [
+        "You have a terrible cough, I'll buy you a cough syrup, ok?",
+        "I would like a little chocolate syrup and nuts on my ice cream."
+      ],
+      "SpanishExamples": [
+        "Tienes una tos horrible, te compraré un jarabe para la tos, ok?",
+        "Me gustaría un poco de sirope de chocolate y nueces en mi helado."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Turnip",
+      "Pronunciation": "/teernip/",
+      "Meanings": [
+        "Nabo"
+      ],
+      "EnglishExamples": [
+        "Agnes served a side of turnips with the meal."
+      ],
+      "SpanishExamples": [
+        "Agnes sirvio nabos de los nabos con la comida."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Walnut",
+      "Pronunciation": "/uoolnat/",
+      "Meanings": [
+        "Nuez"
+      ],
+      "EnglishExamples": [
+        "These bars are a great healthy snack, they have walnuts, fruits and oats."
+      ],
+      "SpanishExamples": [
+        "Estas barras son un gran sano temtenpié, llevan nueces, fruta y avena."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Watermelon",
+      "Pronunciation": "/uatamelon/",
+      "Meanings": [
+        "Sandía"
+      ],
+      "EnglishExamples": [
+        "Watermelon is very refreshing in the summer."
+      ],
+      "SpanishExamples": [
+        "La sandía es muy refrescante en verano."
+      ]
+    },
+    {
+      "Category": "FOOD",
+      "VocabularyWord": "Yolk",
+      "Pronunciation": "/yeeulk/", 
+      "Meanings": [
+        "Yema"
+      ],
+      "EnglishExamples": [
+        "I love the taste of an egg yolk, but that part of the egg has themost cholesterol, so I try to eat only the egg whites."
+      ],
+      "SpanishExamples": [
+        "Me encanta el sabor de la yema de huevo, pero es la parte del huevo que más colesterol tiene, a si que intento solo comer la clara."
+      ]
+    }
+  ]
+}

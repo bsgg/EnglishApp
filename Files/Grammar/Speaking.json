@@ -1,0 +1,130 @@
+{
+	"Data":
+	[	
+		{
+			"Title": "Gotta + vb",
+			"Description": "Gotta + vb - something has to be done.",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Gotta + verb: </color><color=#c9e8ff>  Got to. It's grammaticaly incorrect, It uses in speaking form.</color>",
+				"R02:<color=#5bd3de>Have gotta + verb: </color><color=#c9e8ff>It means the same but is slyghly different form gotta. It means Something has to be done in near future.</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:I gotta move to a bigger house.",
+				"R01:He's gotta be good at something.Everybody is good at something.",
+				"R01:I gotta brush my teeth.",
+				"R01:You gotta tell him you need sleep.",
+				
+				"R02:I’ve gotta try harder at school.",
+				"R02:I’ve gotta tell my wife I’ll be late.",
+				"R02:I've gotta go get ready.",
+				"R02:It's gotta be well past midnight!"
+			],
+			"SpanishExamples":
+			[ 
+				"Tengo que mudarme a una casa más grande",
+				"Tiene que ser bueno en algo. Todo el mundo es bueno en algo.",
+				"Tengo que lavarme los dientes.",
+				"Tienes que decirle que necesitas dormir.",
+				
+				"Tengo que estudiar más en el colegio.",
+				"Tengo que decirle a mi mujer que llegaré tarde.",
+				"Tengo que ir a prepararme.",
+				"Tendrá que estar bien pasada la media noche."
+			]
+		},
+		{
+			"Title": "Gonna + vb",
+			"Description": "Gonna + vb - something will be done in the future",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Gonna + verb: </color><color=#c9e8ff>  Going to. It's grammaticaly incorrect, It uses in speaking form.</color>"
+			],			
+			"EnglishExamples":
+			[
+				"R01:I'm gonna have some coffee.",
+				"R01:I'm gonna run a marathon.",
+				"R01:I'm gonna ask her out for dinner.",
+				"R01:I'm gonna take swim lessons."
+			],
+			"SpanishExamples":
+			[ 
+				"Voy a tomar café.",
+				"Voy a correr una maratón.",
+				"Voy a pedirla salir a cenar.",
+				"Voy a tomar clases de natación"
+			]
+		},
+		{
+			"Title": "Mean",
+			"Description": "Mean or Not Mean - Intención, Querer decir",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Mean: </color><color=#c9e8ff>  Intención o Querer decir</color>",
+				"R02:<color=#5bd3de>Not mean: </color><color=#c9e8ff>No tener intención de hacer algo</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:What do you mean?",
+				"R01:I mean it, he is very mean.",
+				"R01:I mean, I swear!",
+				"R01:What does the word 'available' mean?",				
+				
+				"R02:I didn't mean to do that.",
+				"R02:I didn't mean to hurt your feelings.",
+				"R02:I didn't mean to embarrass you.",
+				"R02:I didn't mean to lie about what happened."
+			],
+			"SpanishExamples":
+			[ 
+				"¿Qué quieres decir?",
+				"Lo digo en serio, es muy malo.",
+				"¡Osea lo juro!",
+				"¿Qué quiere decir la palabra 'disponible'?",
+				
+				"No tenía la intención de hacer eso",
+				"No tenía la intención de herir tus sentimientos",
+				"No tenía la intención de avengonzarte.",
+				"No quería mentirte sobre lo que pasó."
+			]
+		},
+		{
+			"Title": "Wanna + vb",
+			"Description": "Wanna + vb - Help to communicate something you want to do.",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Wanna + verb: </color><color=#c9e8ff>  Want to. It's grammaticaly incorrect, It uses in speaking form.</color>",
+				"R02:<color=#5bd3de>Don't wanna + verb: </color><color=#c9e8ff>It's the opposite of want to - don't want to do something.</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:I wanna talk.",
+				"R01:I wanna search for a job.",
+				"R01:I wanna order some food.",
+				"R01:I wanna marry him.",				
+				
+				"R02:I don't wanna talk.",
+				"R02:I don't wanna marry her.",
+				"R02:I don't wanna listen to that song.",
+				"R02:I don't wanna order some food."
+			],
+			"SpanishExamples":
+			[ 
+				"Quiero hablar.",
+				"Quiero buscar un trabajo.",
+				"Quiero pedir algo de comida.",
+				"Quiero casarme con él.",
+				
+				"No quiero hablar.",
+				"No quiero buscar un trabajo.",
+				"No quiero escuchar esa canción",
+				"No quiero pedirme comida."
+			]
+		}
+	]
+}

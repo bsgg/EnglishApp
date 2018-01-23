@@ -1,0 +1,44 @@
+{
+	"Data":
+	[	
+		{
+			"Title": "Passive voice",
+			"Description": "It's used to show interest in the person or object that experiences.",		
+			"ExtraInfo":"",				
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Transitive verbs: </color><color=#c9e8ff> It has active and passive form</color>",
+				"R02:<color=#5bd3de>It used when: </color><color=#c9e8ff>  We don't know who did something or went isn't important.</color>",
+				"R03:<color=#5bd3de>It used when: </color><color=#c9e8ff> Refering to ourselves. Instead of Ellos me dijeron: I was told to... </color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:The hunter killed the lion. == The lion was killed by the hunter.",
+				"R01:Someone has cleaned the windows. == The windows have been cleaned.",
+				"R01:I gave him a book for his birthday. == He was given a book for his birthday.",
+				
+				"R02:I think loads of films have been made there",
+				"R02:My room is being cleaned",
+				"R02:The meeting was called off.",
+				
+				"R03:I was told to contact you. /  I have been told to contact you",
+				"R03:I've been given a second-hand phone.",
+				"R03:I was told to finish this task first."
+			],
+			"SpanishExamples":
+			[ 
+				"El cazador mato al leon == El león fue matado por el cazador.",
+				"Alguien ha limpado las ventanas. == Las ventanas han sido limpiadas.",
+				"Le di un libor por su cumpleaños. == Le dieron un libro por su cumpleaños.",
+				
+				"Creo que muchos películas han sido hechas allí.",
+				"Mi habitación ha sido limpiada.",
+				"La reunión fue cancelada.",
+				
+				"Me han dicho que contacte contigo. Me dijeron que contactara contigo",
+				"Me han dado un teléfono de segunda mano.",
+				"Me dijeron que acabara esta tarea primero."
+			]
+		}
+	]
+}

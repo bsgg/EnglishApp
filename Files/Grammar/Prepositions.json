@@ -1,0 +1,387 @@
+{
+	"Data":
+	[
+		{
+			"Title": "Between vs Among",
+			"Description": "Between and Among means 'Entre' ",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Between: </color><color=#c9e8ff>It used to a choice between two distinct things </color>",
+				"R02:<color=#5bd3de>Among: </color><color=#c9e8ff>It used when there are more than two choices </color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:Ah, you noticed the sparks between me and Mrs. Bromwyn.",
+				"R01:You can choose between the two available beds.",
+				"R01:I'm meeting Bernice sometime between noon and 1pm.",
+				"R01:Our holiday house is between the mountains and the sea.",
+				
+				"R02:The ancient fountain was hidden among the trees. ",
+				"R02:She wanted to be among friends.",
+				"R02:Among chocolate, vanilla, and strawberry, which do you want?",
+				"R02:Among his books, we found some rare first editions."
+			],
+			"SpanishExamples":
+			[ 
+				"Ah, te diste cuenta de chispas entre Mrs Bromwyn y yo.",
+				"Puedes elegir entre las dos camas disponibles.",
+				"Voy a ver a Bernice entre las 9 y la 1.",
+				"Nuestra casa de vacaciones está entre las montañas y el mar.",
+				
+				"La fuente antigua estaba oculta entre los árboles.",
+				"Quería estar entre amigos.",
+				"Entre chocolate, vainilla y fresa, ¿cual quieres?",
+				"Entre sus libros, encontramos algunas raras primeras ediciones."
+			]
+		},
+		{
+			"Title": "For vs During",
+			"Description": "For and During means 'Durante' ",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>For: </color><color=#c9e8ff>For + period of Time = </color><color=#5bd3de>For is used when the next element is a period of time.</color>",
+				"R02:<color=#5bd3de>During: </color><color=#c9e8ff>During + noun = </color><color=#5bd3de>During is used when the next element is a noun.</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:I lived in New York for a year.",
+				"R01:I lived in England for a long time.",
+				"R01:I was snowed under for three weeks.",
+				"R01:Ray and Rebecca were married for a few years.",
+				
+				"R02:During the summer, I went to New York.",
+				"R02:I visited London during the Olympics.",
+				"R02:I had a lot of work during the Christmas holidays. I was snowed under.",
+				"R02:I fell asleep during his speech."
+			],
+			"SpanishExamples":
+			[ 
+				"Viví en Nueva York durante un año.",
+				"Viví en Inglaterra durante mucho tiempo.",
+				"Estuve hasta arriba de trabajo durante tres semanas",
+				"Ray y Rebecca estuvieron casados unos años",
+				
+				"Durante el verano, fui a New York.",
+				"Visité Londres durante los Juegos Olímpicos.",
+				"Tuve que trabajar durante las vacaciones de Navidad. Estaba hasta arriba de trabajo.",
+				"Me quedé dormido durante su discurso."
+			]
+		},
+    {
+      "Title": "From & To",
+      "Description": "From -> desde - To -> Hasta",
+      "ExtraInfo": "",
+      "Rules": [
+        "R01:<color=#5bd3de>From & To: </color><color=#c9e8ff>Movimiento </color><color=#5bd3de>Desde ... hasta ....</color>",
+        "R02:<color=#5bd3de>During: </color><color=#c9e8ff>During + noun = </color><color=#5bd3de>During is used when the next element is a noun.</color>"
+      ],
+      "EnglishExamples": [
+        "R01:I’m going to the centre. Do you want to come?",
+        "R01:I need to go to the toilet.",
+        "R01:She’s coming from the office.",
+        "R01:Could you come from the office straight to my Mum’s house?",
+
+        "R02:I work from Monday to Friday, from nine am to six pm.",
+        "R02:He went to university from 2001 to 2005.",
+        "R02:We lived in Paris from February to November.",
+        "R02:I’ll be there from 17:00 till 21:00."
+      ],
+      "SpanishExamples": [
+        "Voy al centro. ¿Quieres venir?",
+        "Necesito ir al baño.",
+        "Viene de la oficina.",
+        "¿Puedes venir de la oficina directamente a la casa de mi madre?",
+
+        "Trabajo de lunes a viernes, desde las 9:00 hasta las 18:00",
+        "El fue a la universidad desde 2001 hasta 2005.",
+        "Vivimos en París desde febrero hasta noviembre.",
+        "Estaré allí desde las 17:00 hasta las 21:00."
+      ]
+    },
+    {
+			"Title": "In Front of & Behind",
+			"Description": "Delante de & Detrás de",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>In Front of: </color><color=#c9e8ff>Delante de</color>",
+				"R02:<color=#5bd3de>Behind (without of!!): </color><color=#c9e8ff>Detrás de</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:Rose is in front of Jack",
+				"R01:I was in front of you",
+				"R01:The swimming pool is in front of the house.",
+				"R01:Your shoes were in front of the sofa. Pick them up!",
+				
+				"R02:Jack is behind Rose",
+				"R02:Don’t worry, I’m right behind you",
+				"R02:The wall was behind the garage",
+				"R02:My shoes were behind the table"
+			],
+			"SpanishExamples":
+			[ 
+				"Rose está delante de Jack",
+				"Estaba delante de ti",
+				"La piscina está delante de la casa.",
+				"Tus zapatos estaban delante del sofá. ¡Recógelo!",
+				
+				"Jack está detrás de Rose",
+				"No te preocupes. Estoy justo detrás de tí.",
+				"La pared estaba detrás del garaje",
+				"Mis zapatos estaban detrás de la mesa"
+			]
+		},
+		{
+			"Title": "Nex to VS Near",
+			"Description": "Al lado - Cerca",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Next to: </color><color=#c9e8ff>Al lado de... </color><color=#5bd3de>Next to and Beside are exchangeable, but Beside goes without the preposition to.</color>",
+				"R02:<color=#5bd3de>Near: </color><color=#c9e8ff>Cerca de... </color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:I'll put it next to (beside) the window",
+				"R01:I'll put it next to (beside) the shower.",
+				"R01:I'll put it next to (beside) the microwave.",
+				"R01:I'll put the cactus next to (beside) the geraniums",
+				
+				"R02:I think I'll put it near the fireplace.",
+				"R02:I think I'll put it near the balcony.",
+				"R02:I think I'll put it near the bathroom sink.",
+				"R02:I think I'll put it near the wardrobe."
+			],
+			"SpanishExamples":
+			[ 
+				"Lo pondré al lado de la ventana",
+				"Lo voy a poner al lado de la ducha",
+				"Lo voy a poner al lado del microondas",
+				"Voy a poner el cactus al lado de los geranios",
+				
+				"Creo que lo voy a poner cerca de la chimenea.",
+				"Creo que lo voy a poner cerca del balcón.",
+				"Creo que lo voy a poner cerca del lavabo.",
+				"Creo que lo pondré cerca del armario."
+			]
+		},	
+		{
+			"Title": "On vs At (Place)",
+			"Description": "Place Prepositions",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>On: </color><color=#c9e8ff>If the direction comes without the number of the street.</color>",
+				"R02:<color=#5bd3de>At: </color><color=#c9e8ff>If the direction comes with the number of the street.</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:I’m on Oxford Street.",
+				"R01:Where are you? I’m on Whitechapel Road.",
+				"R01:Where’s Erik? He’s on Gunthorpe Street.",
+				"R01:Where are your friends? They’re on Commercial Street.",
+				
+				"R02:Alice lives at number 32 Oxford Street.",
+				"R02:Where are you? I’m at number 57 Whitechapel Road.",
+				"R02:Where’s Erik? He’s at number 42 Gunthorpe Street",
+				"R02:Where are your friends? They’re at number 81 Commercial Street."
+			],
+			"SpanishExamples":
+			[ 
+				"Estoy en Oxford Street.",
+				"¿Dónde estás? Estoy en Whitechapel Road.",
+				"¿Dónde está Erik? Está en Gunthorpe Street.",
+				"¿Dónde están tus amigos? Están en Commercial Street.",
+				
+				"Alice vive en el número 21 de Oxford Street.",
+				"¿Dónde estás? Estoy en el 57 Whitechapel Road.",
+				"¿Dónde está Erik? Está en el 42 Gunthorpe Street.",
+				"¿Dónde están tus amigos? Están en el 81 Commercial Street."
+			]
+		},				
+		{
+			"Title": "On vs In (Position)",
+			"Description": "Position Prepositions",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>On: </color><color=#c9e8ff>means on top of something (encima de).</color>",
+				"R02:<color=#5bd3de>In: </color><color=#c9e8ff>means inside something (dentro de).</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:The man is on the pavement.",
+				"R01:Your wallet is on the box.",
+				"R01:Did you put my bag on the sofa?",
+				"R01:Please don’t put your coat on the bed, hang it up.",
+				
+				"R02:The book is in the room.",
+				"R02:I cycled in the park.",
+				"R02:Did you put my bag in the wardrobe?",
+				"R02:And where’s the box? The box is in the suitcase."
+			],
+			"SpanishExamples":
+			[ 
+				"El hombre está en la acera.",
+				"Tu cartera está encima de la caja.",
+				"¿Pusiste mi bolso en el sofá?",
+				"Por favor no pongas tu abrigo en la cama, cuélgalo.",
+				
+				"El libro está dentro de la habitación.",
+				"Fui en bici por el parque.",
+				"¿Pusiste mi bolso en el armario?",
+				"Y, ¿Dónde está la caja? La caja está dentro de la maleta."
+			]
+		},		
+		{
+			"Title": "On vs In (Time)",
+			"Description": "Time Prepositions",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>On: </color><color=#c9e8ff>Days of the week (on Friday, on Sunday) or specifics days (on fourteenth monday).</color>",
+				"R02:<color=#5bd3de>In: </color><color=#c9e8ff>Months (in June, in April</color>",
+				"R03:<color=#5bd3de>In: </color><color=#c9e8ff>Years (in 1852, 1986)l</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:We’re going out for dinner on Friday",
+				"R01:We’re going to a nice spot for dinner on the thirteenth.",
+				"R01:We’re going to a new spot for lunch on Friday the fifteenth.",
+				"R01:Matt Damon was born on Thursday the eighth of October 1970.",
+				
+				"R02:We’re going to Canada in July.",
+				"R02:I was in London in September.",
+				"R02:In October, we usually go to a nice spot by the beach.",
+				"R02:Queen Elizabeth I was born in September 1533.",
+				
+				"R03:I was born in 1986.",
+				"R03:My sister was born in 1988.",
+				"R03:His father was born in 1957.",
+				"R03:In 1666, a great fire broke out in London."
+			],
+			"SpanishExamples":
+			[ 
+				"Vamos a salir a cenar el viernes.",
+				"Vamos a un bonito sitio para cenar el 13.",
+				"Vamos a un nuevo sitio a comer el viernes 15.",
+				"Matt Damon nació en jueves 8 de octubre de 1970.",
+				
+				"Vamos a Canadá en Julio.",
+				"Estuve en Londres en Septiembre.",
+				"En octubre, solemos ir a un lugar agradable al lado de la playa.",
+				"La reina Elizabeth I nació en Septiembre de 1533.",
+				
+				"Nací en 1986.",
+				"Mi hermana nació en 1988.",
+				"Su padre nació en 1957.",
+				"En 1666, un enorme fuego estalló en Londres."
+			]
+		},
+		{
+			"Title": "That vs Which",
+			"Description": "Both prepositions means: cual, que",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>That: </color><color=#c9e8ff>It’s used when the information given after that word is relevant to understand the sentence.</color>",
+				"R02:<color=#5bd3de>Which: </color><color=#c9e8ff>It’s used when the information given after that word is not relevant to understand the sentence, so it can be omitted</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:The car that crashed into the lamppost has now been removed.",
+				"R01:The old Haymarket Theatre is one of many buildings in Leicester that can actually be used to house homeless people in the winter.",
+				"R01:The story that Millie told me did not mention a Tim at all.",
+				"R01:Dogs that bark scare me.",
+				
+				"R02:Our school, which is a public school, has a nice library.",
+				"R02:My bicycle, which I got for Christmas, weighs five kilos.",
+				"R02:Dogs, which make great pets, can be expensive.",
+				"R02:There was an earthquake in China, which is bad news."
+			],
+			"SpanishExamples":
+			[ 
+				"El coche que se estrelló contra el poste has sido quitado ahora.",
+				"El viejo teatro Haymarket es uno de los muchos edificios de Leicester que puede de hecho ser usado como casa para gente sin casa en invierno.",
+				"La historia que Millie me contó no mencionó a Tim en absoluto.",
+				"Los perros que ladran me asustan.",
+				
+				"Nuestro colegio, el cual es público, tiene una buena biblioteca.",
+				"Mi bicicleta, que recibí en Navidad, pesa 5 kilos.",
+				"Los perros, que son grandes mascotas, pueden ser caros.",
+				"Hubo un terremoto en China, lo que son malas noticias."
+			]
+		},
+		{
+			"Title": "To vs For",
+			"Description": "Prepositions for direction",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>To: </color><color=#c9e8ff>When it’s a transfer or an exchange, we give something to someone.</color>",
+				"R02:<color=#5bd3de>For: </color><color=#c9e8ff>When it’s a benefit or good, we do something good for someone.</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:I gave this beer to her (transfer).",
+				"R01:I’m going to talk to you.",
+				"R01:I go to school.",
+				"R01:I go to work for money.",
+				
+				"R02:I made this lesson for her (benefit).",
+				"R02:I will do that for you.",
+				"R02:I sing for you.",
+				"R02:I brought a bone for my dog."
+			],
+			"SpanishExamples":
+			[ 
+				"Le di esta cerveza a ella.",
+				"Voy hablar contigo.",
+				"Voy a la escuela.",
+				"Voy al trabajo por dinero.",
+				
+				"Hice esta lección para ella.",
+				"Lo haré por ti.",
+				"Canto para ti.",
+				"Traje un hueso para mi perro."
+			]
+		},
+		{
+			"Title": "Who vs Whom",
+			"Description": "Prepositions for direction",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Who: </color><color=#c9e8ff>Used to refer the person responsible for an action (i.e. the subject) with a clause. (he == who).</color>",
+				"R02:<color=#5bd3de>Whom: </color><color=#c9e8ff>Used to refer to a person who is on the receiving end of the action (i.e. the object) (him == whom).</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:Those are the girls who threw my birthday party..",
+				"R01:I don’t know who called us earlier.",
+				"R01:We all know who pulled that prank. ",
+				"R01:You’ll be shocked when I tell you who called me last night.",
+				
+				"R02:I don’t know whom I am going to vote for.",
+				"R02:Dale is whom I believe stole your wallet.",
+				"R02:We all know whom the book was about.",
+				"R02:Whom should I ask to the dance?."
+			],
+			"SpanishExamples":
+			[ 
+				"Esas son las chicas que montaron mi fiesta de cumpleaños.",
+				"No se quien llamó antes.",
+				"Todos sabemos quien empezó esa broma.",
+				"Te quedarás en shock cuando te diga quien me llamó anoche.",
+				
+				"Durante el verano, fui a New York.",
+				"Dale es quien creo que robó la cartera.",
+				"Todos sabemos sobre quién era el libro.",
+				"¿A quién debería preguntar para el baile?"
+			]
+		}		
+	]
+}

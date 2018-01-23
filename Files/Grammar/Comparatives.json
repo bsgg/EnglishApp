@@ -1,0 +1,28 @@
+{
+	"Data":
+	[	
+		{
+			"Title": "Comparatives 2",
+			"Description": "Es cada vez más/menos..",	
+			"ExtraInfo":"Table_Data/Grammar/Comparatives/TableComparatives",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Basic Structure: </color><color=#c9e8ff>  Vb Get/Become + Adj comparative form + Adj comparative form (more and more)</color>"				
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:It’s getting easier and easier to find a job.",
+				"R01:It’s getting easier and easier to work from home.",
+				"R01:As you advance from one level to the next, the homework gets more and more difficult.",
+				"R01:As the conference went on, the lectures got more and more boring."
+			],
+			"SpanishExamples":
+			[ 
+				"Es cada vez más fácil encontrar trabajo.",
+				"Es cada vez más fácil trabajar desde casa.",
+				"A medida que avanzas de nivel, los deberes se hacen cada vez más difíciles.",
+				"A medida que transcurría el congreso, los conferenciantes estaba más aburridos."
+			]
+		}
+	]
+}

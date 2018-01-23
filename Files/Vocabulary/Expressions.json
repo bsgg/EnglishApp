@@ -1,0 +1,1175 @@
+{
+	"Data":
+	[
+		{
+			"VocabularyWord": "A Bed of roses",
+			"Meanings": 
+			[
+				"Un camino de rosas"
+			],			
+			"EnglishExamples":
+			[ 
+				"How was the meeting? Well, it wasn't exactly a bed of roses.",
+				"What's your new job like? Well, it's not exactly a bed of roses.",
+				"How has the last year been? Well, it hasn't exactly been a bed of roses. But it'll be alrigth."
+			],
+			"SpanishExamples":
+			[ 
+				"¿Como fue la reunión? Bien, no fue exáctamente un camino de rosas.",
+				"¿Cómo es tu nuevo trabajo? Bueno, no es exáctamente un camino de rosas.",
+				"¿Como ha ido este último año? Bueno, no ha sido exáctamente un camino de rosas. Pero estará bien."
+			]
+		},
+		{
+			"VocabularyWord": "At the moment",
+			"Meanings": 
+			[
+				"En este momento"
+			],			
+			"EnglishExamples":
+			[ 
+				"What are they doing at the moment?",
+				"I'm busy at the moment, but we can talk later."
+			],
+			"SpanishExamples":
+			[ 
+				"¿Qué están haciendo en este momento?",
+				"Estoy ocupado en este momento, pero podemos hablar después."
+			]
+		},	
+		{
+			"VocabularyWord": "At once",
+			"Meanings": 
+			[
+				"Al la vez"
+			],			
+			"EnglishExamples":
+			[ 
+				"I can't clean the house and take care of the children at once.",
+				"All at once, I heard a noise in the kitchen."
+			],
+			"SpanishExamples":
+			[ 
+				"No puedo limpiar la casa y cuidar de los niños todo a la vez.",
+				"Todo a la vez, oí un ruido en la cocina."
+			]
+		},	
+		{
+			"VocabularyWord": "An arm and a leg",
+			"Meanings": 
+			[
+				"Un ojo de la cara (mucho)"
+			],			
+			"EnglishExamples":
+			[ 
+				"This holidays are going to cost an arm and a leg!"
+			],
+			"SpanishExamples":
+			[ 
+				"Estas vacaciones van a costar un ojo de la cara (mucho)!"
+			]
+		},
+		{
+			"VocabularyWord": "A pain in the neck",
+			"Meanings": 
+			[
+				"Ser un pesado, Ser un coñazo"
+			],			
+			"EnglishExamples":
+			[ 
+				"Tom, you are such a pain in the neck! What do you want now?",
+				"It's a pain in the neck not having a phone in the office."
+			],
+			"SpanishExamples":
+			[ 
+				"Tom, tu eres tan pesada! ¿Qué quieres ahora?",
+				"Es un coñazo no tener un teléfono en la oficina."
+			]
+		},
+		{
+			"VocabularyWord": "A pain in the arse",
+			"Meanings": 
+			[
+				"Ser un pesado, Ser un coñazo"
+			],			
+			"EnglishExamples":
+			[ 
+				"Parking in the city center is a pain in the arse.",
+				"Taking out hte rubbish is a pain in the arse.",
+				"This is a starting to become a pain in the arse."
+			],
+			"SpanishExamples":
+			[ 
+				"Aparcar en el centro de la ciudad es un coñazo.",
+				"Sacar la basura es un coñazo.",
+				"Esto esto está empezando a ser un coñazo."
+			]
+		},
+		{
+			"VocabularyWord": "Ask for trouble / it",
+			"Meanings": 
+			[
+				"Buscarse problemas"
+			],			
+			"EnglishExamples":
+			[ 
+				"Do you think I’d asking for trouble if I told her what I think?",
+				"The man was arrested at the demonstration was really asking for it.",
+				"I don’t like shouting but she’s been asking for it all afternoon."
+			],
+			"SpanishExamples":
+			[ 
+				"¿Crees que me estaría buscando problemas si le dijera lo que pienso?",
+				"El hombre detenido en la manifestación, se lo estaba buscando.",
+				"No me gusta gritar pero ella lleva toda la tarde buscándoselo"
+			]
+		},
+		{
+			"VocabularyWord": "Be a couch Potato",
+			"Meanings": 
+			[
+				"Ser muy vago"
+			],			
+			"EnglishExamples":
+			[ 
+				"Stop being a couch potato!, Get up and do something productive!",
+				"You're becoming a couch potato. You should get some exercise!"
+			],
+			"SpanishExamples":
+			[ 
+				"¡Deja de ser tan vago, Levántate y haz algo productivo!",
+				"Te estás combirtiendo un vago. ¡Deberías hacerías hacer algo de ejercicio!"
+			]
+		},
+		{
+			"VocabularyWord": "Beat around the bush",
+			"Meanings": 
+			[
+				"Andar con rodeos, Andar por las ramas, Marear la perdíz."
+			],			
+			"EnglishExamples":
+			[ 
+				"Come on, don’t beat around the bush! Tell me what you want.",
+				"Come on, don’t beat around the bush! Tell me what you think.",
+				"Let’s not beat around the bush! We all know the truth."
+			],
+			"SpanishExamples":
+			[ 
+				"Vamos, no te andes por las ramas! Dime lo que quieres.",
+				"Vamos, no te andes por las ramas! Dime lo que piensas.",
+				"¡No nos andemos con rodeos! Todos sabemos la verdad."
+			]
+		},
+		{
+			"VocabularyWord": "Better late than never",
+			"Meanings": 
+			[
+				"Más vale tarde que nunca"
+			],			
+			"EnglishExamples":
+			[ 
+				"The essay was due on Monday. I handed it in on Wednesday. Better late than never!",
+				"I'm sorry I'm late to the party. Better late than never,",
+				"Jill: Lisa's birthday was two weeks ago. Should I send her a card now?  - Jane: Better late than never."
+			],
+			"SpanishExamples":
+			[ 
+				"El ensayo era para entregar el Lunes, lo entregué el miércoles. ¡Más vale tarde que nunca!",
+				"Siento llegar tarde a la fiesta, mejor tarde que nunca.",
+				"Jill: El cumpleaños de Lisa fue hace dos semanas. ¿Debería enviarla una tarjeta ahora?  - Jane: Mejor tarde que nunca."
+			]
+		},
+		{
+			"VocabularyWord": "Bummer",
+			"Meanings": 
+			[
+				"¡Que mierda!, Que lata"
+			],			
+			"EnglishExamples":
+			[ 
+				"It is a real bummer that you didn't get the job. I'm sorry",
+				"I've got plans to take a trip to Hawaii this summer! It would be a bummer if they dind't not work out."
+			],
+			"SpanishExamples":
+			[ 
+				"Es una verdadera mierda que no consiguieras el trabajo. Lo siento.",
+				"¡Tengo planes de hacer un viaje a Hawaii este verno! Sería una mierda que no funcionara."
+			]
+		},
+		{
+			"VocabularyWord": "Call it a day!",
+			"Meanings": 
+			[
+				"¡Día por terminado, Acabar el día!"
+			],			
+			"EnglishExamples":
+			[ 
+				"I earned a thousand bucks today. I'm going to call it a day!",
+				"I'm tired. Let's call it a day",
+				"The boss was mad because Tom called it a day at noon and went home."
+			],
+			"SpanishExamples":
+			[ 
+				"He ganado mil pavos hoy. ¡Voy a dar el día por terminado, voy a dejarlo por hoy!",
+				"Estoy cansado. Dejémolos por hoy.",
+				"El jefe estaba enfadado porque Tom dio el día por terminado a las 9 y se fue a casa."
+			]
+		},
+		{
+			"VocabularyWord": "Cheap and cheerful",
+			"Meanings": 
+			[
+				"Bueno y barato"
+			],			
+			"EnglishExamples":
+			[ 
+				"They specialize in cheap and cheerful package holidays to Spain and Portugal.",
+				"There's a cheap and cheerful coffee shop on the next street which sells quite a good selection of sandwiches."
+			],
+			"SpanishExamples":
+			[ 
+				"Están especializados en paquetes de vacaciones de España a Portugal, buenas y baratas",
+				"Hay una cafetería buena y barata en la siguiente calle que vende una gran selección de sandwiches."
+			]
+		},
+		{
+			"VocabularyWord": "Can't beleive your ears",
+			"Meanings": 
+			[
+				"Estar sorpendido de oir algo"
+			],			
+			"EnglishExamples":
+			[ 
+				"She couldn't believe her ears when they told her Jim had been arrested.",
+				"What was he saying? I could hardly believe my ears!"
+			],
+			"SpanishExamples":
+			[ 
+				"Ella no podía creer lo que oía cuando la dijeron que Jim había sido arrestado.",
+				"¿Qué estaba diciendo? ¡Apenas No pude creerme lo que decía!."
+			]
+		},
+		{
+			"VocabularyWord": "Damn it!",
+			"Meanings": 
+			[
+				"¡Mierda!"
+			],			
+			"EnglishExamples":
+			[ 
+				"Damn it! Where are my glasses? I need to leave now!",
+				"Damn it! Where's Sarah? We need to leave now!",
+				"Damn it! Where's my ticket? I'm going to miss the damn flight!"
+			],
+			"SpanishExamples":
+			[ 
+				"¡Mierda! ¿Dónde están mis gafas? ¡Tengo que salir ya!",
+				"¡Mierda! ¿Dónde está Sarah? ¡Tenemos que salir ya!",
+				"¡Mierda! ¿Dónde está el ticket? ¡Voy a perder el maldito vuelo!"
+			]
+		},
+		{
+			"VocabularyWord": "Don't beat around the bush.",
+			"Meanings": 
+			[
+				"¡No te andes por las ramas!"
+			],			
+			"EnglishExamples":
+			[ 
+				"A: I'm sorry but can I ask you to do me a favour? I feel terrible about asking... - B: Of course what do you need? Don't be around the bush!.",
+				"B: Well ... I kinda ... maybe ... sorta ... - J: Don't beat around the bush and just tell me!"
+			],
+			"SpanishExamples":
+			[ 
+				"A: ¿Perdona pero puedo pedirte que me hagas un favor? Me seinto mal preguntando.... B: Claro ¿qué necesitas? ¡No te andes por las ramas!",
+				"B: Bien.. Un poco.... Quiza.... Puede.... - J: No te andes por las ramas y ¡dímelo!"
+			]
+		},
+		{
+			"VocabularyWord": "Don't take shit form anyone!",
+			"Meanings": 
+			[
+				"¡No aguantes ni una de nadie!"
+			],			
+			"EnglishExamples":
+			[ 
+				"Don't take shit from anyone. You're really good!.",
+				"My best piece of advice is not to take shit from anyone.",
+				"My best friend told me  no to take shit from anyone."
+			],
+			"SpanishExamples":
+			[ 
+				"No aguantes ni una de naide. ¡Vales mucho!",
+				"Mi mejor consejo es no aguantar nada de nadie.",
+				"Mi mejor amigo me dijo que no aguantara ni una de nadie."
+			]
+		},
+		{
+			"VocabularyWord": "Every cloud has a silver lining",
+			"Meanings": 
+			[
+				"Mirar el lado bueno de las cosas"
+			],			
+			"EnglishExamples":
+			[ 
+				"Even though I didn’t win the race yesterday, every cloud has a silver lining. I feel really fit and healthy from all the training I’ve been doing recently",
+				"I found a new job after all and I like this one much better than the last!.You see, every cloud has a silver lining.",
+				"I know your boyfriend ended your relationship, but remember that every cloud has a silver lining. You’ll find a new boyfriend soon!"
+			],
+			"SpanishExamples":
+			[ 
+				"Aunque no gane la carrera ayer, todo tiene un lado bueno. Me siento muy en forma de todo el ejercicio que he estado haciendo últimamente.",
+				"¡Encontré un nuevo trabajo después de todo y me g usta más este que el último!. ¿Ves? Todo tiene un lado bueno de las cosas.",
+				"Se que tu novio ha terminado la relación, pero todo tiene un lado bueno. ¡Encontrarás uno nuevo pronto!"
+			]
+		},
+		{
+			"VocabularyWord": "Full of himself",
+			"Meanings": 
+			[
+				"Creído, Engreido, Arrogante"
+			],			
+			"EnglishExamples":
+			[ 
+				"Travis was acting full of himself, when he wanted a table he clicked his fingers at Luigi's. "
+			],
+			"SpanishExamples":
+			[ 
+				"Travis estaba actuando arrogante, cuando quiso una mesa el chasqueó sus dedos en Luigi's"
+			]
+		},
+		{
+			"VocabularyWord": "Get wrong",
+			"Meanings": 
+			[
+				"No malinterpretar"
+			],			
+			"EnglishExamples":
+			[ 
+				"Don't get me wrong, I'd love to come, but I'm too busy next week.",
+				"My girlfriend really annoys me sometimes! Don’t get me wrong. I love her, but sometimes she’s difficult to be with.",
+				"I really love to drink. Don’t get me wrong. I’m not an alcoholic; I just enjoy drinking.",
+				"Don't get me wrong, I see your point, but it´s completely out of the question"
+			],
+			"SpanishExamples":
+			[ 
+				"No me malinterpretes, me encataría venir, pero estoy demasiado ocupado la próxima semana.",
+				"¡Mi novia me molesta mucho a veces! No me malinterpretes. La quiero, pero a veces es dificil estar con ella.",
+				"Me encanta beber. No me malinterpretes. No soy alcohólico, solo me divierte beber.",
+				"NO me malinterpretes, entiendo lo que dices, pero esta completamente impensable."
+			]
+		},
+		{
+			"VocabularyWord": "Get on someone's nerves",
+			"Meanings": 
+			[
+				"Poner alguien de los nervios"
+			],			
+			"EnglishExamples":
+			[ 
+				"People eating popcorn at the cinema get on my nerves.",
+				"People talking on their phone on the bus get on my nerves.",
+				"People shouting get on my nervers.",
+				"He gets on my nerves"
+			],
+			"SpanishExamples":
+			[ 
+				"La gente que come palomitas en el cine me pone de los nervios.",
+				"Me pone de los nervios la gente que habla por el móvil en el autobús.",
+				"Me pone de los nervios la gente que grita.",
+				"El me pone de los nervios."
+			]
+		},
+		{
+			"VocabularyWord": "Great stuff!",
+			"Meanings": 
+			[
+				"¡Genial!"
+			],			
+			"EnglishExamples":
+			[ 
+				"The sales figures are up this week. Great stuff folks!"
+			],
+			"SpanishExamples":
+			[ 
+				"Las cifras de ventas están arriba esta semana. ¡Genial gente!"
+			]
+		},
+		{
+			"VocabularyWord": "Get the hang of something",
+			"Meanings": 
+			[
+				"Pillarle/Cogerle el truco"
+			],			
+			"EnglishExamples":
+			[ 
+				"How long Did it take the hang of your laptop?",
+				"It’s not that difficult you just have to get the hang of it.", 
+				"You've really got the hang of this game, haven't you?",
+				"I can't beleive you still haven't got the hang of this remote control."
+			],
+			"SpanishExamples":
+			[ 
+				"¿Cuánto tiempo te llevó pillarle el truco a tu portátil?",
+				"No es tan dificil solo tienes que cogerle el truco.",
+				"Vaya que si le has cogido el truco a este juego, ¿verdad?",
+				"No me puedo creer que todavía no hayas cogido el truco a este mando."
+			]
+		},
+		{
+			"VocabularyWord": "Give a shit",
+			"Meanings": 
+			[
+				"Dar igual, Importar una mierda"
+			],			
+			"EnglishExamples":
+			[ 
+				"I don't give a shit what Nigel thinks.",
+				"He doesn't give a shit about the girl, he's just dumped her on a text message!"
+			],
+			"SpanishExamples":
+			[ 
+				"Me importa una mierda lo que piense Nigel",
+				"¡No le importa una mierda la chica, acaba de dejarla por mensaje de texto!"
+			]
+		},
+		{
+			"VocabularyWord": "Have someone in the stitches",
+			"Meanings": 
+			[
+				"Partirse de risa"
+			],			
+			"EnglishExamples":
+			[ 
+				"They play had me in stitches.",
+				"Sheldom Cooper from The big bang theory had us in stitches.",
+				"The joke had me in stitches!"
+			],
+			"SpanishExamples":
+			[ 
+				"Me partí de risa con la obra",
+				"Nos partimos de risa con Sheldom Cooper de The big bang theory.",
+				"¡Me partí de risa con el chiste!"
+			]
+		},	
+		{
+			"VocabularyWord": "Hit the nail on the head",
+			"Meanings": 
+			[
+				"Dar en el clavo."
+			],			
+			"EnglishExamples":
+			[ 
+				"Rocksteady included the Batmobile in the last Batman game and they hit the nail on the head! (They nail it!)",
+				"Bob doesn't say much, but every now and then he hits the nail right on the head."
+			],
+			"SpanishExamples":
+			[ 
+				"Rocksteady incluyo el Batmobile en el último juego de Batman y dieron en el clavo.",
+				"Bob no dice mucho, pero de vez en cuando da en el clavo."
+			]
+		},	
+		{
+			"VocabularyWord": "How dare you!",
+			"Meanings": 
+			[
+				"¡Cómo te atreves!"
+			],			
+			"EnglishExamples":
+			[ 
+				"How dare you say I can't cook!",
+				"So you told her she was a fat cow? How dare you!!"
+			],
+			"SpanishExamples":
+			[ 
+				"Como te atreves a decir que no se cocinar!",
+				"¡A si que la dijiste que era una vaca gorda? ¡Como te atreves!"
+			]
+		},		
+		{
+			"VocabularyWord": "I can't help...",
+			"Meanings": 
+			[
+				"No puedo evitarlo"
+			],			
+			"EnglishExamples":
+			[ 
+				"I can't help wondering if she really knows what she's doing.",
+				"I couldn't help feeling a little disappointed.",
+				"I cann't help biting my nails when I am nervous.",
+				"I can't help smiling when I see her."
+			],
+			"SpanishExamples":
+			[ 
+				"No puedo evitar preguntarme si realmente sabe lo que está haciendo.",
+				"No pude evitar sentirme un poco decepcionado.",
+				"No puedo evitar morderme las uñas cuando estoy nerviosa.",
+				"No puedo evitar sonreir cuando la veo."
+			]
+		},
+		{
+			"VocabularyWord": "I could do with...",
+			"Meanings": 
+			[
+				"Me podría venir bien.."
+			],			
+			"EnglishExamples":
+			[ 
+				"My car could do with a good cleaning",
+				"I could do with having a beer.",
+				"You could do with a shower.",
+				"She could do with taking a break.",
+				"It's been a long day, I could do with a nap!"
+			],
+			"SpanishExamples":
+			[ 
+				"A mi coche le vendría bien una buena limpieza.",
+				"Me vendría bien tomar una cerveza.",
+				"Te vendría bien una ducha.",
+				"Le vendría bien tomar un descanso.",
+				"Ha sido un dia muy largo, ¡Me vendría muy bien una siesta!"
+			]
+		},
+		{
+			"VocabularyWord": "It's boiling",
+			"Meanings": 
+			[
+				"Muchisimo calor"
+			],			
+			"EnglishExamples":
+			[ 
+				"What's happening with the weather? I can't stand the heat, It's boiling!"
+			],
+			"SpanishExamples":
+			[ 
+				"¿Que pasa con el tiempo? No puedo aguantar el calor, ¡Hace muchísimo calor!"
+			]
+		},
+		{
+			"VocabularyWord": "It's mind blowing",
+			"Meanings": 
+			[
+				"Alucinante, flipante"
+			],			
+			"EnglishExamples":
+			[ 
+				"Have you been whale watching? It,s mind blowing.",
+				"Spending a week in the jungle was a mind-blowing experience."
+			],
+			"SpanishExamples":
+			[ 
+				"¿Has estado en las ballenas? Es alucinante.",
+				"Pasar una semana en la jungla fue una experiencia flipante."
+			]
+		},
+		{
+			"VocabularyWord": "It rings a bell",
+			"Meanings": 
+			[
+				"Me suena (algo)"
+			],			
+			"EnglishExamples":
+			[ 
+				"Your name rings a bell. Have we met before?",
+				"This song rings a bell.. Is it a well-known song?",
+				"Can you sing that again? It rings a bell."
+			],
+			"SpanishExamples":
+			[ 
+				"Tu nombre me suena... ¿nos conocemos?",
+				"Esta canción me suena... ¿Es una canción conocida?",
+				"¿Puedes cantar eso otra vez? Me suena de algo."
+			]
+		},
+		{
+			"VocabularyWord": "It's on the tip of my tongue!",
+			"Meanings": 
+			[
+				"¡Lo tengo en la punta de la lengua!"
+			],			
+			"EnglishExamples":
+			[ 
+				"I can't remember the name of the movie we watched last wednesday. It's on the tipo of my tongue!",
+				"I have his name right on the tip of my tongue.",
+				"John had the answer on the tip of his tongue, but Anne said it first."
+			],
+			"SpanishExamples":
+			[ 
+				"No me acuerdo del nombre de esa película que vimos el miércoles pasado. ¡Lo tengo en la punta de la lengua!",
+				"Tengo su nombre justo en la punta de la lengua.",
+				"Jonh tenía la respuesta en la punta de su lengua, pero Anne lo dijo primero."
+			]
+		},
+		{
+			"VocabularyWord": "Make up your mind",
+			"Meanings": 
+			[
+				"Decidirse"
+			],			
+			"EnglishExamples":
+			[ 
+				"Make up your mind!",
+				"He just can´t make up his mind.",
+				"Have they made up their mind yet?",
+				"I haven't made up my mind where to go ​yet."
+			],
+			"SpanishExamples":
+			[ 
+				"¡Decídete!",
+				"Es que él no puede decidirse.",
+				"¿Ya se han decidido?",
+				"No me he decidido donde ir todavía."
+			]
+		},
+		{
+			"VocabularyWord": "Nailed it!",
+			"Meanings": 
+			[
+				"¡Lo has clavado!"
+			],			
+			"EnglishExamples":
+			[ 
+				"I'm going to pass that test, I nailed it!",
+				"You totally nailed it, Buddy!",
+				"That was a perfect spot for the picnic, you nailed it!"
+			],
+			"SpanishExamples":
+			[ 
+				"Voy a pasar ese exámen, ¡Lo he clavado!",
+				"¡Lo has clavado completamente, amigo!",
+				"Ese fue un sitio perfecto para el picnic, ¡Lo clavaste!."
+			]
+		},
+		{
+			"VocabularyWord": "No wonder",
+			"Meanings": 
+			[
+				"No me extraña, Con Razón"
+			],			
+			"EnglishExamples":
+			[ 
+				"No wonder she doesn't want to go to the party! Poor Daisy!",
+				"No wonder the house is so cold, the heater is broken!",
+				"No wonder the baby is crying, his diaper needs to be changed."
+			],
+			"SpanishExamples":
+			[ 
+				"No me extraña que ella no quiera ir a la fiesta, ¡Pobre Daisy!",
+				"Con razón la causa esté tan fría, ¡la calefación está rota!",
+				"No me extraña que el bebé esté llorando, hay que cambiarle el dodoti."
+			]
+		},
+    {
+      "VocabularyWord": "Long time no see",
+      "Meanings": [
+        "Saludo informal: Cuanto tiempo sin verte"
+      ],
+      "EnglishExamples": [
+        "Hey Anabell! How are you going? Long time no see an all that.",
+        "Hi there, Paul. Long time no see.",
+        "Hey, John! Long time no see!"
+      ],
+      "SpanishExamples": [
+        "¡Hey Anabell! ¿Qué tal estás? Cuanto tiempo tiempo sin verte y todo eso.",
+        "Hola, Paul. Cuanto tiempo sin verte.",
+        "¡Hey, John! ¡Cuánto tiempo sin verte!"
+      ]
+    },
+    {
+			"VocabularyWord": "Spill the beans",
+			"Meanings": 
+			[
+				"Revelar un secreto"
+			],			
+			"EnglishExamples":
+			[ 
+				"The Scotland Yard Police have been trying to get him to spill the beans about the anomalies in the department but he won’t tell them a thing.",
+        "There is a surprise party for Heidi on Wednesday. Please don't spill the beans.",
+        "My husband was afraid to spill the beans about the cost of his purchases."
+			],
+			"SpanishExamples":
+			[ 
+				"La policia de Scotland Yard llevan intentando sacarle el secreto sobre las anomails en el departament pero no dirá nada.",
+        "Hay una fiesta sopresa para Heidi el miércoles. Por favor no lo descubráis.",
+        "Mi mariod tenía miedo de decir el coste de sus compras"
+			]
+		},	
+		{
+			"VocabularyWord": "On the way",
+			"Meanings": 
+			[
+				"De camino"
+			],			
+			"EnglishExamples":
+			[ 
+				"Your parents should be on the way to Florida",
+				"Stay calm Nadia. I'm sure he'll be on time for the wedding. He probably is on his way right now."
+			],
+			"SpanishExamples":
+			[ 
+				"Tus padres deberían estar de camino a Florida.",
+				"Estate tranquila Nadia. Estoy seguro de que el estará a tiempo para la boda. Seguramente esté de camino ahora mismo."
+			]
+		},		
+		{
+			"VocabularyWord": "Out of this world",
+			"Meanings": 
+			[
+				"Increible, Genial"
+			],			
+			"EnglishExamples":
+			[ 
+				"This pie is out of this world.",
+				"My boyfriend is just out of this world."
+			],
+			"SpanishExamples":
+			[ 
+				"Esta tarta es increible.",
+				"Mi novio es simplemente genial."
+			]
+		},		
+		{
+			"VocabularyWord": "Pain in the arse",
+			"Meanings": 
+			[
+				"Un incordio, Grano en el culo"
+			],			
+			"EnglishExamples":
+			[ 
+				"I can't stand my brother-in-law, He's a real pain in the arse",
+				"By boss is always looking over my shoulder and is starting to become a real pain in the ass."
+			],
+			"SpanishExamples":
+			[ 
+				"No soporto a mi cuñado, el es un verdadero incordio.",
+				"Mi jefe siempre está vigilándome y ya se está volviendo un grano en el culo."
+			]
+		},
+		{
+			"VocabularyWord": "Piss off",
+			"Meanings": 
+			[
+				"Estar enfadado o cabreado"
+			],			
+			"EnglishExamples":
+			[ 
+				"That dude over there stole my girlfriend. I'm so pissed off! ",
+				"It looks like daddy's pissed off again.",
+				"I'm pissed off about everything in general."
+			],
+			"SpanishExamples":
+			[ 
+				"Ese tío de hay me robó a la novia. Estoy muy cabreado.",
+				"Parece que papá está enfadado otra vez.",
+				"Estoy mosqueado con todo en general."
+			]
+		},
+		{
+			"VocabularyWord": "Piece of cake",
+			"Meanings": 
+			[
+				"Pan comido, Muy fácil, Estar chupado"
+			],			
+			"EnglishExamples":
+			[ 
+				"The new software installation was a piece of cake, no problems!",
+				"I don't think that arithmetic problem is difficult. It's a piece of cake!."
+			],
+			"SpanishExamples":
+			[ 
+				"La nueva instalación del software fue pan comido, ¡ningún problema!",
+				"No creo qeu ese problema de aritmética sea dificil. ¡Esta chupado!"
+			]
+		},		
+		{
+			"VocabularyWord": "Pull someone’s leg",
+			"Meanings": 
+			[
+				"Tomar el pelo a alguien"
+			],			
+			"EnglishExamples":
+			[ 
+				"Stop ​pulling my ​leg, you didn’t have ​lunch with Bono!",
+				"You don't mean that, You're just pulling my leg.",
+				"Don't believe him. He's just pulling your leg."
+			],
+			"SpanishExamples":
+			[ 
+				"¡Deja de tomarme el pelo, no comiste con Bono!",
+				"No quieres decir eso, solo me estás tomando el pelo",
+				"No le creas. El solo te está tomando el pelo."
+			]
+		},	
+		{
+			"VocabularyWord": "Put someone on the spot",
+			"Meanings": 
+			[
+				"Poner a alguien en un lio"
+			],			
+			"EnglishExamples":
+			[ 
+				"Don't put me on the spot. I can't give you an instant answer",
+				"The boss put Bob on the spot and demanded that he do everything he had promised."
+			],
+			"SpanishExamples":
+			[ 
+				"No me pongas en un lio. No puedo darte una respuesta inmediata.",
+				"El jefe puso a Bobo en un apuro y exigió que haga todo lo que había prometido."
+			]
+		},	
+		{
+			"VocabularyWord": "So far so good",
+			"Meanings": 
+			[
+				"Por el momento bien, Hasta ahora bien"
+			],			
+			"EnglishExamples":
+			[ 
+				"I am so far so good at work.",
+				"We are half finished with our project. So far, so good.",
+				"So far, so good, he thought, trying to make himself feel more cheerful"
+			],
+			"SpanishExamples":
+			[ 
+				"De momento estoy bien en el trabajo.",
+				"Hemos medio terminado con nuestro proyecto. Hasta ahora bien.",
+				"Hasta ahora todo bien, pensó el, intentado hacer sentir más animado."
+			]
+		},	
+		{
+			"VocabularyWord": "Sod off",
+			"Meanings": 
+			[
+				"¡Lárgate!,¡Vete a la mierda!"
+			],			
+			"EnglishExamples":
+			[ 
+				"Sod off, Michael, I don't have time for this.",
+				"No, sod off. I don't have enough money to give you a loan.",
+				"Frank told Jerry to sod off because he was driving him mad."
+			],
+			"SpanishExamples":
+			[ 
+				"¡Lárgate Michael!, No tengo tiempo para esto.",
+				"No, ¡Vete a la mierda! No tengo suficiente dinero para hacerte un préstamo.",
+				"Frank le dijo a Jerry que se largase porque le estaba poniendo de los nervios."
+			]
+		},			
+		{
+			"VocabularyWord": "Speak of the devil",
+			"Meanings": 
+			[
+				"Hablando del rey de Roma"
+			],			
+			"EnglishExamples":
+			[ 
+				"Speak of the devil. Look who is coming over there!.",
+				"Alan: I haven't seen Bob for weeks.  - Jane: Look, here comes Bob rightnow. - Alan: Well, speak of the devil."
+			],
+			"SpanishExamples":
+			[ 
+				"Hablando del Rey de Roma ¡Mira quien viene por alli!",
+				"Alan: No he visto a Bob desde hace semanas. - Janke: Mira, aqui viene Bob justo ahora. - Alan: Bien, hablando del Rey de Roma."
+			]
+		},
+		{
+			"VocabularyWord": "Spot on",
+			"Meanings": 
+			[
+				"Dar en el clavo"
+			],			
+			"EnglishExamples":
+			[ 
+				"Thanks for your advice, it was spot on!",
+				"I think you need a holiday. Yes, you're spot on!"
+			],
+			"SpanishExamples":
+			[ 
+				"Gracias por el consejo, ¡diste en el clavo!",
+				"Creo que necesitas unas vacaciones ¡Si Has dado en el clavo1"
+			]
+		},
+		{
+			"VocabularyWord": "Start from scratch",
+			"Meanings": 
+			[
+				"Empezar desde el principio"
+			],			
+			"EnglishExamples":
+			[ 
+				"I started from scratch and did everything with my own hands.",
+				"Whenever I bake a cake, I start from scratch. I never use a cake mix in a box."
+			],
+			"SpanishExamples":
+			[ 
+				"Empecé desde el principio e hice todo con mis propias manos",
+				"En cualquier momento que hago una tarta, empiezo desde el principio. Nunca uso una mezcla de tarta en caja."
+			]
+		},
+		{
+			"VocabularyWord": "That does it!",
+			"Meanings": 
+			[
+				"¡Basta ya!"
+			],			
+			"EnglishExamples":
+			[ 
+				"That does it! I'm gonna tell them to turn the music down",
+				"That does it! I've had it up to here with your attitude.",
+				"That does it! I'm leaving."
+			],
+			"SpanishExamples":
+			[ 
+				"¡Basta ya! ¡Voy a decirles que bajen el volumen de la música!",
+				"¡Basta ya! Estoy hasta las narices de tu actitud!",
+				" ¡Basta ya!¡Esto es la gota que colma el vaso!¡Me voy!"
+			]
+		},
+		{
+			"VocabularyWord": "Take something for granted",
+			"Meanings": 
+			[
+				"Dar algo por hecho (asumido)."
+			],			
+			"EnglishExamples":
+			[ 
+				"I guess that I take a lot of things for granted.",
+				"I took it for granted that they'd offer to pay for their share but I was wrong.",
+				"We take so many things for granted in this country - like having hot water whenever we need it."
+			],
+			"SpanishExamples":
+			[ 
+				"Supongo que doy muchas cosas por hechas.",
+				"Lo di por hecho que ellos ofrecería pagar por su parte pero estaba equivocado.",
+				"Damos muchas cosas por hechas en este pais, como tener agua caliente cuando la necesitamos"
+			]
+		},
+		{
+			"VocabularyWord": "Take the piss",
+			"Meanings": 
+			[
+				"Te estás riendo de mi/ Me estás tomando el pelo."
+			],			
+			"EnglishExamples":
+			[ 
+				"Do you want another day off? You're taking the piss now!",
+				"I'm not going to ask for another day off, that would be taking the piss.",
+				"Don't worry I'm only taking the piss (out of you)!",
+				"Why are you laughing? Are you taking te piss out of me?",
+				"A: Hey, Jim, you´re so fat. - B: I'm not! - A: Naw, you´re not really fat, I was just taking the piss."
+			],
+			"SpanishExamples":
+			[ 
+				"¿Quieres otro día libre? ¡Ahora si que te estás pasando!",
+				"No voy a pedir otro día libre eso sería pasarme.",
+				"No te preocupes, ¡sólo estoy de brrma!",
+				"¿Por qué te estas riendo? ¿Te estás riendo de mi?",
+				"A: Ey, Jim estás muy gordo. - B: ¡No! - A: Naa, no estás muy gordo, solo te estaba tomando el pelo."
+			]
+		},
+    {
+      "VocabularyWord": "That sucks!",
+      "Meanings": [
+        "¡Eso apesta!,¡Que mierda!"
+      ],
+      "EnglishExamples": [
+        "A: My mom just died of cancer, and I've been diagnosed with leukemia. B: Wow, that sucks.",
+        "That sucks! I lost all my fuckin' money.",
+        "A: My dog died - B: Oh that sucks man I am so sorry "
+      ],
+      "SpanishExamples": [
+        "A: Mi madre justo murió ayer de cancer, y me han diagnosticado leukemia. B: Wow, que mierda.",
+        "¡Que mierda! He perdido todo el jodido dinero.",
+        "A: Mi perro ha muerto - B: Oh que pena amigo, Lo siento mucho."
+      ]
+    },
+    {
+			"VocabularyWord": "That's the last straw!",
+			"Meanings": 
+			[
+				"La gota que colma el vaso (estoy hasta las narices)"
+			],			
+			"EnglishExamples":
+			[ 
+				"He has lost his mobile for the second time this month. This is the last straw!",
+				"First he lost his keys and now he's lost his mobile too. Sorry but this is the last straw!",
+				"Jack! I've asked you to take out the rubbish three times and you still haven't done it. That's it! This was the last straw!"
+			],
+			"SpanishExamples":
+			[ 
+				"Ha perdido su móvil por segunda vez este mes. ¡Esto es la gota que colmó el vaso!",
+				"¡Primero el perdió sus llaves y ahora ha perdido su móvil también. ¡Perdon pero estO es la gota que colmó el vaso!",
+				"¡Jack! Te he pedido que saques la basura tres veces y todavía no lo has hecho. ¡Ya está! ¡Esto fue la gota que colmó el vaso!"
+			]
+		},
+		{
+			"VocabularyWord": "The bee's knees",
+			"Meanings": 
+			[
+				"La caña, La leche."
+			],			
+			"EnglishExamples":
+			[ 
+				"This magazine’s the bee’s knees.",
+				"I like your new girlfriend. She’s the bee’s knees!",
+				"Do you like my new shoes? I think they’re the bee’s knees!",
+				"Have you listened to the Mansión Inglés podcasts? They really are the bee’s knees!"
+			],
+			"SpanishExamples":
+			[ 
+				"Esta revista es la caña.",
+				"Me gusta tu nueva novia. Es la caña!",
+				"Te gustan mis nuevos zapatos? Creo que son lo mejor!",
+				"¿Has escuchado el podcast de la Mansión del Inglés? Es de verdad muy bueno!"
+			]
+		},
+		{
+			"VocabularyWord": "There's no way",
+			"Meanings": 
+			[
+				"De ningún modo, Ni de broma."
+			],			
+			"EnglishExamples":
+			[ 
+				"There's no way he's going to like cleaning this pigsty.",
+				"There's no way she's going to like a celery shake for breakfast.",
+				"There's no way they're going to like getting up at 3am to drive for 10 hours.",
+				"There's no way in the world she's going to like going shopping with her husband's ex-wife.",
+				"There's no way in the world he's going to like spending 3 days with people who can only speaks german."
+			],
+			"SpanishExamples":
+			[ 
+				"De ningún modo le va a gustar limpiar esta pocilga.",
+				"De ningún modo le va a gustar un batido de apio para desayunar.",
+				"De ningún modo les va a gustar levantarse a las 3 de la mañana para conducir 10 horas.",
+				"Ni de broma le va a gustar ir de compras con la ex mujer de su marido.",
+				"Ni de broma le va a gustar estar 3 días con gente que solo habla german."
+			]
+		},
+		{
+			"VocabularyWord": "The squeaky wheel gets the oil",
+			"Meanings": 
+			[
+				"El que la sigue la consigue, Quien no llora no mama."
+			],			
+			"EnglishExamples":
+			[ 
+				"If you don't get good service at the hotel, make sure to tell the manager that you're dissatisfied. The squeaking wheel gets the oil.",
+				"The student complained to the principal that her teacher was unfair because she wanted a good mark. The squeaky wheel gets the oil, and the student was moved to another class. "
+			],
+			"SpanishExamples":
+			[ 
+				"Si no tienes un buen servicio en el hotel, asegurate de decírle al gerente que no estás satisfecho. El que la sigue la consigue.",
+				"El estudiante se quejó al director de que su profesora fue injusta porque quría una buena nota. Quien no llora no mama y el estudianteo fue movido a otra clase."
+			]
+		},
+		{
+			"VocabularyWord": "The other way around/round",
+			"Meanings": 
+			[
+				"De la otra manera, viceversa"
+			],			
+			"EnglishExamples":
+			[ 
+				"Fish can't live where we are most comfortable, and the other way around.",
+				"If it isn't working, try turning the battery the other way round.",
+				"I didn't leave you. It was the other way round."
+			],
+			"SpanishExamples":
+			[ 
+				"Los peces no pueden vivir donde nosotros estamos más cómodos y viceversa.",
+				"Si no funciona, intenta rotar la batería de la otra manera",
+				"No te dejé yo, fue de la otra manera"
+			]
+		},
+		{
+			"VocabularyWord": "To be snowed under",
+			"Meanings": 
+			[
+				"¡Hasta arriba! (Tengo mucho que hacer)"
+			],			
+			"EnglishExamples":
+			[ 
+				"Sorry, I don't have time now. I'm snowed under!",
+				"Sorry, I can´t go for a coffee. I'm snowed under!",
+				"I can´t go shopping today because I'm snowed under."
+			],
+			"SpanishExamples":
+			[ 
+				"Lo siento, no tengo tiempo ahora. ¡Estoy hasta arriba de trabajo!",
+				"Lo siento, no puedo ir a un café. ¡Estoy hasta arriba!",
+				"Hoy no puedo ir de compras porque estoy hasta arriba."
+			]
+		},
+		{
+			"VocabularyWord": "To be worth",
+			"Meanings": 
+			[
+				"Merecer la pena."
+			],			
+			"EnglishExamples":
+			[ 
+				"Is it worth it to learn it? Yes it is!",
+				"Is it even worth doing?"
+			],
+			"SpanishExamples":
+			[ 
+				"¿Merece la pena aprenderlo? ¡Si merece la pena!",
+				"¿Vale la pena hacerlo?"
+			]
+		},
+		{
+			"VocabularyWord": "Feel under the weather",
+			"Meanings": 
+			[
+				"Encontrarse mal."
+			],			
+			"EnglishExamples":
+			[ 
+				"I'm ​feeling a ​bit under the weather,  I ​think I'm getting a ​cold.",
+				"Sorry, I didn't come last night, I was feeling under the weather."
+			],
+			"SpanishExamples":
+			[ 
+				"Me encuentro un poco mal, creo que estoy pillando un resfriado",
+				"Siento no haber venido anoche, me encontraba un poco pachucha"
+			]
+		},
+		{
+			"VocabularyWord": "You're a star!",
+			"Meanings": 
+			[
+				"Eres un crack."
+			],			
+			"EnglishExamples":
+			[ 
+				"My husband cleans the kitchen when I can't be bothered. He's an absolute star!",
+				"Elen's very reliable, Yes, she's an absolute star!"
+			],
+			"SpanishExamples":
+			[ 
+				"Mi marido limpia la cocina cuando me da pereza. ¡Es un crack!",
+				"Elen es muy fiable. Si, ¡ella es una crack!"
+			]
+		},
+		{
+			"VocabularyWord": "Watch out!",
+			"Meanings": 
+			[
+				"¡Cuidado!"
+			],			
+			"EnglishExamples":
+			[ 
+				"Watch out! There's a shark in the water.",
+				"Watch out! That man is watching the kids in the park.",
+				"Watch out! That man is drowning."
+			],
+			"SpanishExamples":
+			[ 
+				"¡Cuidado! Hay un tiburón en el agua",
+				"¡Cuidado! Ese hombre está observando a los niños en el parque.",
+				"¡Cuidado! Ese hombre se está ahogando."
+			]
+		}				
+	]
+}

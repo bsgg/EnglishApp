@@ -26,12 +26,24 @@ namespace EnglishApp
 #if !UNITY_EDITOR && UNITY_ANDROID
 		EasyTTSUtil.Initialize();
 #endif
+
+            StartCoroutine(Init());
+
+           
+
+
+        }
+
+        private IEnumerator Init()
+        {
+            //yield return FileRequestManager.Instance.RequestFiles();
+
+            yield return FileRequestManager.Instance.RequestIndexFiles();
+
             m_VocabularyControl.Init();
 
             m_GrammarControlControl.Init();
             m_MainMenu.Show();
-
-
         }
 
 

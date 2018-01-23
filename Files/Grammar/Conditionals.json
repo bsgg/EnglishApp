@@ -1,0 +1,110 @@
+{
+	"Data":
+	[	
+		{
+			"Title": "First Conditional",
+			"Description": "Talk about real and possible situations. \n Two parts can be swapped.",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Afirmative:</color><color=#c9e8ff> 'If' + verb present simple + 'Will' + verb infinitive</color>",
+				"R02:<color=#5bd3de>Negative:</color><color=#c9e8ff> 'If' + verb present simple + 'Will + not (won't)' + verb infinitive</color>",
+				"R03:<color=#5bd3de>Question:</color><color=#c9e8ff> 'Will' + subject + verb infinitive + 'If' + verb present simple</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:I'll go shopping on the way home If I have time.",
+				"R01:If it’s a nice day tomorrow, We’ll go to the beach.",
+				"R01:If Bill studies, he will pass the exam.",
+				"R02:If it doesn’t rain, we’ll go to the beach.",
+				"R02:If they don’t want to go out, they can stay home.",
+				"R02:If she doesn't call you, you can call her.",
+				"R03:Will you take the train if you miss the bus?",
+				"R03:What will you do if it rains tomorrow?"
+			],
+			"SpanishExamples":
+			[ 
+				"Iré a comprar de camino a casa si tengo tiempo.",
+				"Si mañana hace bueno, iremos a la playa.",
+				"Si Bill estudia, pasará el examen.",
+				"Si no llueve, iremos a la playa.",
+				"Si no quieren salir fuera, podemos quedarnos en casa.",
+				"Si no te llama puedes llamarla tu.",
+				"¿Cogerás el tren si pierdes el autobús?",
+				"¿Qué harás si llueve mañana?"
+			]
+		},
+		{
+			"Title": "Second Conditional",
+			"Description": "Talk about unreal and impossible situations. \n Two parts can be swapped.",
+			"ExtraInfo":"",				
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Afirmative:</color><color=#c9e8ff> 'If' + verb past simple + 'Would' + verb infinitive</color>",
+				"R02:<color=#5bd3de>Negative:</color><color=#c9e8ff> 'If' + verb past simple + 'Would + not (wouldn't)' + verb infinitive</color>",
+				"R03:<color=#5bd3de>Question:</color><color=#c9e8ff> 'Would' + subject + verb infinitive + 'If' + verb present simple</color>"
+			],
+			"EnglishExamples":
+			[ 
+				"R01:If I won the lottery I would buy a big house in another country.",
+				"R01:If I saw a photo of that monster I’d believe it.",
+				"R01:If she had more time, she’d travel more often.",
+				"R02:He wouldn't quit his job if he won the lottery.",
+				"R02:I wouldn't visit the temple if I were you. It's boring!",
+				"R02:If we didn’t have to work today, we would have a picnic.",
+				"R03:Would you go to Canada if ou had more money?",
+				"R03:Would you be happy If you were get married?",
+				"R03:What would you do if you were me? - If I were you, I'd visit the museum."
+			],
+			"SpanishExamples":
+			[ 
+				"Si ganara la lotería me compraría una casa grande en otro país.",
+				"Si viera una foto de ese monstruo, lo creería.",
+				"Si ella tuvieran más tiempo, viajaría más.",
+				"Él no dejaría su trabajao si ganara la lotería.",
+				"No visitaría el templo si you fuera tu. ¡Es aburrido!",
+				"Si no tuvieramos que trabajar ho, tendríamos un picnic.",
+				"¿Irías a Canada si tuvieras más dinero?",
+				"¿Serías feliz si te casaras?",
+				"¿Qué harías si fueras you? - Si fuera tu, visita´ria el museo."
+			]
+		},
+		{
+			"Title": "Third Conditional",
+			"Description": "Talk about something happen in the past\nand it's completely <color=#008080ff>impossible</color> to happen now.",			
+			"ExtraInfo":"",				
+			"Rules":
+			[ 
+				"R01:Afirmative:  'If' + had + verb past perfect  + 'Would' + verb present perfect",
+				"R02:Negative:    'If' + had + verb past perfect  + 'Would + not (wouldn't)' + verb present perfect",
+				"R03:Question:   'Would' + subject + verb present perfect + 'If' + had + verb past perfect + ? "
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:If you'd called me, I would have bought milk.",
+				"R01:If I had known, I would have worn something nicer.",
+				"R01:I definitely would’ve remembered if you’d told me!",
+				"R01:If I’d known it was your birthday, I would’ve bought you a present.",
+				"R02:If you hadn’t been so lazy, you wouldn’t have failed the exam.",
+				"R02:It wouldn’t have been even better if Alfie hadn’t ruined it.",
+				"R02:If you hadn't called me, I wouldn't have called you back straight away.",
+				"R03:Would you have come If I had called you?",
+				"R03:Would you have come If you had had enought time?",
+				"R03:What time would you have come If I had called you this morning?"
+			],
+			"SpanishExamples":
+			[ 
+				"Si me hubieras llamado, habría comprado leche.",
+				"Si lo hubiera sabido, habría llevado algo bonito.",
+				"Claramente lo habría recordado si tu me lo hubieras dicho.",
+				"Si hubiera sabido que era tu cumpleaños, te habría traído un regalo.",
+				"Si no fueras tan vago, no habrías suspendido el examen.",
+				"Podría haber sido mejor si Alfie no lo hubiera arruinado..",
+				"Si no me hubieras llamado, no te habría devuelto la llamada  inmediatamente.",
+				"¿Habrías venido si te hubiera llamado?",
+				"¿Habrías venido si hubieras tenido suficiente dinero?",
+				"¿A qué hora habrías venido si te hubiera llamado esta mañana?"
+			]
+		}
+	]
+}

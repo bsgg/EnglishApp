@@ -1,0 +1,132 @@
+{
+	"Data":
+	[	
+		{
+			"Title": "Much/Many",
+			"Description": "Much and Many means a lot (mucho).",		
+			"ExtraInfo":"",				
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Much:</color><color=#c9e8ff>  Use with singular nouns.</color>",
+				"R02:<color=#5bd3de>Many:</color><color=#c9e8ff>  Use with plural nouns.</color>",
+				"R03:<color=#5bd3de>Questions and Negative: </color><color=#c9e8ff> Much / Many </color> \n<color=#5bd3de>Positive: </color><color=#c9e8ff>A lot or so and too + much/many</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:How much money have you got?",
+				"R01:How much is this car?",
+				"R01:Where you were unemployed, did you receive much help from your family?",
+				
+				"R02:Carla doen't have many friends.",
+				"R02:How many of you have even been in London?",
+				"R02:I don't have many paintings in my flat.",
+				
+				"R03:Carla has a lot of (so many) friends.",
+				"R03:There's a lot of (too much) butter in the fridge.",
+				"R03:There are a lot of (too many children) in the house."
+			],
+			"SpanishExamples":
+			[ 
+				"¿Cuánto dinero tienes?",
+				"¿Cuánto cuesta este coche?",
+				"¿Cuando estuviste desempleado, reciviste mucha ayuda de tu familia?",
+				
+				"Carla no tiene muchos amigos",
+				"¿Cuántos de vosotros habéis estado en Londres?",
+				"No tengo muchos cuadros en mi piso.",
+				
+				"Carla tiene muchos amigos",
+				"Hay mucha mantequilla en la nevera.",
+				"Hay muchos niños en la casa."
+			]
+		},
+		{
+			"Title": "Some/Any",
+			"Description": "Some and Any means a few or little (algunos).",		
+			"ExtraInfo":"",				
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Some (someone/something/somewhere):</color><color=#c9e8ff>  Use in positive sentences. (+)</color>",
+				"R02:<color=#5bd3de>Any (anyone/anything/anywhere):</color><color=#c9e8ff>  Use in negative and questions. (-,?)</color>",
+				"R03:<color=#5bd3de>Except Some:</color><color=#c9e8ff> Some can use in questions when we expect an positive answer or you are asking in general.</color>",
+				"R04:<color=#5bd3de>Except Any:</color><color=#c9e8ff> Any can use in positive sentences after never, without, hardly</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:here is some sugar in the pot.",
+				"R01:Let’s go somewhere and eat something.",
+				"R01:There are some letters for you.",
+				"R01:I bought something to snack while we watch the movie",
+				
+				"R02:Have you got any brothers and sisters?",
+				"R02:Anything else? - The shop assistant asked when she gave me the cheese",
+				"R02:I can’t see Charles anywhere. Are you sure he is here?",
+				"R02:We haven’t got any shirts in your size",
+				
+				"R03:Can I have some water?",
+				"R03:Can you give us some information?",
+				"R03:Would you like some tea?",
+				
+				"R04:She never has any problem understanding a native English speaker.",
+				"R04:There’s hardly anyone here.",
+				"R04:At first, hardly anyone came "
+			],
+			"SpanishExamples":
+			[ 
+				"Hay algo de azúcar en el recipiente.",
+				"Vamos a algún sitio y comamos algo",
+				"Hay algunas cartas para tí.",
+				"Compré algo para picar mientras vemos la película.",
+				
+				"¿Tienes hermanos?",
+				"¿Algo más?  - El dependiente preguntó cuando me dio el queso.",
+				"No veo a Charles en ningún sitio. ¿Estás seguro de que está aqui?",
+				"No tenemos camisas de tu talla.",
+				
+				"¿Puedo tomar agua?",
+				"¿Puedes darnos algo de información?",
+				"¿Quiéres te?",
+				
+				"Ella nunca tiene ningún problemas para entender aun nativo Inglés.",
+				"No hay casi nadie aquí.",
+				"Al principio casi nadie vino."
+				
+			]
+		},
+		{
+			"Title": "So/Such",
+			"Description": "These adverbs, make and adject, adject or a noun stronger",		
+			"ExtraInfo":"",				
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>So: </color><color=#c9e8ff>  Uses with adjectives or adverbs</color>",
+				"R02:<color=#5bd3de>Such: </color><color=#c9e8ff>  Uses with nouns or an adjective + a noun</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:I didn’t enjoy the book. The story was so stupid.",
+				"R01:It’s a lovely day, isn’t it? It’s so warm.",
+				"R01:The weather was so terrible that I couldn’t get to work.",
+				"R01:I’m so hungry. I could eat a horse.",
+				
+				"R02:It was such a good book that I couldn’t put it down.",
+				"R02:How could you do such a horrible thing?",
+				"R02:It’s such a beautiful picture.",
+				"R02:My sister’s such a good cook, I always eat too much when I’m visiting her."
+			],
+			"SpanishExamples":
+			[ 
+				"No disfruté el libro. La historia era muy estúpìda.",
+				"Hace un día increible, no? Es muy cállido.",
+				"El tiempo fue tan horrible que no pude llegar al trabajo.",
+				"Tengo mucha hambre. Podría comerme un caballo.",
+				
+				"Fuen un libro tan bueno que no pude dejarlo.",
+				"¿Como pudiste hacer una cosa tan horrible?",
+				"Es un cuadro muy bella.",
+				"Mi hermana es tan buena cocinera que siempre como demasiado cuando la estoy visitando."
+				
+			]
+		}
+	]
+}

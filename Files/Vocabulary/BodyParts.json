@@ -1,0 +1,353 @@
+{
+	"Data":	
+	[
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Blister",
+			"Pronunciation": "/blista/",
+			"Meanings": 
+			[
+				"Ampolla"
+			],
+			"EnglishExamples":
+			[ 
+				"My new running shoes gave me blisters."			
+			],
+			"SpanishExamples":
+			[ 
+				"Mi nuevas zapatillas de correr me hicieron ampollas."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Buttocks",
+			"Pronunciation": "/baaticks/",
+			"Meanings": 
+			[
+				"Nalgas"
+			],
+			"EnglishExamples":
+			[ 
+				"His pants were down and his exposed buttocks covered with tattos."			
+			],
+			"SpanishExamples":
+			[ 
+				"Sus pantalones estaban bajados y sus nalgas expuestas cuviertas con tattos."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Cheek",
+			"Pronunciation": "/chiiik/",
+			"Meanings": 
+			[
+				"Mejilla"
+			],
+			"EnglishExamples":
+			[ 
+				"It was awkward when I came to Spain and everybody gave a kiss on the cheek!"			
+			],
+			"SpanishExamples":
+			[ 
+				"Fue incómodo cuando vine a España y todo el mundo me dio ¡un beso en la mejilla!"
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Chin",
+			"Pronunciation": "/xiiin/",
+			"Meanings": 
+			[
+				"Barbilla"
+			],
+			"EnglishExamples":
+			[ 
+				"Bill cut his chin while shaving."			
+			],
+			"SpanishExamples":
+			[ 
+				"Bill se cortó la barbilla mientras se afeitaba."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Eyelid",
+			"Pronunciation": "/aiilid/",
+			"Meanings": 
+			[
+				"Párpado"
+			],
+			"EnglishExamples":
+			[ 
+				"My eye hurt, perhaps I've got some dust or a grain of sand in it. So I raised my eyelid with my finger to check."			
+			],
+			"SpanishExamples":
+			[ 
+				"Me duele el ojo, quizá tenga suciedad o un grano de arena. A si que levanté con mi dedo para comprobar."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Eyelashes",
+			"Pronunciation": "/aiilashes/",
+			"Meanings": 
+			[
+				"Pestañas"
+			],
+			"EnglishExamples":
+			[ 
+				"Many woman put mascara on their eyelashes to add depth and intensity to how their eyes look."			
+			],
+			"SpanishExamples":
+			[ 
+				"Muchas mujeres ponen máscaras en sus pestañas para añadir profundidad e intensidad a como sus ojos se muestran."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Earlobe",
+			"Pronunciation": "/eerlub/",
+			"Meanings": 
+			[
+				"Lóbulo"
+			],
+			"EnglishExamples":
+			[ 
+				"Some girls wear earrings on their earlobes."			
+			],
+			"SpanishExamples":
+			[ 
+				"Algunas chichas llevan pendientes en sus lóbulos."
+			]			
+		},
+		
+    {
+			"Category": "MISC",
+			"VocabularyWord": "Fist",
+			"Pronunciation": "/fist/",
+			"Meanings": 
+			[
+				"Puño"
+			],
+			"EnglishExamples":
+			[ 
+				"Jim shook his fist at the teenagers as he shouted at them."			
+			],
+			"SpanishExamples":
+			[ 
+				"Jim agitó su puño a los adolencestes ya que ellos le gritó."
+			]			
+		},	
+
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Forehead",
+			"Pronunciation": "/foooheed/",
+			"Meanings": 
+			[
+				"Frente"
+			],
+			"EnglishExamples":
+			[ 
+				"Kate had a very high forehead"			
+			],
+			"SpanishExamples":
+			[ 
+				"Kate tenía una frente grande."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Freckle",
+			"Pronunciation": "/friiikol/",
+			"Meanings": 
+			[
+				"Peca"
+			],
+			"EnglishExamples":
+			[ 
+				"I think Ines is very sexy. She has even some freckles under her eyes."			
+			],
+			"SpanishExamples":
+			[ 
+				"Cro que Inés es muy sexy. Ella incluso tiene pecas bajo los ojos."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Heel",
+			"Pronunciation": "/jiiil/",
+			"Meanings": 
+			[
+				"Talón",
+				"Tacón"
+			],
+			"EnglishExamples":
+			[ 
+				"James had huge calluses on his heels.",
+				"Can you beleive this? I bought a pair of new shoes and their heels are broken!"				
+			],
+			"SpanishExamples":
+			[ 
+				"James tiene enormes callos en sus talones.",
+				"¿Puedes creer esto? ¡Compré un par de zapatos nuevos y los tacones están rotos!"
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Hip",
+			"Pronunciation": "/jiiip/",
+			"Meanings": 
+			[
+				"Cadera"
+			],
+			"EnglishExamples":
+			[ 
+				"Martha broke her hip when she fell down the stairs."			
+			],
+			"SpanishExamples":
+			[ 
+				"Marta se rompió la cadera cuand calló por las escaleras."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Pimple",
+			"Pronunciation": "/pimpols/",
+			"Meanings": 
+			[
+				"Espinillas"
+			],
+			"EnglishExamples":
+			[ 
+				"You're getting a pimple on your forehead."			
+			],
+			"SpanishExamples":
+			[ 
+				"Te está saliendo una espinilla en la frente."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Stiff",
+			"Pronunciation": "/ssstiff/",
+			"Meanings": 
+			[
+				"Agujetas"
+			],
+			"EnglishExamples":
+			[ 
+				"Painting the whole house has left me stiff."			
+			],
+			"SpanishExamples":
+			[ 
+				"Pintar toda la casa me ha dejado lleno de agujetas."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Sprain",
+			"Pronunciation": "/ssprein/",
+			"Meanings": 
+			[
+				"Esguince",
+				"Hacerse un esguince"
+			],
+			"EnglishExamples":
+			[ 
+				"The football player had to pull out of the game because of a sprain.",
+				"John stood on a loose rock and sprained his ankle"
+			],
+			"SpanishExamples":
+			[ 
+				"El jugador de fútbol tuvo que salir del partido por un esguince.",
+				"Jonh piso en una piedra suelta y se hizo un esguince en el tobillo"
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Tummy",
+			"Pronunciation": "/taami/",
+			"Meanings": 
+			[
+				"Panza, Barriga"
+			],
+			"EnglishExamples":
+			[ 
+				"I'm hungry - Karen said, patting her tummy"			
+			],
+			"SpanishExamples":
+			[ 
+				"Tengo hambre, Karen dijo, palmeando su barriga."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Waist",
+			"Pronunciation": "/weeist/",
+			"Meanings": 
+			[
+				"Cintura"
+			],
+			"EnglishExamples":
+			[ 
+				"You wear a belt around your wasit to hold your trousers up."			
+			],
+			"SpanishExamples":
+			[ 
+				"Llevas un cinturon alrededor de tu cintura para mantener los pantalones levantados."
+			]			
+		},	
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Wart",
+			"Pronunciation": "/uaart/",
+			"Meanings": 
+			[
+				"Verruga"
+			],
+			"EnglishExamples":
+			[ 
+				"She looks like a witch, she has a huge wart in her nose. It's disgusting."			
+			],
+			"SpanishExamples":
+			[ 
+				"Parece una bruja, tiene una enorme verruga en la nariz. Es desagradable."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Wrist",
+			"Pronunciation": "/riist/",
+			"Meanings": 
+			[
+				"Muñeca"
+			],
+			"EnglishExamples":
+			[ 
+				"The wrist, which is the join between a hand and an arm, contains many bones and is highly complex."			
+			],
+			"SpanishExamples":
+			[ 
+				"La muñeca, que es la unión entre una mano y un brazo, contiene muchos huesos y es altamente complejo."
+			]			
+		},
+		{
+			"Category": "MISC",
+			"VocabularyWord": "Zit (US)",
+			"Pronunciation": "/ssiiit/",
+			"Meanings": 
+			[
+				"Grano"
+			],
+			"EnglishExamples":
+			[ 
+				"I've got a zit in my nouse, I look like a witch."			
+			],
+			"SpanishExamples":
+			[ 
+				"Me salió un grano en la nariz, parezco una bruja."
+			]			
+		}
+	] 	
+}

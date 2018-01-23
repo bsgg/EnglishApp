@@ -1,0 +1,407 @@
+{
+	"Data":
+	[	
+		{
+			"Title": "Keep on + ing verb",
+			"Description": "Continuar haciendo algo",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Keep on + ing verb: </color><color=#c9e8ff>Continuar haciendo algo</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:If they ​keep on ​eating that much, they will ​become ​obese.",
+				"R01:He kept on trying and succeeded in the end",
+				"R01:She ​kept on ​asking me ​questions the ​whole ​time.",
+				"R01:If you ​keep on ​trying, you'll be ​able to ​stretch ​further."
+			],
+			"SpanishExamples":
+			[ 
+				"Si siguen comiendo tanot, se harán obesos.",
+				"Siguió intentando y lo consiguió al final.",
+				"Siguió preguntándome todo el tiempo.",
+				"Si sigues intentándolo, serás capaz de estirarte más lejos."
+			]
+		},
+    {
+      "Title": "Make and Do",
+      "Description": "Make and Do mean almost the same: Hacer",
+      "ExtraInfo": "Table_Data/Grammar/Misc/TableMakeDo",
+      "Rules": [
+        "R01:<color=#5bd3de>Do: </color><color=#c9e8ff>Use for general activities.</color>",
+        "R02:<color=#5bd3de>Make: </color><color=#c9e8ff>Use when we create or construct something.</color>"
+      ],
+      "EnglishExamples": [
+        "R01:She sat on the sofa, doing a crossword and drinking tea",
+        "R01:She's fed up with doing everything herself. She needs some help.",
+        "R01:John has decided to do a course in computing this autumn.",
+        "R01:Allie spends ages doing her hair in the morning.",
+
+        "R02:She had toothache, so she made an appointment with the dentist for the following day.",
+        "R02:I've made my decision. I'm going to go back to university.",
+        "R02:You're not trying hard enough! Make an effort!",
+        "R02:Why was Lisa late? Did she make an excuse?"
+      ],
+      "SpanishExamples": [
+        "Se sentó en el sofá, haciendo un crucigrama y tomando te.",
+        "Ella está harta haciendo todo por si misma. Necesita ayuda.",
+        "John ha decidido hacer un curso en informática este otoño",
+        "Allie pasa años arreglándose el pelo por la mañna.",
+
+        "Le dolía un diente, asi que pidió una cita con el dentista para el día siguiente.",
+        "He tomado mi decisión. Voy a volver a la universidad.",
+        "¡No lo estás intentando lo suficientemente fuerte! ¡Haz un esfuerzo!",
+        "¿Porqué Lisa llegó tarde? ¿Dió una excusa?"
+      ]
+    },
+    {
+			"Title": "May vs Might",
+			"Description": "May and Migh are both ways of expressing possibility",	
+			"ExtraInfo":"",					
+			"Rules":
+			[
+        "R01:General Rule - <color=#5bd3de>May: </color><color=#c9e8ff>Present Tense</color> - <color=#5bd3de>Might: </color><color=#c9e8ff>Past Tense</color>",
+				"R02:<color=#5bd3de>Today: </color><color=#c9e8ff>May and might are interchangeable.</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:I think that comment may have offended some people.",
+				"R01:He may not come.",
+        "R01:He might still get here in time.",
+        "R01:I might go out on my bike today, but then again, I might not.",
+				
+				"R02:I may/might go home early if I’m tired.",
+				"R02:He might/may have visited Italy before settling in Nuremberg",
+				"R02:By the time you read this, he may/might have made his decision."
+			],
+			"SpanishExamples":
+			[ 
+				"Creo que el comentario puede haber ofendido a algunas persona.",
+				"Puede que no venga.",
+				"Puede que todavía llegue a tiempo.",
+				"Puede que salta a montar en bici hoy, pero otra vez, puede que no.",
+				
+				"Puede que me vaya a casa pronto si estoy cansada.",
+				"Puede que haya visitado Italia antes de asentarme en Nuremberg.",
+				"Para cuando leas esto, él habrá tomado su decisión."
+			]
+		},
+		{
+			"Title": "Have got",
+			"Description": "The verb to have something (+american) and have got something (+british, only in present tense) mean the same, to have a possesion. ",	
+			"ExtraInfo":"Table_Data/Grammar/Misc/TableHaveGot",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Have got (+): </color><color=#c9e8ff>'Suj' + have (according to subj)  + got + verb infinitive</color>",
+				"R02:<color=#5bd3de>Have got (-): </color><color=#c9e8ff>'Suj' + have not (according to subj)  + got + verb infinitive</color>",
+				"R03:<color=#5bd3de>Have got (?): </color><color=#c9e8ff>Have (according to subj) + 'Suj' + got + verb infinitive + ?</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:I've got something ineresting to tell you. (I've got == I have)",
+				"R01:They've got loads of money",
+				"R01:She's got nice eyes. (She's got = She has)",
+				"R01:We've got plenty of petrol to get home.",
+				
+				"R02:I haven't got anything on today.",
+				"R02:He hasn't got hairy hands.",
+				"R02:I haven't got enough time to speak to her now.",
+				"R02:This hasn't got anything to do with this. (Anything to do with = nada que ver)",
+				
+				"R03:Have you got five minutes to spare?",
+				"R03:Have they got any money on them?",
+				"R03:Has he got a nice flat?",
+				"R03:Have you got time for a drink?"
+			],
+			"SpanishExamples":
+			[ 
+				"Tengo algo interesante que decirte.",
+				"Tienen montones de dinero.",
+				"Tiene los ojos bonitos.",
+				"Tenemos suficiente gasolina para llegar a casa.",
+				
+				"No tengo nada para hoy (en la agenda).",
+				"No tiene las manos peludas.",
+				"No tengo suficiente tiempo para hablar con ella ahora.",
+				"Esto no tiene nada que ver con esto.",
+				
+				"¿Tienes 5 minutos para mi?",
+				"¿Llevan algo de dinero encima?",
+				"¿Tiene un piso bonito?",
+				"¿Tienes tiempo para una copa?"
+			]
+		},
+		{
+			"Title": "Get",
+			"Description": "Verb get has a lot of meanings",	
+			"ExtraInfo":"Table_Data/Grammar/Misc/TableGet",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Get + adjective: </color><color=#c9e8ff>Hacerse, volverse, ponerse</color>",
+				"R02:<color=#5bd3de>Get + past participle: </color><color=#c9e8ff>'Hacerse, volverse, ponerse</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:If you keep on eating chocolate, you will certainly get fat.",
+				"R01:It’s getting dark. I think we should leave soon.",
+				"R01:What time are we going to have dinner? I am getting hungry",
+				"R01:Mary got mad at me when I told her the news.",
+				
+				"R02:First they got engaged and then they got married",
+				"R02:All the kids got excited when they saw Santa Claus",
+				"R02:Lawrence got depressed when he failed the exam, so I tried to cheer him up.",
+				"R02:There was a terrible accident, but nobody got hurt."
+			],
+			"SpanishExamples":
+			[ 
+				"Si sigues comiendo chocolate, seguramente engordaras",
+				"Está oscureciendo. Creo que deberíamos irnos pronto.",
+				"¿A qué hora vamos a cenar? Me está dando hambre.",
+				"Mary se enfadó conmigo cuando le conté la noticia.",
+				
+				"Primer se comprometieron y después se casaron.",
+				"Todos los niños se emocionan cuando vieron a Papá Noel",
+				"Lawrance se deprimió cuando no pasó el exámen, así que intenté alegrarlo.",
+				"Hubo un terrible accidente, pero nadie se hirió."
+			]
+		},
+		{
+			"Title": "Like vs Looks like",
+			"Description": "Look like & like means 'parece'",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Like: </color><color=#c9e8ff>Like is used for telling about someone's or something's character or pesonality.</color>",
+				"R02:<color=#5bd3de>Look like: </color><color=#c9e8ff>It's used for someone's or something's physical appearance.</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:What is your new boss like? She's nice and very professional.",
+				"R01:What is your brother like? He's a very reliable person, you can always trust in him.",
+				"R01:What was the weather like?",
+				"R01:What was the party like last night?",
+				
+				"R02:What does your father look like? He’s very like me but taller and older!",
+				"R02:What does Bea's ne boyfriend look like? He's tall, with blond hair.",
+				"R02:You look just like your father.",
+				"R02:She looks like her grandmother."
+			],
+			"SpanishExamples":
+			[ 
+				"¿Cómo es tu nueva jefa? Ella es amable y muy profesional",
+				"¿Cómo es tu hermano? Es una persona muy fiable.",
+				"¿Cómo estaba el tiempo?",
+				"¿Cómo fue la fiesta anoche?",
+				
+				"¿Cómo es tu padre? Se parece mucho a mi pero ¡más alto y viejo!",
+				"¿Cómo es el nuevo novio de Bea? El es alto, con el pelo rubio.",
+				"Te pareces a tu padre.",
+				"Ella se parece a su abuela."
+			]
+		},
+		{
+			"Title": "Passive voice",
+			"Description": "It uses when the importance is in the action and not in the person",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Afirmative: </color><color=#c9e8ff>Obj sentence  +  to be + past participle</color>",
+				"R02:<color=#5bd3de>Negative: </color><color=#c9e8ff>Obj sentence  +  to be negative + past participle</color>",
+				"R03:<color=#5bd3de>Interrogative: </color><color=#c9e8ff>to be + Obj sentence  + past participle</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:Game of Thrones was filmed in Spain.",
+				"R01:Lost was filmed in Hawaii.",
+				"R01:Those houses were built in 1996.",
+				"R01:Mary Poppins was directed by Steven Spielberg.",
+				
+				"R02:One hundred Years of Solitude wasn’t written by Mario Vargas Llosa.",
+				"R02:Churches weren’t built by Muslims.",
+				"R02:Antarctica was discovered in the 19th century",
+				
+				"R03:Was the thief arrested by the police?",
+				"R03:Were those episodes set in 1978?",
+				"R03:Were those cushions bought ten years ago?",
+				"R03:Was the murderer arrested by the FBI?"
+			],
+			"SpanishExamples":
+			[ 
+				"Juego de tronos fue rodada en España",
+				"Perdidos fue rodada en Hawai.",
+				"Esas casas fueron construidas en 1939.",
+				"Mary Poppins fue dirigida por Robert Stevenson.",
+				
+				"Cien años de soledad no fue escrito por Mario Vargas Llosa.",
+				"Las iglesias no fueron construidas por musulmanes",
+				"La Antártica fue descubierta en el siglo XIX.",
+				
+				"¿El ladrón fue detenido por la policía?",
+				"¿Esos episodios se desarrollaban en 1978?",
+				"¿Estos cojines fueron comprados hace diez años?",
+				"¿El asesino fue detenido por el FBI?"
+			]
+		},
+		
+		{
+			"Title": "Used to",
+			"Description": "Different uses of Used to",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Used to + infinitive - 'Solia': </color><color=#c9e8ff>Actions that happen in the past but they are not longer ahppen now. (Solía)</color>",
+				"R02:<color=#5bd3de>Be used to + ing: </color><color=#c9e8ff>Estar acostumbrado a</color>",
+				"R03:<color=#5bd3de>Get used to + infinitive: </color><color=#c9e8ff>Acostumbrarse a</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:London’s nothing like is used to be.",
+				"R01:She used to go away on really long trips",
+				"R01:I used to work in Italy (I worked in Italy 3 years ago.)",
+				"R01:Did you use to go to that place?",
+				
+				"R02:She’s used to living alone.",
+				"R02:Did he use to be a teacher?",
+				"R02:She didn't use to go to the gym.",
+				"R02:I'm used to my boss.",
+				
+				"R03:She has gotten used to living alone because they divorced over 2 years ago.",
+				"R03:You need to get used to this cold weather if you are going to live here.",
+				"R03:Are they getting used to living together?",
+				"R03:I'm getting used to life in England."
+			],
+			"SpanishExamples":
+			[ 
+				"Londres no se parece en nada a como solía ser.",
+				"Solía ir en viajes muy largos.",
+				"Solía trabajar en Italia.",
+				"¿Solías ir a ese sitio?",
+				
+				"Ella está acostumbrada a vivir sola.",
+				"¿El era antes profesor?",
+				"Ella antes no iba al gimnasio.",
+				"Estoy acostumbrado a mi jefe",
+				
+				"Se ha acostumbrado a vivir sola porque se divorciaron alrededor de hace 2 años",
+				"Necesitas acostumbrarme a este frío si vas a vivir aquí.",
+				"¿Se están ellos acostumbrados a vivir juntos?.",
+				"Me estoy acostumbrando a la vida en Inglaterra."
+			]
+		},
+		
+		{
+			"Title": "Used to / Would",
+			"Description": "Used to and Would to talk in the past",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Used to and Would - 'Solia': </color><color=#c9e8ff>They are interchangeable, when you are talking about past habits. (Would is often used in conditionals)</color>",
+				"R02:<color=#5bd3de>Only used to: </color><color=#c9e8ff>Would cannot use in past states, location or possession.</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:When I was on the school soccer them I would/used to score at least one goal per game.",
+				"R01:When I was in high school I would wake up at 6:30 am.",
+				"R01:I would/used to visit my sister twice a week years ago.",
+				"R01:I remember when my brother used to/ would buy me a new video game for every one of my birthdays.",
+				
+				"R02:I used to be a doctor. (I would be a doctor sounds like a conditional form)",
+				"R02:I used to live in Perú.",
+				"R02:I used to have a hamster.",
+				"R02:Didn’t you use to work for IBM?"
+			],
+			"SpanishExamples":
+			[ 
+				"Cuando estaba en el equipo de soccer solía marcar al menos un gol por juego.",
+				"Cuando estaba en el instituto me levantaba a las 6:30.",
+				"Solía visitar a mi hermana dos veces por semana hace años.",
+				"Recuerdo cuando mi hermano me compraba (solía comprarme) un nuevo videojuego cada cumpleaños.",
+				
+				"Solía ser doctor.",
+				"Vivía en Perú.",
+				"Solía tener un hamster.",
+				"¿No solías trabajar para IBM?"
+			]
+		},
+		
+		{
+			"Title": "There + to be = Hay...",
+			"Description": "Hay, Hubo, Habrá + singular/plural noun",	
+			"ExtraInfo":"",					
+			"Rules":
+			[ 
+				"R01:<color=#5bd3de>Present singular: </color><color=#c9e8ff>There is + singular nouns</color>",
+				"R02:<color=#5bd3de>Present plural: </color><color=#c9e8ff>There are + plural nouns</color>",
+				"R03:<color=#5bd3de>Past singular: </color><color=#c9e8ff>There was + singular nouns</color>",
+				"R04:<color=#5bd3de>Past plural: </color><color=#c9e8ff>There were + plural nouns</color>",
+				"R05:<color=#5bd3de>Present perfect singular: </color><color=#c9e8ff>There has been + singular nouns</color>",
+				"R06:<color=#5bd3de>Present perfect plural: </color><color=#c9e8ff>There have been + plural nouns</color>"
+			],			
+			"EnglishExamples":
+			[ 
+				"R01:There’s a fly in my soup",
+				"R01:There’s a spoon in my soup.",
+				"R01:There’s a hair in my soup",
+				"R01:There isn’t much space in this room",
+				
+				"R02:There are many people on the street.",
+				"R02:There are hundred of people in the mall.",
+				"R02:There are thousands of people on the street.",
+				"R02:There aren’t many toilets in this building.",
+				
+				"R03:There was an earthquake in Nepal in 2015.",
+				"R03:There was a flood in Milan in 2015",
+				"R03:There was a G7 summit in Germany in 2015",
+				"R03:There was a lot of money in the safe.",
+				
+				"R04:There were a lot of concert in Barcelona in July.",
+				"R04:There were a lot of exhibitions in Madrid in May.",
+				"R04:There were a lot of football matches in Seville in October.",
+				"R04:There were many goats on the farm.",
+				
+				"R05:There's been an incident in the boxing ring.",
+				"R05:There's been an incident in the bullring.",
+				"R05:There's been an incident... I've lost an earring!",
+				"R05:There's been too much complaining about the selection process.",
+				
+				"R06:There have been a few issues with the project.",
+				"R06:There have been a few issues in the elections.",
+				"R06:There have been some issues in the elections.",
+				"R06:There have been too many complains about the new film."
+			],
+			"SpanishExamples":
+			[ 
+				"Hay una mosca en mi sopa",
+				"Hay una cuchara en mi sopa",
+				"Hay un pelo en mi sopa.",
+				"No hay mucho espacio en esta habitación.",
+				
+				"Hay muchas personas en la calle.",
+				"Hay cientos de personas en centro comercial.",
+				"Hay miles miles de personas en la calle.",
+				"Hay pocos baños en este edificio.",
+				
+				"Hubo un terremoto en Nepal en 2015.",
+				"Hubo una inundación en Milán en 2015.",
+				"Hubo una cumbre del G7 en Alemania en 2015.",
+				"Había mucho dinero en la caja fuerte.",
+				
+				"Hubo muchos conciertos en Barcelona en Julio.",
+				"Hubo muchas exposiciones en Madrid en Mayo.",
+				"Hubo muchos partidos de fútbol en Sevilla en octubre.",
+				"Había muchas cabras en la granja.",
+				
+				"Ha habido un incidente en el ring de boxeo.",
+				"Ha habido un incidente en la plaza de toros.",
+				"Ha habido un incidente… ¡He perdido un pendiente!",
+				"Ha habido muchas quejas sobre el proceso de selección.",
+				
+				"Ha habido algunos problemas con el proyecto.",
+				"Ha habido algunos problemas en las elecciones.",
+				"Ha habido algunos problemas en las elecciones.",
+				"Ha habido demasiadas quejas sobre la nueva película."				
+			]
+		}
+	]
+}
