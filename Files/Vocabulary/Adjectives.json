@@ -782,6 +782,26 @@
 		},
 		{
 			"Category": "ADJECTIVE",
+			"VocabularyWord": "Fluffy",
+			"Pronunciation": "/flafy/",
+			"Meanings": 
+			[
+				"Esponjoso",
+				"Peludo/Suave"
+			],
+			"EnglishExamples":
+			[ 
+				"How do you get your mashed potatoes so fluffy?",
+				"Parker bent down to pet the fluffy kitten"				
+			],
+			"SpanishExamples":
+			[ 				
+				"¿Cómo consigues que tu puré de patata sea tan esponjoso?",
+				"Parker se inclinó para acariciar al gatito peludo/suave."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
 			"VocabularyWord": "Fool",
 			"Pronunciation": "/fuuul/",
 			"Meanings": 
@@ -1115,23 +1135,43 @@
 		},
 		{
 			"Category": "ADJECTIVE",
-			"VocabularyWord": "Jolly",
-			"Pronunciation": "/joooli/",
+			"VocabularyWord": "Jammed",
+			"Pronunciation": "/yaaamd/",
 			"Meanings": 
 			[
-        "Alegre, Feliz",
-        "Alegre, Feliz"
+				"Atascado",
+				"Abarrotado"
 			],
 			"EnglishExamples":
 			[
-        "Gerald is a jolly old man, and always has time for others.",
-        "The mood at the celebration party was very jolly and fun; everyone was in a good mood."
+				"The zipper on my coat's jammed.",
+				"We tried to get to the front but the hall was too jammed."
 			],
 			"SpanishExamples":
 			[
-        "Gerald es un viejo feliz, y siempre tiene tiempo para otros.",
-        "El humor en la fiesta fue muy alegre y divertido, todo el mundo estaba de buen humor."
+				"La cremallera de mi chaqueta esta atascada.",
+				"Intentamos llegar al frente pero el hall estaba demasiado abarrotado."
 			]
+			},
+			{
+				"Category": "ADJECTIVE",
+				"VocabularyWord": "Jolly",
+				"Pronunciation": "/joooli/",
+				"Meanings": 
+				[
+					"Alegre, Feliz",
+					"Alegre, Feliz"
+				],
+				"EnglishExamples":
+				[
+					"Gerald is a jolly old man, and always has time for others.",
+					"The mood at the celebration party was very jolly and fun, everyone was in a good mood."
+				],
+				"SpanishExamples":
+				[
+					"Gerald es un viejo feliz, y siempre tiene tiempo para otros.",
+					"El humor en la fiesta fue muy alegre y divertido, todo el mundo estaba de buen humor."
+				]
 		},
 		{
 			"Category": "ADJECTIVE",
@@ -1811,7 +1851,7 @@
         "Me gusta Tamsin porque es extrafalaria; Siempre est'a haciendo cosas raras."
       ]
     },
-    {
+		{
 			"Category": "ADJECTIVE",
 			"VocabularyWord": "Raider",
 			"Pronunciation": "/reida/",
@@ -1827,7 +1867,29 @@
 			[ 				
 				"El saqueador destruyó la casa buscando algo de valor."
 			]	 			
-		},		
+		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Ripe",
+			"Pronunciation": "/raip/",
+			"Meanings": 
+			[
+				"Maduro (Listo para comer)",
+				"Maloliente"
+			],
+			"EnglishExamples":
+			[ 
+				"You need to wait until the plums are ripe before you pick them.",
+				"That camembert's ripe. it's stinking out the fridge."
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"Tienes que esperar hasta que las ciruelas esten maduras para cogerlos.",
+				"Ese queso camembert huele. Esta atufando la nevera"
+				
+			]	 			
+		},				
 		{
 			"Category": "ADJECTIVE",
 			"VocabularyWord": "Rotten",
@@ -2471,6 +2533,23 @@
 		},	
 		{
 			"Category": "ADJECTIVE",
+			"VocabularyWord": "Spongy",
+			"Pronunciation": "/ssspoonji/",
+			"Meanings": 
+			[
+				"Esponjoso"
+			],
+			"EnglishExamples":
+			[ 
+				"The cake was sweet and spongy."
+			],
+			"SpanishExamples":
+			[ 				
+				"La tarta estaba dulce y esponjosa."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
 			"VocabularyWord": "Spooky",
 			"Pronunciation": "/ssspuki/",
 			"Meanings": 
@@ -2612,6 +2691,26 @@
 			"SpanishExamples":
 			[ 				
 				"Emily llevó shorts para mostrar sus morenas piernas."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Tacky",
+			"Pronunciation": "/taaki/",
+			"Meanings": 
+			[
+				"Hortera, Cutre",
+				"Pegajoso"
+			],
+			"EnglishExamples":
+			[ 
+				"The shelves were filled with tacky ornaments.",
+				"The floor of the pub was tacky from too many spilt drinks."
+			],
+			"SpanishExamples":
+			[ 				
+				"Las estanterías estaban llenas de adornos horteras.",
+				"El suelo del pub estaba pegajoso a causa de todas las bebidas que habían derramado."
 			]	 			
 		},
 		{
