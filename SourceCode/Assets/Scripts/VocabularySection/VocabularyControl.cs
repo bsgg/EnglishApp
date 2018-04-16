@@ -151,6 +151,18 @@ namespace EnglishApp
             UpdateExamples(false);
 
 
+            // Check if image is null
+            if (!string.IsNullOrEmpty(m_CurrentWord.ImageRef))
+            {
+                m_UI.Picture.sprite = GameManager.Instance.SpriteManager.GetSpriteByName(m_CurrentWord.ImageRef);
+                m_UI.ImageReferenceBtn.interactable = false;
+            }
+            else
+            {
+                m_UI.ImageReferenceBtn.interactable = true;
+            }
+            m_UI.PictureVisible = false;
+
 
             // SetEnglishExample();
 
@@ -223,6 +235,35 @@ namespace EnglishApp
             UpdateExamples(true);
             UpdateWord(true);
 
+        }
+
+        public void OnPictureBtnPress()
+        {
+            Debug.Log("VocabularyControl.OnPictureBtnPress");
+            if (m_UI.PictureVisible)
+            {
+                m_UI.PictureVisible = false;
+            }else
+            {
+                m_UI.PictureVisible = true;
+            }
+        }
+
+        public void OnNextWordBtnPress()
+        {
+
+        }
+
+        public void OnNextExampleBtnPress()
+        {
+            Debug.Log("VocabularyControl.OnNextExampleBtnPress");
+            m_SelectedExampleID++;
+            if (m_SelectedExampleID >= m_CurrentWord.EnglishExamples.Count)
+            {
+                m_SelectedExampleID = 0;
+            }
+
+            UpdateUI();
         }
 
         #endregion ButtonHandles
@@ -317,7 +358,7 @@ namespace EnglishApp
         /// <summary>
         /// Show the final answer
         /// </summary>
-        private void ShowMeaning()
+        /*private void ShowMeaning()
         {
             // Word
             string word = "<color=#5bd3de>" + m_CurrentWord.VocabularyWord;
@@ -333,38 +374,38 @@ namespace EnglishApp
 
             // Final exmample
             SetFullExample();
-        }
+        }*/
 
        
 
         /// <summary>
         /// Sets the full example. (spanish + english)
         /// </summary>
-        private void SetFullExample()
+        /*private void SetFullExample()
         {
             // Final exmample
             string example = "<color=#c9e8ff>" + m_CurrentWord.EnglishExamples[m_IndexExample] + "</color>";
             example += "\n  <size=22><color=#93d47f>- " + m_CurrentWord.SpanishExamples[m_IndexExample] + "</color></size>";
             m_UI.Example = example;
-        }
+        }*/
 
         #region ButtonHandles
         /// <summary>
         /// Next word press
         /// </summary>
-        public void OnNextWordPress()
+        /*public void OnNextWordPress()
         {
             //ProgressBarAnswerTime.StopProgressBar ();
 #if !UNITY_EDITOR && UNITY_ANDROID
 		EasyTTSUtil.StopSpeech ();
 #endif
             //InitRandomWord();
-        }
+        }*/
 
         /// <summary>
         /// Next example button in the current word
         /// </summary>
-        public void OnNextExamplePress()
+        /*public void OnNextExamplePress()
         {
 #if !UNITY_EDITOR && UNITY_ANDROID
 		EasyTTSUtil.StopSpeech ();
@@ -375,24 +416,24 @@ namespace EnglishApp
                 m_IndexExample = 0;
             }
             //SetEnglishExample();
-        }
+        }*/
 
         /// <summary>
         /// On show spanish button pressed
         /// </summary>
-        public void OnShowMeaningButton()
+        /*public void OnShowMeaningButton()
         {
             ShowMeaning();
-        }
+        }*/
 
-        public void OnMenuPress()
+       /* public void OnMenuPress()
         {
            // GameManager.Instance.OnBackMenu();
-        }
+        }*/
 
        
 
-        public void OnSpeakExamplePress()
+        /*public void OnSpeakExamplePress()
         {
             if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
             {
@@ -401,9 +442,9 @@ namespace EnglishApp
                     EasyTTSUtil.SpeechFlush(m_CurrentWord.EnglishExamples[m_IndexExample]);
                 }
             }
-        }
+        }*/
 
-        public void OnImageReferencePress()
+       /* public void OnImageReferencePress()
         {
             m_UI.ImagePopup.Show();
         }
@@ -411,7 +452,7 @@ namespace EnglishApp
         public void OnImageReferencePopupPress()
         {
             m_UI.ImagePopup.Hide();
-        }
+        }*/
 
        
 

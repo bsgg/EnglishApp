@@ -33,12 +33,39 @@ namespace EnglishApp
 
 
         [SerializeField]
-        private Image m_ImageReference;
-        public Image ImageReference
+        private Image m_Picture;
+        public Image Picture
         {
-            get { return m_ImageReference; }
-            set { m_ImageReference = value; }
+            get { return m_Picture; }
+            set { m_Picture = value; }
         }
+
+        private bool m_PictureVisible;
+        public bool PictureVisible
+        {
+            get
+            {
+                return m_PictureVisible;
+            }
+            set
+            {
+                m_Picture.gameObject.SetActive(value);
+                m_PictureVisible = value;
+            }
+        }
+        
+
+        
+
+        [SerializeField]
+        private Button m_ImageReferenceBtn;
+        public Button ImageReferenceBtn
+        {
+            get { return m_ImageReferenceBtn; }
+            set { m_ImageReferenceBtn = value; }
+        }
+
+
 
 
 
