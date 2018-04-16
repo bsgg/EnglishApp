@@ -3,7 +3,7 @@
 /// <summary>
 /// Basic Control
 /// </summary>
-namespace EnglishApp
+namespace Utility
 {
     public class BaseControl : MonoBehaviour
     {

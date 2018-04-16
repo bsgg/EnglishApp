@@ -28,7 +28,7 @@ namespace EnglishApp
         private STATE_MENU m_StateMenu;
 
         [Header("Menu UI")]
-        [SerializeField] private  BaseUI            m_MainMenuPanelUI;
+        [SerializeField] private UIBase m_MainMenuPanelUI;
 
         [Header("Menu Bar")]
         [SerializeField] private MenuLeftScrollUI m_MenuBarControl;

@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using Utility;
 
 namespace EnglishApp
 {
-    public class PopupTableUI : BaseUI
+    public class PopupTableUI : UIBase
     {
         [Header("PopupTable")]
         [SerializeField] private Text       m_TitleTable;

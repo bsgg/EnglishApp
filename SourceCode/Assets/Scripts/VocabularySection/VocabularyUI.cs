@@ -1,24 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using Utility;
 
 namespace EnglishApp
 {
-    public class VocabularyBaseUI : BaseUI
+    public class VocabularyUI : UIBase
     {        
         [Header("Vocabulary UI")]
-        [SerializeField] private Text m_LblTitleSection;
+        [SerializeField]
+        private Text m_LblTitleSection;
         public string TitleSection
         {
             get { return m_LblTitleSection.text; }
             set { m_LblTitleSection.text = value; }
         }
 
-        [SerializeField] private Text m_LblTitleNextWordButton;
-        public string TitleNextWordButton
+
+        [SerializeField] private ScrollTextUI m_ExamplesScroll;
+        public ScrollTextUI ExamplesScroll
         {
-            get { return m_LblTitleNextWordButton.text; }
-            set { m_LblTitleNextWordButton.text = value; }
+            get { return m_ExamplesScroll; }
+            set { m_ExamplesScroll = value; }
         }
 
         [SerializeField] private Text m_LblWord;
@@ -28,6 +31,27 @@ namespace EnglishApp
             set { m_LblWord.text = value; }
         }
 
+
+        [SerializeField]
+        private Image m_ImageReference;
+        public Image ImageReference
+        {
+            get { return m_ImageReference; }
+            set { m_ImageReference = value; }
+        }
+
+
+
+
+
+        [SerializeField] private Text m_LblTitleNextWordButton;
+        public string TitleNextWordButton
+        {
+            get { return m_LblTitleNextWordButton.text; }
+            set { m_LblTitleNextWordButton.text = value; }
+        }
+
+        
         [SerializeField] private Text m_LblExample;
         public string Example
         {

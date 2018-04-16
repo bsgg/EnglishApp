@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Utility;
 
 namespace EnglishApp
 {
-    public class ImageReferencePopup : BaseUI
+    public class ImageReferencePopup : UIBase
     {
         [SerializeField]
         private Image m_ImageReference;

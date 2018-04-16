@@ -3,6 +3,7 @@ using System.Collections;
 using System;
 using System.Collections.Generic;
 using LitJson;
+using Utility;
 
 namespace EnglishApp
 {
@@ -89,7 +90,7 @@ namespace EnglishApp
 
 
         [Header("Vocabulary UI")]
-        [SerializeField] private VocabularyBaseUI   m_VocabularyUI;        
+        [SerializeField] private VocabularyUI   m_UI;        
 
         private ECATEGORY m_SelectedCategory;
         public ECATEGORY SelectedCategory
@@ -110,7 +111,7 @@ namespace EnglishApp
         public override void Init()
         {
             LoadDataSet();
-            m_VocabularyUI.Hide();
+            m_UI.Hide();
         }
 
         public void LoadDataSet()
@@ -140,37 +141,105 @@ namespace EnglishApp
             m_SelectedWordID = m_VocabularySet[(int)m_SelectedCategory].GetRandomWordID();
             m_CurrentWord = m_VocabularySet[(int)m_SelectedCategory].Data[m_SelectedWordID];
             m_SelectedExampleID = 0;
+
+            UpdateUI();
         }
 
-        private void SetUI()
+        private void UpdateUI()
+        {
+            UpdateWord(false);
+            UpdateExamples(false);
+
+
+
+            // SetEnglishExample();
+
+
+
+
+
+            // m_VocabularyUI.BtnNextExample.SetActive(false);
+
+            // Set image
+            /*if (!string.IsNullOrEmpty(m_CurrentWord.ImageRef))
+            {
+                m_VocabularyUI.ImageReference.sprite = GameManager.Instance.SpriteManager.GetSpriteByName(m_CurrentWord.ImageRef);
+                //m_VocabularyUI.BtnImageReference.SetActive(true);
+            }
+            else
+            {
+               // m_VocabularyUI.BtnImageReference.SetActive(false);
+            }*/
+        }
+
+        private void UpdateWord(bool includeTranslation)
         {
             string word = "<color=#5bd3de>" + m_CurrentWord.VocabularyWord;
             if (!string.IsNullOrEmpty(m_CurrentWord.Pronunciation))
             {
-                word += " <" + m_CurrentWord.Pronunciation + ">";
-            }
-            word += "</color>";
-
-            m_VocabularyUI.Word = word;
-
-            SetEnglishExample();
-
-            m_VocabularyUI.BtnNextExample.SetActive(false);
-
-            if (!string.IsNullOrEmpty(m_CurrentWord.ImageRef))
+                word += m_CurrentWord.Pronunciation + "</color>";
+            }else
             {
-                m_VocabularyUI.ImagePopup.ImageReference.sprite = GameManager.Instance.SpriteManager.GetSpriteByName(m_CurrentWord.ImageRef);
-                m_VocabularyUI.BtnImageReference.SetActive(true);
+                word += "</color>";
             }
-            else
+
+            if (includeTranslation)
             {
-                m_VocabularyUI.BtnImageReference.SetActive(false);
+                if ((m_CurrentWord.Meanings != null) && (m_SelectedExampleID < m_CurrentWord.Meanings.Count))
+                {
+                    word +=":" +  m_CurrentWord.Meanings[m_SelectedExampleID];
+                }
+            }
+
+            m_UI.Word = word;            
+        }
+
+        private void UpdateExamples(bool includeTranslation)
+        {
+            string example = "<color=#c9e8ff> - " + m_CurrentWord.EnglishExamples[m_SelectedExampleID] + "</color>\n";
+
+            if (includeTranslation)
+            {
+                example += "\n  <color=#93d47f>- " + m_CurrentWord.SpanishExamples[m_SelectedExampleID] + "</color>";
+            }          
+
+            m_UI.ExamplesScroll.SetText(example);
+        }
+
+        #region ButtonHandles
+
+        public void OnAudioWordBtnPress()
+        {
+            Debug.Log("VocabularyControl.OnAudioWordBtnPress");
+            if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
+            {
+                EasyTTSUtil.SpeechFlush(m_CurrentWord.VocabularyWord);
             }
         }
 
+        public void OnTranslateBtnPress()
+        {
+            Debug.Log("VocabularyControl.OnTranslateBtnPress");
+            UpdateExamples(true);
+            UpdateWord(true);
+
+        }
+
+        #endregion ButtonHandles
+
+
+        /// <summary>
+        /// Sets the english example.
+        /// </summary>
+        /*private void SetEnglishExample()
+        {
+            string example = "<color=#c9e8ff>" + m_CurrentWord.EnglishExamples[m_IndexExample] + "</color>";
+            m_UI.Example = example;
+        }*/
+
         public override void Show()
         {
-            m_VocabularyUI.Show();
+            m_UI.Show();
         }
 
         public override void Hide()
@@ -178,7 +247,7 @@ namespace EnglishApp
 #if !UNITY_EDITOR && UNITY_ANDROID
 		EasyTTSUtil.StopSpeech ();
 #endif
-            m_VocabularyUI.Hide();
+            m_UI.Hide();
         }
 
         public override void Back()
@@ -260,20 +329,13 @@ namespace EnglishApp
             {
                 word += "</color>:  " + m_CurrentWord.Meanings[m_IndexExample];
             }
-            m_VocabularyUI.Word = word;
+            m_UI.Word = word;
 
             // Final exmample
             SetFullExample();
         }
 
-        /// <summary>
-        /// Sets the english example.
-        /// </summary>
-        private void SetEnglishExample()
-        {
-            string example = "<color=#c9e8ff>" + m_CurrentWord.EnglishExamples[m_IndexExample] + "</color>";
-            m_VocabularyUI.Example = example;
-        }
+       
 
         /// <summary>
         /// Sets the full example. (spanish + english)
@@ -283,7 +345,7 @@ namespace EnglishApp
             // Final exmample
             string example = "<color=#c9e8ff>" + m_CurrentWord.EnglishExamples[m_IndexExample] + "</color>";
             example += "\n  <size=22><color=#93d47f>- " + m_CurrentWord.SpanishExamples[m_IndexExample] + "</color></size>";
-            m_VocabularyUI.Example = example;
+            m_UI.Example = example;
         }
 
         #region ButtonHandles
@@ -312,7 +374,7 @@ namespace EnglishApp
             {
                 m_IndexExample = 0;
             }
-            SetEnglishExample();
+            //SetEnglishExample();
         }
 
         /// <summary>
@@ -328,15 +390,7 @@ namespace EnglishApp
            // GameManager.Instance.OnBackMenu();
         }
 
-        public void OnSpeakWordPress()
-        {
-
-            if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
-            {
-                EasyTTSUtil.SpeechFlush(m_CurrentWord.VocabularyWord);
-            }
-
-        }
+       
 
         public void OnSpeakExamplePress()
         {
@@ -351,12 +405,12 @@ namespace EnglishApp
 
         public void OnImageReferencePress()
         {
-            m_VocabularyUI.ImagePopup.Show();
+            m_UI.ImagePopup.Show();
         }
 
         public void OnImageReferencePopupPress()
         {
-            m_VocabularyUI.ImagePopup.Hide();
+            m_UI.ImagePopup.Hide();
         }
 
        

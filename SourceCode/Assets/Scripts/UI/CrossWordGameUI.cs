@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using System;
 using CrossWordUtil;
+using Utility;
 
 namespace EnglishApp
 {
-    public class CrossWordGameUI : BaseUI
+    public class CrossWordGameUI : UIBase
     {
         public delegate void OnPieceButtonPress(int iRow, int iCol);
 

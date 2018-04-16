@@ -18,7 +18,7 @@ namespace EnglishApp
         private BaseControl m_CurrentControl = null;
 
         [SerializeField]
-        private BaseUI m_MainMenu;
+        private UIBase m_MainMenu;
 
         private void Start()
         {
@@ -28,9 +28,6 @@ namespace EnglishApp
 #endif
 
             StartCoroutine(Init());
-
-           
-
 
         }
 

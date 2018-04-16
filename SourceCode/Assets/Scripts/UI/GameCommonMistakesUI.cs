@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using Utility;
 
 namespace EnglishApp
 {
-    public class GameCommonMistakesUI : BaseUI
+    public class GameCommonMistakesUI : UIBase
     {
         [Header("GameCommonMistakesUI")]
         [SerializeField] private Text m_Question;

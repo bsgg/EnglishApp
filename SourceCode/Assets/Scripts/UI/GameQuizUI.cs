@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using Utility;
+
 
 namespace EnglishApp
 {
-    public class GameQuizUI : BaseUI
+    public class GameQuizUI : UIBase
     {
         [Header("Game Quiz UI")]
 

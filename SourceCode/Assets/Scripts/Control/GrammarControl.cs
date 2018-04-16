@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using LitJson;
+using Utility;
 
 namespace EnglishApp
 {
@@ -41,7 +42,7 @@ namespace EnglishApp
     public class GrammarControl : BaseControl
     {
         [Header("Menu Grammar")]
-        [SerializeField] private BaseUI             m_GrammarMenuUI;
+        [SerializeField] private UIBase m_GrammarMenuUI;
 
         [Header("Grammar UI")]
         [SerializeField] private GrammarSectionUI   m_GrammarPanelUI;

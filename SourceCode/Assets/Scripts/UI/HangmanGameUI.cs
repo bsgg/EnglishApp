@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Utility;
 
 namespace EnglishApp
 {
-    public class HangmanGameUI : BaseUI
+    public class HangmanGameUI : UIBase
     {
         [Header("HangmanGameUI")]
         [SerializeField] private Text m_LabelNumberTries;

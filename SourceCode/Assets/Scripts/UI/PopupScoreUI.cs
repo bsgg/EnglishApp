@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using Utility;
 
 namespace EnglishApp
 {
-    public class PopupScoreUI : BaseUI
+    public class PopupScoreUI : UIBase
     {
         [SerializeField]
         private Text m_LblScore;

@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Utility;
 
 namespace EnglishApp
 {
-    public class ImageExampleUI : BaseUI
+    public class ImageExampleUI : UIBase
     {
 
 	

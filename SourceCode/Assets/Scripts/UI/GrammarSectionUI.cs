@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using Utility;
 
 namespace EnglishApp
 {
-    public class GrammarSectionUI : BaseUI
+    public class GrammarSectionUI : UIBase
     {
         [Header("GrammarSectionUI")]
         [SerializeField] private PopupTableUI m_PopupTable;

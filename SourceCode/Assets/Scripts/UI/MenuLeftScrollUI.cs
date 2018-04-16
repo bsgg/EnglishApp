@@ -2,10 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using Utility;
 
 namespace EnglishApp
 {
-    public class MenuLeftScrollUI : BaseUI
+    public class MenuLeftScrollUI : UIBase
     {
         [Header("Title object")]
         [SerializeField] private Text m_TitleMenu;

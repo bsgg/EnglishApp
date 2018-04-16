@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using Utility;
 
 namespace EnglishApp
 {
@@ -10,7 +11,7 @@ namespace EnglishApp
         /// <summary>
         /// GameMenu
         /// </summary>
-        [SerializeField] private BaseUI         m_GameMenu;
+        [SerializeField] private UIBase m_GameMenu;
 
         /// <summary>
         /// Grammar Quiz
