@@ -39,7 +39,7 @@ namespace EnglishApp
        
     }
 
-    public class GrammarControl : BaseControl
+    public class GrammarControl : Base
     {
         [Header("Menu Grammar")]
         [SerializeField] private UIBase m_GrammarMenuUI;
@@ -91,7 +91,7 @@ namespace EnglishApp
 
         public override void Finish()
         {
-            if (m_GrammarPanelUI.IsVisible)
+            if (m_GrammarPanelUI.Visible)
             {
                 GameManager.Instance.MenuBarControl.ScrollMenu.HandleButtonPress -= onHandleMenuButtonGrammarPress;
                 GameManager.Instance.MenuBarControl.Close();
@@ -105,7 +105,7 @@ namespace EnglishApp
 
         public override void Back()
         {
-            if (m_GrammarPanelUI.IsVisible)
+            if (m_GrammarPanelUI.Visible)
             {
                 GameManager.Instance.MenuBarControl.ScrollMenu.HandleButtonPress -= onHandleMenuButtonGrammarPress;
                 GameManager.Instance.MenuBarControl.Close();

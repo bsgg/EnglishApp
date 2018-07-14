@@ -48,7 +48,7 @@ namespace EnglishApp
     }
 
 
-    public class VocabularyControl : BaseControl
+    public class VocabularyControl : Base
     {
         /// <summary>
         /// Category Word type

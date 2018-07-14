@@ -5,7 +5,7 @@ using Utility;
 
 namespace EnglishApp
 {
-    public class CommonMistakesGameControl : BaseControl
+    public class CommonMistakesGameControl : Base
     {
         /// <summary>
         /// Common mistakes GUI

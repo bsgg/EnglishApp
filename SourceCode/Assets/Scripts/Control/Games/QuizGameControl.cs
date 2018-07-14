@@ -5,7 +5,7 @@ using Utility;
 
 namespace EnglishApp
 {
-    public class QuizGameControl : BaseControl
+    public class QuizGameControl : Base
     {
         /// <summary>
         /// Number of questions

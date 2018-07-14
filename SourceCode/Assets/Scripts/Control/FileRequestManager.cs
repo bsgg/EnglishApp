@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Utility
 {
 
-    [Serializable]
+   /* [Serializable]
     public class IndexFile
     {
         public string FileName;
@@ -24,11 +24,11 @@ namespace Utility
         {
             Data = new List<IndexFile>();
         }
-    }
+    }*/
 
     public class FileRequestManager : MonoBehaviour
     {
-        public enum EDATATYPE { GRAMMAR, VOCABULARY };
+        //public enum EDATATYPE { GRAMMAR, VOCABULARY };
 
         #region Instance
         private static FileRequestManager m_Instance;
@@ -52,7 +52,7 @@ namespace Utility
 
        
 
-        [SerializeField]
+       /* [SerializeField]
         public List<IndexFile> m_IndexFileDataURL;
 
         [SerializeField]
@@ -66,45 +66,47 @@ namespace Utility
             {
                 return m_FileData;
             }
-        }
+        }*/
 
-        private float m_PercentProgress;
+        /*private float m_PercentProgress;
         private string m_ProgressText;
 
         public string ProgressText
         {
             get { return m_ProgressText; }
-        }
+        }*/
 
 
   
-        private string m_FileDataUrl = "http://beatrizcv.com/Data/";
+        //private string m_FileDataUrl = "http://beatrizcv.com/Data/";
 
 
         public IEnumerator RequestIndexFiles()
         {
-            m_Data = new List<FileData>();
-            for (int i=0; i< m_IndexFileDataURL.Count; i++)
-            {
-                WWW wwwFile = new WWW(m_IndexFileDataURL[i].URL);
-                yield return wwwFile;
-                string jsonData = wwwFile.text;
+            /* m_Data = new List<FileData>();
+             for (int i=0; i< m_IndexFileDataURL.Count; i++)
+             {
+                 WWW wwwFile = new WWW(m_IndexFileDataURL[i].URL);
+                 yield return wwwFile;
+                 string jsonData = wwwFile.text;
 
-                Debug.LogWarning("<color=yellow>" + "[FileRequestManager] Retrieving file " + m_IndexFileDataURL[i] + " Data: " + jsonData + "</color>");
+                 Debug.LogWarning("<color=yellow>" + "[FileRequestManager] Retrieving file " + m_IndexFileDataURL[i] + " Data: " + jsonData + "</color>");
 
-                try
-                {
-                    m_Data.Add(JsonMapper.ToObject<FileData>(jsonData));
+                 try
+                 {
+                     m_Data.Add(JsonMapper.ToObject<FileData>(jsonData));
 
-                }
-                catch (Exception e)
-                {
-                    Debug.LogWarning("<color=yellow>" + "[FileRequestManager] Unable to parse " + m_IndexFileDataURL[i] + "</color>");
-                }
+                 }
+                 catch (Exception e)
+                 {
+                     Debug.LogWarning("<color=yellow>" + "[FileRequestManager] Unable to parse " + m_IndexFileDataURL[i] + "</color>");
+                 }
 
-                yield return null;
-                
-            }
+                 yield return null;
+
+             }*/
+
+            yield return null;
 
         }
 

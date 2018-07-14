@@ -6,7 +6,7 @@ using Utility;
 
 namespace EnglishApp
 {
-    public class GamesControl : BaseControl
+    public class GamesControl : Base
     {
         /// <summary>
         /// GameMenu

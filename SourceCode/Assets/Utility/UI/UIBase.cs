@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 namespace Utility
 {
-    public class UIBase : BaseControl
+    public class UIBase : Base
     {
         [SerializeField]  private CanvasGroup m_CanvasGroup;	
 

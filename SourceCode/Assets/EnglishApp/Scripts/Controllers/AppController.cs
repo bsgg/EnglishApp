@@ -6,16 +6,41 @@ using Utility;
 
 namespace EnglishApp
 {
-    public class AppControl : Singleton<AppControl>
+    public class AppController :MonoBehaviour
     {
+        #region Instance
+        private static AppController m_Instance;
+        public static AppController Instance
+        {
+            get
+            {
+                if (m_Instance == null)
+                {
+                    m_Instance = (AppController)FindObjectOfType(typeof(AppController));
+
+                    if (m_Instance == null)
+                    {
+                        Debug.LogError("An instance of " + typeof(AppController) + " is needed in the scene, but there is none.");
+                    }
+                }
+                return m_Instance;
+            }
+        }
+        #endregion Instance
+
+
         public enum ESECTION { NONE = -1, Vocabulary = 0, PhrasalVerbs, Agility, Expressions, Grammar, Games, NUM };
         private ESECTION m_SelectedSection = ESECTION.NONE;
+
+        [SerializeField] private LauncherController m_LauncherControl;
 
         [SerializeField] private VocabularyControl m_VocabularyControl;
 
         [SerializeField] private GrammarControl m_GrammarControlControl;
 
-        private BaseControl m_CurrentControl = null;
+
+
+        private Base m_CurrentControl = null;
 
         [SerializeField]
         private UIBase m_MainMenu;
@@ -35,12 +60,15 @@ namespace EnglishApp
         {
             //yield return FileRequestManager.Instance.RequestFiles();
 
-            yield return FileRequestManager.Instance.RequestIndexFiles();
 
-            m_VocabularyControl.Init();
+            //yield return FileRequestManager.Instance.RequestIndexFiles();
 
-            m_GrammarControlControl.Init();
-            m_MainMenu.Show();
+            yield return m_LauncherControl.DelayedInit();
+
+           // m_VocabularyControl.Init();
+
+            //m_GrammarControlControl.Init();
+           // m_MainMenu.Show();
         }
 
 

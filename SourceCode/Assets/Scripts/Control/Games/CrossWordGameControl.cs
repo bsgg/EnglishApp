@@ -7,7 +7,7 @@ using Utility;
 
 namespace EnglishApp
 {
-    public class CrossWordGameControl : BaseControl
+    public class CrossWordGameControl : Base
     {
         // Alphabet to create new letters
         private const string ALPHABETLETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

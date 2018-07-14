@@ -7,7 +7,7 @@ using Utility;
 
 namespace EnglishApp
 {
-    public class HangmanGameControl : BaseControl
+    public class HangmanGameControl : Base
     {
         /// <summary>
         /// GUI Hangman

@@ -60,7 +60,7 @@ namespace EnglishApp
             get { return m_DataGrammar; }
         }
 
-        private BaseControl m_CurrentControl;
+        private Base m_CurrentControl;
 
 
         [SerializeField] private SpriteManager m_SpriteManager;
