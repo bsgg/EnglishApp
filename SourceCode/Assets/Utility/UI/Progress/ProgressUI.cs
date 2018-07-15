@@ -28,5 +28,10 @@ namespace Utility.UI
         {
             m_ProgressText.text = text;
         }
-	}
+
+        public void SetProgress(string text)
+        {
+            m_ProgressText.text = text;
+        }
+    }
 }

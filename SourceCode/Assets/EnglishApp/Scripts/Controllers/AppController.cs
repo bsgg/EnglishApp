@@ -65,6 +65,25 @@ namespace EnglishApp
 
             yield return m_LauncherControl.DelayedInit();
 
+            if (!m_LauncherControl.IsInitialized)
+            {
+                Debug.Log("<color=purple>" + "[AppController.Init] Launcher not INITIALIZED, Ready to download " + "</color>");
+
+                if (Application.internetReachability == NetworkReachability.NotReachable)
+                {
+                    //m_PopupWithButtons.ShowPopup("No Internet", "Please connect to internet to download data and restart the app");
+                }
+                else
+                {
+                    StartCoroutine(m_LauncherControl.DownloadData());
+                }
+
+            }
+            else
+            {
+                Debug.Log("<color=purple>" + "[AppController.Init] Launcher INITIALIZED " + "</color>");
+            }
+
            // m_VocabularyControl.Init();
 
             //m_GrammarControlControl.Init();

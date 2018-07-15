@@ -2,19 +2,20 @@
 	"Data": 
 	[
 	  {
-		"FileName": "Actions",
-		"URL": "beatrizcv.com/Data/English/Vocabulary/Actions.json",
-		"DataType": 1
-	  },
-	  {
-		"FileName": "Adjectives",
-		"URL": "beatrizcv.com/Data/English/Vocabulary/Adjectives.json",
-		"DataType": 1
-	  },
-	  {
 		"FileName": "Adverbs",
-		"URL": "beatrizcv.com/Data/English/Vocabulary/Adverbs.json",
-		"DataType": 1
+		"DataType": 0
+	  },
+	  {
+		"FileName": "Comparatives",
+		"DataType": 0
+	  },
+	  {
+		"FileName": "Conditionals",
+		"DataType": 0
+	  },
+	  {
+		"FileName": "Future",
+		"DataType": 0
 	  }
 	]      
 }

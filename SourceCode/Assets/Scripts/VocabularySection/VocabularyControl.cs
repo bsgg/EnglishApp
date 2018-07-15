@@ -7,7 +7,7 @@ using Utility;
 
 namespace EnglishApp
 {
-    [System.Serializable]
+    [Serializable]
     public class Word
     {
         public string Category;
