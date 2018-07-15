@@ -33,6 +33,10 @@ namespace EnglishApp
         private ESECTION m_SelectedSection = ESECTION.NONE;
 
         [SerializeField] private LauncherController m_LauncherControl;
+        public LauncherController LauncherControl
+        {
+            get { return m_LauncherControl; }
+        }
 
         [SerializeField] private VocabularyControl m_VocabularyControl;
 
@@ -58,12 +62,11 @@ namespace EnglishApp
 
         private IEnumerator Init()
         {
-            //yield return FileRequestManager.Instance.RequestFiles();
-
-
-            //yield return FileRequestManager.Instance.RequestIndexFiles();
-
             yield return m_LauncherControl.DelayedInit();
+
+            m_LauncherControl.OnDownloadCompleted += LauncherControl_OnDownloadCompleted;
+
+            m_MainMenu.Show();
 
             if (!m_LauncherControl.IsInitialized)
             {
@@ -83,13 +86,12 @@ namespace EnglishApp
             {
                 Debug.Log("<color=purple>" + "[AppController.Init] Launcher INITIALIZED " + "</color>");
             }
-
-           // m_VocabularyControl.Init();
-
-            //m_GrammarControlControl.Init();
-           // m_MainMenu.Show();
         }
 
+        private void LauncherControl_OnDownloadCompleted(LauncherController.ERESULT Result, string Message)
+        {
+            Debug.Log("<color=purple>" + "[AppController.LauncherControl_OnDownloadCompleted] On Download Completed" + "</color>");
+        }
 
         void Update()
         {

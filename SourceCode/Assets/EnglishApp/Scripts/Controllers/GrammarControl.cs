@@ -6,6 +6,7 @@ using Utility;
 
 namespace EnglishApp
 {
+    [System.Serializable]
     public class Grammar
     {
         public string Title;

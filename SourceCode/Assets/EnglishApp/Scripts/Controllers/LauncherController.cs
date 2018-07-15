@@ -8,6 +8,8 @@ using Utility.UI;
 
 namespace EnglishApp
 {
+
+    #region INDEX_DATA_FILES
     [Serializable]
     public class IndexFile
     {
@@ -33,13 +35,13 @@ namespace EnglishApp
         }
     }
 
-    public struct RequestResult
-    {
-        LauncherController.ERESULT Result;
-        string Message;
-    }
+    #endregion INDEX_DATA_FILES
+
     public class LauncherController : Base
     {
+        public delegate void LauncherAction(ERESULT Result, string Message);
+        public event LauncherAction OnDownloadCompleted;
+
         public enum EDATATYPE { GRAMMAR, VOCABULARY };
         public enum ERESULT { SUCCESS, FAIL };
 
@@ -55,7 +57,17 @@ namespace EnglishApp
             get { return m_Initialized; }
         }
 
-        private RequestResult m_RequestResult;
+        [Header("Data")]
+        [SerializeField] private List<WordDictionary> m_VocabularySet;
+        public List<WordDictionary> VocabularySet
+        {
+            get { return m_VocabularySet; }
+        }
+        [SerializeField] private List<GrammarDictionary> m_DictionarySet;
+        public List<GrammarDictionary> DictionarySet
+        {
+            get { return m_DictionarySet; }
+        }
 
         public override void Show()
         {
@@ -72,6 +84,9 @@ namespace EnglishApp
 
         public override IEnumerator DelayedInit()
         {
+            m_VocabularySet = new List<WordDictionary>();
+            m_DictionarySet = new List<GrammarDictionary>();
+
             m_Progress.Show();
             m_Progress.SetProgress("Wait..");
 
@@ -87,7 +102,6 @@ namespace EnglishApp
                     Directory.CreateDirectory(localDataFolder);
                 }
 
-
                 string indexLocalFileURL = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].FileName);
             
 
@@ -98,6 +112,7 @@ namespace EnglishApp
                     nFilesInLocal++;
                 }
             }
+
             yield return new WaitForEndOfFrame();
             // Load files
             if (nFilesInLocal == m_InfoFileList.Count)
@@ -115,9 +130,7 @@ namespace EnglishApp
 
             m_Progress.Hide();
 
-        }
-        [SerializeField] List<WordDictionary> m_VocabularySet = new List<WordDictionary>();
-        [SerializeField] private List<GrammarDictionary> m_DictionarySet = new List<GrammarDictionary>();
+        }       
 
         private bool LoadLocalData()
         {
@@ -135,41 +148,40 @@ namespace EnglishApp
                     {
                         m_InfoFileList[i].Data = JsonUtility.FromJson<FileData>(data);
 
+                        // Read sub data 
+                        for (int iData = 0; iData < m_InfoFileList[i].Data.Data.Count; iData++)
+                        {
+                            string localDataFile = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].DataFolderName);
+                            localDataFile = Path.Combine(localDataFile, m_InfoFileList[i].Data.Data[iData].FileName + ".json");
+                            string jsonData = string.Empty;
+                            if (ReadFile(localDataFile, ref jsonData))
+                            {
+                                
+                                if (m_InfoFileList[i].DataType == EDATATYPE.VOCABULARY)
+                                {
+                                    WordDictionary set = JsonUtility.FromJson<WordDictionary>(jsonData);
+                                    m_VocabularySet.Add(set);
+                                }
+
+                                else if (m_InfoFileList[i].DataType == EDATATYPE.GRAMMAR)
+                                {
+                                    GrammarDictionary set = JsonUtility.FromJson<GrammarDictionary>(jsonData);
+                                    m_DictionarySet.Add(set);
+                                }
+                                
+                            }
+                            else
+                            {
+                                return false;
+                            }
+                        }
+
                     }
                     catch (Exception e)
                     {
-                        Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] There was an error parsing json - ERROR: " + e.Message + "</color>");
-                        continue;
+                        Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] Unable to Load Data: " + e.Message + "</color>");
+                        return false;
                     }
-
-                    // TODO READ SUB DATA
-                    m_VocabularySet = new List<WordDictionary>();
-                    m_DictionarySet = new List<GrammarDictionary>();
-                    
-                    for (int iData=0; iData< m_InfoFileList[i].Data.Data.Count; iData++)
-                    {
-                        string localDataFile = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].DataFolderName);
-                        localDataFile = Path.Combine(localDataFile, m_InfoFileList[i].Data.Data[iData].FileName + ".json");
-                        if (ReadFile(localDataFile, ref data))
-                        {
-                            if (m_InfoFileList[i].DataType == EDATATYPE.VOCABULARY)
-                            { 
-                                
-                                    WordDictionary set = JsonUtility.FromJson<WordDictionary>(data);
-                                    m_VocabularySet.Add(set);
-
-                            }
-
-                            if (m_InfoFileList[i].DataType == EDATATYPE.GRAMMAR)
-                            {
-                                GrammarDictionary set = JsonUtility.FromJson<GrammarDictionary>(data);
-                                m_DictionarySet.Add(set);
-                            }
-
-
-                        }                            
-                    }
-
 
                 }else
                 {
@@ -177,13 +189,16 @@ namespace EnglishApp
                 }
             }
 
-            return true;
+            return true;           
         }
-
+        
         public IEnumerator DownloadData()
         {
             m_Progress.Show();
             m_Progress.SetProgress("Wait..");
+
+            m_VocabularySet = new List<WordDictionary>();
+            m_DictionarySet = new List<GrammarDictionary>();
 
             for (int i = 0; i < m_InfoFileList.Count; i++)
             {
@@ -197,7 +212,6 @@ namespace EnglishApp
 
                 if (!string.IsNullOrEmpty(data))
                 {
-
                     try
                     {
                         m_InfoFileList[i].Data = JsonUtility.FromJson<FileData>(data);                        
@@ -206,6 +220,11 @@ namespace EnglishApp
                     catch (Exception e)
                     {
                         Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] There was an error parsing json: " + data + "  - ERROR: " + e.Message + "</color>");
+
+                        if (OnDownloadCompleted != null)
+                        {
+                            OnDownloadCompleted(ERESULT.FAIL, "ERROR PARSING JSON");
+                        }
                     }
 
                     yield return new WaitForEndOfFrame();
@@ -213,7 +232,15 @@ namespace EnglishApp
                     string indexLocalFileURL = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].FileName);
                     bool result = SaveFileToLocal(indexLocalFileURL, wwwFile);
 
-                    if (!result) continue;
+                    if (!result)
+                    {
+                        if (OnDownloadCompleted != null)
+                        {
+                            OnDownloadCompleted(ERESULT.FAIL, "ERROR PARSING JSON");
+                        }
+
+                        yield break;
+                    }
 
                     for (int iData = 0; iData < m_InfoFileList[i].Data.Data.Count; iData++)
                     {
@@ -229,24 +256,52 @@ namespace EnglishApp
                             string dataLocalURL = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].DataFolderName);
                             dataLocalURL = Path.Combine(dataLocalURL, fileName);
 
-                            result = SaveFileToLocal(dataLocalURL, wwwDataFile);
-
-                            if (result)
+                            if (SaveFileToLocal(dataLocalURL, wwwDataFile))
                             {
-                                Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] Success Saving " + fileName + " at " + dataLocalURL + "</color>");
+                                if (m_InfoFileList[i].DataType == EDATATYPE.VOCABULARY)
+                                {
+                                    WordDictionary set = JsonUtility.FromJson<WordDictionary>(wwwDataFile.text);
+                                    m_VocabularySet.Add(set);
+                                }
+
+                                else if (m_InfoFileList[i].DataType == EDATATYPE.GRAMMAR)
+                                {
+                                    GrammarDictionary set = JsonUtility.FromJson<GrammarDictionary>(wwwDataFile.text);
+                                    m_DictionarySet.Add(set);
+                                }
                             }else
                             {
                                 Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] Fail Saving " + fileName + " at " + dataLocalURL + "</color>");
+                                if (OnDownloadCompleted != null)
+                                {
+                                    OnDownloadCompleted(ERESULT.FAIL, "UNABLE TO SAVE FILE");
+                                }
+                            }
+                            
+                        }
+                        else
+                        {
+                            if (OnDownloadCompleted != null)
+                            {
+                                OnDownloadCompleted(ERESULT.FAIL, "Empty Data");
                             }
                         }
                     }
+                }else
+                {
+                    if (OnDownloadCompleted != null)
+                    {
+                        OnDownloadCompleted(ERESULT.FAIL, "Empty Data");
+                    }
                 }
-                
-
-                // TODO DOWNLOAD SUB DATA
             }
 
             m_Progress.Hide();
+
+            if (OnDownloadCompleted != null)
+            {
+                OnDownloadCompleted(ERESULT.SUCCESS, "");
+            }
 
         }
 

@@ -103,43 +103,15 @@ namespace EnglishApp
         private Word                                 m_CurrentWord;
         private int                                  m_IndexExample;
         private int m_SelectedWordID;
-        private int m_SelectedExampleID;
-
-        private List<WordDictionary> m_VocabularySet;
-
-
-        public override void Init()
-        {
-            LoadDataSet();
-            m_UI.Hide();
-        }
-
-        public void LoadDataSet()
-        {
-            m_VocabularySet = new List<WordDictionary>();
-
-            for (int i = 0; i < (int)(ECATEGORY.NUM); i++)
-            {
-                string nameData = ((ECATEGORY)i).ToString();
-                string path = "Data/Vocabulary/" + nameData;
-                string jsonData = Utils.LoadJSONResource(path);
-                if (!string.IsNullOrEmpty(jsonData))
-                {
-                    WordDictionary set = JsonMapper.ToObject<WordDictionary>(jsonData);
-                    m_VocabularySet.Add(set);
-                }
-                else
-                {
-                    Debug.LogError("[DataDictionary.LoadVocabulary] " + nameData + " NULL ");
-                }
-            }
-        }
+        private int m_SelectedExampleID;        
 
         public void SetRandomWord()
-        {            
-            m_SelectedCategory = ((ECATEGORY)UnityEngine.Random.Range(0, (int)ECATEGORY.NUM)); ;
-            m_SelectedWordID = m_VocabularySet[(int)m_SelectedCategory].GetRandomWordID();
-            m_CurrentWord = m_VocabularySet[(int)m_SelectedCategory].Data[m_SelectedWordID];
+        {
+            int nElements = AppController.Instance.LauncherControl.VocabularySet.Count;
+
+            m_SelectedCategory = (ECATEGORY)UnityEngine.Random.Range(0, nElements);
+            m_SelectedWordID = AppController.Instance.LauncherControl.VocabularySet[(int)m_SelectedCategory].GetRandomWordID();
+            m_CurrentWord = AppController.Instance.LauncherControl.VocabularySet[(int)m_SelectedCategory].Data[m_SelectedWordID];
             m_SelectedExampleID = 0;
 
             UpdateUI();
