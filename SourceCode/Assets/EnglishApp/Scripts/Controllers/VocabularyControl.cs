@@ -53,7 +53,7 @@ namespace EnglishApp
         /// <summary>
         /// Category Word type
         /// </summary>
-        public enum ECATEGORY
+        /*public enum ECATEGORY
         {
             NONE = -1,
             Actions = 0,
@@ -86,82 +86,83 @@ namespace EnglishApp
             "Agility",
             "Expressions",
             "Misc"
-        };
+        };*/
 
 
         [Header("Vocabulary UI")]
-        [SerializeField] private VocabularyUI   m_UI;        
+        [SerializeField] private VocabularyUI   m_UI;
 
-        private ECATEGORY m_SelectedCategory;
+        [SerializeField] private int m_SelectedCategory;
+
+        /*private ECATEGORY m_SelectedCategory;
         public ECATEGORY SelectedCategory
         {
             set { m_SelectedCategory = value; }
             get { return m_SelectedCategory; }
         }
+        */
 
         // Current Word
-        private Word                                 m_CurrentWord;
+        [SerializeField] private Word                                 m_CurrentWord;
         private int                                  m_IndexExample;
-        private int m_SelectedWordID;
-        private int m_SelectedExampleID;        
+
+        [SerializeField] private int m_SelectedWordID;
+        [SerializeField] private int m_SelectedExampleID;
+
+        private bool m_AddTranslation = false;
+        private bool m_PictureVisible = false;
 
         public void SetRandomWord()
         {
             int nElements = AppController.Instance.LauncherControl.VocabularySet.Count;
 
-            m_SelectedCategory = (ECATEGORY)UnityEngine.Random.Range(0, nElements);
-            m_SelectedWordID = AppController.Instance.LauncherControl.VocabularySet[(int)m_SelectedCategory].GetRandomWordID();
-            m_CurrentWord = AppController.Instance.LauncherControl.VocabularySet[(int)m_SelectedCategory].Data[m_SelectedWordID];
+            m_SelectedCategory = UnityEngine.Random.Range(0, nElements);
+            m_SelectedWordID = AppController.Instance.LauncherControl.VocabularySet[m_SelectedCategory].GetRandomWordID();
+
+            m_CurrentWord = AppController.Instance.LauncherControl.VocabularySet[m_SelectedCategory].Data[m_SelectedWordID];
             m_SelectedExampleID = 0;
+
+            if (m_CurrentWord.EnglishExamples.Count <= 1)
+            {
+                m_UI.NextExampleBtn.Disable();
+            }else
+            {
+                m_UI.NextExampleBtn.Enable();
+            }
+
+            m_AddTranslation = false;
+            m_PictureVisible = false;
 
             UpdateUI();
         }
 
         private void UpdateUI()
         {
-            UpdateWord(false);
-            UpdateExamples(false);
+            UpdateWord(m_AddTranslation);
+            UpdateExamples(m_AddTranslation);
 
-
-            // Check if image is null
+            // Set Image
             if (!string.IsNullOrEmpty(m_CurrentWord.ImageRef))
             {
-                m_UI.Picture.sprite = GameManager.Instance.SpriteManager.GetSpriteByName(m_CurrentWord.ImageRef);
-                m_UI.ImageReferenceBtn.interactable = false;
+                m_PictureVisible = true;
+                m_UI.ImageBtn.Enable();
+                //m_UI.SetPicture();
             }
             else
             {
-                m_UI.ImageReferenceBtn.interactable = true;
-            }
-            m_UI.PictureVisible = false;
-
-
-            // SetEnglishExample();
-
-
-
-
-
-            // m_VocabularyUI.BtnNextExample.SetActive(false);
-
-            // Set image
-            /*if (!string.IsNullOrEmpty(m_CurrentWord.ImageRef))
-            {
-                m_VocabularyUI.ImageReference.sprite = GameManager.Instance.SpriteManager.GetSpriteByName(m_CurrentWord.ImageRef);
-                //m_VocabularyUI.BtnImageReference.SetActive(true);
-            }
-            else
-            {
-               // m_VocabularyUI.BtnImageReference.SetActive(false);
-            }*/
+                m_PictureVisible = false;
+                m_UI.ImageBtn.Disable();
+                m_UI.SetPicture();
+            }            
         }
+
 
         private void UpdateWord(bool includeTranslation)
         {
             string word = "<color=#5bd3de>" + m_CurrentWord.VocabularyWord;
             if (!string.IsNullOrEmpty(m_CurrentWord.Pronunciation))
             {
-                word += m_CurrentWord.Pronunciation + "</color>";
+                word += " - " +  m_CurrentWord.Pronunciation + "</color>";
             }else
             {
                 word += "</color>";
@@ -171,12 +172,13 @@ namespace EnglishApp
             {
                 if ((m_CurrentWord.Meanings != null) && (m_SelectedExampleID < m_CurrentWord.Meanings.Count))
                 {
-                    word +=":" +  m_CurrentWord.Meanings[m_SelectedExampleID];
+                    word +="\n" +  m_CurrentWord.Meanings[m_SelectedExampleID];
                 }
             }
 
-            m_UI.Word = word;            
+            m_UI.WordLabel = word;            
         }
+
 
         private void UpdateExamples(bool includeTranslation)
         {
@@ -190,7 +192,7 @@ namespace EnglishApp
             m_UI.ExamplesScroll.SetText(example);
         }
 
-        #region ButtonHandles
+        #region MenuHandle
 
         public void OnAudioWordBtnPress()
         {
@@ -204,52 +206,49 @@ namespace EnglishApp
         public void OnTranslateBtnPress()
         {
             Debug.Log("VocabularyControl.OnTranslateBtnPress");
-            UpdateExamples(true);
-            UpdateWord(true);
+
+            m_AddTranslation = !m_AddTranslation;
+
+            UpdateExamples(m_AddTranslation);
+            UpdateWord(m_AddTranslation);
 
         }
 
         public void OnPictureBtnPress()
         {
             Debug.Log("VocabularyControl.OnPictureBtnPress");
-            if (m_UI.PictureVisible)
+
+            m_PictureVisible = !m_PictureVisible;
+            if (m_PictureVisible)
             {
-                m_UI.PictureVisible = false;
+                m_UI.ImageBtn.Enable();
             }else
             {
-                m_UI.PictureVisible = true;
+                m_UI.ImageBtn.Disable();
             }
-        }
-
-        public void OnNextWordBtnPress()
-        {
-
+           
         }
 
         public void OnNextExampleBtnPress()
         {
-            Debug.Log("VocabularyControl.OnNextExampleBtnPress");
+            Debug.Log("VocabularyControl.OnNextExampleBtnPress " + m_SelectedExampleID);
             m_SelectedExampleID++;
             if (m_SelectedExampleID >= m_CurrentWord.EnglishExamples.Count)
             {
                 m_SelectedExampleID = 0;
             }
-
-            UpdateUI();
+            UpdateExamples(m_AddTranslation);
         }
 
-        #endregion ButtonHandles
-
-
-        /// <summary>
-        /// Sets the english example.
-        /// </summary>
-        /*private void SetEnglishExample()
+        public void OnNextWordBtnPress()
         {
-            string example = "<color=#c9e8ff>" + m_CurrentWord.EnglishExamples[m_IndexExample] + "</color>";
-            m_UI.Example = example;
-        }*/
+            SetRandomWord();
+        }
 
+        
+
+        #endregion MenuHandle
+        
         public override void Show()
         {
             m_UI.Show();
@@ -267,167 +266,5 @@ namespace EnglishApp
         {
             Hide();
         }
-
-        /// <summary>
-        /// Sets the random word to show
-        /// </summary>
-       /* private void InitRandomWord()
-        {
-            m_CurrentWord = GameManager.Instance.VocabularyDictionary.GetRandomWord(m_SelectedCategory);
-            if (m_CurrentWord == null)
-            {
-                Debug.LogError("VocabularyControl.InitRandomWord m_CurrentWord null");
-                return;
-            }
-            if (m_CurrentWord.Meanings.Count > 1)
-            {
-                m_IndexExample = UnityEngine.Random.Range(0, m_CurrentWord.Meanings.Count);
-            }
-            else
-            {
-                m_IndexExample = 0;
-            }
-           
-
-            // Setup Gui
-            string word = "<color=#5bd3de>" + m_CurrentWord.VocabularyWord;
-            if (m_CurrentWord.Pronunciation != "")
-            {
-                word += " <" + m_CurrentWord.Pronunciation + ">";
-            }
-            word += "</color>";
-            m_VocabularyUI.Word = word;
-
-            SetEnglishExample();
-            m_VocabularyUI.BtnNextExample.SetActive(false);
-
-           /* switch (m_SelectedCategory)
-            {
-                case DataDictionary.SECTION_VOCABULARY.PHRASALVERB:
-                case DataDictionary.SECTION_VOCABULARY.AGILITY:
-                case DataDictionary.SECTION_VOCABULARY.EXPRESSIONS:
-                    if (m_CurrentWord.EnglishExamples.Count > 1)
-                    {
-                        m_VocabularyPanelUI.BtnNextExample.SetActive(true);
-                    }
-                    break;
-            }*/
-
-            // Set sprite
-           /* Debug.Log("m_CurrentWord.ImageRef: " + m_CurrentWord.ImageRef);
-            if (!string.IsNullOrEmpty(m_CurrentWord.ImageRef))
-            {
-                m_VocabularyUI.ImagePopup.ImageReference.sprite = GameManager.Instance.SpriteManager.GetSpriteByName(m_CurrentWord.ImageRef);
-                m_VocabularyUI.BtnImageReference.SetActive(true);
-            }
-            else
-            {
-                m_VocabularyUI.BtnImageReference.SetActive(false);
-            }
-
-        }*/
-
-        /// <summary>
-        /// Show the final answer
-        /// </summary>
-        /*private void ShowMeaning()
-        {
-            // Word
-            string word = "<color=#5bd3de>" + m_CurrentWord.VocabularyWord;
-            if (m_CurrentWord.Pronunciation != "")
-            {
-                word += " <" + m_CurrentWord.Pronunciation + ">";
-            }
-            if ((m_CurrentWord.Meanings != null) && (m_IndexExample < m_CurrentWord.Meanings.Count))
-            {
-                word += "</color>:  " + m_CurrentWord.Meanings[m_IndexExample];
-            }
-            m_UI.Word = word;
-
-            // Final exmample
-            SetFullExample();
-        }*/
-
-       
-
-        /// <summary>
-        /// Sets the full example. (spanish + english)
-        /// </summary>
-        /*private void SetFullExample()
-        {
-            // Final exmample
-            string example = "<color=#c9e8ff>" + m_CurrentWord.EnglishExamples[m_IndexExample] + "</color>";
-            example += "\n  <size=22><color=#93d47f>- " + m_CurrentWord.SpanishExamples[m_IndexExample] + "</color></size>";
-            m_UI.Example = example;
-        }*/
-
-        #region ButtonHandles
-        /// <summary>
-        /// Next word press
-        /// </summary>
-        /*public void OnNextWordPress()
-        {
-            //ProgressBarAnswerTime.StopProgressBar ();
-#if !UNITY_EDITOR && UNITY_ANDROID
-		EasyTTSUtil.StopSpeech ();
-#endif
-            //InitRandomWord();
-        }*/
-
-        /// <summary>
-        /// Next example button in the current word
-        /// </summary>
-        /*public void OnNextExamplePress()
-        {
-#if !UNITY_EDITOR && UNITY_ANDROID
-		EasyTTSUtil.StopSpeech ();
-#endif
-            m_IndexExample += 1;
-            if (m_IndexExample >= m_CurrentWord.EnglishExamples.Count)
-            {
-                m_IndexExample = 0;
-            }
-            //SetEnglishExample();
-        }*/
-
-        /// <summary>
-        /// On show spanish button pressed
-        /// </summary>
-        /*public void OnShowMeaningButton()
-        {
-            ShowMeaning();
-        }*/
-
-       /* public void OnMenuPress()
-        {
-           // GameManager.Instance.OnBackMenu();
-        }*/
-
-       
-
-        /*public void OnSpeakExamplePress()
-        {
-            if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
-            {
-                if (m_CurrentWord.EnglishExamples != null && m_IndexExample < m_CurrentWord.EnglishExamples.Count)
-                {
-                    EasyTTSUtil.SpeechFlush(m_CurrentWord.EnglishExamples[m_IndexExample]);
-                }
-            }
-        }*/
-
-       /* public void OnImageReferencePress()
-        {
-            m_UI.ImagePopup.Show();
-        }
-
-        public void OnImageReferencePopupPress()
-        {
-            m_UI.ImagePopup.Hide();
-        }*/
-
-       
-
-        #endregion ButtonHandles
     }
 }

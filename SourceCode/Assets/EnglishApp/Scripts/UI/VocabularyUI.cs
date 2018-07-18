@@ -6,107 +6,71 @@ using Utility;
 namespace EnglishApp
 {
     public class VocabularyUI : UIBase
-    {        
-        [Header("Vocabulary UI")]
+    {
+        [Header("Buttons")]
         [SerializeField]
-        private Text m_LblTitleSection;
-        public string TitleSection
+        private ButtonWithText m_TranslateBtn;
+        public ButtonWithText TranslateBtn
         {
-            get { return m_LblTitleSection.text; }
-            set { m_LblTitleSection.text = value; }
+            get { return m_TranslateBtn; }
         }
 
+        [SerializeField]
+        private ButtonWithText m_ImageBtn;
+        public ButtonWithText ImageBtn
+        {
+            get { return m_ImageBtn; }
+        }
+
+        [SerializeField]
+        private ButtonWithText m_NextWordBtn;
+        public ButtonWithText NextWordBtn
+        {
+            get { return m_NextWordBtn; }
+        }
+
+        [SerializeField]
+        private ButtonWithText m_NextExampleBtn;
+        public ButtonWithText NextExampleBtn
+        {
+            get { return m_NextExampleBtn; }
+        }
+
+        [SerializeField]
+        private ButtonWithText m_AudioWordBtn;
+        public ButtonWithText AudioWordBtn
+        {
+            get { return m_AudioWordBtn; }
+        }
+
+        [Header("Content")]
+        [SerializeField]
+        private Text m_WordLabel;
+        public string WordLabel
+        {
+            get { return m_WordLabel.text; }
+            set { m_WordLabel.text = value; }
+        }
+
+        [SerializeField] private Image m_Picture;
+        public void SetPicture(Sprite image = null)
+        {
+            if (image == null)
+            {
+                m_Picture.gameObject.SetActive(false);
+            }
+            else
+            {
+                m_Picture.gameObject.SetActive(true);
+                m_Picture.sprite = image;
+            }
+        }
 
         [SerializeField] private ScrollTextUI m_ExamplesScroll;
         public ScrollTextUI ExamplesScroll
         {
             get { return m_ExamplesScroll; }
             set { m_ExamplesScroll = value; }
-        }
-
-        [SerializeField] private Text m_LblWord;
-        public string Word
-        {
-            get { return m_LblWord.text; }
-            set { m_LblWord.text = value; }
-        }
-
-
-        [SerializeField]
-        private Image m_Picture;
-        public Image Picture
-        {
-            get { return m_Picture; }
-            set { m_Picture = value; }
-        }
-
-        private bool m_PictureVisible;
-        public bool PictureVisible
-        {
-            get
-            {
-                return m_PictureVisible;
-            }
-            set
-            {
-                m_Picture.gameObject.SetActive(value);
-                m_PictureVisible = value;
-            }
-        }
-        
-
-        
-
-        [SerializeField]
-        private Button m_ImageReferenceBtn;
-        public Button ImageReferenceBtn
-        {
-            get { return m_ImageReferenceBtn; }
-            set { m_ImageReferenceBtn = value; }
-        }
-
-
-
-
-
-
-
-        [SerializeField] private Text m_LblTitleNextWordButton;
-        public string TitleNextWordButton
-        {
-            get { return m_LblTitleNextWordButton.text; }
-            set { m_LblTitleNextWordButton.text = value; }
-        }
-
-        
-        [SerializeField] private Text m_LblExample;
-        public string Example
-        {
-            get { return m_LblExample.text; }
-            set { m_LblExample.text = value; }
-        }
-
-        [SerializeField] private GameObject m_BtnNextExample;
-        public GameObject BtnNextExample
-        {
-            get { return m_BtnNextExample; }
-            set { m_BtnNextExample = value; }
-        }
-
-        [SerializeField]
-        private GameObject m_BtnImageReference;
-        public GameObject BtnImageReference
-        {
-            get { return m_BtnImageReference; }
-            set { m_BtnImageReference = value; }
-        }
-
-        [SerializeField]
-        private ImageReferencePopup m_ImagePopup;
-        public ImageReferencePopup ImagePopup
-        {
-            get { return m_ImagePopup; }
-            set { m_ImagePopup = value; }
         }
     }
 }

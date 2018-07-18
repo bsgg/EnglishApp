@@ -102,8 +102,7 @@ namespace EnglishApp
                     Directory.CreateDirectory(localDataFolder);
                 }
 
-                string indexLocalFileURL = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].FileName);
-            
+                string indexLocalFileURL = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].FileName);            
 
                 Debug.Log("<color=purple>" + "[LauncherController.Initialize]  localDataFolder: " + localDataFolder + " - indexLocalFileURL: " + indexLocalFileURL +  "</color>");
 
@@ -256,6 +255,7 @@ namespace EnglishApp
                             string dataLocalURL = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].DataFolderName);
                             dataLocalURL = Path.Combine(dataLocalURL, fileName);
 
+
                             if (SaveFileToLocal(dataLocalURL, wwwDataFile))
                             {
                                 if (m_InfoFileList[i].DataType == EDATATYPE.VOCABULARY)
@@ -277,6 +277,8 @@ namespace EnglishApp
                                     OnDownloadCompleted(ERESULT.FAIL, "UNABLE TO SAVE FILE");
                                 }
                             }
+
+                            // TODO: DOWNLOAD IMAGES
                             
                         }
                         else

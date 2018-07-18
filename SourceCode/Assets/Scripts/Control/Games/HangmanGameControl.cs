@@ -44,8 +44,8 @@ namespace EnglishApp
             string auxCategory = "";
 
             // Create a list of available categories
-            List<VocabularyControl.ECATEGORY> lExcludeCategories = new List<VocabularyControl.ECATEGORY>();
-            lExcludeCategories.Add(VocabularyControl.ECATEGORY.ConnectedWords);
+            //List<VocabularyControl.ECATEGORY> lExcludeCategories = new List<VocabularyControl.ECATEGORY>();
+            //lExcludeCategories.Add(VocabularyControl.ECATEGORY.ConnectedWords);
 
             do
             {
