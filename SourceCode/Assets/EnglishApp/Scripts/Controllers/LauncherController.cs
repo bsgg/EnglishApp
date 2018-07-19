@@ -47,7 +47,10 @@ namespace EnglishApp
 
         [SerializeField] private string m_CloudDataUrl = "http://beatrizcv.com/Data/English/";
 
-        [SerializeField] private List<InfoFile> m_InfoFileList;
+        [SerializeField] private string m_PicturesFolder = "Pictures";
+        private string m_LocalPictureDirectory;
+
+       [SerializeField] private List<InfoFile> m_InfoFileList;
 
         [SerializeField] private ProgressUI m_Progress;
 
@@ -68,6 +71,8 @@ namespace EnglishApp
         {
             get { return m_DictionarySet; }
         }
+
+        private ERESULT m_Result;
 
         public override void Show()
         {
@@ -92,7 +97,14 @@ namespace EnglishApp
 
             m_Initialized = true;
             int nFilesInLocal = 0;
-           
+
+            // local Pictures folder
+            m_LocalPictureDirectory = Path.Combine(Application.persistentDataPath, m_PicturesFolder);
+            if (!Directory.Exists(m_LocalPictureDirectory))
+            {
+                Directory.CreateDirectory(m_LocalPictureDirectory);
+            }
+
             for (int i=0; i< m_InfoFileList.Count; i++)
             {
                 string localDataFolder = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].DataFolderName);           
@@ -147,9 +159,18 @@ namespace EnglishApp
                     {
                         m_InfoFileList[i].Data = JsonUtility.FromJson<FileData>(data);
 
-                        // Read sub data 
-                        for (int iData = 0; iData < m_InfoFileList[i].Data.Data.Count; iData++)
+                        if (!LoadSubData((EDATATYPE)i))
                         {
+                            return false;
+                        }
+
+
+                        // Read sub data 
+                        /*for (int iData = 0; iData < m_InfoFileList[i].Data.Data.Count; iData++)
+                        {
+
+
+
                             string localDataFile = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].DataFolderName);
                             localDataFile = Path.Combine(localDataFile, m_InfoFileList[i].Data.Data[iData].FileName + ".json");
                             string jsonData = string.Empty;
@@ -173,7 +194,7 @@ namespace EnglishApp
                             {
                                 return false;
                             }
-                        }
+                        }*/
 
                     }
                     catch (Exception e)
@@ -190,7 +211,78 @@ namespace EnglishApp
 
             return true;           
         }
-        
+
+        private bool LoadSubData(EDATATYPE tData)
+        {
+            if (m_InfoFileList == null)
+            {
+                return false;
+            }
+
+            int indexData = (int)tData;
+
+            if (indexData >= m_InfoFileList.Count)
+            {
+                return false;
+            }
+
+            // Read sub data 
+            for (int iData = 0; iData < m_InfoFileList[indexData].Data.Data.Count; iData++)
+            {
+                string localDataFile = Path.Combine(Application.persistentDataPath, m_InfoFileList[indexData].DataFolderName);
+                localDataFile = Path.Combine(localDataFile, m_InfoFileList[indexData].Data.Data[iData].FileName + ".json");
+                string jsonData = string.Empty;
+                if (ReadFile(localDataFile, ref jsonData))
+                {
+                    if (m_InfoFileList[indexData].DataType == EDATATYPE.VOCABULARY)
+                    {
+                        WordDictionary set = JsonUtility.FromJson<WordDictionary>(jsonData);
+                        m_VocabularySet.Add(set);
+
+                        // Load images
+                        for (int iWord = 0; iWord < set.Data.Count; iWord++)
+                        {
+                            if (!string.IsNullOrEmpty(set.Data[iWord].PictureName))
+                            {
+                                string pictureUrl = Path.Combine(m_LocalPictureDirectory, set.Data[iWord].PictureName);
+                                if (File.Exists(pictureUrl))
+                                {
+                                    Texture2D texture = new Texture2D(2, 2);
+
+                                    try
+                                    {
+                                        byte[] pictureData = File.ReadAllBytes(pictureUrl);
+
+                                        texture.LoadImage(pictureData);
+
+                                        Rect rec = new Rect(0, 0, texture.width, texture.width);
+
+                                        set.Data[iWord].Sprite = Sprite.Create(texture, rec, new Vector2(0.5f, 0.5f), 100);
+                                    }
+                                    catch (Exception e)
+                                    {
+                                        Debug.Log("<color=red>" + "[LauncherControl.LoadSubData] There was an error trying to get file (image) " + pictureUrl + " ERROR: " + e.Message + "</color>");
+                                        return false;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    else if (m_InfoFileList[indexData].DataType == EDATATYPE.GRAMMAR)
+                    {
+                        GrammarDictionary set = JsonUtility.FromJson<GrammarDictionary>(jsonData);
+                        m_DictionarySet.Add(set);
+                    }
+                }
+                else
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
         public IEnumerator DownloadData()
         {
             m_Progress.Show();
@@ -198,6 +290,8 @@ namespace EnglishApp
 
             m_VocabularySet = new List<WordDictionary>();
             m_DictionarySet = new List<GrammarDictionary>();
+
+            string pictureFolder = Path.Combine(m_CloudDataUrl, m_PicturesFolder);
 
             for (int i = 0; i < m_InfoFileList.Count; i++)
             {
@@ -241,52 +335,14 @@ namespace EnglishApp
                         yield break;
                     }
 
-                    for (int iData = 0; iData < m_InfoFileList[i].Data.Data.Count; iData++)
-                    {
-                        string fileName = m_InfoFileList[i].Data.Data[iData].FileName + ".json";
-                        string dataCloudURL = m_CloudDataUrl + "/" + m_InfoFileList[i].DataFolderName + "/" + fileName;
-                        Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] Retrieving (" + iData + "/" + m_InfoFileList[i].Data.Data.Count + ") - URL: " + dataCloudURL + "</color>");
-                        WWW wwwDataFile = new WWW(dataCloudURL);
+                    m_Result = ERESULT.SUCCESS;
+                    yield return DownloadSubData((EDATATYPE) i);
 
-                        yield return wwwDataFile;
-
-                        if (!string.IsNullOrEmpty(wwwDataFile.text))
+                    if (m_Result == ERESULT.FAIL)
+                    {                       
+                        if (OnDownloadCompleted != null)
                         {
-                            string dataLocalURL = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].DataFolderName);
-                            dataLocalURL = Path.Combine(dataLocalURL, fileName);
-
-
-                            if (SaveFileToLocal(dataLocalURL, wwwDataFile))
-                            {
-                                if (m_InfoFileList[i].DataType == EDATATYPE.VOCABULARY)
-                                {
-                                    WordDictionary set = JsonUtility.FromJson<WordDictionary>(wwwDataFile.text);
-                                    m_VocabularySet.Add(set);
-                                }
-
-                                else if (m_InfoFileList[i].DataType == EDATATYPE.GRAMMAR)
-                                {
-                                    GrammarDictionary set = JsonUtility.FromJson<GrammarDictionary>(wwwDataFile.text);
-                                    m_DictionarySet.Add(set);
-                                }
-                            }else
-                            {
-                                Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] Fail Saving " + fileName + " at " + dataLocalURL + "</color>");
-                                if (OnDownloadCompleted != null)
-                                {
-                                    OnDownloadCompleted(ERESULT.FAIL, "UNABLE TO SAVE FILE");
-                                }
-                            }
-
-                            // TODO: DOWNLOAD IMAGES
-                            
-                        }
-                        else
-                        {
-                            if (OnDownloadCompleted != null)
-                            {
-                                OnDownloadCompleted(ERESULT.FAIL, "Empty Data");
-                            }
+                            OnDownloadCompleted(ERESULT.FAIL, "Fail to download sub data");
                         }
                     }
                 }else
@@ -303,6 +359,107 @@ namespace EnglishApp
             if (OnDownloadCompleted != null)
             {
                 OnDownloadCompleted(ERESULT.SUCCESS, "");
+            }
+
+        }
+
+        
+        public IEnumerator DownloadSubData(EDATATYPE tData)
+        {
+            m_Result = ERESULT.SUCCESS;
+
+            if (m_InfoFileList == null)
+            {               
+                m_Result = ERESULT.FAIL;
+                yield break;
+            }
+
+            int indexData = (int)tData;
+
+            if (indexData >= m_InfoFileList.Count)
+            {
+                m_Result = ERESULT.FAIL;
+                yield break;
+            }
+
+            string pictureFolder = Path.Combine(m_CloudDataUrl, m_PicturesFolder);            
+
+            for (int iData = 0; iData < m_InfoFileList[indexData].Data.Data.Count; iData++)
+            {
+                string fileName = m_InfoFileList[indexData].Data.Data[iData].FileName + ".json";
+                string dataCloudURL = m_CloudDataUrl + "/" + m_InfoFileList[indexData].DataFolderName + "/" + fileName;
+                Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] Retrieving (" + iData + "/" + m_InfoFileList[indexData].Data.Data.Count + ") - URL: " + dataCloudURL + "</color>");
+                WWW wwwDataFile = new WWW(dataCloudURL);
+
+                yield return wwwDataFile;
+
+                if (!string.IsNullOrEmpty(wwwDataFile.text))
+                {
+                    string dataLocalURL = Path.Combine(Application.persistentDataPath, m_InfoFileList[indexData].DataFolderName);
+                    dataLocalURL = Path.Combine(dataLocalURL, fileName);
+
+                    if (SaveFileToLocal(dataLocalURL, wwwDataFile))
+                    {
+                        if (m_InfoFileList[indexData].DataType == EDATATYPE.VOCABULARY)
+                        {
+                            WordDictionary set = JsonUtility.FromJson<WordDictionary>(wwwDataFile.text);
+                            m_VocabularySet.Add(set);
+
+                            // Download images
+                            for (int iWord = 0; iWord < set.Data.Count; iWord++)
+                            {
+                                if (!string.IsNullOrEmpty(set.Data[iWord].PictureName))
+                                {
+                                    string pictureUrl = Path.Combine(pictureFolder, set.Data[iWord].PictureName);
+
+                                    Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] Picture URL at " + pictureUrl + "</color>");
+
+                                    WWW wwwPictureFile = new WWW(pictureUrl);
+
+                                    yield return wwwPictureFile;
+
+                                    if (wwwPictureFile.texture != null)
+                                    {
+                                        Debug.Log("<color=purple>" + "[LauncherControl.RequestRecipe] Texture: (" + wwwPictureFile.texture.width + " x " + wwwPictureFile.texture.height + ")" + "</color>");
+
+                                        Texture2D texture = new Texture2D(wwwPictureFile.texture.width, wwwPictureFile.texture.height, TextureFormat.DXT1, false);
+                                        wwwPictureFile.LoadImageIntoTexture(texture);
+
+                                        Rect rec = new Rect(0, 0, texture.width, texture.height);
+
+                                        set.Data[iWord].Sprite = Sprite.Create(texture, rec, new Vector2(0.5f, 0.5f), 100);
+
+                                        yield return new WaitForEndOfFrame();
+
+
+                                        string localPicture = Path.Combine(m_LocalPictureDirectory, set.Data[iWord].PictureName);
+
+                                        // Load Picture in memory
+                                        SaveFileToLocal(localPicture, wwwPictureFile);                                       
+                                       
+                                    }else
+                                    {
+                                        m_Result = ERESULT.FAIL;
+                                        break;
+                                    }
+
+                                    wwwPictureFile.Dispose();
+                                    wwwPictureFile = null;
+                                }
+
+                            }
+                        }
+                        else if (m_InfoFileList[indexData].DataType == EDATATYPE.GRAMMAR)
+                        {
+                            GrammarDictionary set = JsonUtility.FromJson<GrammarDictionary>(wwwDataFile.text);
+                            m_DictionarySet.Add(set);
+                        }
+                    }
+                }else
+                {
+                    m_Result = ERESULT.FAIL;
+                    break;
+                }
             }
 
         }

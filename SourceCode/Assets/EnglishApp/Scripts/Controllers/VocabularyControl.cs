@@ -12,8 +12,9 @@ namespace EnglishApp
     {
         public string Category;
         public string VocabularyWord;
-        public string ImageRef;
-        public string Pronunciation;
+        public string PictureName;
+        public Sprite Sprite;
+        public string Pronunciation;        
         public List<string> Meanings;
         public List<string> EnglishExamples;
         public List<string> SpanishExamples;
@@ -22,6 +23,7 @@ namespace EnglishApp
             Meanings = new List<string>();
             EnglishExamples = new List<string>();
             SpanishExamples = new List<string>();
+            Sprite = null;
         }
     }
 
@@ -142,11 +144,11 @@ namespace EnglishApp
             UpdateExamples(m_AddTranslation);
 
             // Set Image
-            if (!string.IsNullOrEmpty(m_CurrentWord.ImageRef))
+            if (m_CurrentWord.Sprite != null)
             {
                 m_PictureVisible = true;
                 m_UI.ImageBtn.Enable();
-                //m_UI.SetPicture();
+                m_UI.SetPicture(m_CurrentWord.Sprite);
             }
             else
             {
@@ -155,7 +157,6 @@ namespace EnglishApp
                 m_UI.SetPicture();
             }            
         }
-
 
         private void UpdateWord(bool includeTranslation)
         {
