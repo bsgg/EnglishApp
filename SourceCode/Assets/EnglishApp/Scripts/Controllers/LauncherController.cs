@@ -42,7 +42,7 @@ namespace EnglishApp
         public delegate void LauncherAction(ERESULT Result, string Message);
         public event LauncherAction OnDownloadCompleted;
 
-        public enum EDATATYPE { GRAMMAR, VOCABULARY };
+        public enum EDATATYPE { NONE = -1, GRAMMAR = 0, VOCABULARY, PHRASAL_VERBS };
         public enum ERESULT { SUCCESS, FAIL };
 
         [SerializeField] private string m_CloudDataUrl = "http://beatrizcv.com/Data/English/";
@@ -72,6 +72,12 @@ namespace EnglishApp
             get { return m_DictionarySet; }
         }
 
+        [SerializeField] private List<WordDictionary> m_PhrasalVerbSet;
+        public List<WordDictionary> PhrasalVerbSet
+        {
+            get { return m_PhrasalVerbSet; }
+        }
+
         private ERESULT m_Result;
 
         public override void Show()
@@ -91,6 +97,7 @@ namespace EnglishApp
         {
             m_VocabularySet = new List<WordDictionary>();
             m_DictionarySet = new List<GrammarDictionary>();
+            m_PhrasalVerbSet = new List<WordDictionary>();
 
             m_Progress.Show();
             m_Progress.SetProgress("Wait..");
@@ -163,39 +170,6 @@ namespace EnglishApp
                         {
                             return false;
                         }
-
-
-                        // Read sub data 
-                        /*for (int iData = 0; iData < m_InfoFileList[i].Data.Data.Count; iData++)
-                        {
-
-
-
-                            string localDataFile = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].DataFolderName);
-                            localDataFile = Path.Combine(localDataFile, m_InfoFileList[i].Data.Data[iData].FileName + ".json");
-                            string jsonData = string.Empty;
-                            if (ReadFile(localDataFile, ref jsonData))
-                            {
-                                
-                                if (m_InfoFileList[i].DataType == EDATATYPE.VOCABULARY)
-                                {
-                                    WordDictionary set = JsonUtility.FromJson<WordDictionary>(jsonData);
-                                    m_VocabularySet.Add(set);
-                                }
-
-                                else if (m_InfoFileList[i].DataType == EDATATYPE.GRAMMAR)
-                                {
-                                    GrammarDictionary set = JsonUtility.FromJson<GrammarDictionary>(jsonData);
-                                    m_DictionarySet.Add(set);
-                                }
-                                
-                            }
-                            else
-                            {
-                                return false;
-                            }
-                        }*/
-
                     }
                     catch (Exception e)
                     {
@@ -273,6 +247,11 @@ namespace EnglishApp
                         GrammarDictionary set = JsonUtility.FromJson<GrammarDictionary>(jsonData);
                         m_DictionarySet.Add(set);
                     }
+                    else if (m_InfoFileList[indexData].DataType == EDATATYPE.PHRASAL_VERBS)
+                    {
+                        WordDictionary set = JsonUtility.FromJson<WordDictionary>(jsonData);
+                        m_PhrasalVerbSet.Add(set);
+                    }
                 }
                 else
                 {
@@ -290,6 +269,7 @@ namespace EnglishApp
 
             m_VocabularySet = new List<WordDictionary>();
             m_DictionarySet = new List<GrammarDictionary>();
+            m_PhrasalVerbSet = new List<WordDictionary>();
 
             string pictureFolder = Path.Combine(m_CloudDataUrl, m_PicturesFolder);
 
@@ -338,6 +318,7 @@ namespace EnglishApp
                     m_Result = ERESULT.SUCCESS;
                     yield return DownloadSubData((EDATATYPE) i);
 
+                    m_Progress.Show();
                     if (m_Result == ERESULT.FAIL)
                     {                       
                         if (OnDownloadCompleted != null)
@@ -363,7 +344,16 @@ namespace EnglishApp
 
         }
 
-        
+        public void OnDownloadDataPress(int id)
+        {
+            m_Result = ERESULT.SUCCESS;
+
+            m_Progress.Show();
+            m_Progress.SetProgress("Wait.."); 
+            
+            StartCoroutine(DownloadSubData((EDATATYPE)id));
+        }  
+
         public IEnumerator DownloadSubData(EDATATYPE tData)
         {
             m_Result = ERESULT.SUCCESS;
@@ -386,6 +376,9 @@ namespace EnglishApp
 
             for (int iData = 0; iData < m_InfoFileList[indexData].Data.Data.Count; iData++)
             {
+                m_Progress.SetProgress("Downloading " + m_InfoFileList[indexData].Data.Data[iData].FileName);
+
+
                 string fileName = m_InfoFileList[indexData].Data.Data[iData].FileName + ".json";
                 string dataCloudURL = m_CloudDataUrl + "/" + m_InfoFileList[indexData].DataFolderName + "/" + fileName;
                 Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] Retrieving (" + iData + "/" + m_InfoFileList[indexData].Data.Data.Count + ") - URL: " + dataCloudURL + "</color>");
@@ -453,6 +446,11 @@ namespace EnglishApp
                         {
                             GrammarDictionary set = JsonUtility.FromJson<GrammarDictionary>(wwwDataFile.text);
                             m_DictionarySet.Add(set);
+
+                        }else if (m_InfoFileList[indexData].DataType == EDATATYPE.PHRASAL_VERBS)
+                        {
+                            WordDictionary set = JsonUtility.FromJson<WordDictionary>(wwwDataFile.text);
+                            m_PhrasalVerbSet.Add(set);
                         }
                     }
                 }else
@@ -461,6 +459,8 @@ namespace EnglishApp
                     break;
                 }
             }
+
+            m_Progress.Hide();
 
         }
 

@@ -114,15 +114,28 @@ namespace EnglishApp
         private bool m_AddTranslation = false;
         private bool m_PictureVisible = false;
 
-        public void SetRandomWord()
+        public void SetRandom()
         {
-            int nElements = AppController.Instance.LauncherControl.VocabularySet.Count;
-
-            m_SelectedCategory = UnityEngine.Random.Range(0, nElements);
-            m_SelectedWordID = AppController.Instance.LauncherControl.VocabularySet[m_SelectedCategory].GetRandomWordID();
-
-            m_CurrentWord = AppController.Instance.LauncherControl.VocabularySet[m_SelectedCategory].Data[m_SelectedWordID];
             m_SelectedExampleID = 0;
+            int nElements = 0;
+
+            switch(AppController.Instance.SelectedSection)
+            {
+                case LauncherController.EDATATYPE.VOCABULARY:
+                    nElements = AppController.Instance.LauncherControl.VocabularySet.Count;
+                    m_SelectedCategory = UnityEngine.Random.Range(0, nElements);
+                    m_SelectedWordID = AppController.Instance.LauncherControl.VocabularySet[m_SelectedCategory].GetRandomWordID();
+                    m_CurrentWord = AppController.Instance.LauncherControl.VocabularySet[m_SelectedCategory].Data[m_SelectedWordID];
+
+                    break;
+                case LauncherController.EDATATYPE.PHRASAL_VERBS:
+                    nElements = AppController.Instance.LauncherControl.PhrasalVerbSet.Count;
+                    m_SelectedCategory = UnityEngine.Random.Range(0, nElements);
+
+                    m_SelectedWordID = AppController.Instance.LauncherControl.PhrasalVerbSet[m_SelectedCategory].GetRandomWordID();
+                    m_CurrentWord = AppController.Instance.LauncherControl.PhrasalVerbSet[m_SelectedCategory].Data[m_SelectedWordID];
+                break;
+            }
 
             if (m_CurrentWord.EnglishExamples.Count <= 1)
             {
@@ -243,7 +256,7 @@ namespace EnglishApp
 
         public void OnNextWordBtnPress()
         {
-            SetRandomWord();
+            SetRandom();
         }
 
         
@@ -251,7 +264,17 @@ namespace EnglishApp
         #endregion MenuHandle
         
         public override void Show()
-        {
+        { 
+            switch (AppController.Instance.SelectedSection)
+            {
+                case LauncherController.EDATATYPE.VOCABULARY:
+                    m_UI.TitleLabel = "Vocabulary";
+
+                    break;
+                case LauncherController.EDATATYPE.PHRASAL_VERBS:
+                    m_UI.TitleLabel = "Phrasal Verbs";
+                break;
+            }
             m_UI.Show();
         }
 

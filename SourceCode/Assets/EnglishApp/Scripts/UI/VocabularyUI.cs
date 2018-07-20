@@ -45,6 +45,14 @@ namespace EnglishApp
 
         [Header("Content")]
         [SerializeField]
+        private Text m_TitleLabel;
+        public string TitleLabel
+        {
+            get { return m_TitleLabel.text; }
+            set { m_TitleLabel.text = value; }
+        }
+
+        [SerializeField]
         private Text m_WordLabel;
         public string WordLabel
         {

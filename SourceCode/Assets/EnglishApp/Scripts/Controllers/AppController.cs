@@ -29,8 +29,13 @@ namespace EnglishApp
         #endregion Instance
 
 
-        public enum ESECTION { NONE = -1, Vocabulary = 0, PhrasalVerbs, Agility, Expressions, Grammar, Games, NUM };
-        private ESECTION m_SelectedSection = ESECTION.NONE;
+        //public enum ESECTION { NONE = -1, Vocabulary = 0, PhrasalVerbs, Agility, Expressions, Grammar, Games, NUM };
+        private LauncherController.EDATATYPE m_SelectedSection = LauncherController.EDATATYPE.NONE;
+        public LauncherController.EDATATYPE SelectedSection
+        {
+            get { return m_SelectedSection; }
+        }
+
 
         [SerializeField] private LauncherController m_LauncherControl;
         public LauncherController LauncherControl
@@ -110,38 +115,30 @@ namespace EnglishApp
             m_MainMenu.Show();
         }
 
+       
+
         public void OnMainMenuPress(int id)
         {
-            m_SelectedSection = (ESECTION)id;
+            m_SelectedSection = (LauncherController.EDATATYPE)id;
             switch (m_SelectedSection)
-            {
-                case  ESECTION.Vocabulary:
+            {                
+                case LauncherController.EDATATYPE.VOCABULARY:
                     // Vocabulary
-                    m_VocabularyControl.SetRandomWord();
+                    m_VocabularyControl.SetRandom();
                     m_VocabularyControl.Show();
                     m_MainMenu.Hide();
 
                 break;
-                case ESECTION.PhrasalVerbs:
+
+                case LauncherController.EDATATYPE.PHRASAL_VERBS:
+
                     // Vocabulary
+                    m_VocabularyControl.SetRandom();
+                    m_VocabularyControl.Show();
+                    m_MainMenu.Hide();
 
                 break;
-                case ESECTION.Agility:
-                    // Vocabulary
 
-                break;
-                case ESECTION.Expressions:
-                    // Vocabulary
-
-                break;
-                case ESECTION.Grammar:
-                    // Vocabulary
-
-                break;
-                case ESECTION.Games:
-                    // Vocabulary
-
-                break;
             }
 
         }

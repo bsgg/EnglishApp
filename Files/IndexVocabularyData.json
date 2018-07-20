@@ -12,7 +12,31 @@
 	  {
 		"FileName": "Adverbs",
 		"DataType": 1
-	  }
+	  },
+	  {
+		"FileName": "Animals",
+		"DataType": 1
+	  },
+	  {
+		"FileName": "BodyParts",
+		"DataType": 1
+	  },
+	  {
+		"FileName": "Food",
+		"DataType": 1
+	  },
+	  {
+		"FileName": "Misc",
+		"DataType": 1
+	  },
+	  {
+		"FileName": "Objects",
+		"DataType": 1
+	  },
+	  {
+		"FileName": "Places",
+		"DataType": 1
+	  }	  
 	]      
 }
 		

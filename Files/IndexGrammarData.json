@@ -16,6 +16,30 @@
 	  {
 		"FileName": "Future",
 		"DataType": 0
+	  },
+	  {
+		"FileName": "Misc",
+		"DataType": 0
+	  },
+	  {
+		"FileName": "Modals",
+		"DataType": 0
+	  },
+	  {
+		"FileName": "Passive",
+		"DataType": 0
+	  },
+	  {
+		"FileName": "Prepositions",
+		"DataType": 0
+	  },
+	  {
+		"FileName": "Questions",
+		"DataType": 0
+	  },
+	  {
+		"FileName": "Speaking",
+		"DataType": 0
 	  }
 	]      
 }
