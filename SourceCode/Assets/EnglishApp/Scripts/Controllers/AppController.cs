@@ -47,8 +47,6 @@ namespace EnglishApp
 
         [SerializeField] private GrammarControl m_GrammarControlControl;
 
-
-
         private Base m_CurrentControl = null;
 
         [SerializeField]
@@ -60,7 +58,6 @@ namespace EnglishApp
 #if !UNITY_EDITOR && UNITY_ANDROID
 		EasyTTSUtil.Initialize();
 #endif
-
             StartCoroutine(Init());
 
         }
@@ -102,20 +99,21 @@ namespace EnglishApp
         {
             if (Input.GetKeyUp(KeyCode.Escape))
             {
-                if (m_CurrentControl != null)
-                {
-                    m_CurrentControl.Back();
-                }
+                OnBack();
             }
         }
 
-        public void ShowMainMenu()
+        public void OnBack()
         {
-            m_VocabularyControl.Hide();
-            m_MainMenu.Show();
+            switch (m_SelectedSection)
+            {
+                case LauncherController.EDATATYPE.VOCABULARY:
+                case LauncherController.EDATATYPE.PHRASAL_VERBS:
+                    m_VocabularyControl.Hide();
+                    m_MainMenu.Show();
+                break;
+            }
         }
-
-       
 
         public void OnMainMenuPress(int id)
         {

@@ -52,57 +52,10 @@ namespace EnglishApp
 
     public class VocabularyControl : Base
     {
-        /// <summary>
-        /// Category Word type
-        /// </summary>
-        /*public enum ECATEGORY
-        {
-            NONE = -1,
-            Actions = 0,
-            Food,
-            Animals,
-            Places,
-            Objects,
-            BodyParts,
-            Adjectives,
-            Adverbs,
-            ConnectedWords,
-            PhrasalVerbs,
-            Agility,
-            Expressions,
-            Misc,
-            NUM
-        }
-
-        private string[] m_CategoryName = {
-            "Actions",
-            "Food",
-            "Animals",
-            "Places",
-            "Objects",
-            "BodyParts",
-            "Adjectives",
-            "Adverbs",
-            "Connected Words",
-            "Phrasal Verbs",
-            "Agility",
-            "Expressions",
-            "Misc"
-        };*/
-
-
         [Header("Vocabulary UI")]
         [SerializeField] private VocabularyUI   m_UI;
 
         [SerializeField] private int m_SelectedCategory;
-
-        /*private ECATEGORY m_SelectedCategory;
-        public ECATEGORY SelectedCategory
-        {
-            set { m_SelectedCategory = value; }
-            get { return m_SelectedCategory; }
-        }
-        */
 
         // Current Word
         [SerializeField] private Word                                 m_CurrentWord;
@@ -196,17 +149,27 @@ namespace EnglishApp
 
         private void UpdateExamples(bool includeTranslation)
         {
-            string example = "<color=#c9e8ff> - " + m_CurrentWord.EnglishExamples[m_SelectedExampleID] + "</color>\n";
+            string examples = "<color=#c9e8ff>Examples:</color>";
 
-            if (includeTranslation)
+            for (int i=0;i< m_CurrentWord.EnglishExamples.Count; i++ )
             {
-                example += "\n  <color=#93d47f>- " + m_CurrentWord.SpanishExamples[m_SelectedExampleID] + "</color>";
-            }          
+                examples += "\n\n<color=#c9e8ff> " + (i+1) + ": "+ m_CurrentWord.EnglishExamples[i] + "</color>";
 
-            m_UI.ExamplesScroll.SetText(example);
+                if (includeTranslation)
+                {
+                    examples += "\n<color=#93d47f> - " + m_CurrentWord.SpanishExamples[m_SelectedExampleID] + "</color>";
+                }
+            }
+
+            m_UI.ExamplesScroll.SetText(examples);
         }
 
         #region MenuHandle
+
+        public void OnWordBtnPress()
+        {
+            OnTranslateBtnPress();
+        }
 
         public void OnAudioWordBtnPress()
         {
@@ -230,8 +193,6 @@ namespace EnglishApp
 
         public void OnPictureBtnPress()
         {
-            Debug.Log("VocabularyControl.OnPictureBtnPress");
-
             m_PictureVisible = !m_PictureVisible;
             if (m_PictureVisible)
             {
@@ -239,27 +200,13 @@ namespace EnglishApp
             }else
             {
                 m_UI.ImageBtn.Disable();
-            }
-           
-        }
-
-        public void OnNextExampleBtnPress()
-        {
-            Debug.Log("VocabularyControl.OnNextExampleBtnPress " + m_SelectedExampleID);
-            m_SelectedExampleID++;
-            if (m_SelectedExampleID >= m_CurrentWord.EnglishExamples.Count)
-            {
-                m_SelectedExampleID = 0;
-            }
-            UpdateExamples(m_AddTranslation);
+            }           
         }
 
         public void OnNextWordBtnPress()
         {
             SetRandom();
-        }
-
-        
+        }        
 
         #endregion MenuHandle
         
