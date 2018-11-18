@@ -365,8 +365,80 @@ namespace EnglishApp
                     return false;
                 }
             }
-
+            
             return true;
+        }
+
+
+        private IEnumerator DownloadIndexData(EDATATYPE dataType)
+        {
+            int indexType = (int)dataType;
+
+            string indexLocalFileURL = Path.Combine(Application.persistentDataPath, m_InfoFileList[indexType].FileName);
+
+            // Index cloud url
+            string indexCloudURL = m_CloudDataUrl + "/" + m_InfoFileList[indexType].FileName;
+            WWW wwwFile = new WWW(indexCloudURL);
+
+            yield return wwwFile;
+            string data = wwwFile.text;
+
+            Debug.Log("<color=purple>" + "[LauncherControl.DownloadIndexData] File Downloaded: " + indexCloudURL + "</color>");
+
+            if (!string.IsNullOrEmpty(data))
+            {
+                try
+                {
+                    m_InfoFileList[indexType].Data = JsonUtility.FromJson<FileData>(data);
+
+                }
+                catch (Exception e)
+                {
+                    Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] There was an error parsing json: " + data + "  - ERROR: " + e.Message + "</color>");
+
+                    if (OnDownloadCompleted != null)
+                    {
+                        OnDownloadCompleted(ERESULT.FAIL, "ERROR PARSING JSON");
+                    }
+                }
+
+                yield return new WaitForEndOfFrame();
+
+
+                bool result = SaveFileToLocal(indexLocalFileURL, wwwFile);
+
+                if (!result)
+                {
+                    if (OnDownloadCompleted != null)
+                    {
+                        OnDownloadCompleted(ERESULT.FAIL, "ERROR PARSING JSON");
+                    }
+
+                    yield break;
+                }
+
+                m_Result = ERESULT.SUCCESS;
+
+                Debug.Log("<color=purple>" + "[LauncherControl.DownloadIndexData] Downloading subdata: " + dataType.ToString() + "</color>");
+
+                yield return DownloadSubData(dataType);
+
+                m_Progress.Show();
+                if (m_Result == ERESULT.FAIL)
+                {
+                    if (OnDownloadCompleted != null)
+                    {
+                        OnDownloadCompleted(ERESULT.FAIL, "Fail to download sub data");
+                    }
+                }
+            }
+            else
+            {
+                if (OnDownloadCompleted != null)
+                {
+                    OnDownloadCompleted(ERESULT.FAIL, "Empty Data");
+                }
+            }
         }
 
         public IEnumerator DownloadData()
@@ -374,16 +446,22 @@ namespace EnglishApp
             m_Progress.Show();
             m_Progress.SetProgress("Wait..");
 
-            m_VocabularySet = new List<WordDictionary>();
-            m_DictionarySet = new List<GrammarDictionary>();
-            m_PhrasalVerbSet = new List<WordDictionary>();
-
             string pictureFolder = Path.Combine(m_CloudDataUrl, m_PicturesFolder);
 
             for (int i = 0; i < m_InfoFileList.Count; i++)
             {
+                // Check if file exist
+                string indexLocalFileURL = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].FileName);
+                if (!File.Exists(indexLocalFileURL))
+                {
+                    Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] About to download: " + m_InfoFileList[i].FileName + "</color>");
+                    yield return DownloadIndexData((EDATATYPE)i);
+
+                }
+                
+
                 // Index cloud url
-                string indexCloudURL = m_CloudDataUrl + "/" + m_InfoFileList[i].FileName;
+                /*string indexCloudURL = m_CloudDataUrl + "/" + m_InfoFileList[i].FileName;
                 WWW wwwFile = new WWW(indexCloudURL);
 
                 yield return wwwFile;
@@ -409,7 +487,7 @@ namespace EnglishApp
 
                     yield return new WaitForEndOfFrame();
 
-                    string indexLocalFileURL = Path.Combine(Application.persistentDataPath, m_InfoFileList[i].FileName);
+                    
                     bool result = SaveFileToLocal(indexLocalFileURL, wwwFile);
 
                     if (!result)
@@ -439,7 +517,7 @@ namespace EnglishApp
                     {
                         OnDownloadCompleted(ERESULT.FAIL, "Empty Data");
                     }
-                }
+                }*/
             }
 
             m_Progress.Hide();
@@ -457,12 +535,37 @@ namespace EnglishApp
 
             m_Progress.Show();
             m_Progress.SetProgress("Wait.."); 
-            
-            StartCoroutine(DownloadSubData((EDATATYPE)id));
+
+            StartCoroutine(RefreshData((EDATATYPE)id));
         }  
+
+        public IEnumerator RefreshData(EDATATYPE tData)
+        {
+            yield return DownloadIndexData(tData);
+            yield return DownloadSubData(tData);
+        }
 
         public IEnumerator DownloadSubData(EDATATYPE tData)
         {
+            switch (tData)
+            {
+                case EDATATYPE.VOCABULARY:
+                    m_VocabularySet = new List<WordDictionary>();
+                break;
+                case EDATATYPE.PHRASAL_VERBS:
+                    m_PhrasalVerbSet = new List<WordDictionary>();
+                break;
+                case EDATATYPE.IDIOMS:
+                    m_IdiomsSet = new List<WordDictionary>();
+                break;
+                case EDATATYPE.EXPRESSIONS:
+                    m_ExpressionsSet = new List<WordDictionary>();
+                break;
+                case EDATATYPE.GRAMMAR:
+                    m_DictionarySet = new List<GrammarDictionary>();
+                break;
+            }
+
             m_Result = ERESULT.SUCCESS;
 
             if (m_InfoFileList == null)
@@ -484,7 +587,6 @@ namespace EnglishApp
             for (int iData = 0; iData < m_InfoFileList[indexData].Data.Data.Count; iData++)
             {
                 m_Progress.SetProgress("Downloading " + m_InfoFileList[indexData].Data.Data[iData].FileName);
-
 
                 string fileName = m_InfoFileList[indexData].Data.Data[iData].FileName + ".json";
                 string dataCloudURL = m_CloudDataUrl + "/" + m_InfoFileList[indexData].DataFolderName + "/" + fileName;
@@ -558,6 +660,16 @@ namespace EnglishApp
                         {
                             WordDictionary set = JsonUtility.FromJson<WordDictionary>(wwwDataFile.text);
                             m_PhrasalVerbSet.Add(set);
+                        }
+                        else if (m_InfoFileList[indexData].DataType == EDATATYPE.EXPRESSIONS)
+                        {
+                            WordDictionary set = JsonUtility.FromJson<WordDictionary>(wwwDataFile.text);
+                            m_ExpressionsSet.Add(set);
+                        }
+                        else if (m_InfoFileList[indexData].DataType == EDATATYPE.IDIOMS)
+                        {
+                            WordDictionary set = JsonUtility.FromJson<WordDictionary>(wwwDataFile.text);
+                            m_IdiomsSet.Add(set);
                         }
                     }
                 }else
