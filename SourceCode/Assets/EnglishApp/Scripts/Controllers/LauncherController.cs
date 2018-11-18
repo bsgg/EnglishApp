@@ -42,7 +42,7 @@ namespace EnglishApp
         public delegate void LauncherAction(ERESULT Result, string Message);
         public event LauncherAction OnDownloadCompleted;
 
-        public enum EDATATYPE { NONE = -1, GRAMMAR = 0, VOCABULARY, PHRASAL_VERBS };
+        public enum EDATATYPE { NONE = -1, GRAMMAR = 0, VOCABULARY, PHRASAL_VERBS, EXPRESSIONS, IDIOMS };
         public enum ERESULT { SUCCESS, FAIL };
 
         [SerializeField] private string m_CloudDataUrl = "http://beatrizcv.com/Data/English/";
@@ -78,6 +78,18 @@ namespace EnglishApp
             get { return m_PhrasalVerbSet; }
         }
 
+        [SerializeField] private List<WordDictionary> m_ExpressionsSet;
+        public List<WordDictionary> ExpressionsSet
+        {
+            get { return m_ExpressionsSet; }
+        }
+
+        [SerializeField] private List<WordDictionary> m_IdiomsSet;
+        public List<WordDictionary> IdiomsSet
+        {
+            get { return m_IdiomsSet; }
+        }
+
         private ERESULT m_Result;
 
         public override void Show()
@@ -98,6 +110,8 @@ namespace EnglishApp
             m_VocabularySet = new List<WordDictionary>();
             m_DictionarySet = new List<GrammarDictionary>();
             m_PhrasalVerbSet = new List<WordDictionary>();
+            m_ExpressionsSet = new List<WordDictionary>();
+            m_IdiomsSet = new List<WordDictionary>();
 
             m_Progress.Show();
             m_Progress.SetProgress("Wait..");
@@ -148,7 +162,90 @@ namespace EnglishApp
 
             m_Progress.Hide();
 
-        }       
+        } 
+        
+        public int GetRandomCategory(EDATATYPE dataType)
+        {
+            int nwordsInCategory = GetNumbeWordsInCategory(dataType);
+
+            return (UnityEngine.Random.Range(0, nwordsInCategory));
+        }
+
+        public int GetNumbeWordsInCategory(EDATATYPE dataType)
+        {
+            int nElements = 0;
+            switch (AppController.Instance.SelectedSection)
+            {
+                case EDATATYPE.VOCABULARY:
+                    nElements = m_VocabularySet.Count;
+                 break;
+                case EDATATYPE.PHRASAL_VERBS:
+                    nElements = m_PhrasalVerbSet.Count;                   
+                break;
+
+                case EDATATYPE.EXPRESSIONS:
+                    nElements = m_ExpressionsSet.Count;                   
+                break;
+                case EDATATYPE.IDIOMS:
+                    nElements = m_IdiomsSet.Count;                   
+                break;
+            }
+
+            return nElements;
+        }
+
+        public int GetTotalWords(EDATATYPE dataType, int category)
+        {
+            int total = 0;
+            switch (AppController.Instance.SelectedSection)
+            {
+                case EDATATYPE.VOCABULARY:
+                    total = m_VocabularySet[category].Data.Count;
+                break;
+
+                case EDATATYPE.PHRASAL_VERBS:
+                    total = m_PhrasalVerbSet[category].Data.Count;
+                    break;
+
+                case EDATATYPE.EXPRESSIONS:
+                    total = m_ExpressionsSet[category].Data.Count;
+                    break;
+
+                case EDATATYPE.IDIOMS:
+                    total = m_IdiomsSet[category].Data.Count;
+                    break;
+                   
+            }
+            return total;
+        }
+
+        public Word GetRandomWord(EDATATYPE dataType, int category)
+        {
+            int rWordID = 0;
+            switch (AppController.Instance.SelectedSection)
+            {
+                case EDATATYPE.VOCABULARY:
+                    rWordID = m_VocabularySet[category].GetRandomWordID();
+                    return m_VocabularySet[category].Data[rWordID];
+                
+                case EDATATYPE.PHRASAL_VERBS:
+                    rWordID = m_PhrasalVerbSet[category].GetRandomWordID();
+                    return m_PhrasalVerbSet[category].Data[rWordID];
+          
+
+                case EDATATYPE.EXPRESSIONS:
+                    rWordID = m_ExpressionsSet[category].GetRandomWordID();
+                    return m_ExpressionsSet[category].Data[rWordID];
+               
+
+                case EDATATYPE.IDIOMS:
+                    rWordID = m_IdiomsSet[category].GetRandomWordID();
+                    return m_IdiomsSet[category].Data[rWordID];
+            }
+
+            return null;
+
+        }
 
         private bool LoadLocalData()
         {
@@ -251,6 +348,16 @@ namespace EnglishApp
                     {
                         WordDictionary set = JsonUtility.FromJson<WordDictionary>(jsonData);
                         m_PhrasalVerbSet.Add(set);
+                    }
+                    else if (m_InfoFileList[indexData].DataType == EDATATYPE.EXPRESSIONS)
+                    {
+                        WordDictionary set = JsonUtility.FromJson<WordDictionary>(jsonData);
+                        m_ExpressionsSet.Add(set);
+                    }
+                    else if (m_InfoFileList[indexData].DataType == EDATATYPE.IDIOMS)
+                    {
+                        WordDictionary set = JsonUtility.FromJson<WordDictionary>(jsonData);
+                        m_IdiomsSet.Add(set);
                     }
                 }
                 else
@@ -381,7 +488,7 @@ namespace EnglishApp
 
                 string fileName = m_InfoFileList[indexData].Data.Data[iData].FileName + ".json";
                 string dataCloudURL = m_CloudDataUrl + "/" + m_InfoFileList[indexData].DataFolderName + "/" + fileName;
-                Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] Retrieving (" + iData + "/" + m_InfoFileList[indexData].Data.Data.Count + ") - URL: " + dataCloudURL + "</color>");
+                Debug.Log("<color=purple>" + "[LauncherControl.DownloadData] Retrieving (" + (iData+1) + "/" + m_InfoFileList[indexData].Data.Data.Count + ") - URL: " + dataCloudURL + "</color>");
                 WWW wwwDataFile = new WWW(dataCloudURL);
 
                 yield return wwwDataFile;

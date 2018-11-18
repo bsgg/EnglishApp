@@ -49,53 +49,36 @@ namespace EnglishApp
         }
     }
 
-
     public class VocabularyControl : Base
     {
         [Header("Vocabulary UI")]
         [SerializeField] private VocabularyUI   m_UI;
 
-        [SerializeField] private int m_SelectedCategory;
+        [SerializeField] private Word m_CurrentWord;
 
-        // Current Word
-        [SerializeField] private Word                                 m_CurrentWord;
-        private int                                  m_IndexExample;
-
-        [SerializeField] private int m_SelectedWordID;
-        [SerializeField] private int m_SelectedExampleID;
+        [SerializeField] private int m_selectedExampleID;
 
         private bool m_AddTranslation = false;
         private bool m_PictureVisible = false;
 
         public void SetRandom()
         {
-            m_SelectedExampleID = 0;
-            int nElements = 0;
+            m_selectedExampleID = 0;
 
-            switch(AppController.Instance.SelectedSection)
+            int randomCategory = AppController.Instance.LauncherControl.GetRandomCategory(AppController.Instance.SelectedSection);
+
+            m_CurrentWord = AppController.Instance.LauncherControl.GetRandomWord(AppController.Instance.SelectedSection, randomCategory);
+
+            int nTotalWords = AppController.Instance.LauncherControl.GetTotalWords(AppController.Instance.SelectedSection, randomCategory);
+
+            if (nTotalWords > 1)
             {
-                case LauncherController.EDATATYPE.VOCABULARY:
-                    nElements = AppController.Instance.LauncherControl.VocabularySet.Count;
-                    m_SelectedCategory = UnityEngine.Random.Range(0, nElements);
-                    m_SelectedWordID = AppController.Instance.LauncherControl.VocabularySet[m_SelectedCategory].GetRandomWordID();
-                    m_CurrentWord = AppController.Instance.LauncherControl.VocabularySet[m_SelectedCategory].Data[m_SelectedWordID];
-
-                    break;
-                case LauncherController.EDATATYPE.PHRASAL_VERBS:
-                    nElements = AppController.Instance.LauncherControl.PhrasalVerbSet.Count;
-                    m_SelectedCategory = UnityEngine.Random.Range(0, nElements);
-
-                    m_SelectedWordID = AppController.Instance.LauncherControl.PhrasalVerbSet[m_SelectedCategory].GetRandomWordID();
-                    m_CurrentWord = AppController.Instance.LauncherControl.PhrasalVerbSet[m_SelectedCategory].Data[m_SelectedWordID];
-                break;
-            }
-
-            if (m_CurrentWord.EnglishExamples.Count <= 1)
-            {
-                m_UI.NextExampleBtn.Disable();
+                m_UI.NextWordBtn.Enable();
+                
             }else
             {
-                m_UI.NextExampleBtn.Enable();
+                m_UI.NextWordBtn.Disable();
+
             }
 
             m_AddTranslation = false;
@@ -137,9 +120,9 @@ namespace EnglishApp
 
             if (includeTranslation)
             {
-                if ((m_CurrentWord.Meanings != null) && (m_SelectedExampleID < m_CurrentWord.Meanings.Count))
+                if ((m_CurrentWord.Meanings != null) && (m_selectedExampleID < m_CurrentWord.Meanings.Count))
                 {
-                    word +="\n" +  m_CurrentWord.Meanings[m_SelectedExampleID];
+                    word +="\n" +  m_CurrentWord.Meanings[m_selectedExampleID];
                 }
             }
 
@@ -157,7 +140,7 @@ namespace EnglishApp
 
                 if (includeTranslation)
                 {
-                    examples += "\n<color=#93d47f> - " + m_CurrentWord.SpanishExamples[m_SelectedExampleID] + "</color>";
+                    examples += "\n<color=#93d47f> - " + m_CurrentWord.SpanishExamples[m_selectedExampleID] + "</color>";
                 }
             }
 
@@ -211,7 +194,14 @@ namespace EnglishApp
         #endregion MenuHandle
         
         public override void Show()
-        { 
+        {
+
+#if !UNITY_ANDROID
+            m_UI.AudioWordBtn.Disable();
+#else
+            m_UI.AudioWordBtn.Enable();
+#endif
+
             switch (AppController.Instance.SelectedSection)
             {
                 case LauncherController.EDATATYPE.VOCABULARY:
@@ -220,6 +210,12 @@ namespace EnglishApp
                     break;
                 case LauncherController.EDATATYPE.PHRASAL_VERBS:
                     m_UI.TitleLabel = "Phrasal Verbs";
+                break;
+                case LauncherController.EDATATYPE.EXPRESSIONS:
+                    m_UI.TitleLabel = "Expressions";
+                    break;
+                case LauncherController.EDATATYPE.IDIOMS:
+                    m_UI.TitleLabel = "Idioms";
                 break;
             }
             m_UI.Show();

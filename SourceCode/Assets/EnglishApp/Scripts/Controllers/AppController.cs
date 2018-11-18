@@ -109,6 +109,8 @@ namespace EnglishApp
             {
                 case LauncherController.EDATATYPE.VOCABULARY:
                 case LauncherController.EDATATYPE.PHRASAL_VERBS:
+                case LauncherController.EDATATYPE.EXPRESSIONS:
+                case LauncherController.EDATATYPE.IDIOMS:
                     m_VocabularyControl.Hide();
                     m_MainMenu.Show();
                 break;
@@ -121,15 +123,9 @@ namespace EnglishApp
             switch (m_SelectedSection)
             {                
                 case LauncherController.EDATATYPE.VOCABULARY:
-                    // Vocabulary
-                    m_VocabularyControl.SetRandom();
-                    m_VocabularyControl.Show();
-                    m_MainMenu.Hide();
-
-                break;
-
                 case LauncherController.EDATATYPE.PHRASAL_VERBS:
-
+                case LauncherController.EDATATYPE.EXPRESSIONS:
+                case LauncherController.EDATATYPE.IDIOMS:
                     // Vocabulary
                     m_VocabularyControl.SetRandom();
                     m_VocabularyControl.Show();

@@ -27,14 +27,7 @@ namespace EnglishApp
         public ButtonWithText NextWordBtn
         {
             get { return m_NextWordBtn; }
-        }
-
-        [SerializeField]
-        private ButtonWithText m_NextExampleBtn;
-        public ButtonWithText NextExampleBtn
-        {
-            get { return m_NextExampleBtn; }
-        }
+        }        
 
         [SerializeField]
         private ButtonWithText m_AudioWordBtn;
