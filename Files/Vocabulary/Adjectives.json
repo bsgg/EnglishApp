@@ -229,6 +229,26 @@
 				"Incluso son momentos estresantes, Mary es una persona despreocupada. "
 			]
 		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Croocked",
+			"Pronunciation": "/crooked/",
+			"Meanings": 
+			[
+				"Torcido"
+			],
+			"EnglishExamples":
+			[ 
+				"Every line I draw is crooked.",
+				"My front tooth is a bit crooked."
+			],
+			"SpanishExamples":
+			[ 
+				"Todas las líneas que dibujo me salen torcidas.",
+				"Mi diente frontal está un poco torcido."
+			]
+		},
+		
     {
       "Category": "ADJECTIVE",
       "VocabularyWord": "Cheesy",
@@ -331,6 +351,26 @@
 				"¿Por que estás tan patoso?"
 			]	 			
 		},	
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Clunky",
+			"Pronunciation": "/claanky/",
+			"Meanings": 
+			[
+				"Tosco",
+				"Torpe"
+			],
+			"EnglishExamples":
+			[ 
+				"Helen wants to buy a smaller camera because her current one is too clunky.",
+				"I drive a clunky old station wagon."
+			],
+			"SpanishExamples":
+			[ 
+				"Helen quiere comprar una cámara más pequeña porque la actual es demasiada burda.",
+				"Conduzco una vieja camioneta torpe"
+			]	 			
+		},
 		{
 			"Category": "ADJECTIVE",
 			"VocabularyWord": "Convenient",
@@ -664,6 +704,23 @@
 				"No creo que sea una buena idea aceptar este trabajo, parece un poco sospechoso."
 			]
 		},
+		{
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Dull",
+      "Pronunciation": "/daaaol/",
+      "Meanings": [
+        "Aburrido",
+		"Soso"
+      ],
+      "EnglishExamples": [
+        "The thesis was so dull that I fell asleep reading it.",
+		"My job is dull and boring."
+      ],
+      "SpanishExamples": [
+        "La tesis era tan aburrida que me quedé dormido mientras la leía.",
+		"Mi trabajo es soso y aburrido."
+      ]
+    },	
     {
       "Category": "ADJECTIVE",
       "VocabularyWord": "Dumb",
@@ -3020,23 +3077,23 @@
 		  ]
 		},
 		{
-				"Category": "ADJECTIVE",
-				"VocabularyWord": "Wobbly",
-				"Pronunciation": "/uuuobly/",
-				"Meanings": 
-				[
-			"Mareado",
-			"Tambaleante"
-				],
-		  "EnglishExamples": [
-			
-			"She said she was feeling wobbly and needed to sit down.",
-			"Don't put anything heavy on that wobbly table."
-		  ],
-		  "SpanishExamples": [
-			
-			"Dijo que se sentía mareada y necesitaba sentarse.",
-			"No pongas nada pesado en esa mesa tambaleante."
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Wobbly",
+			"Pronunciation": "/uuuobly/",
+			"Meanings": 
+			[
+				"Mareado",
+				"Tambaleante"
+			],
+			"EnglishExamples": 
+			[			
+				"She said she was feeling wobbly and needed to sit down.",
+				"Don't put anything heavy on that wobbly table."
+			],
+			"SpanishExamples": 
+			[			
+				"Dijo que se sentía mareada y necesitaba sentarse.",
+				"No pongas nada pesado en esa mesa tambaleante."
 		  ]
 		}		
 	] 	
