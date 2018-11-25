@@ -120,9 +120,19 @@ namespace EnglishApp
 
             if (includeTranslation)
             {
+                word += "\n";
+
                 if ((m_CurrentWord.Meanings != null) && (m_selectedExampleID < m_CurrentWord.Meanings.Count))
                 {
-                    word +="\n" +  m_CurrentWord.Meanings[m_selectedExampleID];
+                    for (int i=0; i< m_CurrentWord.Meanings.Count; i++)
+                    {
+                        word += m_CurrentWord.Meanings[i];
+
+                        if (i < (m_CurrentWord.Meanings.Count -1))
+                        {
+                            word += ", ";
+                        }
+                    }
                 }
             }
 
