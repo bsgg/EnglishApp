@@ -1311,7 +1311,7 @@
 			],
 			"SpanishExamples":
 			[ 
-				"El chico desgarbado miro incómodo a su propio cuerpo."
+				"El chico desgarbado parecía incómodo a su propio cuerpo."
 			]			
 		},
 		{
@@ -1383,6 +1383,27 @@
 			"SpanishExamples":
 			[ 				
 				"Prefiero llevar vaqueros sueltos estos días. Estoy más gorda de lo que solía estar."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Lumpy",
+			"Pronunciation": "/lampiii/",
+			"Meanings": 
+			[
+				"Grumoso",
+				"Basto, Tosco"
+			],
+			"EnglishExamples":
+			[ 
+				"The gravy turned out lumpy because I made it too fast.",
+				"The performance was excellent aside from one actor's lumpy gait."
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"La salsa quedó grumosa porque la hice muy rápido.",
+				"El espectáculo fue excelente, a excepción del modo basto de andar que tenía un actor."
 			]	 			
 		},
 		{
@@ -1894,6 +1915,20 @@
       ],
       "SpanishExamples": [
         "Pareces desconcertado, Tim. ¿No entiendes la pregunta?"
+      ]
+    },	
+	{
+      "Category": "ADJECTIVE",
+      "VocabularyWord": "Puffy",
+      "Pronunciation": "/paafi/",
+      "Meanings": [
+        "Hinchado, Inflado"
+      ],
+      "EnglishExamples": [
+        "Pregnant women sometimes suffer from puffy ankles."
+      ],
+      "SpanishExamples": [
+        "Las mujeres embarazadas a veces sufren de tobillos hinchados."
       ]
     },
      {
