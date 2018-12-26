@@ -412,6 +412,22 @@
         "Cuando estoy en el teatro, lo de verdad me molesta es si alguien detrás empieza a comer semillas, hablar con alguien o coger el teléfono."
       ]
     },
+	{
+      "Category": "ACTION",
+      "VocabularyWord": "Budge",
+      "Pronunciation": "/bagg/",
+      "Meanings": [
+        "Moverse, Ceder"
+      ],
+      "EnglishExamples": [
+        "I can't make the rock budge even a little bit!",
+        "There's no use in trying to change Greg's mind about politics; he won't budge."
+      ],
+      "SpanishExamples": [
+        "¡No puedo hacer que la roca se mueva ni siquiera un poco!",
+        "No sirve de nada intentar hacer cambiar la mente de Greg sobre política, no va a ceder."
+      ]
+    },
     {
       "Category": "ACTION",
       "VocabularyWord": "Burp",
@@ -2718,7 +2734,26 @@
 			[ 
 				"Tina rompió los huevos en la sartén y los revolvió para hacer huevos revueltos."
 			]
-		},		
+		},	
+{
+			"Category": "ACTION",
+			"VocabularyWord": "Shag",
+			"Pronunciation": "/shiaag/",
+			"Meanings": 
+			[
+				"Follar, Tirarse a"
+			],
+			"EnglishExamples":
+			[ 
+				"Apparently, Linda's shagging Rick.",
+				"Tim's mum walked in on him and his girlfriend when they were shagging."
+			],
+			"SpanishExamples":
+			[ 
+				"Parece que Linda se esta tirando a Rick",
+				"La madre de Tim apareció justo cuando él y su novia estaban follando."
+			]
+		},				
 		{
 			"Category": "ACTION",
 			"VocabularyWord": "Shut",

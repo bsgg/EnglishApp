@@ -1233,6 +1233,25 @@
 				]
 		},
 		{
+				"Category": "ADJECTIVE",
+				"VocabularyWord": "Jolt",
+				"Pronunciation": "/yooolt/",
+				"Meanings": 
+				[
+					"Sacudida, Golpe"
+				],
+				"EnglishExamples":
+				[
+					"Ben sat bolt upright with a jolt when he heard the door open.",
+					"100 watts of electricity jolted Eric as he touched the wire."
+				],
+				"SpanishExamples":
+				[
+					"Ben se sentó con una sacudida cuando escuchó que se abría la puerta.",
+					"100 vatios de electricidad le dieron una descarga a Eric tan pronto como tocó el cable."
+				]
+		},
+		{
 			"Category": "ADJECTIVE",
 			"VocabularyWord": "Jerk",
 			"Pronunciation": "/jeeerk/",
@@ -2822,6 +2841,23 @@
 			"SpanishExamples":
 			[ 				
 				"La amenaza de mal tiempo lo retuvo en casa esa noche."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Throttle",
+			"Pronunciation": "/zroootel/",
+			"Meanings": 
+			[
+				"Aceleración"
+			],
+			"EnglishExamples":
+			[ 
+				"The biker opened the throttle and the bike surged forward."
+			],
+			"SpanishExamples":
+			[ 				
+				"El motorista presionó el acelerador y la moto se abalanzó hacia adelante."
 			]	 			
 		},
 		{

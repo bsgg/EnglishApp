@@ -1819,6 +1819,26 @@
 		},
 		{
 			"Category": "OBJECT",
+			"VocabularyWord": "Strap",
+			"Pronunciation": "/ssstrap/",
+			"Meanings": 
+			[
+				"Tira",
+				"Correa"
+			],
+			"EnglishExamples":
+			[ 
+				"Rachel cut the leather into straps.",
+				"The bag had a long strap, so that it could be carried over the shoulder."
+			],
+			"SpanishExamples":
+			[ 
+				"Rachel corto el cuero a tiras",
+				"La bolsa tenía una correa larga, a si que podría haberla llevado sobre el hombro."
+			]
+		},
+		{
+			"Category": "OBJECT",
 			"VocabularyWord": "Striped",
 			"Pronunciation": "/ssstraip/",
 			"Meanings": 
