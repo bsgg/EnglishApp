@@ -2193,6 +2193,25 @@
 				"Ella adora leer historias de misterio lleno de personajes siniestros y complicados casos de asesinato."
 			]
 		},
+		
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Skint",
+			"Pronunciation": "/sssskint/",
+			"Meanings": 
+			[
+				"Pelado, sin dinero"
+			],
+			"EnglishExamples":
+			[ 
+				"I can't go to the cinema, I'm really skint this month."
+			],
+			"SpanishExamples":
+			[ 
+				"No puedo ir al cine, estoy bastante pelado este mes."
+			]
+		},
+		
 		{
 			"Category": "ADJECTIVE",
 			"VocabularyWord": "Sly",
