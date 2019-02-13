@@ -32,6 +32,23 @@
 				"Dejar de fumar e ir al gym cada día me ha dado mucha energía. Estoy lleno de energía!",
 				"Claro, era joven... y lleno de energías en ese tiempo"
 			]
+		},
+		{
+			"VocabularyWord": "Bob's your uncle",
+			"Meanings": 
+			[
+				"Así de simple. Y todo está bien así"
+			],			
+			"EnglishExamples":
+			[ 
+				"You add 2 cups of water to the mix, heat it for 5 minutes and Bob's your uncle, the soup is ready.",
+				"You want to go to the cinema? Go straight on until you reach the park, take the first left and Bob's your uncle!"
+			],
+			"SpanishExamples":
+			[ 
+				"Añade 2 cups de agua a la mezcla, caliéntalo 5 minuts y así de fácil, la sopa está lista.",
+				"¿Quieres ir al cine? Ve recto hasta que llegues al parque, toma la primera la primera a la izquierda y ya está!"
+			]
 		}
 	]
 }
