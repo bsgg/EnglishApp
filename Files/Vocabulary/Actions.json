@@ -1463,6 +1463,26 @@
 		},
 		{
 			"Category":  "ACTION",
+			"VocabularyWord": "Gag On",
+			"Pronunciation": "/Gaag/",
+			"Meanings": 
+			[
+				"Atragantarse",
+				"Atragantarse"
+			],
+			"EnglishExamples":
+			[ 
+				"I always gag on pills when I have to take them.",
+				"He always gags on the words when he has to apologize."
+			],
+			"SpanishExamples":
+			[ 
+				"Siempre me atraganto con pastillas cuando tengo que tomarlas",
+				"Siempre se atraganta con palabras cuando tiene que disculparse."
+			]
+		},
+		{
+			"Category":  "ACTION",
 			"VocabularyWord": "Gather",
 			"Pronunciation": "/gaadaa/",
 			"Meanings": 
@@ -2196,6 +2216,24 @@
         "Levantaron el coche así el mecánico pudo trabajar por debajo."
       ]
     },	
+		{
+		  "Category": "ACTION",
+		  "VocabularyWord": "Limp",
+		  "Pronunciation": "/liimp/",
+		  "Meanings": [
+			"Cogear"
+
+		  ],
+		  "EnglishExamples": [
+			"Karen limped to her car after rolling her ankle while walking down the stairs.",
+			"Since Tom came back from the war he has walked with a limp"
+		  ],
+		  "SpanishExamples": [
+			"Karen cojeó hasta su coche después de torcerse el tobillo mientras bajaba las escaleras.",
+			"Desde que Tom volvió de la guerra camina cojeando."
+			
+		  ]
+		},	
     {
 			"Category":  "ACTION",
 			"VocabularyWord": "Lurk",

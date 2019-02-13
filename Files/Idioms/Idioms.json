@@ -15,6 +15,23 @@
 			[ 
 				"Estudie mucho para este test, pero falle. Supongo que asi es la vida."
 			]
+		},
+		{
+			"VocabularyWord": "Full of Beans",
+			"Meanings": 
+			[
+				"Lleno de energías"
+			],			
+			"EnglishExamples":
+			[ 
+				"Giving up smoking and going to the gym every day has given me a lot more energy. I feel full of beans.",
+				"Course, I was young... and full of beans back then."
+			],
+			"SpanishExamples":
+			[ 
+				"Dejar de fumar e ir al gym cada día me ha dado mucha energía. Estoy lleno de energía!",
+				"Claro, era joven... y lleno de energías en ese tiempo"
+			]
 		}
 	]
 }
