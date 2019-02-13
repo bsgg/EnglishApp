@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -8,8 +9,7 @@ namespace Utility
 {
     public class ButtonWithText : UIBase
     {
-        public delegate void ButtonWithTextAction(ButtonWithText button);
-        public event ButtonWithTextAction OnButtonClicked;
+        public Action<ButtonWithText> OnButtonClicked;
 
         [SerializeField] private EventTrigger m_EventTrigger;
         public EventTrigger EventTriggerComponent
@@ -68,20 +68,20 @@ namespace Utility
             }
         }
 
-        public void Set(int idButton,string title, ButtonWithTextAction action)
+        public void Set(int a_idButton,string a_title, Action<ButtonWithText> a_action = null)
         {
             if (m_Title != null)
             {
-                m_Title.text = title;
+                m_Title.text = a_title;
             }
 
-            m_IdButton = idButton;
+            m_IdButton = a_idButton;
 
-            if ((action != null) && (m_EventTrigger != null))
+            /*if ((a_action != null) && (m_EventTrigger != null))
             {
                 EventTrigger.Entry entry = new EventTrigger.Entry();
                 entry.eventID = EventTriggerType.PointerClick;
-                entry.callback.AddListener((eventData) => { action(this); });
+                entry.callback.AddListener((eventData) => { a_action(this); });
 
                 if (m_EventTrigger != null)
                 {
@@ -92,7 +92,7 @@ namespace Utility
 
                     m_EventTrigger.triggers.Add(entry);
                 }
-            }
+            }*/
         }
 
         public void SetIcon(Sprite icon)
@@ -100,6 +100,15 @@ namespace Utility
             if (m_Icon != null)
             {
                 m_Icon.sprite = icon;
+            }
+        }
+
+        public void OnClick()
+        {
+            Debug.Log("OnClick" + gameObject.name);
+            if (OnButtonClicked != null)
+            {
+                OnButtonClicked(this);
             }
         }
     }

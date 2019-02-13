@@ -45,7 +45,8 @@ namespace EnglishApp
 
         [SerializeField] private VocabularyControl m_VocabularyControl;
 
-        [SerializeField] private GrammarControl m_GrammarControlControl;
+        [SerializeField] private GrammarControl m_GrammarControl;
+
 
         private Base m_CurrentControl = null;
 
@@ -129,8 +130,15 @@ namespace EnglishApp
                     // Vocabulary
                     m_VocabularyControl.SetRandom();
                     m_VocabularyControl.Show();
+                    m_GrammarControl.Hide();
                     m_MainMenu.Hide();
 
+                break;
+                case LauncherController.EDATATYPE.GRAMMAR:
+                    
+                    m_VocabularyControl.Hide();
+                    m_MainMenu.Hide();
+                    m_GrammarControl.Show();
                 break;
 
             }

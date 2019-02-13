@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Utility.UI
 {
@@ -37,9 +38,9 @@ namespace Utility.UI
 
 
         public void ShowPopup(string title, string message,
-           string middleBtn, ButtonWithText.ButtonWithTextAction middleBtnCallback,
-           string leftBtn, ButtonWithText.ButtonWithTextAction leftBtnCallback,
-           string rightBtn, ButtonWithText.ButtonWithTextAction rightBtnCallback)
+           string middleBtn, Action<ButtonWithText> middleBtnCallback,
+           string leftBtn, Action<ButtonWithText>  leftBtnCallback,
+           string rightBtn, Action<ButtonWithText> rightBtnCallback)
         {
             if (m_TitleText != null)
             {

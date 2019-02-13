@@ -1,14 +1,14 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace EnglishApp
+namespace Utility.UI
 {
     public class ScrollPanelUI : MonoBehaviour
     {
-        public delegate void OnButtonPress(int index);
-        public OnButtonPress HandleButtonPress;
+        public Action<ButtonWithText> OnButtonPress;
 
         [Header("Prefab Item")]
         [SerializeField]
@@ -43,8 +43,8 @@ namespace EnglishApp
             m_ListElements = new List<GameObject>();
             int numberElements = data.Count;
 
-            float hContent = (m_GridContent.cellSize.y * numberElements) + (m_GridContent.spacing.y * (numberElements - 1)) + m_GridContent.padding.top + m_GridContent.padding.bottom;
-            m_ContentRecTransform.sizeDelta = new Vector2(m_ContentRecTransform.sizeDelta.x, hContent);
+            //float hContent = (m_GridContent.cellSize.y * numberElements) + (m_GridContent.spacing.y * (numberElements - 1)) + m_GridContent.padding.top + m_GridContent.padding.bottom;
+           // m_ContentRecTransform.sizeDelta = new Vector2(m_ContentRecTransform.sizeDelta.x, hContent);
 
             for (int i = 0; i < numberElements; i++)
             {
@@ -52,22 +52,27 @@ namespace EnglishApp
                 m_ListElements.Add(element);
                 element.transform.SetParent(m_ContentRecTransform.transform);
 
-                RectTransform cellRectTransform = element.GetComponent<RectTransform>();
+               /* RectTransform cellRectTransform = element.GetComponent<RectTransform>();
                 if (cellRectTransform != null)
                 {
                     cellRectTransform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-                }
+                }*/
 
-                MenuButton menuB = element.GetComponent<MenuButton>();
-                menuB.SetupMenuButton(data[i], i, onButtonPress);
+
+                ButtonWithText Button = element.GetComponent<ButtonWithText>();
+                Button.OnButtonClicked += OnScrollButonPress;
+
+
+
+                //menuB.SetupMenuButton(data[i], i, onButtonPress);
             }
         }
 
-        public void onButtonPress(int id)
+        public void OnScrollButonPress(ButtonWithText a_button)
         {
-            if (HandleButtonPress != null)
+            if (OnButtonPress != null)
             {
-                HandleButtonPress(id);
+              OnButtonPress(a_button);
             }
         }
 

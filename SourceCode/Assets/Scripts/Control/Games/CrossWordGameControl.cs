@@ -74,7 +74,7 @@ namespace EnglishApp
             listMenu.Add("SOLVE");
             listMenu.Add("CLEAR");
             GameManager.Instance.MenuBarControl.InitScroll("Crossword", listMenu);
-            GameManager.Instance.MenuBarControl.ScrollMenu.HandleButtonPress += OnHandleMenuButton;
+            //GameManager.Instance.MenuBarControl.ScrollMenu.HandleButtonPress += OnHandleMenuButton;
 
             InitCrosswordLogic();
             m_CrossWordGUI.Show();
@@ -87,7 +87,7 @@ namespace EnglishApp
 
         public override void Finish()
         {
-            GameManager.Instance.MenuBarControl.ScrollMenu.HandleButtonPress -= OnHandleMenuButton;
+           // GameManager.Instance.MenuBarControl.ScrollMenu.HandleButtonPress -= OnHandleMenuButton;
             m_CrossWordGUI.Hide();
         }
 

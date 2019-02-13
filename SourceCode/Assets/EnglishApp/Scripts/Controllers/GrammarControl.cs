@@ -45,6 +45,8 @@ namespace EnglishApp
         [Header("Menu Grammar")]
         [SerializeField] private UIBase m_GrammarMenuUI;
 
+        [SerializeField] private CategoryMenu m_menu;
+
         [Header("Grammar UI")]
         [SerializeField] private GrammarSectionUI   m_GrammarPanelUI;
 
@@ -84,17 +86,36 @@ namespace EnglishApp
         #region BaseControl
         public override void Init()
         {
-            LoadDataSet();
+            m_menu.Hide();
 
-            m_GrammarPanelUI.Hide();
+            //LoadDataSet();
+
+            //m_GrammarPanelUI.Hide();
             //m_GrammarMenuUI.Show();
         }
+
+        public override void Show()
+        {
+            base.Show();
+
+            List<string> optionsMenu = new List<string>();
+
+            optionsMenu.Add("CONDITIONALS");
+            optionsMenu.Add("FUTURE");
+            optionsMenu.Add("ADVERBS");
+
+            m_menu.OptionList.InitScroll(optionsMenu);
+
+            m_menu.Show();
+
+        }
+
 
         public override void Finish()
         {
             if (m_GrammarPanelUI.Visible)
             {
-                GameManager.Instance.MenuBarControl.ScrollMenu.HandleButtonPress -= onHandleMenuButtonGrammarPress;
+                //GameManager.Instance.MenuBarControl.ScrollMenu.HandleButtonPress -= onHandleMenuButtonGrammarPress;
                 GameManager.Instance.MenuBarControl.Close();
                 m_GrammarMenuUI.Hide();
             }
@@ -108,7 +129,7 @@ namespace EnglishApp
         {
             if (m_GrammarPanelUI.Visible)
             {
-                GameManager.Instance.MenuBarControl.ScrollMenu.HandleButtonPress -= onHandleMenuButtonGrammarPress;
+               // GameManager.Instance.MenuBarControl.ScrollMenu.HandleButtonPress -= onHandleMenuButtonGrammarPress;
                 GameManager.Instance.MenuBarControl.Close();
                 m_GrammarPanelUI.Hide();
                 m_GrammarMenuUI.Show();
@@ -174,7 +195,7 @@ namespace EnglishApp
                 //string titleGrammar = GameManager.Instance.DataGrammar.GetSectionGrammarTitle(m_SectionGrammar);
                 string titleGrammar = "";
                 GameManager.Instance.MenuBarControl.InitScroll(titleGrammar, listTitleGrammar);
-                GameManager.Instance.MenuBarControl.ScrollMenu.HandleButtonPress += onHandleMenuButtonGrammarPress;
+               // GameManager.Instance.MenuBarControl.ScrollMenu.HandleButtonPress += onHandleMenuButtonGrammarPress;
                 // Init indexGrammar with -1 to setup grammar correctly
                 m_IndexGrammar = -1;
                 SetGrammar(0);
