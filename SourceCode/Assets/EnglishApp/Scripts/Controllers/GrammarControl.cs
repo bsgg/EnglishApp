@@ -92,6 +92,8 @@ namespace EnglishApp
 
             //m_GrammarPanelUI.Hide();
             //m_GrammarMenuUI.Show();
+
+           
         }
 
         public override void Show()
@@ -100,14 +102,37 @@ namespace EnglishApp
 
             List<string> optionsMenu = new List<string>();
 
-            optionsMenu.Add("CONDITIONALS");
-            optionsMenu.Add("FUTURE");
-            optionsMenu.Add("ADVERBS");
+            optionsMenu.Add("Conditionals");
+            optionsMenu.Add("Future");
+            optionsMenu.Add("Adverbs");
+            optionsMenu.Add("Prepositions");           
+            optionsMenu.Add("Modals");
+            optionsMenu.Add("Passive");
+            optionsMenu.Add("Questions");
+            optionsMenu.Add("Speaking");
+            optionsMenu.Add("Misc");
 
             m_menu.OptionList.InitScroll(optionsMenu);
 
-            m_menu.Show();
+            m_menu.OptionList.OnButtonPress += OnOptionPress;
 
+            m_menu.Show();
+        }
+
+        private void OnOptionPress(ButtonWithText optionButton)
+        {
+            Debug.Log("<color=cyan>" + "[GrammarControl.OnOptionPress] index " + optionButton.ButtonIndex + "Name " +  optionButton.Title + "</color>");
+
+            m_menu.Hide();
+
+        }
+
+        public override void Hide()
+        {
+            m_menu.OptionList.OnButtonPress -= OnOptionPress;
+            m_menu.Hide();
+
+            base.Hide();
         }
 
 

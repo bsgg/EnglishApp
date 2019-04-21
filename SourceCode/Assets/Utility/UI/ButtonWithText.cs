@@ -35,11 +35,11 @@ namespace Utility
         }
 
 
-        private int m_IdButton;
-        public int IdButton
+        private int m_buttonIndex;
+        public int ButtonIndex
         {
-            get { return m_IdButton; }
-            set { m_IdButton = value; }
+            get { return m_buttonIndex; }
+            set { m_buttonIndex = value; }
         }
 
         public void Enable()
@@ -68,14 +68,14 @@ namespace Utility
             }
         }
 
-        public void Set(int a_idButton,string a_title, Action<ButtonWithText> a_action = null)
+        public void Set(int a_buttonIndex,string a_title, Action<ButtonWithText> a_action = null)
         {
             if (m_Title != null)
             {
                 m_Title.text = a_title;
             }
 
-            m_IdButton = a_idButton;
+            m_buttonIndex = a_buttonIndex;
 
             /*if ((a_action != null) && (m_EventTrigger != null))
             {

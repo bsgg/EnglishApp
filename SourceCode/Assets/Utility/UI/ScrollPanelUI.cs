@@ -41,30 +41,23 @@ namespace Utility.UI
             }
 
             m_ListElements = new List<GameObject>();
-            int numberElements = data.Count;
 
-            //float hContent = (m_GridContent.cellSize.y * numberElements) + (m_GridContent.spacing.y * (numberElements - 1)) + m_GridContent.padding.top + m_GridContent.padding.bottom;
-           // m_ContentRecTransform.sizeDelta = new Vector2(m_ContentRecTransform.sizeDelta.x, hContent);
-
-            for (int i = 0; i < numberElements; i++)
+            for (int i = 0; i < data.Count; i++)
             {
                 GameObject element = Instantiate(m_ItemMenuPrefab) as GameObject;
                 m_ListElements.Add(element);
                 element.transform.SetParent(m_ContentRecTransform.transform);
 
-               /* RectTransform cellRectTransform = element.GetComponent<RectTransform>();
+                RectTransform cellRectTransform = element.GetComponent<RectTransform>();
                 if (cellRectTransform != null)
                 {
                     cellRectTransform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-                }*/
-
+                }
 
                 ButtonWithText Button = element.GetComponent<ButtonWithText>();
+                Button.ButtonIndex = i;
+                Button.Title = data[i];
                 Button.OnButtonClicked += OnScrollButonPress;
-
-
-
-                //menuB.SetupMenuButton(data[i], i, onButtonPress);
             }
         }
 
@@ -72,7 +65,7 @@ namespace Utility.UI
         {
             if (OnButtonPress != null)
             {
-              OnButtonPress(a_button);
+                OnButtonPress(a_button);
             }
         }
 
