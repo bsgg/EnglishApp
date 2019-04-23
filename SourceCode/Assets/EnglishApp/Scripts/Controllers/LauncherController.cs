@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.Networking;
 using Utility;
 using Utility.UI;
 
@@ -66,10 +67,10 @@ namespace EnglishApp
         {
             get { return m_VocabularySet; }
         }
-        [SerializeField] private List<GrammarDictionary> m_DictionarySet;
-        public List<GrammarDictionary> DictionarySet
+        [SerializeField] private List<GrammarDictionary> m_grammarSet;
+        public List<GrammarDictionary> GrammarSet
         {
-            get { return m_DictionarySet; }
+            get { return m_grammarSet; }
         }
 
         [SerializeField] private List<WordDictionary> m_PhrasalVerbSet;
@@ -108,7 +109,7 @@ namespace EnglishApp
         public override IEnumerator DelayedInit()
         {
             m_VocabularySet = new List<WordDictionary>();
-            m_DictionarySet = new List<GrammarDictionary>();
+            m_grammarSet = new List<GrammarDictionary>();
             m_PhrasalVerbSet = new List<WordDictionary>();
             m_ExpressionsSet = new List<WordDictionary>();
             m_IdiomsSet = new List<WordDictionary>();
@@ -342,7 +343,8 @@ namespace EnglishApp
                     else if (m_InfoFileList[indexData].DataType == EDATATYPE.GRAMMAR)
                     {
                         GrammarDictionary set = JsonUtility.FromJson<GrammarDictionary>(jsonData);
-                        m_DictionarySet.Add(set);
+                        set.Category = m_InfoFileList[indexData].Data.Data[iData].FileName;
+                        m_grammarSet.Add(set);
                     }
                     else if (m_InfoFileList[indexData].DataType == EDATATYPE.PHRASAL_VERBS)
                     {
@@ -562,7 +564,7 @@ namespace EnglishApp
                     m_ExpressionsSet = new List<WordDictionary>();
                 break;
                 case EDATATYPE.GRAMMAR:
-                    m_DictionarySet = new List<GrammarDictionary>();
+                    m_grammarSet = new List<GrammarDictionary>();
                 break;
             }
 
@@ -654,7 +656,8 @@ namespace EnglishApp
                         else if (m_InfoFileList[indexData].DataType == EDATATYPE.GRAMMAR)
                         {
                             GrammarDictionary set = JsonUtility.FromJson<GrammarDictionary>(wwwDataFile.text);
-                            m_DictionarySet.Add(set);
+                            set.Category = m_InfoFileList[indexData].Data.Data[iData].FileName;
+                            m_grammarSet.Add(set);
 
                         }else if (m_InfoFileList[indexData].DataType == EDATATYPE.PHRASAL_VERBS)
                         {
