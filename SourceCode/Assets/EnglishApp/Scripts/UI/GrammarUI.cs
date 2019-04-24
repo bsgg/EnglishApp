@@ -29,11 +29,11 @@ namespace EnglishApp
             set { m_titleLabel.text = value; }
         }
 
-        [SerializeField] private ScrollTextUI m_rulesScroll;
-        public ScrollTextUI RulesScroll
+        [SerializeField] private ScrollTextUI m_descriptionScroll;
+        public ScrollTextUI DescriptionScroll
         {
-            get { return m_rulesScroll; }
-            set { m_rulesScroll = value; }
+            get { return m_descriptionScroll; }
+            set { m_descriptionScroll = value; }
         }
 
         [SerializeField] private ScrollTextUI m_examplesScroll;
