@@ -48,6 +48,8 @@ namespace EnglishApp
         private GrammarDictionary m_selectedCategory;
 
         private int m_selectedGrammar = 0;
+        private bool m_isDescriptionShown = true;
+        private bool m_isTranslationEnabled = false;
 
         #region BaseControl
         public override void Init()
@@ -76,7 +78,22 @@ namespace EnglishApp
             m_menu.Show();
 
             m_ui.OnNextGrammarClick += OnNextGrammar;
+            m_ui.OnExampleClick += OnExamplePressed;
+            m_ui.OnTranslationClick += OnTranslationPressed;
             m_ui.Show();
+        }
+
+        public override void Hide()
+        {
+            m_menu.OptionList.OnButtonPress -= OnOptionPress;
+            m_menu.Hide();
+
+            m_ui.OnNextGrammarClick -= OnNextGrammar;
+            m_ui.OnExampleClick -= OnExamplePressed;
+            m_ui.OnTranslationClick -= OnTranslationPressed;
+            m_ui.Hide();
+
+            base.Hide();
         }
 
         private void OnOptionPress(ButtonWithText optionButton)
@@ -96,28 +113,13 @@ namespace EnglishApp
 
             SetGrammarData();
 
+            m_isDescriptionShown = true;
             m_ui.Show();
 
         }
 
         private void SetGrammarData()
         {
-            //string auxRule = m_ListGrammar[m_IndexGrammar].Rules[m_IndexRule];
-            //string rule = auxRule.Substring(4);
-            //string keyRule = auxRule.Substring(0, 4);
-            //m_GrammarPanelUI.Rule = rule;
-            //m_GrammarPanelUI.RulePages = (m_IndexRule + 1).ToString() + "/" + m_MaxRules.ToString();
-
-            /*string rules = m_selectedCategory.Data[m_selectedGrammar].Description + "\n\n";
-            for (int i=0; i< m_selectedCategory.Data[m_selectedGrammar].Rules.Count; i++)
-            {
-                string auxRule = m_selectedCategory.Data[m_selectedGrammar].Rules[i];
-                string rule = auxRule.Substring(4);
-
-                string keyRule = auxRule.Substring(0, 4);
-
-                rules += rule + "\n\n";
-            }*/
 
 
             string description = m_selectedCategory.Data[m_selectedGrammar].Title + "\n\n" + m_selectedCategory.Data[m_selectedGrammar].Description;
@@ -132,10 +134,12 @@ namespace EnglishApp
             {
                 examples += "\n\n<color=#c9e8ff> " + (i + 1) + ": " + m_selectedCategory.Data[m_selectedGrammar].EnglishExamples[i] + "</color>";
 
-                if (i < m_selectedCategory.Data[m_selectedGrammar].SpanishExamples.Count)
-               // if (includeTranslation)
+                if (m_isTranslationEnabled)
                 {
-                    examples += "\n<color=#93d47f> - " + m_selectedCategory.Data[m_selectedGrammar].SpanishExamples[i] + "</color>";
+                    if (i < m_selectedCategory.Data[m_selectedGrammar].SpanishExamples.Count)
+                    {
+                        examples += "\n<color=#93d47f> - " + m_selectedCategory.Data[m_selectedGrammar].SpanishExamples[i] + "</color>";
+                    }
                 }
             }
 
@@ -155,33 +159,37 @@ namespace EnglishApp
             SetGrammarData();
         }
 
-        public override void Hide()
+        private void OnExamplePressed()
         {
-            m_menu.OptionList.OnButtonPress -= OnOptionPress;
-            m_menu.Hide();
+            if (m_isDescriptionShown)
+            {
+                m_ui.DescriptionObject.SetActive(false);
+                m_ui.ExamplesObject.SetActive(true);
 
-            m_ui.OnNextGrammarClick -= OnNextGrammar;
-            m_ui.Hide();
+                m_isDescriptionShown = false;
+            }else
+            {
+                m_ui.DescriptionObject.SetActive(true);
+                m_ui.ExamplesObject.SetActive(false);
 
-            base.Hide();
+                m_isDescriptionShown = true;
+            }           
         }
 
-
-        public override void Finish()
+        private void OnTranslationPressed()
         {
-           
-        }
-
-        public override void Back()
-        {
-           
+            if (m_isTranslationEnabled)
+            {
+                m_isTranslationEnabled = false;
+                
+            }
+            else
+            {
+                m_isTranslationEnabled = true;
+            }
+            SetGrammarData();
         }
 
         #endregion BaseControl
-
-        
-
-       
-     
     }
 }

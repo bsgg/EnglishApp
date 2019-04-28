@@ -10,7 +10,8 @@ namespace EnglishApp
     {
         public delegate void GrammarUIAction();
         public event GrammarUIAction OnNextGrammarClick;
-
+        public event GrammarUIAction OnExampleClick;
+        public event GrammarUIAction OnTranslationClick;
 
         [Header("Buttons")]
         [SerializeField]
@@ -29,12 +30,28 @@ namespace EnglishApp
             set { m_titleLabel.text = value; }
         }
 
+        [SerializeField] private GameObject m_descriptionObject;
+        public GameObject DescriptionObject
+        {
+            get { return m_descriptionObject; }
+            set { m_descriptionObject = value; }
+        }
+
+
         [SerializeField] private ScrollTextUI m_descriptionScroll;
         public ScrollTextUI DescriptionScroll
         {
             get { return m_descriptionScroll; }
             set { m_descriptionScroll = value; }
         }
+
+        [SerializeField] private GameObject m_examplesObject;
+        public GameObject ExamplesObject
+        {
+            get { return m_examplesObject; }
+            set { m_examplesObject = value; }
+        }
+
 
         [SerializeField] private ScrollTextUI m_examplesScroll;
         public ScrollTextUI ExamplesScroll
@@ -43,11 +60,36 @@ namespace EnglishApp
             set { m_examplesScroll = value; }
         }
 
+        public override void Show()
+        {
+            base.Show();
+
+            m_descriptionObject.SetActive(true);
+            m_examplesObject.SetActive(false);
+        }
+
         public void OnNextGrammar()
         {
             if (OnNextGrammarClick != null)
             {
                 OnNextGrammarClick();
+            }
+        }
+
+
+        public void OnExamplePress()
+        {
+            if (OnExampleClick != null)
+            {
+                OnExampleClick();
+            }
+        }
+
+        public void OnTranslationPress()
+        {
+            if (OnTranslationClick != null)
+            {
+                OnTranslationClick();
             }
         }
 
