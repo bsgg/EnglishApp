@@ -707,21 +707,44 @@
 				"Ivi ha trepado las paredes, casi cubriendo las ventanas"
 			]			
 		},
-    {
-      "Category": "ACTION",
-      "VocabularyWord": "Crush",
-      "Pronunciation": "/cruash/",
-      "Meanings": [
-        "Machacar"
-      ],
-      "EnglishExamples": [
-        "He crushed the nut to break it into many pieces."
-      ],
-      "SpanishExamples": [
-        "Machacó la nuez para romperla en muchos trozos."
-      ]
-    },
-    {
+		{
+		  "Category": "ACTION",
+		  "VocabularyWord": "Crush",
+		  "Pronunciation": "/cruash/",
+		  "Meanings": [
+			"Machacar"
+		  ],
+		  "EnglishExamples": [
+			"He crushed the nut to break it into many pieces."
+		  ],
+		  "SpanishExamples": [
+			"Machacó la nuez para romperla en muchos trozos."
+		  ]
+		},
+    	{
+			"Category": "ACTION",
+			"VocabularyWord": "Dangle",
+			"Pronunciation": "/dangol/",
+			"Meanings": 
+			[
+				"Colgar, Pender",
+				"Ofrecer algo alguien como incentivo"
+			],
+			"EnglishExamples":
+			[ 
+				"There was an electrical cord dangling from the wall.",
+				"I broke my arm and now it's just dangles." ,
+				"I really enjoy dangling a piece of string in front of my cat"
+			],
+			"SpanishExamples":
+			[ 
+				"Había un cable eléctrico colgando de la pared",
+				"Me rompí el brazo y ahora esta ahí y simplemente cuelga",
+			    "Me encanta colgar un trozo de cuerda en frente de mi gato."
+			
+			]
+		},
+		{
 			"Category": "ACTION",
 			"VocabularyWord": "Dart",
 			"Pronunciation": "/daaaat/",
