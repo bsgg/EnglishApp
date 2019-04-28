@@ -231,6 +231,25 @@
 		},
 		{
 			"Category": "ADJECTIVE",
+			"VocabularyWord": "Crispy",
+			"Pronunciation": "/krispi/",
+			"Meanings": 
+			[
+				"Crujiente"
+			],
+			"EnglishExamples":
+			[ 
+				"Try these fish fingers, they're really crispy.",
+				"Crispy is a delicate crunch, not as loud as a crunch"
+			],
+			"SpanishExamples":
+			[ 
+				"Prueba estos palitos de pescado, son muy crujientes.",
+				"Crujinete es un masticado delicado, no es tan ruidoso como un masticado."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
 			"VocabularyWord": "Croocked",
 			"Pronunciation": "/crooked/",
 			"Meanings": 
