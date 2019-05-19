@@ -200,6 +200,23 @@
 		},	
 		{
 			"Category": "ADJECTIVE",
+			"VocabularyWord": "Bonkers",
+			"Pronunciation": "/bookers/",
+			"Meanings": 
+			[
+				"Loco, Pirado"
+			],
+			"EnglishExamples":
+			[ 
+				"You want to go out and dance in the snow? You're absolutely bonkers"				
+			],
+			"SpanishExamples":
+			[ 				
+				"¿Quieres salir y bailar en la nieve? Estás completamente loco."
+			]	 			
+		},	
+		{
+			"Category": "ADJECTIVE",
 			"VocabularyWord": "Bumpy",
 			"Pronunciation": "/baampii/",
 			"Meanings": 
@@ -1503,6 +1520,24 @@
 		},
 		{
 			"Category": "ADJECTIVE",
+			"VocabularyWord": "Ludicrous",
+			"Pronunciation": "/ludicrus/",
+			"Meanings": 
+			[
+				"Ridículo, Absurdo"
+			],
+			"EnglishExamples":
+			[ 
+				"It's ludicrous to think that anyone will agree with you."
+				
+			],
+			"SpanishExamples":
+			[ 				
+				"Es ridículo pensar que alguien va a estar de acuerdo contigo."
+			]	 			
+		},
+		{
+			"Category": "ADJECTIVE",
 			"VocabularyWord": "Mess",
 			"Pronunciation": "/mees/",
 			"Meanings": 
@@ -1823,6 +1858,25 @@
 			[ 
 				"Cuando Kate despertó, su brazo estaba completamente atontado porque se había dormido sobre él.",
 				"El dentista adormeció mi boca antes de empezar a trabajar en mis dientes."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
+			"VocabularyWord": "Nuts",
+			"Pronunciation": "/nats/",
+			"Meanings": 
+			[
+				"Loco, Tarado"
+			],
+			"EnglishExamples":
+			[ 
+				"Daenarys Targarian went nuts in the last episode of Game of Thrones!",
+				"Brian is a coffee nut; he won't talk about anything else."
+			],
+			"SpanishExamples":
+			[ 
+				"Daenarys Targarian se volvió loca en el último episodio de Juego de Tronos",
+				"Brian es fan del café, no habla de otra cosa.."
 			]
 		},
     {
