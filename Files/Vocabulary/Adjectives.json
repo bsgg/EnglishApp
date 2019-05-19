@@ -92,6 +92,26 @@
 		},
 		{
 			"Category": "ADJECTIVE",
+			"VocabularyWord": "Baffled",
+			"Pronunciation": "/bafold/",
+			"Meanings": 
+			[
+				"Perplejo, Desconcertado"
+			],
+			"EnglishExamples":
+			[ 
+				"The students looked baffled when they saw the exam questions.",
+				"The police detective was baffled by the strange circumstances of the murder."
+			],
+			"SpanishExamples":
+			[ 
+				"Los estudiantes parecían perplejos cuando vieron las preguntas del examen.",
+				"El detective se quedó confundido por las extrañas circustancias del crimen."
+			]
+ 			
+		},
+		{
+			"Category": "ADJECTIVE",
 			"VocabularyWord": "Bland",
 			"Pronunciation": "/bleend/",
 			"Meanings": 
@@ -268,21 +288,21 @@
 			]
 		},
 		
-    {
-      "Category": "ADJECTIVE",
-      "VocabularyWord": "Cheesy",
-      "Pronunciation": "/chiiiisi/",
-      "Meanings": [
-        "Cursi, Noño"
-      ],
-      "EnglishExamples": [
-        "Dude, no offence, but this is rubbish. It's the cheesiest song I've ever heard!"
-      ],
-      "SpanishExamples": [
-        "Tio, sin ofender, pero esto es basura. ¡Es la canción más cursi que he oido nunca!"
-      ]
-    },
-    {
+		{
+		  "Category": "ADJECTIVE",
+		  "VocabularyWord": "Cheesy",
+		  "Pronunciation": "/chiiiisi/",
+		  "Meanings": [
+			"Cursi, Noño"
+		  ],
+		  "EnglishExamples": [
+			"Dude, no offence, but this is rubbish. It's the cheesiest song I've ever heard!"
+		  ],
+		  "SpanishExamples": [
+			"Tio, sin ofender, pero esto es basura. ¡Es la canción más cursi que he oido nunca!"
+		  ]
+		},
+		{
 			"Category": "ADJECTIVE",
 			"VocabularyWord": "Checky",
 			"Pronunciation": "/chiki/",
@@ -809,6 +829,26 @@
 		},	
 		{
 			"Category": "ADJECTIVE",
+			"VocabularyWord": "Engaging",
+			"Pronunciation": "/engueiying/",
+			"Meanings": 
+			[
+				"Interesante, Cautivador"
+				
+			],
+			"EnglishExamples":
+			[ 
+				"The professor gave an engaging lecture.",
+				"Dan gave Emily an engaging smile."				
+			],
+			"SpanishExamples":
+			[ 
+				"El profesor dio una clase interesante.",
+				"Dan le ofreció una sonrisa encantadora a Emily."
+			]
+		},	
+		{
+			"Category": "ADJECTIVE",
 			"VocabularyWord": "Fizzy",
 			"Pronunciation": "/fissi/",
 			"Meanings": 
@@ -1230,6 +1270,23 @@
 				"La cremallera de mi chaqueta esta atascada.",
 				"Intentamos llegar al frente pero el hall estaba demasiado abarrotado."
 			]
+			},
+			{
+				"Category": "ADJECTIVE",
+				"VocabularyWord": "Jagged",
+				"Pronunciation": "/yaaagueeed/",
+				"Meanings": 
+				[
+					"Dentado, Serrado"
+				],
+				"EnglishExamples":
+				[
+					"The saw's jagged edge tore through the soft wood easily"
+				],
+				"SpanishExamples":
+				[
+					"El borde dentado de la sierra atravesó la suave madera con facilidad."
+				]
 			},
 			{
 				"Category": "ADJECTIVE",
@@ -2611,21 +2668,37 @@
 				"Pisé una caca."				
 			]			
 		},
-    {
-      "Category": "ADJECTIVE",
-      "VocabularyWord": "Slick",
-      "Pronunciation": "/ssslick/",
-      "Meanings": [
-        "Resbaladizo"
-      ],
-      "EnglishExamples": [
-        "Tara slipped on the slick ice."
-      ],
-      "SpanishExamples": [
-        "Tara se resbaló en el hielo resbaladizo."
-      ]
-    },
-    {
+		{
+		  "Category": "ADJECTIVE",
+		  "VocabularyWord": "Slick",
+		  "Pronunciation": "/ssslick/",
+		  "Meanings": [
+			"Resbaladizo"
+		  ],
+		  "EnglishExamples": [
+			"Tara slipped on the slick ice."
+		  ],
+		  "SpanishExamples": [
+			"Tara se resbaló en el hielo resbaladizo."
+		  ]
+		},
+		{
+		  "Category": "ADJECTIVE",
+		  "VocabularyWord": "Slender",
+		  "Pronunciation": "/ssslick/",
+		  "Meanings": [
+			"Delgado, Flaco, Esbelto"
+		  ],
+		  "EnglishExamples": [
+			"Harriet is tall and slender.",
+			"A slender building stood at the corner of the street."
+		  ],
+		  "SpanishExamples": [
+			"Harriet es alta y delgada.",
+			"Había un delgado edificio en la esquina."
+		  ]
+		},
+		{
 			"Category": "ADJECTIVE",
 			"VocabularyWord": "Slob",
 			"Pronunciation": "/ssslob/",
@@ -2648,8 +2721,8 @@
 			"Pronunciation": "/saua/",
 			"Meanings": 
 			[
-        "Acido",
-        "Amargo",
+				"Acido",
+				"Amargo",
 				"Agrio, Rancio"
 			],
 			"EnglishExamples":
