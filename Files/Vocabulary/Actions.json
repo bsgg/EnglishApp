@@ -801,6 +801,24 @@
 		},
 		{
 			"Category": "ACTION",
+			"VocabularyWord": "Debunk",
+			"Pronunciation": "/diibank/",
+			"Meanings": 
+			[
+				"Desmentir, desacreditar"
+				
+			],
+			"EnglishExamples":
+			[ 
+				"The newspaper debunked the mayor's lies."
+			],
+			"SpanishExamples":
+			[ 
+				"El periódico desmintió las palabras del alcalde."
+			]
+		},
+		{
+			"Category": "ACTION",
 			"VocabularyWord": "Dice",
 			"Pronunciation": "/daiz/",
 			"Meanings": 

@@ -2704,6 +2704,23 @@
 		},
 		{
 			"Category": "ADJECTIVE",
+			"VocabularyWord": "Shenanigans",
+			"Pronunciation": "/sheenanegans/",
+			"Meanings": 
+			[
+				"Travesuras, Diabluras"
+			],
+			"EnglishExamples":
+			[ 
+				"You should learn to spot their shenanigans and avoid being fooled."
+			],
+			"SpanishExamples":
+			[ 
+				"Deberías aprender a encontrar sus travesuras y evitar que te la jueguen."
+			]			
+		},
+		{
+			"Category": "ADJECTIVE",
 			"VocabularyWord": "Shit",
 			"Pronunciation": "/xiiit/",
 			"Meanings": 
