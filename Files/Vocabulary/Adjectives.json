@@ -3349,6 +3349,20 @@
 	  ]
 	},
 	{
+		  "Category": "ADJECTIVE",
+		  "VocabularyWord": "Whimsical",
+		  "Pronunciation": "/uiitimsical/",
+		  "Meanings": [
+			  "Extravagante, caprichoso"
+		 ],
+		  "EnglishExamples": [
+			  "Edward Lear's poems are far too whimsical for my taste."
+		 ],
+		  "SpanishExamples": [
+		  "Los poemas de Edward Lear son muy extravagantes para mi gusto."
+		]
+	},
+	{
 		"Category": "ADJECTIVE",
 		"VocabularyWord": "Wobbly",
 		"Pronunciation": "/uuuobly/",
