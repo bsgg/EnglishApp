@@ -2943,6 +2943,25 @@
 		},	
 		{
 			"Category": "ACTION",
+			"VocabularyWord": "Smirk",
+			"Pronunciation": "/sssmeerk/",
+			"Meanings": 
+			[
+				"Sonreír con suficiencia, Sonrisita"
+			],
+			"EnglishExamples":
+			[ 
+				"Janet couldn't stand her boss, so she smirked when she heard he'd been fired.",
+				"Tom's smirk showed that he thought he'd won the argument."
+			],
+			"SpanishExamples":
+			[ 
+				"Janet no soportaba a su jefe, por lo que sonrió con suficiencia cuando se enteró de que la habían despedido.",
+				"La sonrisita de Tom demostraba que creía que había ganado la discusión."
+			]			
+		},	
+		{
+			"Category": "ACTION",
 			"VocabularyWord": "Smoke",
 			"Pronunciation": "/sssmouk/",
 			"Meanings": 

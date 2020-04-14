@@ -481,6 +481,25 @@
 		},	
 		{
 			"Category": "ADJECTIVE",
+			"VocabularyWord": "Compelling",
+			"Pronunciation": "/coompeling/",
+			"Meanings": 
+			[
+				"Convincente, Persuasivo"
+			],
+			"EnglishExamples":
+			[ 
+				"The court did not find the evidence compelling.",
+				"The prosecutor has compelling methods of interrogation."
+			],
+			"SpanishExamples":
+			[ 
+				"La corte no encontró la evidencia convincente.",
+				"El fiscal tiene métodos convincentes de interrogación."
+			]
+		},
+		{
+			"Category": "ADJECTIVE",
 			"VocabularyWord": "Cranky",
 			"Pronunciation": "/craanky/",
 			"Meanings": 
